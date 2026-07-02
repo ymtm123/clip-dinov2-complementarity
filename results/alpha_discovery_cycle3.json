@@ -1,0 +1,92 @@
+{
+  "Fixed-0.65": {
+    "mean_auroc": 95.226,
+    "pearson_r": 0,
+    "mae_alpha": 0.145,
+    "regret": 0.376
+  },
+  "Fixed-0.50": {
+    "mean_auroc": 94.679,
+    "pearson_r": 0,
+    "mae_alpha": 0.197,
+    "regret": 0.923
+  },
+  "ScoreSep-70": {
+    "mean_auroc": 94.08,
+    "pearson_r": 0.289,
+    "mae_alpha": 0.303,
+    "regret": 1.522
+  },
+  "ScoreSep-80": {
+    "mean_auroc": 93.878,
+    "pearson_r": 0.031,
+    "mae_alpha": 0.339,
+    "regret": 1.723
+  },
+  "Fisher": {
+    "mean_auroc": 93.633,
+    "pearson_r": 0.112,
+    "mae_alpha": 0.302,
+    "regret": 1.97
+  },
+  "Combined-GFS": {
+    "mean_auroc": 93.54,
+    "pearson_r": 0.118,
+    "mae_alpha": 0.306,
+    "regret": 2.062
+  },
+  "ScoreSep-90": {
+    "mean_auroc": 93.449,
+    "pearson_r": -0.034,
+    "mae_alpha": 0.368,
+    "regret": 2.152
+  },
+  "CalinskiHarabasz": {
+    "mean_auroc": 93.445,
+    "pearson_r": 0.181,
+    "mae_alpha": 0.335,
+    "regret": 2.157
+  },
+  "GMM-AshmanD": {
+    "mean_auroc": 93.276,
+    "pearson_r": -0.101,
+    "mae_alpha": 0.333,
+    "regret": 2.326
+  },
+  "TopkGap-10%": {
+    "mean_auroc": 93.225,
+    "pearson_r": 0.538,
+    "mae_alpha": 0.354,
+    "regret": 2.377
+  },
+  "TopkGap-20%": {
+    "mean_auroc": 93.047,
+    "pearson_r": 0.37,
+    "mae_alpha": 0.371,
+    "regret": 2.555
+  },
+  "Silhouette": {
+    "mean_auroc": 92.978,
+    "pearson_r": 0.091,
+    "mae_alpha": 0.383,
+    "regret": 2.625
+  },
+  "Bimodality": {
+    "mean_auroc": 92.313,
+    "pearson_r": 0.216,
+    "mae_alpha": 0.386,
+    "regret": 3.289
+  },
+  "DipStat": {
+    "mean_auroc": 90.258,
+    "pearson_r": 0.118,
+    "mae_alpha": 0.488,
+    "regret": 5.344
+  },
+  "Negentropy": {
+    "mean_auroc": 89.563,
+    "pearson_r": -0.011,
+    "mae_alpha": 0.496,
+    "regret": 6.039
+  }
+}

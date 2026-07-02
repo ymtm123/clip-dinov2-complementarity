@@ -1,0 +1,156 @@
+{
+  "experiment": "SECONDARY pooled-t power illustration (LEAD = cluster_bootstrap_headline_ci.json)",
+  "lead_inference": "results/cluster_bootstrap_headline_ci.json (cluster-robust bootstrap)",
+  "primary_effect": "fixed alpha=0.65 fusion gain (AUROC@0.65 - best single), seed-0, image-level",
+  "ruling": "Pooled-t treats categories as independent, ignoring the dataset clustering, so this is a SECONDARY illustration; the cluster-robust bootstrap is the real inference. oracle_gain>=0 by construction + post-hoc alpha = near-tautological (caveated note only). LOCO-structural is a separate heterogeneity/scope finding, NOT pooled into power-vs-N.",
+  "power_vs_N": {
+    "N30_core": {
+      "N": 30,
+      "n_datasets": 3,
+      "fixed065_gain": {
+        "pooled_mean": 1.717,
+        "ci95": [
+          0.999,
+          2.436
+        ],
+        "sd": 1.925,
+        "achieved_power": 0.997,
+        "min_detectable_effect_80pct": 1.019,
+        "per_dataset": {
+          "BTAD": {
+            "n": 3,
+            "mean": 1.974
+          },
+          "MVTec": {
+            "n": 15,
+            "mean": 1.165
+          },
+          "VisA": {
+            "n": 12,
+            "mean": 2.344
+          }
+        }
+      }
+    },
+    "N40_core+DAGM": {
+      "N": 40,
+      "n_datasets": 4,
+      "fixed065_gain": {
+        "pooled_mean": 1.285,
+        "ci95": [
+          0.701,
+          1.87
+        ],
+        "sd": 1.828,
+        "achieved_power": 0.991,
+        "min_detectable_effect_80pct": 0.83,
+        "per_dataset": {
+          "BTAD": {
+            "n": 3,
+            "mean": 1.974
+          },
+          "DAGM": {
+            "n": 10,
+            "mean": -0.012
+          },
+          "MVTec": {
+            "n": 15,
+            "mean": 1.165
+          },
+          "VisA": {
+            "n": 12,
+            "mean": 2.344
+          }
+        }
+      }
+    }
+  },
+  "supplementary": {
+    "note": "oracle_gain is >=0 by construction (alpha in {0,1} in grid) and uses a post-hoc alpha -> near-tautological; equal_gain is the alpha=0.5 fixed variant. Not the headline.",
+    "oracle_gain": {
+      "pooled_mean": 1.594,
+      "ci95": [
+        1.004,
+        2.183
+      ],
+      "sd": 1.843,
+      "achieved_power": 1.0,
+      "min_detectable_effect_80pct": 0.837,
+      "per_dataset": {
+        "BTAD": {
+          "n": 3,
+          "mean": 2.085
+        },
+        "DAGM": {
+          "n": 10,
+          "mean": 0.093
+        },
+        "MVTec": {
+          "n": 15,
+          "mean": 1.44
+        },
+        "VisA": {
+          "n": 12,
+          "mean": 2.914
+        }
+      }
+    },
+    "equal_gain": {
+      "pooled_mean": 0.884,
+      "ci95": [
+        0.166,
+        1.602
+      ],
+      "sd": 2.245,
+      "achieved_power": 0.68,
+      "min_detectable_effect_80pct": 1.02,
+      "per_dataset": {
+        "BTAD": {
+          "n": 3,
+          "mean": 1.707
+        },
+        "DAGM": {
+          "n": 10,
+          "mean": 0.025
+        },
+        "MVTec": {
+          "n": 15,
+          "mean": 0.854
+        },
+        "VisA": {
+          "n": 12,
+          "mean": 1.432
+        }
+      }
+    }
+  },
+  "loco_structural_heterogeneity": {
+    "note": "MVTec-LOCO STRUCTURAL: fixed alpha does NOT transfer to this regime (supports the understanding-optimization gap). Reported as SCOPE/heterogeneity, not pooled into power-vs-N.",
+    "n": 5,
+    "fixed065_gain_mean": -2.026,
+    "equal_gain_mean": -3.494,
+    "oracle_gain_mean": 2.118,
+    "per_category": {
+      "breakfast_box": {
+        "fixed065": -6.26,
+        "oracle_alpha": 0.99
+      },
+      "juice_bottle": {
+        "fixed065": -3.8,
+        "oracle_alpha": 0.22
+      },
+      "pushpins": {
+        "fixed065": -7.7,
+        "oracle_alpha": 0.07
+      },
+      "splicing_connectors": {
+        "fixed065": 6.79,
+        "oracle_alpha": 0.63
+      },
+      "screw_bag": {
+        "fixed065": 0.84,
+        "oracle_alpha": 0.76
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "dataset": "VisA",
+  "dataset_key": "visa",
+  "category": "candle",
+  "image_auroc": 68.67,
+  "pixel_auroc": 88.36,
+  "train_seconds": 737.5,
+  "latency_ms_per_image": 5.101,
+  "throughput_img_s": 196.0,
+  "n_predictions": 200,
+  "n_latency_timed": 100,
+  "max_epochs": 15
+}

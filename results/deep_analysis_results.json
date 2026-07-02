@@ -1,0 +1,2995 @@
+{
+  "experiment_4_loco": {
+    "direction_accuracy": 80.0,
+    "mean_absolute_error": 0.1611,
+    "n_categories": 30,
+    "correct_predictions": 24
+  },
+  "experiment_1_defect_types_old_no_lnpost": {
+    "bottle": {
+      "defect_types": {
+        "broken_large": {
+          "n_images": 20,
+          "clip_auroc": 70.25,
+          "dino_auroc": 99.5,
+          "diff_clip_minus_dino": -29.25,
+          "winner": "DINOv2"
+        },
+        "broken_small": {
+          "n_images": 22,
+          "clip_auroc": 70.23,
+          "dino_auroc": 90.23,
+          "diff_clip_minus_dino": -20.0,
+          "winner": "DINOv2"
+        },
+        "contamination": {
+          "n_images": 21,
+          "clip_auroc": 69.29,
+          "dino_auroc": 92.38,
+          "diff_clip_minus_dino": -23.1,
+          "winner": "DINOv2"
+        }
+      }
+    },
+    "cable": {
+      "defect_types": {
+        "bent_wire": {
+          "n_images": 13,
+          "clip_auroc": 64.06,
+          "dino_auroc": 92.57,
+          "diff_clip_minus_dino": -28.51,
+          "winner": "DINOv2"
+        },
+        "cable_swap": {
+          "n_images": 12,
+          "clip_auroc": 52.73,
+          "dino_auroc": 60.49,
+          "diff_clip_minus_dino": -7.76,
+          "winner": "DINOv2"
+        },
+        "combined": {
+          "n_images": 11,
+          "clip_auroc": 77.74,
+          "dino_auroc": 91.85,
+          "diff_clip_minus_dino": -14.11,
+          "winner": "DINOv2"
+        },
+        "cut_inner_insulation": {
+          "n_images": 14,
+          "clip_auroc": 56.4,
+          "dino_auroc": 82.14,
+          "diff_clip_minus_dino": -25.74,
+          "winner": "DINOv2"
+        },
+        "cut_outer_insulation": {
+          "n_images": 10,
+          "clip_auroc": 48.45,
+          "dino_auroc": 97.59,
+          "diff_clip_minus_dino": -49.14,
+          "winner": "DINOv2"
+        },
+        "missing_cable": {
+          "n_images": 12,
+          "clip_auroc": 64.51,
+          "dino_auroc": 96.98,
+          "diff_clip_minus_dino": -32.47,
+          "winner": "DINOv2"
+        },
+        "missing_wire": {
+          "n_images": 10,
+          "clip_auroc": 53.97,
+          "dino_auroc": 73.45,
+          "diff_clip_minus_dino": -19.48,
+          "winner": "DINOv2"
+        },
+        "poke_insulation": {
+          "n_images": 10,
+          "clip_auroc": 51.9,
+          "dino_auroc": 91.9,
+          "diff_clip_minus_dino": -40.0,
+          "winner": "DINOv2"
+        }
+      }
+    },
+    "capsule": {
+      "defect_types": {
+        "crack": {
+          "n_images": 23,
+          "clip_auroc": 80.15,
+          "dino_auroc": 87.52,
+          "diff_clip_minus_dino": -7.37,
+          "winner": "DINOv2"
+        },
+        "faulty_imprint": {
+          "n_images": 22,
+          "clip_auroc": 75.89,
+          "dino_auroc": 85.57,
+          "diff_clip_minus_dino": -9.68,
+          "winner": "DINOv2"
+        },
+        "poke": {
+          "n_images": 21,
+          "clip_auroc": 82.19,
+          "dino_auroc": 85.09,
+          "diff_clip_minus_dino": -2.9,
+          "winner": "DINOv2"
+        },
+        "scratch": {
+          "n_images": 23,
+          "clip_auroc": 71.64,
+          "dino_auroc": 80.53,
+          "diff_clip_minus_dino": -8.88,
+          "winner": "DINOv2"
+        },
+        "squeeze": {
+          "n_images": 20,
+          "clip_auroc": 82.83,
+          "dino_auroc": 91.3,
+          "diff_clip_minus_dino": -8.48,
+          "winner": "DINOv2"
+        }
+      }
+    },
+    "carpet": {
+      "defect_types": {
+        "color": {
+          "n_images": 19,
+          "clip_auroc": 54.7,
+          "dino_auroc": 90.41,
+          "diff_clip_minus_dino": -35.71,
+          "winner": "DINOv2"
+        },
+        "cut": {
+          "n_images": 17,
+          "clip_auroc": 47.69,
+          "dino_auroc": 99.37,
+          "diff_clip_minus_dino": -51.68,
+          "winner": "DINOv2"
+        },
+        "hole": {
+          "n_images": 17,
+          "clip_auroc": 32.14,
+          "dino_auroc": 99.37,
+          "diff_clip_minus_dino": -67.23,
+          "winner": "DINOv2"
+        },
+        "metal_contamination": {
+          "n_images": 17,
+          "clip_auroc": 55.46,
+          "dino_auroc": 100.0,
+          "diff_clip_minus_dino": -44.54,
+          "winner": "DINOv2"
+        },
+        "thread": {
+          "n_images": 19,
+          "clip_auroc": 46.43,
+          "dino_auroc": 94.92,
+          "diff_clip_minus_dino": -48.5,
+          "winner": "DINOv2"
+        }
+      }
+    },
+    "grid": {
+      "defect_types": {
+        "bent": {
+          "n_images": 12,
+          "clip_auroc": 48.41,
+          "dino_auroc": 64.29,
+          "diff_clip_minus_dino": -15.87,
+          "winner": "DINOv2"
+        },
+        "broken": {
+          "n_images": 12,
+          "clip_auroc": 53.57,
+          "dino_auroc": 69.44,
+          "diff_clip_minus_dino": -15.87,
+          "winner": "DINOv2"
+        },
+        "glue": {
+          "n_images": 11,
+          "clip_auroc": 75.76,
+          "dino_auroc": 62.77,
+          "diff_clip_minus_dino": 12.99,
+          "winner": "CLIP"
+        },
+        "metal_contamination": {
+          "n_images": 11,
+          "clip_auroc": 61.47,
+          "dino_auroc": 74.03,
+          "diff_clip_minus_dino": -12.55,
+          "winner": "DINOv2"
+        },
+        "thread": {
+          "n_images": 11,
+          "clip_auroc": 61.04,
+          "dino_auroc": 91.34,
+          "diff_clip_minus_dino": -30.3,
+          "winner": "DINOv2"
+        }
+      }
+    },
+    "hazelnut": {
+      "defect_types": {
+        "crack": {
+          "n_images": 18,
+          "clip_auroc": 45.97,
+          "dino_auroc": 100.0,
+          "diff_clip_minus_dino": -54.03,
+          "winner": "DINOv2"
+        },
+        "cut": {
+          "n_images": 17,
+          "clip_auroc": 50.74,
+          "dino_auroc": 79.56,
+          "diff_clip_minus_dino": -28.82,
+          "winner": "DINOv2"
+        },
+        "hole": {
+          "n_images": 18,
+          "clip_auroc": 40.69,
+          "dino_auroc": 99.58,
+          "diff_clip_minus_dino": -58.89,
+          "winner": "DINOv2"
+        },
+        "print": {
+          "n_images": 17,
+          "clip_auroc": 50.59,
+          "dino_auroc": 85.88,
+          "diff_clip_minus_dino": -35.29,
+          "winner": "DINOv2"
+        }
+      }
+    },
+    "leather": {
+      "defect_types": {
+        "color": {
+          "n_images": 19,
+          "clip_auroc": 52.96,
+          "dino_auroc": 100.0,
+          "diff_clip_minus_dino": -47.04,
+          "winner": "DINOv2"
+        },
+        "cut": {
+          "n_images": 19,
+          "clip_auroc": 53.12,
+          "dino_auroc": 100.0,
+          "diff_clip_minus_dino": -46.88,
+          "winner": "DINOv2"
+        },
+        "fold": {
+          "n_images": 17,
+          "clip_auroc": 55.7,
+          "dino_auroc": 98.16,
+          "diff_clip_minus_dino": -42.46,
+          "winner": "DINOv2"
+        },
+        "glue": {
+          "n_images": 19,
+          "clip_auroc": 44.08,
+          "dino_auroc": 100.0,
+          "diff_clip_minus_dino": -55.92,
+          "winner": "DINOv2"
+        },
+        "poke": {
+          "n_images": 18,
+          "clip_auroc": 50.17,
+          "dino_auroc": 100.0,
+          "diff_clip_minus_dino": -49.83,
+          "winner": "DINOv2"
+        }
+      }
+    },
+    "metal_nut": {
+      "defect_types": {
+        "bent": {
+          "n_images": 25,
+          "clip_auroc": 42.73,
+          "dino_auroc": 95.64,
+          "diff_clip_minus_dino": -52.91,
+          "winner": "DINOv2"
+        },
+        "color": {
+          "n_images": 22,
+          "clip_auroc": 37.6,
+          "dino_auroc": 92.98,
+          "diff_clip_minus_dino": -55.37,
+          "winner": "DINOv2"
+        },
+        "flip": {
+          "n_images": 23,
+          "clip_auroc": 50.59,
+          "dino_auroc": 100.0,
+          "diff_clip_minus_dino": -49.41,
+          "winner": "DINOv2"
+        },
+        "scratch": {
+          "n_images": 23,
+          "clip_auroc": 39.72,
+          "dino_auroc": 99.8,
+          "diff_clip_minus_dino": -60.08,
+          "winner": "DINOv2"
+        }
+      }
+    },
+    "pill": {
+      "defect_types": {
+        "color": {
+          "n_images": 25,
+          "clip_auroc": 42.62,
+          "dino_auroc": 70.62,
+          "diff_clip_minus_dino": -28.0,
+          "winner": "DINOv2"
+        },
+        "combined": {
+          "n_images": 17,
+          "clip_auroc": 44.8,
+          "dino_auroc": 91.4,
+          "diff_clip_minus_dino": -46.61,
+          "winner": "DINOv2"
+        },
+        "contamination": {
+          "n_images": 21,
+          "clip_auroc": 49.63,
+          "dino_auroc": 92.31,
+          "diff_clip_minus_dino": -42.67,
+          "winner": "DINOv2"
+        },
+        "crack": {
+          "n_images": 26,
+          "clip_auroc": 62.57,
+          "dino_auroc": 73.82,
+          "diff_clip_minus_dino": -11.24,
+          "winner": "DINOv2"
+        },
+        "faulty_imprint": {
+          "n_images": 19,
+          "clip_auroc": 54.86,
+          "dino_auroc": 88.66,
+          "diff_clip_minus_dino": -33.81,
+          "winner": "DINOv2"
+        },
+        "pill_type": {
+          "n_images": 9,
+          "clip_auroc": 27.78,
+          "dino_auroc": 95.73,
+          "diff_clip_minus_dino": -67.95,
+          "winner": "DINOv2"
+        },
+        "scratch": {
+          "n_images": 24,
+          "clip_auroc": 62.98,
+          "dino_auroc": 90.71,
+          "diff_clip_minus_dino": -27.72,
+          "winner": "DINOv2"
+        }
+      }
+    },
+    "screw": {
+      "defect_types": {
+        "manipulated_front": {
+          "n_images": 24,
+          "clip_auroc": 61.18,
+          "dino_auroc": 58.74,
+          "diff_clip_minus_dino": 2.44,
+          "winner": "CLIP"
+        },
+        "scratch_head": {
+          "n_images": 24,
+          "clip_auroc": 46.95,
+          "dino_auroc": 74.59,
+          "diff_clip_minus_dino": -27.64,
+          "winner": "DINOv2"
+        },
+        "scratch_neck": {
+          "n_images": 25,
+          "clip_auroc": 66.34,
+          "dino_auroc": 80.49,
+          "diff_clip_minus_dino": -14.15,
+          "winner": "DINOv2"
+        },
+        "thread_side": {
+          "n_images": 23,
+          "clip_auroc": 53.76,
+          "dino_auroc": 62.04,
+          "diff_clip_minus_dino": -8.27,
+          "winner": "DINOv2"
+        },
+        "thread_top": {
+          "n_images": 23,
+          "clip_auroc": 61.61,
+          "dino_auroc": 64.48,
+          "diff_clip_minus_dino": -2.86,
+          "winner": "DINOv2"
+        }
+      }
+    },
+    "tile": {
+      "defect_types": {
+        "crack": {
+          "n_images": 17,
+          "clip_auroc": 62.03,
+          "dino_auroc": 100.0,
+          "diff_clip_minus_dino": -37.97,
+          "winner": "DINOv2"
+        },
+        "glue_strip": {
+          "n_images": 18,
+          "clip_auroc": 60.94,
+          "dino_auroc": 100.0,
+          "diff_clip_minus_dino": -39.06,
+          "winner": "DINOv2"
+        },
+        "gray_stroke": {
+          "n_images": 16,
+          "clip_auroc": 67.42,
+          "dino_auroc": 97.35,
+          "diff_clip_minus_dino": -29.92,
+          "winner": "DINOv2"
+        },
+        "oil": {
+          "n_images": 18,
+          "clip_auroc": 57.24,
+          "dino_auroc": 100.0,
+          "diff_clip_minus_dino": -42.76,
+          "winner": "DINOv2"
+        },
+        "rough": {
+          "n_images": 15,
+          "clip_auroc": 53.94,
+          "dino_auroc": 100.0,
+          "diff_clip_minus_dino": -46.06,
+          "winner": "DINOv2"
+        }
+      }
+    },
+    "toothbrush": {
+      "defect_types": {
+        "defective": {
+          "n_images": 30,
+          "clip_auroc": 30.0,
+          "dino_auroc": 95.56,
+          "diff_clip_minus_dino": -65.56,
+          "winner": "DINOv2"
+        }
+      }
+    },
+    "transistor": {
+      "defect_types": {
+        "bent_lead": {
+          "n_images": 10,
+          "clip_auroc": 45.5,
+          "dino_auroc": 85.17,
+          "diff_clip_minus_dino": -39.67,
+          "winner": "DINOv2"
+        },
+        "cut_lead": {
+          "n_images": 10,
+          "clip_auroc": 44.5,
+          "dino_auroc": 71.83,
+          "diff_clip_minus_dino": -27.33,
+          "winner": "DINOv2"
+        },
+        "damaged_case": {
+          "n_images": 10,
+          "clip_auroc": 49.67,
+          "dino_auroc": 82.17,
+          "diff_clip_minus_dino": -32.5,
+          "winner": "DINOv2"
+        },
+        "misplaced": {
+          "n_images": 10,
+          "clip_auroc": 48.83,
+          "dino_auroc": 86.67,
+          "diff_clip_minus_dino": -37.83,
+          "winner": "DINOv2"
+        }
+      }
+    },
+    "wood": {
+      "defect_types": {
+        "color": {
+          "n_images": 8,
+          "clip_auroc": 50.0,
+          "dino_auroc": 79.61,
+          "diff_clip_minus_dino": -29.61,
+          "winner": "DINOv2"
+        },
+        "combined": {
+          "n_images": 11,
+          "clip_auroc": 39.71,
+          "dino_auroc": 86.6,
+          "diff_clip_minus_dino": -46.89,
+          "winner": "DINOv2"
+        },
+        "hole": {
+          "n_images": 10,
+          "clip_auroc": 40.0,
+          "dino_auroc": 94.21,
+          "diff_clip_minus_dino": -54.21,
+          "winner": "DINOv2"
+        },
+        "liquid": {
+          "n_images": 10,
+          "clip_auroc": 50.0,
+          "dino_auroc": 100.0,
+          "diff_clip_minus_dino": -50.0,
+          "winner": "DINOv2"
+        },
+        "scratch": {
+          "n_images": 21,
+          "clip_auroc": 51.88,
+          "dino_auroc": 79.7,
+          "diff_clip_minus_dino": -27.82,
+          "winner": "DINOv2"
+        }
+      }
+    },
+    "zipper": {
+      "defect_types": {
+        "broken_teeth": {
+          "n_images": 19,
+          "clip_auroc": 36.02,
+          "dino_auroc": 95.72,
+          "diff_clip_minus_dino": -59.7,
+          "winner": "DINOv2"
+        },
+        "combined": {
+          "n_images": 16,
+          "clip_auroc": 53.12,
+          "dino_auroc": 100.0,
+          "diff_clip_minus_dino": -46.88,
+          "winner": "DINOv2"
+        },
+        "fabric_border": {
+          "n_images": 17,
+          "clip_auroc": 45.4,
+          "dino_auroc": 100.0,
+          "diff_clip_minus_dino": -54.6,
+          "winner": "DINOv2"
+        },
+        "fabric_interior": {
+          "n_images": 16,
+          "clip_auroc": 52.34,
+          "dino_auroc": 99.41,
+          "diff_clip_minus_dino": -47.07,
+          "winner": "DINOv2"
+        },
+        "rough": {
+          "n_images": 17,
+          "clip_auroc": 43.38,
+          "dino_auroc": 95.04,
+          "diff_clip_minus_dino": -51.65,
+          "winner": "DINOv2"
+        },
+        "split_teeth": {
+          "n_images": 18,
+          "clip_auroc": 48.96,
+          "dino_auroc": 99.13,
+          "diff_clip_minus_dino": -50.17,
+          "winner": "DINOv2"
+        },
+        "squeezed_teeth": {
+          "n_images": 16,
+          "clip_auroc": 57.81,
+          "dino_auroc": 98.24,
+          "diff_clip_minus_dino": -40.43,
+          "winner": "DINOv2"
+        }
+      }
+    }
+  },
+  "experiment_2_correlation_old_no_lnpost": {
+    "bottle": {
+      "pearson_r": 0.2547,
+      "pearson_p": 0.020121,
+      "spearman_r": 0.3107,
+      "spearman_p": 0.004248,
+      "anom_only_pearson_r": 0.1713,
+      "clip_knn_auroc": 69.92,
+      "dino_knn_auroc": 93.89,
+      "fusion_knn_auroc": 86.43,
+      "fusion_gain_pp": -7.46,
+      "n_total": 83,
+      "n_anomaly": 63
+    },
+    "cable": {
+      "pearson_r": 0.1764,
+      "pearson_p": 0.030818,
+      "spearman_r": 0.1649,
+      "spearman_p": 0.043756,
+      "anom_only_pearson_r": 0.1598,
+      "clip_knn_auroc": 59.0,
+      "dino_knn_auroc": 85.68,
+      "fusion_knn_auroc": 79.2,
+      "fusion_gain_pp": -6.48,
+      "n_total": 150,
+      "n_anomaly": 92
+    },
+    "capsule": {
+      "pearson_r": 0.113,
+      "pearson_p": 0.196922,
+      "spearman_r": 0.0671,
+      "spearman_p": 0.444845,
+      "anom_only_pearson_r": -0.1856,
+      "clip_knn_auroc": 78.38,
+      "dino_knn_auroc": 85.88,
+      "fusion_knn_auroc": 90.59,
+      "fusion_gain_pp": 4.71,
+      "n_total": 132,
+      "n_anomaly": 109
+    },
+    "carpet": {
+      "pearson_r": -0.0349,
+      "pearson_p": 0.708889,
+      "spearman_r": -0.0408,
+      "spearman_p": 0.662055,
+      "anom_only_pearson_r": 0.0294,
+      "clip_knn_auroc": 47.43,
+      "dino_knn_auroc": 96.63,
+      "fusion_knn_auroc": 83.63,
+      "fusion_gain_pp": -13.0,
+      "n_total": 117,
+      "n_anomaly": 89
+    },
+    "grid": {
+      "pearson_r": 0.0067,
+      "pearson_p": 0.953361,
+      "spearman_r": -0.0284,
+      "spearman_p": 0.804947,
+      "anom_only_pearson_r": 0.0148,
+      "clip_knn_auroc": 59.73,
+      "dino_knn_auroc": 72.18,
+      "fusion_knn_auroc": 75.19,
+      "fusion_gain_pp": 3.01,
+      "n_total": 78,
+      "n_anomaly": 57
+    },
+    "hazelnut": {
+      "pearson_r": -0.1335,
+      "pearson_p": 0.164403,
+      "spearman_r": -0.1305,
+      "spearman_p": 0.174033,
+      "anom_only_pearson_r": -0.253,
+      "clip_knn_auroc": 46.89,
+      "dino_knn_auroc": 91.5,
+      "fusion_knn_auroc": 77.04,
+      "fusion_gain_pp": -14.46,
+      "n_total": 110,
+      "n_anomaly": 70
+    },
+    "leather": {
+      "pearson_r": -0.0027,
+      "pearson_p": 0.976686,
+      "spearman_r": -0.0391,
+      "spearman_p": 0.666306,
+      "anom_only_pearson_r": -0.1035,
+      "clip_knn_auroc": 51.12,
+      "dino_knn_auroc": 99.66,
+      "fusion_knn_auroc": 90.15,
+      "fusion_gain_pp": -9.51,
+      "n_total": 124,
+      "n_anomaly": 92
+    },
+    "metal_nut": {
+      "pearson_r": -0.0612,
+      "pearson_p": 0.515877,
+      "spearman_r": -0.0772,
+      "spearman_p": 0.412161,
+      "anom_only_pearson_r": -0.0745,
+      "clip_knn_auroc": 42.72,
+      "dino_knn_auroc": 97.12,
+      "fusion_knn_auroc": 80.74,
+      "fusion_gain_pp": -16.37,
+      "n_total": 115,
+      "n_anomaly": 93
+    },
+    "pill": {
+      "pearson_r": -0.0968,
+      "pearson_p": 0.213456,
+      "spearman_r": -0.1139,
+      "spearman_p": 0.142744,
+      "anom_only_pearson_r": -0.1556,
+      "clip_knn_auroc": 51.77,
+      "dino_knn_auroc": 84.4,
+      "fusion_knn_auroc": 75.07,
+      "fusion_gain_pp": -9.33,
+      "n_total": 167,
+      "n_anomaly": 141
+    },
+    "screw": {
+      "pearson_r": 0.0191,
+      "pearson_p": 0.810739,
+      "spearman_r": 0.0435,
+      "spearman_p": 0.584902,
+      "anom_only_pearson_r": 0.042,
+      "clip_knn_auroc": 58.04,
+      "dino_knn_auroc": 68.25,
+      "fusion_knn_auroc": 66.04,
+      "fusion_gain_pp": -2.21,
+      "n_total": 160,
+      "n_anomaly": 119
+    },
+    "tile": {
+      "pearson_r": 0.0801,
+      "pearson_p": 0.390547,
+      "spearman_r": 0.0572,
+      "spearman_p": 0.539936,
+      "anom_only_pearson_r": -0.079,
+      "clip_knn_auroc": 60.35,
+      "dino_knn_auroc": 99.49,
+      "fusion_knn_auroc": 92.82,
+      "fusion_gain_pp": -6.67,
+      "n_total": 117,
+      "n_anomaly": 84
+    },
+    "toothbrush": {
+      "pearson_r": -0.3236,
+      "pearson_p": 0.036563,
+      "spearman_r": -0.3535,
+      "spearman_p": 0.021632,
+      "anom_only_pearson_r": -0.2921,
+      "clip_knn_auroc": 30.0,
+      "dino_knn_auroc": 95.56,
+      "fusion_knn_auroc": 65.83,
+      "fusion_gain_pp": -29.72,
+      "n_total": 42,
+      "n_anomaly": 30
+    },
+    "transistor": {
+      "pearson_r": 0.0611,
+      "pearson_p": 0.546012,
+      "spearman_r": 0.0173,
+      "spearman_p": 0.864214,
+      "anom_only_pearson_r": 0.0424,
+      "clip_knn_auroc": 47.12,
+      "dino_knn_auroc": 81.46,
+      "fusion_knn_auroc": 68.75,
+      "fusion_gain_pp": -12.71,
+      "n_total": 100,
+      "n_anomaly": 40
+    },
+    "wood": {
+      "pearson_r": -0.1609,
+      "pearson_p": 0.156686,
+      "spearman_r": -0.1759,
+      "spearman_p": 0.120884,
+      "anom_only_pearson_r": -0.0764,
+      "clip_knn_auroc": 47.11,
+      "dino_knn_auroc": 86.75,
+      "fusion_knn_auroc": 80.18,
+      "fusion_gain_pp": -6.58,
+      "n_total": 79,
+      "n_anomaly": 60
+    },
+    "zipper": {
+      "pearson_r": -0.0866,
+      "pearson_p": 0.290571,
+      "spearman_r": -0.0851,
+      "spearman_p": 0.298765,
+      "anom_only_pearson_r": -0.0422,
+      "clip_knn_auroc": 47.79,
+      "dino_knn_auroc": 98.16,
+      "fusion_knn_auroc": 85.69,
+      "fusion_gain_pp": -12.47,
+      "n_total": 151,
+      "n_anomaly": 119
+    }
+  },
+  "experiment_3_agreement_old_no_lnpost": {
+    "bottle": {
+      "n_anomaly": 63,
+      "both_detect": 9,
+      "both_miss": 19,
+      "clip_only": 4,
+      "dino_only": 31,
+      "both_detect_pct": 14.3,
+      "clip_only_pct": 6.3,
+      "dino_only_pct": 49.2,
+      "both_miss_pct": 30.2,
+      "exclusive_detection_rate": 55.6,
+      "defect_type_breakdown": {
+        "broken_large": {
+          "clip_only": 0,
+          "dino_only": 12,
+          "both": 4,
+          "neither": 4,
+          "total": 20
+        },
+        "broken_small": {
+          "clip_only": 3,
+          "dino_only": 6,
+          "both": 2,
+          "neither": 11,
+          "total": 22
+        },
+        "contamination": {
+          "clip_only": 1,
+          "dino_only": 13,
+          "both": 3,
+          "neither": 4,
+          "total": 21
+        }
+      }
+    },
+    "cable": {
+      "n_anomaly": 92,
+      "both_detect": 6,
+      "both_miss": 46,
+      "clip_only": 3,
+      "dino_only": 37,
+      "both_detect_pct": 6.5,
+      "clip_only_pct": 3.3,
+      "dino_only_pct": 40.2,
+      "both_miss_pct": 50.0,
+      "exclusive_detection_rate": 43.5,
+      "defect_type_breakdown": {
+        "bent_wire": {
+          "clip_only": 0,
+          "dino_only": 6,
+          "both": 2,
+          "neither": 5,
+          "total": 13
+        },
+        "cable_swap": {
+          "clip_only": 0,
+          "dino_only": 2,
+          "both": 0,
+          "neither": 10,
+          "total": 12
+        },
+        "combined": {
+          "clip_only": 1,
+          "dino_only": 5,
+          "both": 1,
+          "neither": 4,
+          "total": 11
+        },
+        "cut_inner_insulation": {
+          "clip_only": 0,
+          "dino_only": 5,
+          "both": 1,
+          "neither": 8,
+          "total": 14
+        },
+        "cut_outer_insulation": {
+          "clip_only": 0,
+          "dino_only": 6,
+          "both": 2,
+          "neither": 2,
+          "total": 10
+        },
+        "missing_cable": {
+          "clip_only": 1,
+          "dino_only": 8,
+          "both": 0,
+          "neither": 3,
+          "total": 12
+        },
+        "missing_wire": {
+          "clip_only": 1,
+          "dino_only": 2,
+          "both": 0,
+          "neither": 7,
+          "total": 10
+        },
+        "poke_insulation": {
+          "clip_only": 0,
+          "dino_only": 3,
+          "both": 0,
+          "neither": 7,
+          "total": 10
+        }
+      }
+    },
+    "capsule": {
+      "n_anomaly": 109,
+      "both_detect": 0,
+      "both_miss": 72,
+      "clip_only": 32,
+      "dino_only": 5,
+      "both_detect_pct": 0.0,
+      "clip_only_pct": 29.4,
+      "dino_only_pct": 4.6,
+      "both_miss_pct": 66.1,
+      "exclusive_detection_rate": 33.9,
+      "defect_type_breakdown": {
+        "crack": {
+          "clip_only": 6,
+          "dino_only": 0,
+          "both": 0,
+          "neither": 17,
+          "total": 23
+        },
+        "faulty_imprint": {
+          "clip_only": 7,
+          "dino_only": 1,
+          "both": 0,
+          "neither": 14,
+          "total": 22
+        },
+        "poke": {
+          "clip_only": 8,
+          "dino_only": 1,
+          "both": 0,
+          "neither": 12,
+          "total": 21
+        },
+        "scratch": {
+          "clip_only": 5,
+          "dino_only": 0,
+          "both": 0,
+          "neither": 18,
+          "total": 23
+        },
+        "squeeze": {
+          "clip_only": 6,
+          "dino_only": 3,
+          "both": 0,
+          "neither": 11,
+          "total": 20
+        }
+      }
+    },
+    "carpet": {
+      "n_anomaly": 89,
+      "both_detect": 0,
+      "both_miss": 19,
+      "clip_only": 0,
+      "dino_only": 70,
+      "both_detect_pct": 0.0,
+      "clip_only_pct": 0.0,
+      "dino_only_pct": 78.7,
+      "both_miss_pct": 21.3,
+      "exclusive_detection_rate": 78.7,
+      "defect_type_breakdown": {
+        "color": {
+          "clip_only": 0,
+          "dino_only": 8,
+          "both": 0,
+          "neither": 11,
+          "total": 19
+        },
+        "cut": {
+          "clip_only": 0,
+          "dino_only": 15,
+          "both": 0,
+          "neither": 2,
+          "total": 17
+        },
+        "hole": {
+          "clip_only": 0,
+          "dino_only": 14,
+          "both": 0,
+          "neither": 3,
+          "total": 17
+        },
+        "metal_contamination": {
+          "clip_only": 0,
+          "dino_only": 17,
+          "both": 0,
+          "neither": 0,
+          "total": 17
+        },
+        "thread": {
+          "clip_only": 0,
+          "dino_only": 16,
+          "both": 0,
+          "neither": 3,
+          "total": 19
+        }
+      }
+    },
+    "grid": {
+      "n_anomaly": 57,
+      "both_detect": 0,
+      "both_miss": 57,
+      "clip_only": 0,
+      "dino_only": 0,
+      "both_detect_pct": 0.0,
+      "clip_only_pct": 0.0,
+      "dino_only_pct": 0.0,
+      "both_miss_pct": 100.0,
+      "exclusive_detection_rate": 0.0,
+      "defect_type_breakdown": {
+        "bent": {
+          "clip_only": 0,
+          "dino_only": 0,
+          "both": 0,
+          "neither": 12,
+          "total": 12
+        },
+        "broken": {
+          "clip_only": 0,
+          "dino_only": 0,
+          "both": 0,
+          "neither": 12,
+          "total": 12
+        },
+        "glue": {
+          "clip_only": 0,
+          "dino_only": 0,
+          "both": 0,
+          "neither": 11,
+          "total": 11
+        },
+        "metal_contamination": {
+          "clip_only": 0,
+          "dino_only": 0,
+          "both": 0,
+          "neither": 11,
+          "total": 11
+        },
+        "thread": {
+          "clip_only": 0,
+          "dino_only": 0,
+          "both": 0,
+          "neither": 11,
+          "total": 11
+        }
+      }
+    },
+    "hazelnut": {
+      "n_anomaly": 70,
+      "both_detect": 0,
+      "both_miss": 30,
+      "clip_only": 0,
+      "dino_only": 40,
+      "both_detect_pct": 0.0,
+      "clip_only_pct": 0.0,
+      "dino_only_pct": 57.1,
+      "both_miss_pct": 42.9,
+      "exclusive_detection_rate": 57.1,
+      "defect_type_breakdown": {
+        "crack": {
+          "clip_only": 0,
+          "dino_only": 16,
+          "both": 0,
+          "neither": 2,
+          "total": 18
+        },
+        "cut": {
+          "clip_only": 0,
+          "dino_only": 4,
+          "both": 0,
+          "neither": 13,
+          "total": 17
+        },
+        "hole": {
+          "clip_only": 0,
+          "dino_only": 15,
+          "both": 0,
+          "neither": 3,
+          "total": 18
+        },
+        "print": {
+          "clip_only": 0,
+          "dino_only": 5,
+          "both": 0,
+          "neither": 12,
+          "total": 17
+        }
+      }
+    },
+    "leather": {
+      "n_anomaly": 92,
+      "both_detect": 0,
+      "both_miss": 2,
+      "clip_only": 0,
+      "dino_only": 90,
+      "both_detect_pct": 0.0,
+      "clip_only_pct": 0.0,
+      "dino_only_pct": 97.8,
+      "both_miss_pct": 2.2,
+      "exclusive_detection_rate": 97.8,
+      "defect_type_breakdown": {
+        "color": {
+          "clip_only": 0,
+          "dino_only": 19,
+          "both": 0,
+          "neither": 0,
+          "total": 19
+        },
+        "cut": {
+          "clip_only": 0,
+          "dino_only": 19,
+          "both": 0,
+          "neither": 0,
+          "total": 19
+        },
+        "fold": {
+          "clip_only": 0,
+          "dino_only": 15,
+          "both": 0,
+          "neither": 2,
+          "total": 17
+        },
+        "glue": {
+          "clip_only": 0,
+          "dino_only": 19,
+          "both": 0,
+          "neither": 0,
+          "total": 19
+        },
+        "poke": {
+          "clip_only": 0,
+          "dino_only": 18,
+          "both": 0,
+          "neither": 0,
+          "total": 18
+        }
+      }
+    },
+    "metal_nut": {
+      "n_anomaly": 93,
+      "both_detect": 0,
+      "both_miss": 20,
+      "clip_only": 0,
+      "dino_only": 73,
+      "both_detect_pct": 0.0,
+      "clip_only_pct": 0.0,
+      "dino_only_pct": 78.5,
+      "both_miss_pct": 21.5,
+      "exclusive_detection_rate": 78.5,
+      "defect_type_breakdown": {
+        "bent": {
+          "clip_only": 0,
+          "dino_only": 17,
+          "both": 0,
+          "neither": 8,
+          "total": 25
+        },
+        "color": {
+          "clip_only": 0,
+          "dino_only": 12,
+          "both": 0,
+          "neither": 10,
+          "total": 22
+        },
+        "flip": {
+          "clip_only": 0,
+          "dino_only": 23,
+          "both": 0,
+          "neither": 0,
+          "total": 23
+        },
+        "scratch": {
+          "clip_only": 0,
+          "dino_only": 21,
+          "both": 0,
+          "neither": 2,
+          "total": 23
+        }
+      }
+    },
+    "pill": {
+      "n_anomaly": 141,
+      "both_detect": 0,
+      "both_miss": 108,
+      "clip_only": 0,
+      "dino_only": 33,
+      "both_detect_pct": 0.0,
+      "clip_only_pct": 0.0,
+      "dino_only_pct": 23.4,
+      "both_miss_pct": 76.6,
+      "exclusive_detection_rate": 23.4,
+      "defect_type_breakdown": {
+        "color": {
+          "clip_only": 0,
+          "dino_only": 5,
+          "both": 0,
+          "neither": 20,
+          "total": 25
+        },
+        "combined": {
+          "clip_only": 0,
+          "dino_only": 2,
+          "both": 0,
+          "neither": 15,
+          "total": 17
+        },
+        "contamination": {
+          "clip_only": 0,
+          "dino_only": 6,
+          "both": 0,
+          "neither": 15,
+          "total": 21
+        },
+        "crack": {
+          "clip_only": 0,
+          "dino_only": 2,
+          "both": 0,
+          "neither": 24,
+          "total": 26
+        },
+        "faulty_imprint": {
+          "clip_only": 0,
+          "dino_only": 3,
+          "both": 0,
+          "neither": 16,
+          "total": 19
+        },
+        "pill_type": {
+          "clip_only": 0,
+          "dino_only": 6,
+          "both": 0,
+          "neither": 3,
+          "total": 9
+        },
+        "scratch": {
+          "clip_only": 0,
+          "dino_only": 9,
+          "both": 0,
+          "neither": 15,
+          "total": 24
+        }
+      }
+    },
+    "screw": {
+      "n_anomaly": 119,
+      "both_detect": 0,
+      "both_miss": 110,
+      "clip_only": 5,
+      "dino_only": 4,
+      "both_detect_pct": 0.0,
+      "clip_only_pct": 4.2,
+      "dino_only_pct": 3.4,
+      "both_miss_pct": 92.4,
+      "exclusive_detection_rate": 7.6,
+      "defect_type_breakdown": {
+        "manipulated_front": {
+          "clip_only": 2,
+          "dino_only": 0,
+          "both": 0,
+          "neither": 22,
+          "total": 24
+        },
+        "scratch_head": {
+          "clip_only": 0,
+          "dino_only": 0,
+          "both": 0,
+          "neither": 24,
+          "total": 24
+        },
+        "scratch_neck": {
+          "clip_only": 2,
+          "dino_only": 2,
+          "both": 0,
+          "neither": 21,
+          "total": 25
+        },
+        "thread_side": {
+          "clip_only": 0,
+          "dino_only": 1,
+          "both": 0,
+          "neither": 22,
+          "total": 23
+        },
+        "thread_top": {
+          "clip_only": 1,
+          "dino_only": 1,
+          "both": 0,
+          "neither": 21,
+          "total": 23
+        }
+      }
+    },
+    "tile": {
+      "n_anomaly": 84,
+      "both_detect": 5,
+      "both_miss": 4,
+      "clip_only": 1,
+      "dino_only": 74,
+      "both_detect_pct": 6.0,
+      "clip_only_pct": 1.2,
+      "dino_only_pct": 88.1,
+      "both_miss_pct": 4.8,
+      "exclusive_detection_rate": 89.3,
+      "defect_type_breakdown": {
+        "crack": {
+          "clip_only": 0,
+          "dino_only": 16,
+          "both": 1,
+          "neither": 0,
+          "total": 17
+        },
+        "glue_strip": {
+          "clip_only": 0,
+          "dino_only": 16,
+          "both": 2,
+          "neither": 0,
+          "total": 18
+        },
+        "gray_stroke": {
+          "clip_only": 1,
+          "dino_only": 11,
+          "both": 0,
+          "neither": 4,
+          "total": 16
+        },
+        "oil": {
+          "clip_only": 0,
+          "dino_only": 17,
+          "both": 1,
+          "neither": 0,
+          "total": 18
+        },
+        "rough": {
+          "clip_only": 0,
+          "dino_only": 14,
+          "both": 1,
+          "neither": 0,
+          "total": 15
+        }
+      }
+    },
+    "toothbrush": {
+      "n_anomaly": 30,
+      "both_detect": 0,
+      "both_miss": 7,
+      "clip_only": 0,
+      "dino_only": 23,
+      "both_detect_pct": 0.0,
+      "clip_only_pct": 0.0,
+      "dino_only_pct": 76.7,
+      "both_miss_pct": 23.3,
+      "exclusive_detection_rate": 76.7,
+      "defect_type_breakdown": {
+        "defective": {
+          "clip_only": 0,
+          "dino_only": 23,
+          "both": 0,
+          "neither": 7,
+          "total": 30
+        }
+      }
+    },
+    "transistor": {
+      "n_anomaly": 40,
+      "both_detect": 0,
+      "both_miss": 34,
+      "clip_only": 0,
+      "dino_only": 6,
+      "both_detect_pct": 0.0,
+      "clip_only_pct": 0.0,
+      "dino_only_pct": 15.0,
+      "both_miss_pct": 85.0,
+      "exclusive_detection_rate": 15.0,
+      "defect_type_breakdown": {
+        "bent_lead": {
+          "clip_only": 0,
+          "dino_only": 0,
+          "both": 0,
+          "neither": 10,
+          "total": 10
+        },
+        "cut_lead": {
+          "clip_only": 0,
+          "dino_only": 0,
+          "both": 0,
+          "neither": 10,
+          "total": 10
+        },
+        "damaged_case": {
+          "clip_only": 0,
+          "dino_only": 3,
+          "both": 0,
+          "neither": 7,
+          "total": 10
+        },
+        "misplaced": {
+          "clip_only": 0,
+          "dino_only": 3,
+          "both": 0,
+          "neither": 7,
+          "total": 10
+        }
+      }
+    },
+    "wood": {
+      "n_anomaly": 60,
+      "both_detect": 0,
+      "both_miss": 42,
+      "clip_only": 0,
+      "dino_only": 18,
+      "both_detect_pct": 0.0,
+      "clip_only_pct": 0.0,
+      "dino_only_pct": 30.0,
+      "both_miss_pct": 70.0,
+      "exclusive_detection_rate": 30.0,
+      "defect_type_breakdown": {
+        "color": {
+          "clip_only": 0,
+          "dino_only": 1,
+          "both": 0,
+          "neither": 7,
+          "total": 8
+        },
+        "combined": {
+          "clip_only": 0,
+          "dino_only": 1,
+          "both": 0,
+          "neither": 10,
+          "total": 11
+        },
+        "hole": {
+          "clip_only": 0,
+          "dino_only": 3,
+          "both": 0,
+          "neither": 7,
+          "total": 10
+        },
+        "liquid": {
+          "clip_only": 0,
+          "dino_only": 9,
+          "both": 0,
+          "neither": 1,
+          "total": 10
+        },
+        "scratch": {
+          "clip_only": 0,
+          "dino_only": 4,
+          "both": 0,
+          "neither": 17,
+          "total": 21
+        }
+      }
+    },
+    "zipper": {
+      "n_anomaly": 119,
+      "both_detect": 0,
+      "both_miss": 17,
+      "clip_only": 0,
+      "dino_only": 102,
+      "both_detect_pct": 0.0,
+      "clip_only_pct": 0.0,
+      "dino_only_pct": 85.7,
+      "both_miss_pct": 14.3,
+      "exclusive_detection_rate": 85.7,
+      "defect_type_breakdown": {
+        "broken_teeth": {
+          "clip_only": 0,
+          "dino_only": 15,
+          "both": 0,
+          "neither": 4,
+          "total": 19
+        },
+        "combined": {
+          "clip_only": 0,
+          "dino_only": 16,
+          "both": 0,
+          "neither": 0,
+          "total": 16
+        },
+        "fabric_border": {
+          "clip_only": 0,
+          "dino_only": 17,
+          "both": 0,
+          "neither": 0,
+          "total": 17
+        },
+        "fabric_interior": {
+          "clip_only": 0,
+          "dino_only": 15,
+          "both": 0,
+          "neither": 1,
+          "total": 16
+        },
+        "rough": {
+          "clip_only": 0,
+          "dino_only": 10,
+          "both": 0,
+          "neither": 7,
+          "total": 17
+        },
+        "split_teeth": {
+          "clip_only": 0,
+          "dino_only": 17,
+          "both": 0,
+          "neither": 1,
+          "total": 18
+        },
+        "squeezed_teeth": {
+          "clip_only": 0,
+          "dino_only": 12,
+          "both": 0,
+          "neither": 4,
+          "total": 16
+        }
+      }
+    }
+  },
+  "_version": "v2_ln_post_fixed",
+  "experiment_1_defect_types": {
+    "bottle": {
+      "defect_types": {
+        "broken_large": {
+          "n_images": 20,
+          "clip_auroc": 96.5,
+          "dino_auroc": 99.5,
+          "diff_clip_minus_dino": -3.0,
+          "winner": "DINOv2"
+        },
+        "broken_small": {
+          "n_images": 22,
+          "clip_auroc": 95.45,
+          "dino_auroc": 90.23,
+          "diff_clip_minus_dino": 5.23,
+          "winner": "CLIP"
+        },
+        "contamination": {
+          "n_images": 21,
+          "clip_auroc": 92.86,
+          "dino_auroc": 92.38,
+          "diff_clip_minus_dino": 0.48,
+          "winner": "CLIP"
+        }
+      }
+    },
+    "cable": {
+      "defect_types": {
+        "bent_wire": {
+          "n_images": 13,
+          "clip_auroc": 84.35,
+          "dino_auroc": 92.57,
+          "diff_clip_minus_dino": -8.22,
+          "winner": "DINOv2"
+        },
+        "cable_swap": {
+          "n_images": 12,
+          "clip_auroc": 53.88,
+          "dino_auroc": 60.49,
+          "diff_clip_minus_dino": -6.61,
+          "winner": "DINOv2"
+        },
+        "combined": {
+          "n_images": 11,
+          "clip_auroc": 68.34,
+          "dino_auroc": 91.85,
+          "diff_clip_minus_dino": -23.51,
+          "winner": "DINOv2"
+        },
+        "cut_inner_insulation": {
+          "n_images": 14,
+          "clip_auroc": 70.2,
+          "dino_auroc": 82.14,
+          "diff_clip_minus_dino": -11.95,
+          "winner": "DINOv2"
+        },
+        "cut_outer_insulation": {
+          "n_images": 10,
+          "clip_auroc": 50.86,
+          "dino_auroc": 97.59,
+          "diff_clip_minus_dino": -46.72,
+          "winner": "DINOv2"
+        },
+        "missing_cable": {
+          "n_images": 12,
+          "clip_auroc": 83.19,
+          "dino_auroc": 96.98,
+          "diff_clip_minus_dino": -13.79,
+          "winner": "DINOv2"
+        },
+        "missing_wire": {
+          "n_images": 10,
+          "clip_auroc": 69.31,
+          "dino_auroc": 73.45,
+          "diff_clip_minus_dino": -4.14,
+          "winner": "DINOv2"
+        },
+        "poke_insulation": {
+          "n_images": 10,
+          "clip_auroc": 60.17,
+          "dino_auroc": 91.9,
+          "diff_clip_minus_dino": -31.72,
+          "winner": "DINOv2"
+        }
+      }
+    },
+    "capsule": {
+      "defect_types": {
+        "crack": {
+          "n_images": 23,
+          "clip_auroc": 76.94,
+          "dino_auroc": 87.52,
+          "diff_clip_minus_dino": -10.59,
+          "winner": "DINOv2"
+        },
+        "faulty_imprint": {
+          "n_images": 22,
+          "clip_auroc": 95.06,
+          "dino_auroc": 85.57,
+          "diff_clip_minus_dino": 9.49,
+          "winner": "CLIP"
+        },
+        "poke": {
+          "n_images": 21,
+          "clip_auroc": 87.16,
+          "dino_auroc": 85.09,
+          "diff_clip_minus_dino": 2.07,
+          "winner": "CLIP"
+        },
+        "scratch": {
+          "n_images": 23,
+          "clip_auroc": 71.83,
+          "dino_auroc": 80.53,
+          "diff_clip_minus_dino": -8.7,
+          "winner": "DINOv2"
+        },
+        "squeeze": {
+          "n_images": 20,
+          "clip_auroc": 88.04,
+          "dino_auroc": 91.3,
+          "diff_clip_minus_dino": -3.26,
+          "winner": "DINOv2"
+        }
+      }
+    },
+    "carpet": {
+      "defect_types": {
+        "color": {
+          "n_images": 19,
+          "clip_auroc": 100.0,
+          "dino_auroc": 90.41,
+          "diff_clip_minus_dino": 9.59,
+          "winner": "CLIP"
+        },
+        "cut": {
+          "n_images": 17,
+          "clip_auroc": 100.0,
+          "dino_auroc": 99.37,
+          "diff_clip_minus_dino": 0.63,
+          "winner": "CLIP"
+        },
+        "hole": {
+          "n_images": 17,
+          "clip_auroc": 98.74,
+          "dino_auroc": 99.37,
+          "diff_clip_minus_dino": -0.63,
+          "winner": "DINOv2"
+        },
+        "metal_contamination": {
+          "n_images": 17,
+          "clip_auroc": 100.0,
+          "dino_auroc": 100.0,
+          "diff_clip_minus_dino": 0.0,
+          "winner": "tie"
+        },
+        "thread": {
+          "n_images": 19,
+          "clip_auroc": 100.0,
+          "dino_auroc": 94.92,
+          "diff_clip_minus_dino": 5.08,
+          "winner": "CLIP"
+        }
+      }
+    },
+    "grid": {
+      "defect_types": {
+        "bent": {
+          "n_images": 12,
+          "clip_auroc": 86.51,
+          "dino_auroc": 64.29,
+          "diff_clip_minus_dino": 22.22,
+          "winner": "CLIP"
+        },
+        "broken": {
+          "n_images": 12,
+          "clip_auroc": 90.87,
+          "dino_auroc": 69.44,
+          "diff_clip_minus_dino": 21.43,
+          "winner": "CLIP"
+        },
+        "glue": {
+          "n_images": 11,
+          "clip_auroc": 81.39,
+          "dino_auroc": 62.77,
+          "diff_clip_minus_dino": 18.61,
+          "winner": "CLIP"
+        },
+        "metal_contamination": {
+          "n_images": 11,
+          "clip_auroc": 87.45,
+          "dino_auroc": 74.03,
+          "diff_clip_minus_dino": 13.42,
+          "winner": "CLIP"
+        },
+        "thread": {
+          "n_images": 11,
+          "clip_auroc": 88.31,
+          "dino_auroc": 91.34,
+          "diff_clip_minus_dino": -3.03,
+          "winner": "DINOv2"
+        }
+      }
+    },
+    "hazelnut": {
+      "defect_types": {
+        "crack": {
+          "n_images": 18,
+          "clip_auroc": 91.67,
+          "dino_auroc": 100.0,
+          "diff_clip_minus_dino": -8.33,
+          "winner": "DINOv2"
+        },
+        "cut": {
+          "n_images": 17,
+          "clip_auroc": 78.68,
+          "dino_auroc": 79.56,
+          "diff_clip_minus_dino": -0.88,
+          "winner": "DINOv2"
+        },
+        "hole": {
+          "n_images": 18,
+          "clip_auroc": 95.69,
+          "dino_auroc": 99.58,
+          "diff_clip_minus_dino": -3.89,
+          "winner": "DINOv2"
+        },
+        "print": {
+          "n_images": 17,
+          "clip_auroc": 86.62,
+          "dino_auroc": 85.88,
+          "diff_clip_minus_dino": 0.74,
+          "winner": "CLIP"
+        }
+      }
+    },
+    "leather": {
+      "defect_types": {
+        "color": {
+          "n_images": 19,
+          "clip_auroc": 99.01,
+          "dino_auroc": 100.0,
+          "diff_clip_minus_dino": -0.99,
+          "winner": "DINOv2"
+        },
+        "cut": {
+          "n_images": 19,
+          "clip_auroc": 99.51,
+          "dino_auroc": 100.0,
+          "diff_clip_minus_dino": -0.49,
+          "winner": "DINOv2"
+        },
+        "fold": {
+          "n_images": 17,
+          "clip_auroc": 97.61,
+          "dino_auroc": 98.16,
+          "diff_clip_minus_dino": -0.55,
+          "winner": "DINOv2"
+        },
+        "glue": {
+          "n_images": 19,
+          "clip_auroc": 99.34,
+          "dino_auroc": 100.0,
+          "diff_clip_minus_dino": -0.66,
+          "winner": "DINOv2"
+        },
+        "poke": {
+          "n_images": 18,
+          "clip_auroc": 100.0,
+          "dino_auroc": 100.0,
+          "diff_clip_minus_dino": 0.0,
+          "winner": "tie"
+        }
+      }
+    },
+    "metal_nut": {
+      "defect_types": {
+        "bent": {
+          "n_images": 25,
+          "clip_auroc": 88.0,
+          "dino_auroc": 95.64,
+          "diff_clip_minus_dino": -7.64,
+          "winner": "DINOv2"
+        },
+        "color": {
+          "n_images": 22,
+          "clip_auroc": 94.42,
+          "dino_auroc": 92.98,
+          "diff_clip_minus_dino": 1.45,
+          "winner": "CLIP"
+        },
+        "flip": {
+          "n_images": 23,
+          "clip_auroc": 93.48,
+          "dino_auroc": 100.0,
+          "diff_clip_minus_dino": -6.52,
+          "winner": "DINOv2"
+        },
+        "scratch": {
+          "n_images": 23,
+          "clip_auroc": 91.3,
+          "dino_auroc": 99.8,
+          "diff_clip_minus_dino": -8.5,
+          "winner": "DINOv2"
+        }
+      }
+    },
+    "pill": {
+      "defect_types": {
+        "color": {
+          "n_images": 25,
+          "clip_auroc": 97.85,
+          "dino_auroc": 70.62,
+          "diff_clip_minus_dino": 27.23,
+          "winner": "CLIP"
+        },
+        "combined": {
+          "n_images": 17,
+          "clip_auroc": 96.38,
+          "dino_auroc": 91.4,
+          "diff_clip_minus_dino": 4.98,
+          "winner": "CLIP"
+        },
+        "contamination": {
+          "n_images": 21,
+          "clip_auroc": 83.15,
+          "dino_auroc": 92.31,
+          "diff_clip_minus_dino": -9.16,
+          "winner": "DINOv2"
+        },
+        "crack": {
+          "n_images": 26,
+          "clip_auroc": 56.66,
+          "dino_auroc": 73.82,
+          "diff_clip_minus_dino": -17.16,
+          "winner": "DINOv2"
+        },
+        "faulty_imprint": {
+          "n_images": 19,
+          "clip_auroc": 91.7,
+          "dino_auroc": 88.66,
+          "diff_clip_minus_dino": 3.04,
+          "winner": "CLIP"
+        },
+        "pill_type": {
+          "n_images": 9,
+          "clip_auroc": 96.58,
+          "dino_auroc": 95.73,
+          "diff_clip_minus_dino": 0.85,
+          "winner": "CLIP"
+        },
+        "scratch": {
+          "n_images": 24,
+          "clip_auroc": 87.66,
+          "dino_auroc": 90.71,
+          "diff_clip_minus_dino": -3.04,
+          "winner": "DINOv2"
+        }
+      }
+    },
+    "screw": {
+      "defect_types": {
+        "manipulated_front": {
+          "n_images": 24,
+          "clip_auroc": 59.55,
+          "dino_auroc": 58.74,
+          "diff_clip_minus_dino": 0.81,
+          "winner": "CLIP"
+        },
+        "scratch_head": {
+          "n_images": 24,
+          "clip_auroc": 53.66,
+          "dino_auroc": 74.59,
+          "diff_clip_minus_dino": -20.93,
+          "winner": "DINOv2"
+        },
+        "scratch_neck": {
+          "n_images": 25,
+          "clip_auroc": 79.41,
+          "dino_auroc": 80.49,
+          "diff_clip_minus_dino": -1.07,
+          "winner": "DINOv2"
+        },
+        "thread_side": {
+          "n_images": 23,
+          "clip_auroc": 59.81,
+          "dino_auroc": 62.04,
+          "diff_clip_minus_dino": -2.23,
+          "winner": "DINOv2"
+        },
+        "thread_top": {
+          "n_images": 23,
+          "clip_auroc": 72.11,
+          "dino_auroc": 64.48,
+          "diff_clip_minus_dino": 7.64,
+          "winner": "CLIP"
+        }
+      }
+    },
+    "tile": {
+      "defect_types": {
+        "crack": {
+          "n_images": 17,
+          "clip_auroc": 98.22,
+          "dino_auroc": 100.0,
+          "diff_clip_minus_dino": -1.78,
+          "winner": "DINOv2"
+        },
+        "glue_strip": {
+          "n_images": 18,
+          "clip_auroc": 97.47,
+          "dino_auroc": 100.0,
+          "diff_clip_minus_dino": -2.53,
+          "winner": "DINOv2"
+        },
+        "gray_stroke": {
+          "n_images": 16,
+          "clip_auroc": 89.2,
+          "dino_auroc": 97.35,
+          "diff_clip_minus_dino": -8.14,
+          "winner": "DINOv2"
+        },
+        "oil": {
+          "n_images": 18,
+          "clip_auroc": 97.47,
+          "dino_auroc": 100.0,
+          "diff_clip_minus_dino": -2.53,
+          "winner": "DINOv2"
+        },
+        "rough": {
+          "n_images": 15,
+          "clip_auroc": 97.58,
+          "dino_auroc": 100.0,
+          "diff_clip_minus_dino": -2.42,
+          "winner": "DINOv2"
+        }
+      }
+    },
+    "toothbrush": {
+      "defect_types": {
+        "defective": {
+          "n_images": 30,
+          "clip_auroc": 84.17,
+          "dino_auroc": 95.56,
+          "diff_clip_minus_dino": -11.39,
+          "winner": "DINOv2"
+        }
+      }
+    },
+    "transistor": {
+      "defect_types": {
+        "bent_lead": {
+          "n_images": 10,
+          "clip_auroc": 62.0,
+          "dino_auroc": 85.17,
+          "diff_clip_minus_dino": -23.17,
+          "winner": "DINOv2"
+        },
+        "cut_lead": {
+          "n_images": 10,
+          "clip_auroc": 50.17,
+          "dino_auroc": 71.83,
+          "diff_clip_minus_dino": -21.67,
+          "winner": "DINOv2"
+        },
+        "damaged_case": {
+          "n_images": 10,
+          "clip_auroc": 85.5,
+          "dino_auroc": 82.17,
+          "diff_clip_minus_dino": 3.33,
+          "winner": "CLIP"
+        },
+        "misplaced": {
+          "n_images": 10,
+          "clip_auroc": 80.67,
+          "dino_auroc": 86.67,
+          "diff_clip_minus_dino": -6.0,
+          "winner": "DINOv2"
+        }
+      }
+    },
+    "wood": {
+      "defect_types": {
+        "color": {
+          "n_images": 8,
+          "clip_auroc": 93.42,
+          "dino_auroc": 79.61,
+          "diff_clip_minus_dino": 13.82,
+          "winner": "CLIP"
+        },
+        "combined": {
+          "n_images": 11,
+          "clip_auroc": 94.26,
+          "dino_auroc": 86.6,
+          "diff_clip_minus_dino": 7.66,
+          "winner": "CLIP"
+        },
+        "hole": {
+          "n_images": 10,
+          "clip_auroc": 96.32,
+          "dino_auroc": 94.21,
+          "diff_clip_minus_dino": 2.11,
+          "winner": "CLIP"
+        },
+        "liquid": {
+          "n_images": 10,
+          "clip_auroc": 94.74,
+          "dino_auroc": 100.0,
+          "diff_clip_minus_dino": -5.26,
+          "winner": "DINOv2"
+        },
+        "scratch": {
+          "n_images": 21,
+          "clip_auroc": 93.98,
+          "dino_auroc": 79.7,
+          "diff_clip_minus_dino": 14.29,
+          "winner": "CLIP"
+        }
+      }
+    },
+    "zipper": {
+      "defect_types": {
+        "broken_teeth": {
+          "n_images": 19,
+          "clip_auroc": 85.69,
+          "dino_auroc": 95.72,
+          "diff_clip_minus_dino": -10.03,
+          "winner": "DINOv2"
+        },
+        "combined": {
+          "n_images": 16,
+          "clip_auroc": 98.83,
+          "dino_auroc": 100.0,
+          "diff_clip_minus_dino": -1.17,
+          "winner": "DINOv2"
+        },
+        "fabric_border": {
+          "n_images": 17,
+          "clip_auroc": 100.0,
+          "dino_auroc": 100.0,
+          "diff_clip_minus_dino": 0.0,
+          "winner": "tie"
+        },
+        "fabric_interior": {
+          "n_images": 16,
+          "clip_auroc": 99.22,
+          "dino_auroc": 99.41,
+          "diff_clip_minus_dino": -0.2,
+          "winner": "DINOv2"
+        },
+        "rough": {
+          "n_images": 17,
+          "clip_auroc": 95.59,
+          "dino_auroc": 95.04,
+          "diff_clip_minus_dino": 0.55,
+          "winner": "CLIP"
+        },
+        "split_teeth": {
+          "n_images": 18,
+          "clip_auroc": 89.41,
+          "dino_auroc": 99.13,
+          "diff_clip_minus_dino": -9.72,
+          "winner": "DINOv2"
+        },
+        "squeezed_teeth": {
+          "n_images": 16,
+          "clip_auroc": 75.39,
+          "dino_auroc": 98.24,
+          "diff_clip_minus_dino": -22.85,
+          "winner": "DINOv2"
+        }
+      }
+    }
+  },
+  "experiment_2_correlation": {
+    "bottle": {
+      "pearson_r": 0.744,
+      "pearson_p": 0.0,
+      "spearman_r": 0.6892,
+      "spearman_p": 0.0,
+      "anom_only_pearson_r": 0.4714,
+      "clip_knn_auroc": 94.92,
+      "dino_knn_auroc": 93.89,
+      "fusion_knn_auroc": 96.43,
+      "fusion_gain_pp": 1.51,
+      "n_total": 83,
+      "n_anomaly": 63
+    },
+    "cable": {
+      "pearson_r": 0.309,
+      "pearson_p": 0.000119,
+      "spearman_r": 0.3482,
+      "spearman_p": 1.3e-05,
+      "anom_only_pearson_r": 0.1814,
+      "clip_knn_auroc": 68.25,
+      "dino_knn_auroc": 85.68,
+      "fusion_knn_auroc": 82.66,
+      "fusion_gain_pp": -3.02,
+      "n_total": 150,
+      "n_anomaly": 92
+    },
+    "capsule": {
+      "pearson_r": 0.454,
+      "pearson_p": 0.0,
+      "spearman_r": 0.5035,
+      "spearman_p": 0.0,
+      "anom_only_pearson_r": 0.4032,
+      "clip_knn_auroc": 83.53,
+      "dino_knn_auroc": 85.88,
+      "fusion_knn_auroc": 88.31,
+      "fusion_gain_pp": 2.43,
+      "n_total": 132,
+      "n_anomaly": 109
+    },
+    "carpet": {
+      "pearson_r": 0.703,
+      "pearson_p": 0.0,
+      "spearman_r": 0.54,
+      "spearman_p": 0.0,
+      "anom_only_pearson_r": 0.091,
+      "clip_knn_auroc": 99.76,
+      "dino_knn_auroc": 96.63,
+      "fusion_knn_auroc": 99.96,
+      "fusion_gain_pp": 0.2,
+      "n_total": 117,
+      "n_anomaly": 89
+    },
+    "grid": {
+      "pearson_r": 0.4288,
+      "pearson_p": 9e-05,
+      "spearman_r": 0.3812,
+      "spearman_p": 0.000576,
+      "anom_only_pearson_r": 0.3591,
+      "clip_knn_auroc": 86.97,
+      "dino_knn_auroc": 72.18,
+      "fusion_knn_auroc": 88.89,
+      "fusion_gain_pp": 1.92,
+      "n_total": 78,
+      "n_anomaly": 57
+    },
+    "hazelnut": {
+      "pearson_r": 0.585,
+      "pearson_p": 0.0,
+      "spearman_r": 0.5962,
+      "spearman_p": 0.0,
+      "anom_only_pearson_r": 0.3807,
+      "clip_knn_auroc": 88.32,
+      "dino_knn_auroc": 91.5,
+      "fusion_knn_auroc": 95.82,
+      "fusion_gain_pp": 4.32,
+      "n_total": 110,
+      "n_anomaly": 70
+    },
+    "leather": {
+      "pearson_r": 0.8395,
+      "pearson_p": 0.0,
+      "spearman_r": 0.7207,
+      "spearman_p": 0.0,
+      "anom_only_pearson_r": 0.4334,
+      "clip_knn_auroc": 99.12,
+      "dino_knn_auroc": 99.66,
+      "fusion_knn_auroc": 100.0,
+      "fusion_gain_pp": 0.34,
+      "n_total": 124,
+      "n_anomaly": 92
+    },
+    "metal_nut": {
+      "pearson_r": 0.398,
+      "pearson_p": 1.1e-05,
+      "spearman_r": 0.4086,
+      "spearman_p": 6e-06,
+      "anom_only_pearson_r": -0.0105,
+      "clip_knn_auroc": 91.69,
+      "dino_knn_auroc": 97.12,
+      "fusion_knn_auroc": 98.44,
+      "fusion_gain_pp": 1.32,
+      "n_total": 115,
+      "n_anomaly": 93
+    },
+    "pill": {
+      "pearson_r": 0.3756,
+      "pearson_p": 1e-06,
+      "spearman_r": 0.3918,
+      "spearman_p": 0.0,
+      "anom_only_pearson_r": 0.243,
+      "clip_knn_auroc": 85.24,
+      "dino_knn_auroc": 84.4,
+      "fusion_knn_auroc": 89.44,
+      "fusion_gain_pp": 4.2,
+      "n_total": 167,
+      "n_anomaly": 141
+    },
+    "screw": {
+      "pearson_r": 0.3883,
+      "pearson_p": 0.0,
+      "spearman_r": 0.4426,
+      "spearman_p": 0.0,
+      "anom_only_pearson_r": 0.315,
+      "clip_knn_auroc": 65.01,
+      "dino_knn_auroc": 68.25,
+      "fusion_knn_auroc": 68.62,
+      "fusion_gain_pp": 0.37,
+      "n_total": 160,
+      "n_anomaly": 119
+    },
+    "tile": {
+      "pearson_r": 0.7838,
+      "pearson_p": 0.0,
+      "spearman_r": 0.716,
+      "spearman_p": 0.0,
+      "anom_only_pearson_r": 0.4707,
+      "clip_knn_auroc": 96.07,
+      "dino_knn_auroc": 99.49,
+      "fusion_knn_auroc": 99.71,
+      "fusion_gain_pp": 0.22,
+      "n_total": 117,
+      "n_anomaly": 84
+    },
+    "toothbrush": {
+      "pearson_r": 0.4411,
+      "pearson_p": 0.003453,
+      "spearman_r": 0.5062,
+      "spearman_p": 0.000626,
+      "anom_only_pearson_r": 0.1092,
+      "clip_knn_auroc": 84.17,
+      "dino_knn_auroc": 95.56,
+      "fusion_knn_auroc": 93.33,
+      "fusion_gain_pp": -2.22,
+      "n_total": 42,
+      "n_anomaly": 30
+    },
+    "transistor": {
+      "pearson_r": 0.2183,
+      "pearson_p": 0.02914,
+      "spearman_r": 0.2002,
+      "spearman_p": 0.045837,
+      "anom_only_pearson_r": 0.1447,
+      "clip_knn_auroc": 69.58,
+      "dino_knn_auroc": 81.46,
+      "fusion_knn_auroc": 81.46,
+      "fusion_gain_pp": 0.0,
+      "n_total": 100,
+      "n_anomaly": 40
+    },
+    "wood": {
+      "pearson_r": 0.5366,
+      "pearson_p": 0.0,
+      "spearman_r": 0.4097,
+      "spearman_p": 0.000177,
+      "anom_only_pearson_r": 0.055,
+      "clip_knn_auroc": 94.47,
+      "dino_knn_auroc": 86.75,
+      "fusion_knn_auroc": 96.84,
+      "fusion_gain_pp": 2.37,
+      "n_total": 79,
+      "n_anomaly": 60
+    },
+    "zipper": {
+      "pearson_r": 0.7015,
+      "pearson_p": 0.0,
+      "spearman_r": 0.6969,
+      "spearman_p": 0.0,
+      "anom_only_pearson_r": 0.5111,
+      "clip_knn_auroc": 91.91,
+      "dino_knn_auroc": 98.16,
+      "fusion_knn_auroc": 98.48,
+      "fusion_gain_pp": 0.32,
+      "n_total": 151,
+      "n_anomaly": 119
+    }
+  },
+  "experiment_3_agreement": {
+    "bottle": {
+      "n_anomaly": 63,
+      "both_detect": 37,
+      "both_miss": 9,
+      "clip_only": 14,
+      "dino_only": 3,
+      "both_detect_pct": 58.7,
+      "clip_only_pct": 22.2,
+      "dino_only_pct": 4.8,
+      "both_miss_pct": 14.3,
+      "exclusive_detection_rate": 27.0,
+      "defect_type_breakdown": {
+        "broken_large": {
+          "clip_only": 4,
+          "dino_only": 1,
+          "both": 15,
+          "neither": 0,
+          "total": 20
+        },
+        "broken_small": {
+          "clip_only": 9,
+          "dino_only": 0,
+          "both": 8,
+          "neither": 5,
+          "total": 22
+        },
+        "contamination": {
+          "clip_only": 1,
+          "dino_only": 2,
+          "both": 14,
+          "neither": 4,
+          "total": 21
+        }
+      }
+    },
+    "cable": {
+      "n_anomaly": 92,
+      "both_detect": 5,
+      "both_miss": 46,
+      "clip_only": 3,
+      "dino_only": 38,
+      "both_detect_pct": 5.4,
+      "clip_only_pct": 3.3,
+      "dino_only_pct": 41.3,
+      "both_miss_pct": 50.0,
+      "exclusive_detection_rate": 44.6,
+      "defect_type_breakdown": {
+        "bent_wire": {
+          "clip_only": 0,
+          "dino_only": 6,
+          "both": 2,
+          "neither": 5,
+          "total": 13
+        },
+        "cable_swap": {
+          "clip_only": 0,
+          "dino_only": 1,
+          "both": 1,
+          "neither": 10,
+          "total": 12
+        },
+        "combined": {
+          "clip_only": 0,
+          "dino_only": 5,
+          "both": 1,
+          "neither": 5,
+          "total": 11
+        },
+        "cut_inner_insulation": {
+          "clip_only": 2,
+          "dino_only": 5,
+          "both": 1,
+          "neither": 6,
+          "total": 14
+        },
+        "cut_outer_insulation": {
+          "clip_only": 0,
+          "dino_only": 8,
+          "both": 0,
+          "neither": 2,
+          "total": 10
+        },
+        "missing_cable": {
+          "clip_only": 1,
+          "dino_only": 8,
+          "both": 0,
+          "neither": 3,
+          "total": 12
+        },
+        "missing_wire": {
+          "clip_only": 0,
+          "dino_only": 2,
+          "both": 0,
+          "neither": 8,
+          "total": 10
+        },
+        "poke_insulation": {
+          "clip_only": 0,
+          "dino_only": 3,
+          "both": 0,
+          "neither": 7,
+          "total": 10
+        }
+      }
+    },
+    "capsule": {
+      "n_anomaly": 109,
+      "both_detect": 3,
+      "both_miss": 45,
+      "clip_only": 59,
+      "dino_only": 2,
+      "both_detect_pct": 2.8,
+      "clip_only_pct": 54.1,
+      "dino_only_pct": 1.8,
+      "both_miss_pct": 41.3,
+      "exclusive_detection_rate": 56.0,
+      "defect_type_breakdown": {
+        "crack": {
+          "clip_only": 11,
+          "dino_only": 0,
+          "both": 0,
+          "neither": 12,
+          "total": 23
+        },
+        "faulty_imprint": {
+          "clip_only": 17,
+          "dino_only": 0,
+          "both": 1,
+          "neither": 4,
+          "total": 22
+        },
+        "poke": {
+          "clip_only": 12,
+          "dino_only": 0,
+          "both": 1,
+          "neither": 8,
+          "total": 21
+        },
+        "scratch": {
+          "clip_only": 10,
+          "dino_only": 0,
+          "both": 0,
+          "neither": 13,
+          "total": 23
+        },
+        "squeeze": {
+          "clip_only": 9,
+          "dino_only": 2,
+          "both": 1,
+          "neither": 8,
+          "total": 20
+        }
+      }
+    },
+    "carpet": {
+      "n_anomaly": 89,
+      "both_detect": 70,
+      "both_miss": 1,
+      "clip_only": 18,
+      "dino_only": 0,
+      "both_detect_pct": 78.7,
+      "clip_only_pct": 20.2,
+      "dino_only_pct": 0.0,
+      "both_miss_pct": 1.1,
+      "exclusive_detection_rate": 20.2,
+      "defect_type_breakdown": {
+        "color": {
+          "clip_only": 11,
+          "dino_only": 0,
+          "both": 8,
+          "neither": 0,
+          "total": 19
+        },
+        "cut": {
+          "clip_only": 2,
+          "dino_only": 0,
+          "both": 15,
+          "neither": 0,
+          "total": 17
+        },
+        "hole": {
+          "clip_only": 2,
+          "dino_only": 0,
+          "both": 14,
+          "neither": 1,
+          "total": 17
+        },
+        "metal_contamination": {
+          "clip_only": 0,
+          "dino_only": 0,
+          "both": 17,
+          "neither": 0,
+          "total": 17
+        },
+        "thread": {
+          "clip_only": 3,
+          "dino_only": 0,
+          "both": 16,
+          "neither": 0,
+          "total": 19
+        }
+      }
+    },
+    "grid": {
+      "n_anomaly": 57,
+      "both_detect": 0,
+      "both_miss": 49,
+      "clip_only": 8,
+      "dino_only": 0,
+      "both_detect_pct": 0.0,
+      "clip_only_pct": 14.0,
+      "dino_only_pct": 0.0,
+      "both_miss_pct": 86.0,
+      "exclusive_detection_rate": 14.0,
+      "defect_type_breakdown": {
+        "bent": {
+          "clip_only": 3,
+          "dino_only": 0,
+          "both": 0,
+          "neither": 9,
+          "total": 12
+        },
+        "broken": {
+          "clip_only": 2,
+          "dino_only": 0,
+          "both": 0,
+          "neither": 10,
+          "total": 12
+        },
+        "glue": {
+          "clip_only": 2,
+          "dino_only": 0,
+          "both": 0,
+          "neither": 9,
+          "total": 11
+        },
+        "metal_contamination": {
+          "clip_only": 0,
+          "dino_only": 0,
+          "both": 0,
+          "neither": 11,
+          "total": 11
+        },
+        "thread": {
+          "clip_only": 1,
+          "dino_only": 0,
+          "both": 0,
+          "neither": 10,
+          "total": 11
+        }
+      }
+    },
+    "hazelnut": {
+      "n_anomaly": 70,
+      "both_detect": 11,
+      "both_miss": 23,
+      "clip_only": 7,
+      "dino_only": 29,
+      "both_detect_pct": 15.7,
+      "clip_only_pct": 10.0,
+      "dino_only_pct": 41.4,
+      "both_miss_pct": 32.9,
+      "exclusive_detection_rate": 51.4,
+      "defect_type_breakdown": {
+        "crack": {
+          "clip_only": 1,
+          "dino_only": 11,
+          "both": 5,
+          "neither": 1,
+          "total": 18
+        },
+        "cut": {
+          "clip_only": 0,
+          "dino_only": 3,
+          "both": 1,
+          "neither": 13,
+          "total": 17
+        },
+        "hole": {
+          "clip_only": 2,
+          "dino_only": 12,
+          "both": 3,
+          "neither": 1,
+          "total": 18
+        },
+        "print": {
+          "clip_only": 4,
+          "dino_only": 3,
+          "both": 2,
+          "neither": 8,
+          "total": 17
+        }
+      }
+    },
+    "leather": {
+      "n_anomaly": 92,
+      "both_detect": 90,
+      "both_miss": 1,
+      "clip_only": 1,
+      "dino_only": 0,
+      "both_detect_pct": 97.8,
+      "clip_only_pct": 1.1,
+      "dino_only_pct": 0.0,
+      "both_miss_pct": 1.1,
+      "exclusive_detection_rate": 1.1,
+      "defect_type_breakdown": {
+        "color": {
+          "clip_only": 0,
+          "dino_only": 0,
+          "both": 19,
+          "neither": 0,
+          "total": 19
+        },
+        "cut": {
+          "clip_only": 0,
+          "dino_only": 0,
+          "both": 19,
+          "neither": 0,
+          "total": 19
+        },
+        "fold": {
+          "clip_only": 1,
+          "dino_only": 0,
+          "both": 15,
+          "neither": 1,
+          "total": 17
+        },
+        "glue": {
+          "clip_only": 0,
+          "dino_only": 0,
+          "both": 19,
+          "neither": 0,
+          "total": 19
+        },
+        "poke": {
+          "clip_only": 0,
+          "dino_only": 0,
+          "both": 18,
+          "neither": 0,
+          "total": 18
+        }
+      }
+    },
+    "metal_nut": {
+      "n_anomaly": 93,
+      "both_detect": 46,
+      "both_miss": 11,
+      "clip_only": 9,
+      "dino_only": 27,
+      "both_detect_pct": 49.5,
+      "clip_only_pct": 9.7,
+      "dino_only_pct": 29.0,
+      "both_miss_pct": 11.8,
+      "exclusive_detection_rate": 38.7,
+      "defect_type_breakdown": {
+        "bent": {
+          "clip_only": 3,
+          "dino_only": 7,
+          "both": 10,
+          "neither": 5,
+          "total": 25
+        },
+        "color": {
+          "clip_only": 6,
+          "dino_only": 3,
+          "both": 9,
+          "neither": 4,
+          "total": 22
+        },
+        "flip": {
+          "clip_only": 0,
+          "dino_only": 11,
+          "both": 12,
+          "neither": 0,
+          "total": 23
+        },
+        "scratch": {
+          "clip_only": 0,
+          "dino_only": 6,
+          "both": 15,
+          "neither": 2,
+          "total": 23
+        }
+      }
+    },
+    "pill": {
+      "n_anomaly": 141,
+      "both_detect": 25,
+      "both_miss": 49,
+      "clip_only": 59,
+      "dino_only": 8,
+      "both_detect_pct": 17.7,
+      "clip_only_pct": 41.8,
+      "dino_only_pct": 5.7,
+      "both_miss_pct": 34.8,
+      "exclusive_detection_rate": 47.5,
+      "defect_type_breakdown": {
+        "color": {
+          "clip_only": 19,
+          "dino_only": 0,
+          "both": 5,
+          "neither": 1,
+          "total": 25
+        },
+        "combined": {
+          "clip_only": 12,
+          "dino_only": 1,
+          "both": 1,
+          "neither": 3,
+          "total": 17
+        },
+        "contamination": {
+          "clip_only": 8,
+          "dino_only": 2,
+          "both": 4,
+          "neither": 7,
+          "total": 21
+        },
+        "crack": {
+          "clip_only": 4,
+          "dino_only": 2,
+          "both": 0,
+          "neither": 20,
+          "total": 26
+        },
+        "faulty_imprint": {
+          "clip_only": 5,
+          "dino_only": 0,
+          "both": 3,
+          "neither": 11,
+          "total": 19
+        },
+        "pill_type": {
+          "clip_only": 3,
+          "dino_only": 0,
+          "both": 6,
+          "neither": 0,
+          "total": 9
+        },
+        "scratch": {
+          "clip_only": 8,
+          "dino_only": 3,
+          "both": 6,
+          "neither": 7,
+          "total": 24
+        }
+      }
+    },
+    "screw": {
+      "n_anomaly": 119,
+      "both_detect": 0,
+      "both_miss": 103,
+      "clip_only": 12,
+      "dino_only": 4,
+      "both_detect_pct": 0.0,
+      "clip_only_pct": 10.1,
+      "dino_only_pct": 3.4,
+      "both_miss_pct": 86.6,
+      "exclusive_detection_rate": 13.4,
+      "defect_type_breakdown": {
+        "manipulated_front": {
+          "clip_only": 2,
+          "dino_only": 0,
+          "both": 0,
+          "neither": 22,
+          "total": 24
+        },
+        "scratch_head": {
+          "clip_only": 1,
+          "dino_only": 0,
+          "both": 0,
+          "neither": 23,
+          "total": 24
+        },
+        "scratch_neck": {
+          "clip_only": 6,
+          "dino_only": 2,
+          "both": 0,
+          "neither": 17,
+          "total": 25
+        },
+        "thread_side": {
+          "clip_only": 0,
+          "dino_only": 1,
+          "both": 0,
+          "neither": 22,
+          "total": 23
+        },
+        "thread_top": {
+          "clip_only": 3,
+          "dino_only": 1,
+          "both": 0,
+          "neither": 19,
+          "total": 23
+        }
+      }
+    },
+    "tile": {
+      "n_anomaly": 84,
+      "both_detect": 57,
+      "both_miss": 3,
+      "clip_only": 2,
+      "dino_only": 22,
+      "both_detect_pct": 67.9,
+      "clip_only_pct": 2.4,
+      "dino_only_pct": 26.2,
+      "both_miss_pct": 3.6,
+      "exclusive_detection_rate": 28.6,
+      "defect_type_breakdown": {
+        "crack": {
+          "clip_only": 0,
+          "dino_only": 0,
+          "both": 17,
+          "neither": 0,
+          "total": 17
+        },
+        "glue_strip": {
+          "clip_only": 0,
+          "dino_only": 4,
+          "both": 14,
+          "neither": 0,
+          "total": 18
+        },
+        "gray_stroke": {
+          "clip_only": 2,
+          "dino_only": 10,
+          "both": 1,
+          "neither": 3,
+          "total": 16
+        },
+        "oil": {
+          "clip_only": 0,
+          "dino_only": 4,
+          "both": 14,
+          "neither": 0,
+          "total": 18
+        },
+        "rough": {
+          "clip_only": 0,
+          "dino_only": 4,
+          "both": 11,
+          "neither": 0,
+          "total": 15
+        }
+      }
+    },
+    "toothbrush": {
+      "n_anomaly": 30,
+      "both_detect": 3,
+      "both_miss": 7,
+      "clip_only": 0,
+      "dino_only": 20,
+      "both_detect_pct": 10.0,
+      "clip_only_pct": 0.0,
+      "dino_only_pct": 66.7,
+      "both_miss_pct": 23.3,
+      "exclusive_detection_rate": 66.7,
+      "defect_type_breakdown": {
+        "defective": {
+          "clip_only": 0,
+          "dino_only": 20,
+          "both": 3,
+          "neither": 7,
+          "total": 30
+        }
+      }
+    },
+    "transistor": {
+      "n_anomaly": 40,
+      "both_detect": 1,
+      "both_miss": 30,
+      "clip_only": 4,
+      "dino_only": 5,
+      "both_detect_pct": 2.5,
+      "clip_only_pct": 10.0,
+      "dino_only_pct": 12.5,
+      "both_miss_pct": 75.0,
+      "exclusive_detection_rate": 22.5,
+      "defect_type_breakdown": {
+        "bent_lead": {
+          "clip_only": 1,
+          "dino_only": 0,
+          "both": 0,
+          "neither": 9,
+          "total": 10
+        },
+        "cut_lead": {
+          "clip_only": 1,
+          "dino_only": 0,
+          "both": 0,
+          "neither": 9,
+          "total": 10
+        },
+        "damaged_case": {
+          "clip_only": 1,
+          "dino_only": 2,
+          "both": 1,
+          "neither": 6,
+          "total": 10
+        },
+        "misplaced": {
+          "clip_only": 1,
+          "dino_only": 3,
+          "both": 0,
+          "neither": 6,
+          "total": 10
+        }
+      }
+    },
+    "wood": {
+      "n_anomaly": 60,
+      "both_detect": 7,
+      "both_miss": 23,
+      "clip_only": 19,
+      "dino_only": 11,
+      "both_detect_pct": 11.7,
+      "clip_only_pct": 31.7,
+      "dino_only_pct": 18.3,
+      "both_miss_pct": 38.3,
+      "exclusive_detection_rate": 50.0,
+      "defect_type_breakdown": {
+        "color": {
+          "clip_only": 3,
+          "dino_only": 1,
+          "both": 0,
+          "neither": 4,
+          "total": 8
+        },
+        "combined": {
+          "clip_only": 4,
+          "dino_only": 0,
+          "both": 1,
+          "neither": 6,
+          "total": 11
+        },
+        "hole": {
+          "clip_only": 4,
+          "dino_only": 1,
+          "both": 2,
+          "neither": 3,
+          "total": 10
+        },
+        "liquid": {
+          "clip_only": 1,
+          "dino_only": 5,
+          "both": 4,
+          "neither": 0,
+          "total": 10
+        },
+        "scratch": {
+          "clip_only": 7,
+          "dino_only": 4,
+          "both": 0,
+          "neither": 10,
+          "total": 21
+        }
+      }
+    },
+    "zipper": {
+      "n_anomaly": 119,
+      "both_detect": 78,
+      "both_miss": 8,
+      "clip_only": 9,
+      "dino_only": 24,
+      "both_detect_pct": 65.5,
+      "clip_only_pct": 7.6,
+      "dino_only_pct": 20.2,
+      "both_miss_pct": 6.7,
+      "exclusive_detection_rate": 27.7,
+      "defect_type_breakdown": {
+        "broken_teeth": {
+          "clip_only": 2,
+          "dino_only": 3,
+          "both": 12,
+          "neither": 2,
+          "total": 19
+        },
+        "combined": {
+          "clip_only": 0,
+          "dino_only": 2,
+          "both": 14,
+          "neither": 0,
+          "total": 16
+        },
+        "fabric_border": {
+          "clip_only": 0,
+          "dino_only": 0,
+          "both": 17,
+          "neither": 0,
+          "total": 17
+        },
+        "fabric_interior": {
+          "clip_only": 0,
+          "dino_only": 0,
+          "both": 15,
+          "neither": 1,
+          "total": 16
+        },
+        "rough": {
+          "clip_only": 5,
+          "dino_only": 3,
+          "both": 7,
+          "neither": 2,
+          "total": 17
+        },
+        "split_teeth": {
+          "clip_only": 0,
+          "dino_only": 8,
+          "both": 9,
+          "neither": 1,
+          "total": 18
+        },
+        "squeezed_teeth": {
+          "clip_only": 2,
+          "dino_only": 8,
+          "both": 4,
+          "neither": 2,
+          "total": 16
+        }
+      }
+    }
+  }
+}

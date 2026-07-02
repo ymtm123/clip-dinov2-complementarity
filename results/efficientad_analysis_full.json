@@ -1,0 +1,463 @@
+{
+  "experiment": "EfficientAD FULL setting-axis + hybrid cascade",
+  "n_categories": 30,
+  "n_expected": 30,
+  "excluded": [],
+  "setting_axis_basis": "EfficientAD image AUROC here is recomputed on the CLIP/DINOv2 fusion-overlap common-sample subset (NOT the full anomalib test split); the full-test EfficientAD mean is in efficientad_benchmark_full.json mean_image_auroc.",
+  "alpha_dino": 0.65,
+  "efficientad_latency_ms": 4.835,
+  "fusion_latency_ms": 97.28,
+  "fusion_latency_note": "measured parallel (max(CLIP,DINO)+fusion overhead)",
+  "setting_axis": {
+    "overall": {
+      "n": 30,
+      "mean_effad_image_auroc": 88.55,
+      "mean_fusion_image_auroc": 95.23,
+      "mean_effad_pixel_auroc": 92.8
+    },
+    "by_dataset": {
+      "MVTec AD": {
+        "n": 15,
+        "mean_effad_image_auroc": 90.64,
+        "mean_fusion_image_auroc": 97.34,
+        "mean_effad_pixel_auroc": 92.44
+      },
+      "VisA": {
+        "n": 12,
+        "mean_effad_image_auroc": 86.61,
+        "mean_fusion_image_auroc": 92.56,
+        "mean_effad_pixel_auroc": 96.13
+      },
+      "BTAD": {
+        "n": 3,
+        "mean_effad_image_auroc": 85.9,
+        "mean_fusion_image_auroc": 95.33,
+        "mean_effad_pixel_auroc": 81.24
+      }
+    },
+    "efficientad": {
+      "target_data": "per-category normal training set (distillation)",
+      "cross_category": "no (re-train per product)",
+      "latency_ms": 4.835
+    },
+    "clip_dino_fusion": {
+      "target_data": "none (zero/few-shot)",
+      "cross_category": "yes",
+      "latency_ms": 97.28
+    }
+  },
+  "cascade": {
+    "overall": {
+      "50": {
+        "mean_escalation": 0.768,
+        "mean_cascade_auroc": 91.96,
+        "mean_latency_ms": 75.8
+      },
+      "60": {
+        "mean_escalation": 0.717,
+        "mean_cascade_auroc": 91.41,
+        "mean_latency_ms": 71.1
+      },
+      "70": {
+        "mean_escalation": 0.659,
+        "mean_cascade_auroc": 90.75,
+        "mean_latency_ms": 65.7
+      },
+      "80": {
+        "mean_escalation": 0.599,
+        "mean_cascade_auroc": 90.19,
+        "mean_latency_ms": 60.2
+      },
+      "90": {
+        "mean_escalation": 0.511,
+        "mean_cascade_auroc": 89.23,
+        "mean_latency_ms": 52.1
+      }
+    },
+    "by_dataset": {
+      "MVTec AD": {
+        "50": {
+          "mean_escalation": 0.82,
+          "mean_cascade_auroc": 94.53,
+          "mean_latency_ms": 80.6
+        },
+        "60": {
+          "mean_escalation": 0.778,
+          "mean_cascade_auroc": 93.87,
+          "mean_latency_ms": 76.8
+        },
+        "70": {
+          "mean_escalation": 0.727,
+          "mean_cascade_auroc": 92.97,
+          "mean_latency_ms": 72.0
+        },
+        "80": {
+          "mean_escalation": 0.677,
+          "mean_cascade_auroc": 92.43,
+          "mean_latency_ms": 67.4
+        },
+        "90": {
+          "mean_escalation": 0.595,
+          "mean_cascade_auroc": 91.37,
+          "mean_latency_ms": 59.8
+        }
+      },
+      "VisA": {
+        "50": {
+          "mean_escalation": 0.724,
+          "mean_cascade_auroc": 89.29,
+          "mean_latency_ms": 71.8
+        },
+        "60": {
+          "mean_escalation": 0.666,
+          "mean_cascade_auroc": 88.97,
+          "mean_latency_ms": 66.4
+        },
+        "70": {
+          "mean_escalation": 0.602,
+          "mean_cascade_auroc": 88.57,
+          "mean_latency_ms": 60.4
+        },
+        "80": {
+          "mean_escalation": 0.528,
+          "mean_cascade_auroc": 88.05,
+          "mean_latency_ms": 53.6
+        },
+        "90": {
+          "mean_escalation": 0.428,
+          "mean_cascade_auroc": 87.17,
+          "mean_latency_ms": 44.4
+        }
+      },
+      "BTAD": {
+        "50": {
+          "mean_escalation": 0.685,
+          "mean_cascade_auroc": 89.8,
+          "mean_latency_ms": 68.2
+        },
+        "60": {
+          "mean_escalation": 0.612,
+          "mean_cascade_auroc": 88.93,
+          "mean_latency_ms": 61.4
+        },
+        "70": {
+          "mean_escalation": 0.547,
+          "mean_cascade_auroc": 88.43,
+          "mean_latency_ms": 55.4
+        },
+        "80": {
+          "mean_escalation": 0.492,
+          "mean_cascade_auroc": 87.6,
+          "mean_latency_ms": 50.3
+        },
+        "90": {
+          "mean_escalation": 0.425,
+          "mean_cascade_auroc": 86.73,
+          "mean_latency_ms": 44.1
+        }
+      }
+    }
+  },
+  "per_category": [
+    {
+      "dataset": "BTAD",
+      "dataset_key": "btad",
+      "category": "01",
+      "effad_image_auroc": 93.3,
+      "fusion_image_auroc": 95.3,
+      "effad_pixel_auroc": 63.14,
+      "effad_latency_ms": 5.931,
+      "n": 70
+    },
+    {
+      "dataset": "BTAD",
+      "dataset_key": "btad",
+      "category": "02",
+      "effad_image_auroc": 72.4,
+      "fusion_image_auroc": 91.3,
+      "effad_pixel_auroc": 85.98,
+      "effad_latency_ms": 4.537,
+      "n": 230
+    },
+    {
+      "dataset": "BTAD",
+      "dataset_key": "btad",
+      "category": "03",
+      "effad_image_auroc": 92.0,
+      "fusion_image_auroc": 99.4,
+      "effad_pixel_auroc": 94.61,
+      "effad_latency_ms": 4.778,
+      "n": 441
+    },
+    {
+      "dataset": "MVTec AD",
+      "dataset_key": "mvtec",
+      "category": "bottle",
+      "effad_image_auroc": 100.0,
+      "fusion_image_auroc": 99.7,
+      "effad_pixel_auroc": 97.59,
+      "effad_latency_ms": 4.898,
+      "n": 83
+    },
+    {
+      "dataset": "MVTec AD",
+      "dataset_key": "mvtec",
+      "category": "cable",
+      "effad_image_auroc": 92.6,
+      "fusion_image_auroc": 92.4,
+      "effad_pixel_auroc": 96.17,
+      "effad_latency_ms": 4.683,
+      "n": 150
+    },
+    {
+      "dataset": "MVTec AD",
+      "dataset_key": "mvtec",
+      "category": "capsule",
+      "effad_image_auroc": 62.0,
+      "fusion_image_auroc": 92.7,
+      "effad_pixel_auroc": 85.0,
+      "effad_latency_ms": 4.037,
+      "n": 132
+    },
+    {
+      "dataset": "MVTec AD",
+      "dataset_key": "mvtec",
+      "category": "carpet",
+      "effad_image_auroc": 99.4,
+      "fusion_image_auroc": 99.8,
+      "effad_pixel_auroc": 95.78,
+      "effad_latency_ms": 4.337,
+      "n": 117
+    },
+    {
+      "dataset": "MVTec AD",
+      "dataset_key": "mvtec",
+      "category": "grid",
+      "effad_image_auroc": 99.4,
+      "fusion_image_auroc": 99.2,
+      "effad_pixel_auroc": 92.9,
+      "effad_latency_ms": 4.916,
+      "n": 78
+    },
+    {
+      "dataset": "MVTec AD",
+      "dataset_key": "mvtec",
+      "category": "hazelnut",
+      "effad_image_auroc": 88.5,
+      "fusion_image_auroc": 98.7,
+      "effad_pixel_auroc": 84.1,
+      "effad_latency_ms": 3.89,
+      "n": 110
+    },
+    {
+      "dataset": "MVTec AD",
+      "dataset_key": "mvtec",
+      "category": "leather",
+      "effad_image_auroc": 93.2,
+      "fusion_image_auroc": 100.0,
+      "effad_pixel_auroc": 96.9,
+      "effad_latency_ms": 4.222,
+      "n": 124
+    },
+    {
+      "dataset": "MVTec AD",
+      "dataset_key": "mvtec",
+      "category": "metal_nut",
+      "effad_image_auroc": 97.0,
+      "fusion_image_auroc": 99.9,
+      "effad_pixel_auroc": 92.67,
+      "effad_latency_ms": 4.407,
+      "n": 115
+    },
+    {
+      "dataset": "MVTec AD",
+      "dataset_key": "mvtec",
+      "category": "pill",
+      "effad_image_auroc": 93.6,
+      "fusion_image_auroc": 95.3,
+      "effad_pixel_auroc": 96.68,
+      "effad_latency_ms": 4.595,
+      "n": 167
+    },
+    {
+      "dataset": "MVTec AD",
+      "dataset_key": "mvtec",
+      "category": "screw",
+      "effad_image_auroc": 84.2,
+      "fusion_image_auroc": 91.8,
+      "effad_pixel_auroc": 97.22,
+      "effad_latency_ms": 5.279,
+      "n": 160
+    },
+    {
+      "dataset": "MVTec AD",
+      "dataset_key": "mvtec",
+      "category": "tile",
+      "effad_image_auroc": 99.9,
+      "fusion_image_auroc": 100.0,
+      "effad_pixel_auroc": 89.02,
+      "effad_latency_ms": 5.151,
+      "n": 117
+    },
+    {
+      "dataset": "MVTec AD",
+      "dataset_key": "mvtec",
+      "category": "toothbrush",
+      "effad_image_auroc": 78.9,
+      "fusion_image_auroc": 95.0,
+      "effad_pixel_auroc": 93.09,
+      "effad_latency_ms": 7.225,
+      "n": 42
+    },
+    {
+      "dataset": "MVTec AD",
+      "dataset_key": "mvtec",
+      "category": "transistor",
+      "effad_image_auroc": 80.6,
+      "fusion_image_auroc": 97.2,
+      "effad_pixel_auroc": 87.82,
+      "effad_latency_ms": 5.153,
+      "n": 100
+    },
+    {
+      "dataset": "MVTec AD",
+      "dataset_key": "mvtec",
+      "category": "wood",
+      "effad_image_auroc": 97.0,
+      "fusion_image_auroc": 98.4,
+      "effad_pixel_auroc": 86.76,
+      "effad_latency_ms": 4.342,
+      "n": 79
+    },
+    {
+      "dataset": "MVTec AD",
+      "dataset_key": "mvtec",
+      "category": "zipper",
+      "effad_image_auroc": 93.3,
+      "fusion_image_auroc": 100.0,
+      "effad_pixel_auroc": 94.91,
+      "effad_latency_ms": 3.777,
+      "n": 151
+    },
+    {
+      "dataset": "VisA",
+      "dataset_key": "visa",
+      "category": "candle",
+      "effad_image_auroc": 68.7,
+      "fusion_image_auroc": 96.5,
+      "effad_pixel_auroc": 88.36,
+      "effad_latency_ms": 5.101,
+      "n": 200
+    },
+    {
+      "dataset": "VisA",
+      "dataset_key": "visa",
+      "category": "capsules",
+      "effad_image_auroc": 59.7,
+      "fusion_image_auroc": 96.4,
+      "effad_pixel_auroc": 94.38,
+      "effad_latency_ms": 4.467,
+      "n": 160
+    },
+    {
+      "dataset": "VisA",
+      "dataset_key": "visa",
+      "category": "cashew",
+      "effad_image_auroc": 90.8,
+      "fusion_image_auroc": 80.8,
+      "effad_pixel_auroc": 93.81,
+      "effad_latency_ms": 5.212,
+      "n": 150
+    },
+    {
+      "dataset": "VisA",
+      "dataset_key": "visa",
+      "category": "chewinggum",
+      "effad_image_auroc": 86.9,
+      "fusion_image_auroc": 98.9,
+      "effad_pixel_auroc": 97.19,
+      "effad_latency_ms": 5.521,
+      "n": 150
+    },
+    {
+      "dataset": "VisA",
+      "dataset_key": "visa",
+      "category": "fryum",
+      "effad_image_auroc": 84.3,
+      "fusion_image_auroc": 97.8,
+      "effad_pixel_auroc": 93.16,
+      "effad_latency_ms": 4.858,
+      "n": 150
+    },
+    {
+      "dataset": "VisA",
+      "dataset_key": "visa",
+      "category": "macaroni1",
+      "effad_image_auroc": 91.9,
+      "fusion_image_auroc": 94.7,
+      "effad_pixel_auroc": 99.09,
+      "effad_latency_ms": 4.273,
+      "n": 200
+    },
+    {
+      "dataset": "VisA",
+      "dataset_key": "visa",
+      "category": "macaroni2",
+      "effad_image_auroc": 80.7,
+      "fusion_image_auroc": 81.8,
+      "effad_pixel_auroc": 98.4,
+      "effad_latency_ms": 5.324,
+      "n": 200
+    },
+    {
+      "dataset": "VisA",
+      "dataset_key": "visa",
+      "category": "pcb1",
+      "effad_image_auroc": 94.0,
+      "fusion_image_auroc": 93.7,
+      "effad_pixel_auroc": 98.91,
+      "effad_latency_ms": 4.671,
+      "n": 200
+    },
+    {
+      "dataset": "VisA",
+      "dataset_key": "visa",
+      "category": "pcb2",
+      "effad_image_auroc": 96.7,
+      "fusion_image_auroc": 91.2,
+      "effad_pixel_auroc": 98.21,
+      "effad_latency_ms": 4.966,
+      "n": 200
+    },
+    {
+      "dataset": "VisA",
+      "dataset_key": "visa",
+      "category": "pcb3",
+      "effad_image_auroc": 95.4,
+      "fusion_image_auroc": 85.9,
+      "effad_pixel_auroc": 99.28,
+      "effad_latency_ms": 4.364,
+      "n": 201
+    },
+    {
+      "dataset": "VisA",
+      "dataset_key": "visa",
+      "category": "pcb4",
+      "effad_image_auroc": 98.2,
+      "fusion_image_auroc": 97.5,
+      "effad_pixel_auroc": 94.55,
+      "effad_latency_ms": 4.775,
+      "n": 201
+    },
+    {
+      "dataset": "VisA",
+      "dataset_key": "visa",
+      "category": "pipe_fryum",
+      "effad_image_auroc": 92.0,
+      "fusion_image_auroc": 95.5,
+      "effad_pixel_auroc": 98.27,
+      "effad_latency_ms": 5.345,
+      "n": 150
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "n_categories": 30,
+  "total_method_evaluations": 112,
+  "distinct_methods": 102,
+  "total_cycles": 6,
+  "paradigms_explored": 12,
+  "fixed_065_auroc": 95.226,
+  "oracle_auroc": 95.602,
+  "gap_pp": 0.376,
+  "mean_regret_pp": 0.377,
+  "best_unsupervised": {
+    "method": "Trimmed-95",
+    "auroc": 95.23,
+    "improvement_pp": 0.004
+  },
+  "regret_concentration": {
+    "top_1_pct": 15.5,
+    "top_3_pct": 44.8,
+    "top_5_pct": 67.9
+  },
+  "oracle_surface": {
+    "flat_categories": 11,
+    "moderate_categories": 14,
+    "steep_categories": 5,
+    "total": 30
+  },
+  "alpha_distribution": {
+    "near_065_within_01": 17,
+    "mid_01_03": 9,
+    "far_beyond_03": 4,
+    "mean_distance": 0.145,
+    "median_distance": 0.085
+  },
+  "thesis_support": "Understanding != Optimization confirmed by exhaustive 30-category search"
+}

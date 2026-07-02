@@ -1,0 +1,48 @@
+{
+  "experiment": "leave-one-dataset-out alpha transfer",
+  "n_categories": 30,
+  "alpha_grid_step": 0.01,
+  "normalization": "per-category min-max",
+  "global_alpha_all30": 0.65,
+  "folds": {
+    "MVTec": {
+      "transfer_alpha": 0.7,
+      "n_held": 15,
+      "held_transfer_auroc": 97.259,
+      "held_oracle_auroc": 97.616,
+      "held_transfer_regret_pp": 0.358,
+      "held_fixed065_regret_pp": 0.275
+    },
+    "VisA": {
+      "transfer_alpha": 0.65,
+      "n_held": 12,
+      "held_transfer_auroc": 92.553,
+      "held_oracle_auroc": 93.122,
+      "held_transfer_regret_pp": 0.569,
+      "held_fixed065_regret_pp": 0.569
+    },
+    "BTAD": {
+      "transfer_alpha": 0.65,
+      "n_held": 3,
+      "held_transfer_auroc": 95.345,
+      "held_oracle_auroc": 95.455,
+      "held_transfer_regret_pp": 0.11,
+      "held_fixed065_regret_pp": 0.11
+    }
+  },
+  "pooled": {
+    "lodo_transfer_regret_mean_pp": 0.418,
+    "lodo_transfer_regret_max_pp": 1.875,
+    "insample_fixed065_regret_mean_pp": 0.377,
+    "insample_fixed065_regret_max_pp": 1.755,
+    "insample_global_alpha_regret_mean_pp": 0.377,
+    "transfer_minus_fixed_mean_pp": 0.041,
+    "wilcoxon_transfer_vs_fixed_W": 24.0,
+    "wilcoxon_transfer_vs_fixed_p": 0.2393
+  },
+  "transferred_alpha_per_fold": {
+    "MVTec": 0.7,
+    "VisA": 0.65,
+    "BTAD": 0.65
+  }
+}

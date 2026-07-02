@@ -1,0 +1,64 @@
+{
+  "experiment": "C5 EfficientAD reference benchmark",
+  "hardware": "RTX 4090",
+  "n_categories": 6,
+  "mean_image_auroc": 90.15,
+  "mean_latency_ms": 4.584,
+  "mean_throughput_img_s": 222.6,
+  "per_category": [
+    {
+      "category": "bottle",
+      "image_auroc": 100.0,
+      "train_seconds": 255.4,
+      "latency_ms_per_image": 4.47,
+      "throughput_img_s": 223.7,
+      "n_predictions": 83,
+      "max_epochs": 15
+    },
+    {
+      "category": "cable",
+      "image_auroc": 91.9,
+      "train_seconds": 460.7,
+      "latency_ms_per_image": 4.823,
+      "throughput_img_s": 207.3,
+      "n_predictions": 150,
+      "max_epochs": 15
+    },
+    {
+      "category": "carpet",
+      "image_auroc": 98.52,
+      "train_seconds": 474.0,
+      "latency_ms_per_image": 4.307,
+      "throughput_img_s": 232.2,
+      "n_predictions": 117,
+      "max_epochs": 15
+    },
+    {
+      "category": "grid",
+      "image_auroc": 99.42,
+      "train_seconds": 263.3,
+      "latency_ms_per_image": 5.898,
+      "throughput_img_s": 169.6,
+      "n_predictions": 78,
+      "max_epochs": 15
+    },
+    {
+      "category": "hazelnut",
+      "image_auroc": 82.21,
+      "train_seconds": 570.0,
+      "latency_ms_per_image": 4.305,
+      "throughput_img_s": 232.3,
+      "n_predictions": 110,
+      "max_epochs": 15
+    },
+    {
+      "category": "transistor",
+      "image_auroc": 68.83,
+      "train_seconds": 384.0,
+      "latency_ms_per_image": 3.699,
+      "throughput_img_s": 270.4,
+      "n_predictions": 100,
+      "max_epochs": 15
+    }
+  ]
+}

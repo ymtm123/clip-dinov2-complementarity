@@ -1,0 +1,41 @@
+{
+  "n_categories": 30,
+  "note": "seed-AVERAGED over 10 reference-image seeds (image-side oracle alpha seed-averaged; pixel-side alpha seed-0 pending pixel multi-seed). Permutation N=20000, RNG seed 42.",
+  "associations": {
+    "A_clip_vs_dino": {
+      "pooled_wilcoxon_p": 0.0008,
+      "pooled_mean_diff": 5.232,
+      "perm_within_dataset_p": 0.0003,
+      "between_dataset_var_share_icc": 0.084,
+      "per_dataset_mean_diff": {
+        "MVTec AD": 3.25,
+        "VisA": 8.09,
+        "BTAD": 3.69
+      }
+    },
+    "B_fusion_vs_best_single": {
+      "pooled_wilcoxon_p": 0.0113,
+      "pooled_mean_gain": 1.076,
+      "perm_within_dataset_p": 0.0183,
+      "between_dataset_var_share_icc": 0.02
+    },
+    "C_type_to_alpha": {
+      "pooled_mannwhitney_p": 0.0223,
+      "object_mean_alpha": 0.645,
+      "texture_mean_alpha": 0.363,
+      "n_object": 24,
+      "n_texture": 6,
+      "perm_within_dataset_p": 0.0071,
+      "n_datasets_with_both_types": 2,
+      "between_dataset_var_share_icc": 0.115
+    },
+    "D_reversal_to_gain": {
+      "pooled_mannwhitney_p": 0.0292,
+      "reversal_mean_gain": 2.089,
+      "nonreversal_mean_gain": 0.4,
+      "n_reversal": 12,
+      "n_nonreversal": 18,
+      "perm_within_dataset_p": 0.0339
+    }
+  }
+}

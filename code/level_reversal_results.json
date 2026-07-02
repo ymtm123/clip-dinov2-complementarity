@@ -1,0 +1,311 @@
+{
+  "experiment_16_level_reversal": {
+    "n_total": 30,
+    "n_reversal": 15,
+    "reversal_rate": 0.5,
+    "mean_lcs": 0.7583333333333332,
+    "mean_alpha_shift": 0.02500000000000001,
+    "per_category": [
+      {
+        "category": "bottle",
+        "dataset": "MVTec",
+        "type": "object",
+        "img_alpha": 0.9,
+        "pix_alpha": 1.0,
+        "lcs": 0.9,
+        "reversal": false,
+        "alpha_shift": 0.09999999999999998
+      },
+      {
+        "category": "cable",
+        "dataset": "MVTec",
+        "type": "object",
+        "img_alpha": 0.55,
+        "pix_alpha": 0.4,
+        "lcs": 0.85,
+        "reversal": true,
+        "alpha_shift": -0.15000000000000002
+      },
+      {
+        "category": "capsule",
+        "dataset": "MVTec",
+        "type": "object",
+        "img_alpha": 0.4,
+        "pix_alpha": 0.8,
+        "lcs": 0.6,
+        "reversal": true,
+        "alpha_shift": 0.4
+      },
+      {
+        "category": "carpet",
+        "dataset": "MVTec",
+        "type": "texture",
+        "img_alpha": 0.05,
+        "pix_alpha": 0.45,
+        "lcs": 0.6,
+        "reversal": false,
+        "alpha_shift": 0.4
+      },
+      {
+        "category": "grid",
+        "dataset": "MVTec",
+        "type": "texture",
+        "img_alpha": 0.35,
+        "pix_alpha": 1.0,
+        "lcs": 0.35,
+        "reversal": true,
+        "alpha_shift": 0.65
+      },
+      {
+        "category": "hazelnut",
+        "dataset": "MVTec",
+        "type": "object",
+        "img_alpha": 0.35,
+        "pix_alpha": 0.8,
+        "lcs": 0.5499999999999999,
+        "reversal": true,
+        "alpha_shift": 0.45000000000000007
+      },
+      {
+        "category": "leather",
+        "dataset": "MVTec",
+        "type": "texture",
+        "img_alpha": 0.5,
+        "pix_alpha": 0.75,
+        "lcs": 0.75,
+        "reversal": true,
+        "alpha_shift": 0.25
+      },
+      {
+        "category": "metal_nut",
+        "dataset": "MVTec",
+        "type": "object",
+        "img_alpha": 0.9,
+        "pix_alpha": 1.0,
+        "lcs": 0.9,
+        "reversal": false,
+        "alpha_shift": 0.09999999999999998
+      },
+      {
+        "category": "pill",
+        "dataset": "MVTec",
+        "type": "object",
+        "img_alpha": 0.7,
+        "pix_alpha": 0.75,
+        "lcs": 0.95,
+        "reversal": false,
+        "alpha_shift": 0.050000000000000044
+      },
+      {
+        "category": "screw",
+        "dataset": "MVTec",
+        "type": "object",
+        "img_alpha": 0.75,
+        "pix_alpha": 0.4,
+        "lcs": 0.65,
+        "reversal": true,
+        "alpha_shift": -0.35
+      },
+      {
+        "category": "tile",
+        "dataset": "MVTec",
+        "type": "texture",
+        "img_alpha": 0.0,
+        "pix_alpha": 0.25,
+        "lcs": 0.75,
+        "reversal": false,
+        "alpha_shift": 0.25
+      },
+      {
+        "category": "toothbrush",
+        "dataset": "MVTec",
+        "type": "object",
+        "img_alpha": 0.65,
+        "pix_alpha": 0.8,
+        "lcs": 0.85,
+        "reversal": false,
+        "alpha_shift": 0.15000000000000002
+      },
+      {
+        "category": "transistor",
+        "dataset": "MVTec",
+        "type": "object",
+        "img_alpha": 0.55,
+        "pix_alpha": 0.35,
+        "lcs": 0.7999999999999999,
+        "reversal": true,
+        "alpha_shift": -0.20000000000000007
+      },
+      {
+        "category": "wood",
+        "dataset": "MVTec",
+        "type": "texture",
+        "img_alpha": 0.7,
+        "pix_alpha": 0.0,
+        "lcs": 0.30000000000000004,
+        "reversal": true,
+        "alpha_shift": -0.7
+      },
+      {
+        "category": "zipper",
+        "dataset": "MVTec",
+        "type": "object",
+        "img_alpha": 0.65,
+        "pix_alpha": 0.4,
+        "lcs": 0.75,
+        "reversal": true,
+        "alpha_shift": -0.25
+      },
+      {
+        "category": "candle",
+        "dataset": "VisA",
+        "type": "object",
+        "img_alpha": 0.6,
+        "pix_alpha": 0.2,
+        "lcs": 0.6000000000000001,
+        "reversal": true,
+        "alpha_shift": -0.39999999999999997
+      },
+      {
+        "category": "capsules",
+        "dataset": "VisA",
+        "type": "object",
+        "img_alpha": 0.85,
+        "pix_alpha": 0.35,
+        "lcs": 0.5,
+        "reversal": true,
+        "alpha_shift": -0.5
+      },
+      {
+        "category": "cashew",
+        "dataset": "VisA",
+        "type": "object",
+        "img_alpha": 0.55,
+        "pix_alpha": 0.6,
+        "lcs": 0.9500000000000001,
+        "reversal": false,
+        "alpha_shift": 0.04999999999999993
+      },
+      {
+        "category": "chewinggum",
+        "dataset": "VisA",
+        "type": "object",
+        "img_alpha": 0.75,
+        "pix_alpha": 1.0,
+        "lcs": 0.75,
+        "reversal": false,
+        "alpha_shift": 0.25
+      },
+      {
+        "category": "fryum",
+        "dataset": "VisA",
+        "type": "object",
+        "img_alpha": 0.65,
+        "pix_alpha": 0.3,
+        "lcs": 0.6499999999999999,
+        "reversal": true,
+        "alpha_shift": -0.35000000000000003
+      },
+      {
+        "category": "macaroni1",
+        "dataset": "VisA",
+        "type": "object",
+        "img_alpha": 0.5,
+        "pix_alpha": 0.65,
+        "lcs": 0.85,
+        "reversal": true,
+        "alpha_shift": 0.15000000000000002
+      },
+      {
+        "category": "macaroni2",
+        "dataset": "VisA",
+        "type": "object",
+        "img_alpha": 0.65,
+        "pix_alpha": 0.75,
+        "lcs": 0.9,
+        "reversal": false,
+        "alpha_shift": 0.09999999999999998
+      },
+      {
+        "category": "pcb1",
+        "dataset": "VisA",
+        "type": "object",
+        "img_alpha": 0.65,
+        "pix_alpha": 0.8,
+        "lcs": 0.85,
+        "reversal": false,
+        "alpha_shift": 0.15000000000000002
+      },
+      {
+        "category": "pcb2",
+        "dataset": "VisA",
+        "type": "object",
+        "img_alpha": 0.85,
+        "pix_alpha": 0.95,
+        "lcs": 0.9,
+        "reversal": false,
+        "alpha_shift": 0.09999999999999998
+      },
+      {
+        "category": "pcb3",
+        "dataset": "VisA",
+        "type": "object",
+        "img_alpha": 0.9,
+        "pix_alpha": 1.0,
+        "lcs": 0.9,
+        "reversal": false,
+        "alpha_shift": 0.09999999999999998
+      },
+      {
+        "category": "pcb4",
+        "dataset": "VisA",
+        "type": "object",
+        "img_alpha": 0.65,
+        "pix_alpha": 0.6,
+        "lcs": 0.95,
+        "reversal": false,
+        "alpha_shift": -0.050000000000000044
+      },
+      {
+        "category": "pipe_fryum",
+        "dataset": "VisA",
+        "type": "object",
+        "img_alpha": 0.45,
+        "pix_alpha": 0.65,
+        "lcs": 0.8,
+        "reversal": true,
+        "alpha_shift": 0.2
+      },
+      {
+        "category": "01",
+        "dataset": "BTAD",
+        "type": "object",
+        "img_alpha": 0.7,
+        "pix_alpha": 0.8,
+        "lcs": 0.8999999999999999,
+        "reversal": false,
+        "alpha_shift": 0.10000000000000009
+      },
+      {
+        "category": "02",
+        "dataset": "BTAD",
+        "type": "texture",
+        "img_alpha": 0.55,
+        "pix_alpha": 0.25,
+        "lcs": 0.7,
+        "reversal": true,
+        "alpha_shift": -0.30000000000000004
+      },
+      {
+        "category": "03",
+        "dataset": "BTAD",
+        "type": "object",
+        "img_alpha": 0.75,
+        "pix_alpha": 0.75,
+        "lcs": 1.0,
+        "reversal": false,
+        "alpha_shift": 0.0
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "experiment_28_difficulty_decomposition": {
+    "part_a": {
+      "n_categories": 30,
+      "predictor_correlations": {
+        "best_single": {
+          "rho": -0.626766051269657,
+          "p": 0.00021061992260703745
+        },
+        "dino_separation": {
+          "rho": -0.6525027808676307,
+          "p": 9.319733966896083e-05
+        },
+        "clip_separation": {
+          "rho": -0.1897664071190211,
+          "p": 0.315189482908271
+        },
+        "n_anomaly": {
+          "rho": 0.2692810493563786,
+          "p": 0.15015649328893693
+        },
+        "anomaly_ratio": {
+          "rho": -0.08527788522615233,
+          "p": 0.654112246924
+        },
+        "anomaly_score_corr": {
+          "rho": 0.0024471635150166847,
+          "p": 0.9897601406859131
+        }
+      },
+      "mean_normal_corr": 0.10871506997316943,
+      "mean_anomaly_corr": 0.28991395137306025
+    },
+    "part_b": {
+      "total_anomalies": 2748,
+      "both_detect_pct": 53.63901018922853,
+      "clip_exclusive_pct": 9.315866084425037,
+      "dino_exclusive_pct": 22.780203784570595,
+      "neither_detect_pct": 14.264919941775837,
+      "fusion_rescue_pct": 7.532751091703056
+    },
+    "part_c": {
+      "mean_normal_corr": 0.10871506997316943,
+      "mean_anomaly_corr": 0.28991395137306025,
+      "mean_gap": -0.18119888139989088,
+      "ttest_p": 0.00294976467544131,
+      "higher_normal_agreement_pct": 26.666666666666668,
+      "gap_predicts_gain": {
+        "rho": -0.004226918798665183,
+        "p": 0.9823138806139919
+      }
+    },
+    "part_d": {
+      "n_categories": 30,
+      "positive_rate": 73.33333333333333,
+      "significant_rate": 30.0,
+      "n_negative": 8
+    }
+  }
+}

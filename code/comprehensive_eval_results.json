@@ -1,0 +1,518 @@
+{
+  "MVTec AD": {
+    "CLIP only": {
+      "mean_auroc": 91.55,
+      "ogrr": -2.3,
+      "regret": 6.02,
+      "per_category": {
+        "bottle": 88.65,
+        "cable": 70.28,
+        "capsule": 89.51,
+        "carpet": 99.96,
+        "grid": 97.83,
+        "hazelnut": 97.18,
+        "leather": 99.83,
+        "metal_nut": 92.38,
+        "pill": 81.1,
+        "screw": 82.11,
+        "tile": 100.0,
+        "toothbrush": 85.28,
+        "transistor": 93.88,
+        "wood": 96.93,
+        "zipper": 98.4
+      }
+    },
+    "DINOv2 only": {
+      "mean_auroc": 95.77,
+      "ogrr": -1.593,
+      "regret": 1.81,
+      "per_category": {
+        "bottle": 99.92,
+        "cable": 91.09,
+        "capsule": 89.59,
+        "carpet": 99.04,
+        "grid": 98.08,
+        "hazelnut": 97.75,
+        "leather": 99.73,
+        "metal_nut": 100.0,
+        "pill": 92.64,
+        "screw": 90.14,
+        "tile": 99.64,
+        "toothbrush": 93.06,
+        "transistor": 91.58,
+        "wood": 94.47,
+        "zipper": 99.79
+      }
+    },
+    "Equal (a=0.5)": {
+      "mean_auroc": 97.03,
+      "ogrr": 0.493,
+      "regret": 0.54,
+      "per_category": {
+        "bottle": 98.57,
+        "cable": 92.0,
+        "capsule": 93.78,
+        "carpet": 99.92,
+        "grid": 99.58,
+        "hazelnut": 98.96,
+        "leather": 99.97,
+        "metal_nut": 99.51,
+        "pill": 94.33,
+        "screw": 90.74,
+        "tile": 100.0,
+        "toothbrush": 92.78,
+        "transistor": 97.12,
+        "wood": 98.33,
+        "zipper": 99.87
+      }
+    },
+    "Fixed (a=0.65)": {
+      "mean_auroc": 97.34,
+      "ogrr": 0.392,
+      "regret": 0.23,
+      "per_category": {
+        "bottle": 99.68,
+        "cable": 92.45,
+        "capsule": 92.74,
+        "carpet": 99.76,
+        "grid": 99.25,
+        "hazelnut": 98.71,
+        "leather": 99.97,
+        "metal_nut": 99.85,
+        "pill": 95.25,
+        "screw": 91.8,
+        "tile": 100.0,
+        "toothbrush": 95.0,
+        "transistor": 97.25,
+        "wood": 98.42,
+        "zipper": 99.97
+      }
+    },
+    "DINO-heavy (a=0.7)": {
+      "mean_auroc": 97.26,
+      "ogrr": 0.214,
+      "regret": 0.32,
+      "per_category": {
+        "bottle": 99.76,
+        "cable": 92.45,
+        "capsule": 92.62,
+        "carpet": 99.68,
+        "grid": 99.16,
+        "hazelnut": 98.61,
+        "leather": 99.97,
+        "metal_nut": 99.9,
+        "pill": 95.42,
+        "screw": 91.7,
+        "tile": 100.0,
+        "toothbrush": 94.44,
+        "transistor": 96.62,
+        "wood": 98.6,
+        "zipper": 99.95
+      }
+    },
+    "Max fusion": {
+      "mean_auroc": 93.31,
+      "ogrr": -1.654,
+      "regret": 4.26,
+      "per_category": {
+        "bottle": 95.48,
+        "cable": 75.0,
+        "capsule": 91.46,
+        "carpet": 99.92,
+        "grid": 98.5,
+        "hazelnut": 97.61,
+        "leather": 99.83,
+        "metal_nut": 94.48,
+        "pill": 88.11,
+        "screw": 83.34,
+        "tile": 100.0,
+        "toothbrush": 86.11,
+        "transistor": 94.17,
+        "wood": 96.84,
+        "zipper": 98.87
+      }
+    },
+    "AdaFuse-PF": {
+      "mean_auroc": 97.3,
+      "ogrr": 0.42,
+      "regret": 0.28,
+      "per_category": {
+        "bottle": 99.6,
+        "cable": 92.47,
+        "capsule": 92.82,
+        "carpet": 99.8,
+        "grid": 99.16,
+        "hazelnut": 98.64,
+        "leather": 99.97,
+        "metal_nut": 99.85,
+        "pill": 95.23,
+        "screw": 91.76,
+        "tile": 100.0,
+        "toothbrush": 94.72,
+        "transistor": 97.12,
+        "wood": 98.42,
+        "zipper": 99.92
+      }
+    },
+    "AdaFuse-Hybrid": {
+      "mean_auroc": 97.35,
+      "ogrr": 0.512,
+      "regret": 0.22,
+      "per_category": {
+        "bottle": 99.6,
+        "cable": 92.37,
+        "capsule": 93.42,
+        "carpet": 99.84,
+        "grid": 99.5,
+        "hazelnut": 98.82,
+        "leather": 99.97,
+        "metal_nut": 99.9,
+        "pill": 95.04,
+        "screw": 91.37,
+        "tile": 100.0,
+        "toothbrush": 94.72,
+        "transistor": 97.5,
+        "wood": 98.25,
+        "zipper": 99.97
+      }
+    },
+    "AdaFuse-KS": {
+      "mean_auroc": 97.34,
+      "ogrr": 0.392,
+      "regret": 0.23,
+      "per_category": {
+        "bottle": 99.68,
+        "cable": 92.45,
+        "capsule": 92.74,
+        "carpet": 99.76,
+        "grid": 99.25,
+        "hazelnut": 98.71,
+        "leather": 99.97,
+        "metal_nut": 99.85,
+        "pill": 95.25,
+        "screw": 91.8,
+        "tile": 100.0,
+        "toothbrush": 95.0,
+        "transistor": 97.25,
+        "wood": 98.42,
+        "zipper": 99.97
+      }
+    },
+    "Oracle": {
+      "mean_auroc": 97.58,
+      "ogrr": 1.0,
+      "regret": 0.0,
+      "per_category": {
+        "bottle": 99.92,
+        "cable": 92.54,
+        "capsule": 94.34,
+        "carpet": 100.0,
+        "grid": 99.75,
+        "hazelnut": 99.04,
+        "leather": 99.97,
+        "metal_nut": 100.0,
+        "pill": 95.42,
+        "screw": 91.8,
+        "tile": 100.0,
+        "toothbrush": 95.0,
+        "transistor": 97.29,
+        "wood": 98.6,
+        "zipper": 99.97
+      }
+    }
+  },
+  "VisA": {
+    "CLIP only": {
+      "mean_auroc": 81.97,
+      "ogrr": -10.841,
+      "regret": 11.1,
+      "per_category": {
+        "candle": 80.94,
+        "capsules": 82.78,
+        "cashew": 75.96,
+        "chewinggum": 97.22,
+        "fryum": 92.7,
+        "macaroni1": 86.74,
+        "macaroni2": 72.21,
+        "pcb1": 85.19,
+        "pcb2": 62.05,
+        "pcb3": 61.68,
+        "pcb4": 93.89,
+        "pipe_fryum": 92.28
+      }
+    },
+    "DINOv2 only": {
+      "mean_auroc": 90.0,
+      "ogrr": -0.046,
+      "regret": 3.08,
+      "per_category": {
+        "candle": 94.0,
+        "capsules": 97.47,
+        "cashew": 74.68,
+        "chewinggum": 98.96,
+        "fryum": 93.22,
+        "macaroni1": 88.15,
+        "macaroni2": 78.88,
+        "pcb1": 90.46,
+        "pcb2": 91.41,
+        "pcb3": 87.0,
+        "pcb4": 94.7,
+        "pipe_fryum": 91.0
+      }
+    },
+    "Equal (a=0.5)": {
+      "mean_auroc": 91.64,
+      "ogrr": -1.139,
+      "regret": 1.43,
+      "per_category": {
+        "candle": 95.82,
+        "capsules": 93.93,
+        "cashew": 80.72,
+        "chewinggum": 98.62,
+        "fryum": 97.52,
+        "macaroni1": 94.91,
+        "macaroni2": 80.62,
+        "pcb1": 92.95,
+        "pcb2": 87.75,
+        "pcb3": 82.99,
+        "pcb4": 97.23,
+        "pipe_fryum": 96.62
+      }
+    },
+    "Fixed (a=0.65)": {
+      "mean_auroc": 92.55,
+      "ogrr": 0.235,
+      "regret": 0.52,
+      "per_category": {
+        "candle": 96.49,
+        "capsules": 96.4,
+        "cashew": 80.78,
+        "chewinggum": 98.9,
+        "fryum": 97.76,
+        "macaroni1": 94.69,
+        "macaroni2": 81.8,
+        "pcb1": 93.72,
+        "pcb2": 91.2,
+        "pcb3": 85.92,
+        "pcb4": 97.51,
+        "pipe_fryum": 95.46
+      }
+    },
+    "DINO-heavy (a=0.7)": {
+      "mean_auroc": 92.57,
+      "ogrr": 0.487,
+      "regret": 0.51,
+      "per_category": {
+        "candle": 96.35,
+        "capsules": 97.05,
+        "cashew": 80.36,
+        "chewinggum": 98.96,
+        "fryum": 97.52,
+        "macaroni1": 94.4,
+        "macaroni2": 81.72,
+        "pcb1": 93.68,
+        "pcb2": 91.77,
+        "pcb3": 86.56,
+        "pcb4": 97.38,
+        "pipe_fryum": 95.04
+      }
+    },
+    "Max fusion": {
+      "mean_auroc": 85.05,
+      "ogrr": -6.532,
+      "regret": 8.03,
+      "per_category": {
+        "candle": 81.93,
+        "capsules": 83.02,
+        "cashew": 76.86,
+        "chewinggum": 97.38,
+        "fryum": 94.44,
+        "macaroni1": 86.88,
+        "macaroni2": 72.41,
+        "pcb1": 88.18,
+        "pcb2": 73.37,
+        "pcb3": 77.82,
+        "pcb4": 94.41,
+        "pipe_fryum": 93.86
+      }
+    },
+    "AdaFuse-PF": {
+      "mean_auroc": 92.69,
+      "ogrr": 0.542,
+      "regret": 0.39,
+      "per_category": {
+        "candle": 96.4,
+        "capsules": 97.32,
+        "cashew": 80.6,
+        "chewinggum": 98.92,
+        "fryum": 97.58,
+        "macaroni1": 94.61,
+        "macaroni2": 81.66,
+        "pcb1": 93.67,
+        "pcb2": 92.06,
+        "pcb3": 86.54,
+        "pcb4": 97.49,
+        "pipe_fryum": 95.38
+      }
+    },
+    "AdaFuse-Hybrid": {
+      "mean_auroc": 92.53,
+      "ogrr": 0.142,
+      "regret": 0.54,
+      "per_category": {
+        "candle": 96.46,
+        "capsules": 96.35,
+        "cashew": 81.46,
+        "chewinggum": 99.02,
+        "fryum": 97.6,
+        "macaroni1": 94.89,
+        "macaroni2": 81.46,
+        "pcb1": 93.58,
+        "pcb2": 90.98,
+        "pcb3": 85.27,
+        "pcb4": 97.43,
+        "pipe_fryum": 95.86
+      }
+    },
+    "AdaFuse-KS": {
+      "mean_auroc": 92.55,
+      "ogrr": 0.235,
+      "regret": 0.52,
+      "per_category": {
+        "candle": 96.49,
+        "capsules": 96.4,
+        "cashew": 80.78,
+        "chewinggum": 98.9,
+        "fryum": 97.76,
+        "macaroni1": 94.69,
+        "macaroni2": 81.8,
+        "pcb1": 93.72,
+        "pcb2": 91.2,
+        "pcb3": 85.92,
+        "pcb4": 97.51,
+        "pipe_fryum": 95.46
+      }
+    },
+    "Oracle": {
+      "mean_auroc": 93.07,
+      "ogrr": 1.0,
+      "regret": 0.0,
+      "per_category": {
+        "candle": 96.5,
+        "capsules": 98.07,
+        "cashew": 80.84,
+        "chewinggum": 99.14,
+        "fryum": 97.76,
+        "macaroni1": 94.91,
+        "macaroni2": 81.8,
+        "pcb1": 93.72,
+        "pcb2": 92.49,
+        "pcb3": 87.44,
+        "pcb4": 97.51,
+        "pipe_fryum": 96.68
+      }
+    }
+  },
+  "BTAD": {
+    "CLIP only": {
+      "mean_auroc": 89.12,
+      "ogrr": -5.896,
+      "regret": 6.31,
+      "per_category": {
+        "01": 87.17,
+        "02": 86.7,
+        "03": 93.5
+      }
+    },
+    "DINOv2 only": {
+      "mean_auroc": 93.21,
+      "ogrr": -0.034,
+      "regret": 2.23,
+      "per_category": {
+        "01": 94.56,
+        "02": 86.22,
+        "03": 98.85
+      }
+    },
+    "Equal (a=0.5)": {
+      "mean_auroc": 95.08,
+      "ogrr": 0.563,
+      "regret": 0.36,
+      "per_category": {
+        "01": 94.95,
+        "02": 91.27,
+        "03": 99.02
+      }
+    },
+    "Fixed (a=0.65)": {
+      "mean_auroc": 95.34,
+      "ogrr": 0.916,
+      "regret": 0.09,
+      "per_category": {
+        "01": 95.34,
+        "02": 91.33,
+        "03": 99.37
+      }
+    },
+    "DINO-heavy (a=0.7)": {
+      "mean_auroc": 95.38,
+      "ogrr": 0.963,
+      "regret": 0.06,
+      "per_category": {
+        "01": 95.43,
+        "02": 91.32,
+        "03": 99.38
+      }
+    },
+    "Max fusion": {
+      "mean_auroc": 92.06,
+      "ogrr": -2.535,
+      "regret": 3.37,
+      "per_category": {
+        "01": 91.84,
+        "02": 88.3,
+        "03": 96.05
+      }
+    },
+    "AdaFuse-PF": {
+      "mean_auroc": 95.34,
+      "ogrr": 0.958,
+      "regret": 0.1,
+      "per_category": {
+        "01": 95.43,
+        "02": 91.2,
+        "03": 99.39
+      }
+    },
+    "AdaFuse-Hybrid": {
+      "mean_auroc": 95.26,
+      "ogrr": 0.75,
+      "regret": 0.17,
+      "per_category": {
+        "01": 95.04,
+        "02": 91.5,
+        "03": 99.25
+      }
+    },
+    "AdaFuse-KS": {
+      "mean_auroc": 95.34,
+      "ogrr": 0.916,
+      "regret": 0.09,
+      "per_category": {
+        "01": 95.34,
+        "02": 91.33,
+        "03": 99.37
+      }
+    },
+    "Oracle": {
+      "mean_auroc": 95.44,
+      "ogrr": 1.0,
+      "regret": 0.0,
+      "per_category": {
+        "01": 95.43,
+        "02": 91.45,
+        "03": 99.43
+      }
+    }
+  }
+}

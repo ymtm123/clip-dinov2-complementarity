@@ -1,0 +1,1316 @@
+{
+  "experiment_7_defect_taxonomy": {
+    "color": {
+      "n": 9,
+      "mean_diff": 6.25,
+      "median_diff": 3.04,
+      "std": 9.67,
+      "clip_win_rate": 77.8,
+      "t_stat": 1.827,
+      "p_value": 0.1052,
+      "defect_types": [
+        {
+          "category": "capsule",
+          "defect_type": "faulty_imprint",
+          "clip_auroc": 95.06,
+          "dino_auroc": 85.57,
+          "diff": 9.49
+        },
+        {
+          "category": "carpet",
+          "defect_type": "color",
+          "clip_auroc": 100.0,
+          "dino_auroc": 90.41,
+          "diff": 9.59
+        },
+        {
+          "category": "hazelnut",
+          "defect_type": "print",
+          "clip_auroc": 86.62,
+          "dino_auroc": 85.88,
+          "diff": 0.74
+        },
+        {
+          "category": "leather",
+          "defect_type": "color",
+          "clip_auroc": 99.01,
+          "dino_auroc": 100.0,
+          "diff": -0.99
+        },
+        {
+          "category": "metal_nut",
+          "defect_type": "color",
+          "clip_auroc": 94.42,
+          "dino_auroc": 92.98,
+          "diff": 1.45
+        },
+        {
+          "category": "pill",
+          "defect_type": "color",
+          "clip_auroc": 97.85,
+          "dino_auroc": 70.62,
+          "diff": 27.23
+        },
+        {
+          "category": "pill",
+          "defect_type": "faulty_imprint",
+          "clip_auroc": 91.7,
+          "dino_auroc": 88.66,
+          "diff": 3.04
+        },
+        {
+          "category": "tile",
+          "defect_type": "gray_stroke",
+          "clip_auroc": 89.2,
+          "dino_auroc": 97.35,
+          "diff": -8.14
+        },
+        {
+          "category": "wood",
+          "defect_type": "color",
+          "clip_auroc": 93.42,
+          "dino_auroc": 79.61,
+          "diff": 13.82
+        }
+      ]
+    },
+    "foreign_object": {
+      "n": 9,
+      "mean_diff": 1.37,
+      "median_diff": -0.66,
+      "std": 8.4,
+      "clip_win_rate": 33.3,
+      "t_stat": 0.463,
+      "p_value": 0.6557,
+      "defect_types": [
+        {
+          "category": "bottle",
+          "defect_type": "contamination",
+          "clip_auroc": 92.86,
+          "dino_auroc": 92.38,
+          "diff": 0.48
+        },
+        {
+          "category": "carpet",
+          "defect_type": "metal_contamination",
+          "clip_auroc": 100.0,
+          "dino_auroc": 100.0,
+          "diff": 0.0
+        },
+        {
+          "category": "grid",
+          "defect_type": "glue",
+          "clip_auroc": 81.39,
+          "dino_auroc": 62.77,
+          "diff": 18.61
+        },
+        {
+          "category": "grid",
+          "defect_type": "metal_contamination",
+          "clip_auroc": 87.45,
+          "dino_auroc": 74.03,
+          "diff": 13.42
+        },
+        {
+          "category": "leather",
+          "defect_type": "glue",
+          "clip_auroc": 99.34,
+          "dino_auroc": 100.0,
+          "diff": -0.66
+        },
+        {
+          "category": "pill",
+          "defect_type": "contamination",
+          "clip_auroc": 83.15,
+          "dino_auroc": 92.31,
+          "diff": -9.16
+        },
+        {
+          "category": "tile",
+          "defect_type": "glue_strip",
+          "clip_auroc": 97.47,
+          "dino_auroc": 100.0,
+          "diff": -2.53
+        },
+        {
+          "category": "tile",
+          "defect_type": "oil",
+          "clip_auroc": 97.47,
+          "dino_auroc": 100.0,
+          "diff": -2.53
+        },
+        {
+          "category": "wood",
+          "defect_type": "liquid",
+          "clip_auroc": 94.74,
+          "dino_auroc": 100.0,
+          "diff": -5.26
+        }
+      ]
+    },
+    "geometric": {
+      "n": 11,
+      "mean_diff": -11.18,
+      "median_diff": -8.22,
+      "std": 16.81,
+      "clip_win_rate": 18.2,
+      "t_stat": -2.103,
+      "p_value": 0.0618,
+      "defect_types": [
+        {
+          "category": "cable",
+          "defect_type": "bent_wire",
+          "clip_auroc": 84.35,
+          "dino_auroc": 92.57,
+          "diff": -8.22
+        },
+        {
+          "category": "cable",
+          "defect_type": "cut_inner_insulation",
+          "clip_auroc": 70.2,
+          "dino_auroc": 82.14,
+          "diff": -11.95
+        },
+        {
+          "category": "cable",
+          "defect_type": "cut_outer_insulation",
+          "clip_auroc": 50.86,
+          "dino_auroc": 97.59,
+          "diff": -46.72
+        },
+        {
+          "category": "capsule",
+          "defect_type": "squeeze",
+          "clip_auroc": 88.04,
+          "dino_auroc": 91.3,
+          "diff": -3.26
+        },
+        {
+          "category": "grid",
+          "defect_type": "bent",
+          "clip_auroc": 86.51,
+          "dino_auroc": 64.29,
+          "diff": 22.22
+        },
+        {
+          "category": "leather",
+          "defect_type": "fold",
+          "clip_auroc": 97.61,
+          "dino_auroc": 98.16,
+          "diff": -0.55
+        },
+        {
+          "category": "metal_nut",
+          "defect_type": "bent",
+          "clip_auroc": 88.0,
+          "dino_auroc": 95.64,
+          "diff": -7.64
+        },
+        {
+          "category": "screw",
+          "defect_type": "manipulated_front",
+          "clip_auroc": 59.55,
+          "dino_auroc": 58.74,
+          "diff": 0.81
+        },
+        {
+          "category": "transistor",
+          "defect_type": "bent_lead",
+          "clip_auroc": 62.0,
+          "dino_auroc": 85.17,
+          "diff": -23.17
+        },
+        {
+          "category": "transistor",
+          "defect_type": "cut_lead",
+          "clip_auroc": 50.17,
+          "dino_auroc": 71.83,
+          "diff": -21.67
+        },
+        {
+          "category": "zipper",
+          "defect_type": "squeezed_teeth",
+          "clip_auroc": 75.39,
+          "dino_auroc": 98.24,
+          "diff": -22.85
+        }
+      ]
+    },
+    "mixed": {
+      "n": 4,
+      "mean_diff": -3.01,
+      "median_diff": 1.91,
+      "std": 12.26,
+      "clip_win_rate": 50.0,
+      "t_stat": -0.425,
+      "p_value": 0.6993,
+      "defect_types": [
+        {
+          "category": "cable",
+          "defect_type": "combined",
+          "clip_auroc": 68.34,
+          "dino_auroc": 91.85,
+          "diff": -23.51
+        },
+        {
+          "category": "pill",
+          "defect_type": "combined",
+          "clip_auroc": 96.38,
+          "dino_auroc": 91.4,
+          "diff": 4.98
+        },
+        {
+          "category": "wood",
+          "defect_type": "combined",
+          "clip_auroc": 94.26,
+          "dino_auroc": 86.6,
+          "diff": 7.66
+        },
+        {
+          "category": "zipper",
+          "defect_type": "combined",
+          "clip_auroc": 98.83,
+          "dino_auroc": 100.0,
+          "diff": -1.17
+        }
+      ]
+    },
+    "semantic": {
+      "n": 6,
+      "mean_diff": -6.03,
+      "median_diff": -6.26,
+      "std": 4.31,
+      "clip_win_rate": 16.7,
+      "t_stat": -3.128,
+      "p_value": 0.026,
+      "defect_types": [
+        {
+          "category": "cable",
+          "defect_type": "cable_swap",
+          "clip_auroc": 53.88,
+          "dino_auroc": 60.49,
+          "diff": -6.61
+        },
+        {
+          "category": "cable",
+          "defect_type": "missing_cable",
+          "clip_auroc": 83.19,
+          "dino_auroc": 96.98,
+          "diff": -13.79
+        },
+        {
+          "category": "cable",
+          "defect_type": "missing_wire",
+          "clip_auroc": 69.31,
+          "dino_auroc": 73.45,
+          "diff": -4.14
+        },
+        {
+          "category": "metal_nut",
+          "defect_type": "flip",
+          "clip_auroc": 93.48,
+          "dino_auroc": 100.0,
+          "diff": -6.52
+        },
+        {
+          "category": "pill",
+          "defect_type": "pill_type",
+          "clip_auroc": 96.58,
+          "dino_auroc": 95.73,
+          "diff": 0.85
+        },
+        {
+          "category": "transistor",
+          "defect_type": "misplaced",
+          "clip_auroc": 80.67,
+          "dino_auroc": 86.67,
+          "diff": -6.0
+        }
+      ]
+    },
+    "structural": {
+      "n": 20,
+      "mean_diff": -3.74,
+      "median_diff": -1.33,
+      "std": 10.16,
+      "clip_win_rate": 30.0,
+      "t_stat": -1.605,
+      "p_value": 0.1249,
+      "defect_types": [
+        {
+          "category": "bottle",
+          "defect_type": "broken_large",
+          "clip_auroc": 96.5,
+          "dino_auroc": 99.5,
+          "diff": -3.0
+        },
+        {
+          "category": "bottle",
+          "defect_type": "broken_small",
+          "clip_auroc": 95.45,
+          "dino_auroc": 90.23,
+          "diff": 5.23
+        },
+        {
+          "category": "cable",
+          "defect_type": "poke_insulation",
+          "clip_auroc": 60.17,
+          "dino_auroc": 91.9,
+          "diff": -31.72
+        },
+        {
+          "category": "capsule",
+          "defect_type": "crack",
+          "clip_auroc": 76.94,
+          "dino_auroc": 87.52,
+          "diff": -10.59
+        },
+        {
+          "category": "capsule",
+          "defect_type": "poke",
+          "clip_auroc": 87.16,
+          "dino_auroc": 85.09,
+          "diff": 2.07
+        },
+        {
+          "category": "carpet",
+          "defect_type": "cut",
+          "clip_auroc": 100.0,
+          "dino_auroc": 99.37,
+          "diff": 0.63
+        },
+        {
+          "category": "carpet",
+          "defect_type": "hole",
+          "clip_auroc": 98.74,
+          "dino_auroc": 99.37,
+          "diff": -0.63
+        },
+        {
+          "category": "grid",
+          "defect_type": "broken",
+          "clip_auroc": 90.87,
+          "dino_auroc": 69.44,
+          "diff": 21.43
+        },
+        {
+          "category": "hazelnut",
+          "defect_type": "crack",
+          "clip_auroc": 91.67,
+          "dino_auroc": 100.0,
+          "diff": -8.33
+        },
+        {
+          "category": "hazelnut",
+          "defect_type": "cut",
+          "clip_auroc": 78.68,
+          "dino_auroc": 79.56,
+          "diff": -0.88
+        },
+        {
+          "category": "hazelnut",
+          "defect_type": "hole",
+          "clip_auroc": 95.69,
+          "dino_auroc": 99.58,
+          "diff": -3.89
+        },
+        {
+          "category": "leather",
+          "defect_type": "cut",
+          "clip_auroc": 99.51,
+          "dino_auroc": 100.0,
+          "diff": -0.49
+        },
+        {
+          "category": "leather",
+          "defect_type": "poke",
+          "clip_auroc": 100.0,
+          "dino_auroc": 100.0,
+          "diff": 0.0
+        },
+        {
+          "category": "pill",
+          "defect_type": "crack",
+          "clip_auroc": 56.66,
+          "dino_auroc": 73.82,
+          "diff": -17.16
+        },
+        {
+          "category": "tile",
+          "defect_type": "crack",
+          "clip_auroc": 98.22,
+          "dino_auroc": 100.0,
+          "diff": -1.78
+        },
+        {
+          "category": "toothbrush",
+          "defect_type": "defective",
+          "clip_auroc": 84.17,
+          "dino_auroc": 95.56,
+          "diff": -11.39
+        },
+        {
+          "category": "transistor",
+          "defect_type": "damaged_case",
+          "clip_auroc": 85.5,
+          "dino_auroc": 82.17,
+          "diff": 3.33
+        },
+        {
+          "category": "wood",
+          "defect_type": "hole",
+          "clip_auroc": 96.32,
+          "dino_auroc": 94.21,
+          "diff": 2.11
+        },
+        {
+          "category": "zipper",
+          "defect_type": "broken_teeth",
+          "clip_auroc": 85.69,
+          "dino_auroc": 95.72,
+          "diff": -10.03
+        },
+        {
+          "category": "zipper",
+          "defect_type": "split_teeth",
+          "clip_auroc": 89.41,
+          "dino_auroc": 99.13,
+          "diff": -9.72
+        }
+      ]
+    },
+    "texture_surface": {
+      "n": 14,
+      "mean_diff": -1.61,
+      "median_diff": -1.65,
+      "std": 7.88,
+      "clip_win_rate": 28.6,
+      "t_stat": -0.738,
+      "p_value": 0.4739,
+      "defect_types": [
+        {
+          "category": "capsule",
+          "defect_type": "scratch",
+          "clip_auroc": 71.83,
+          "dino_auroc": 80.53,
+          "diff": -8.7
+        },
+        {
+          "category": "carpet",
+          "defect_type": "thread",
+          "clip_auroc": 100.0,
+          "dino_auroc": 94.92,
+          "diff": 5.08
+        },
+        {
+          "category": "grid",
+          "defect_type": "thread",
+          "clip_auroc": 88.31,
+          "dino_auroc": 91.34,
+          "diff": -3.03
+        },
+        {
+          "category": "metal_nut",
+          "defect_type": "scratch",
+          "clip_auroc": 91.3,
+          "dino_auroc": 99.8,
+          "diff": -8.5
+        },
+        {
+          "category": "pill",
+          "defect_type": "scratch",
+          "clip_auroc": 87.66,
+          "dino_auroc": 90.71,
+          "diff": -3.04
+        },
+        {
+          "category": "screw",
+          "defect_type": "scratch_head",
+          "clip_auroc": 53.66,
+          "dino_auroc": 74.59,
+          "diff": -20.93
+        },
+        {
+          "category": "screw",
+          "defect_type": "scratch_neck",
+          "clip_auroc": 79.41,
+          "dino_auroc": 80.49,
+          "diff": -1.07
+        },
+        {
+          "category": "screw",
+          "defect_type": "thread_side",
+          "clip_auroc": 59.81,
+          "dino_auroc": 62.04,
+          "diff": -2.23
+        },
+        {
+          "category": "screw",
+          "defect_type": "thread_top",
+          "clip_auroc": 72.11,
+          "dino_auroc": 64.48,
+          "diff": 7.64
+        },
+        {
+          "category": "tile",
+          "defect_type": "rough",
+          "clip_auroc": 97.58,
+          "dino_auroc": 100.0,
+          "diff": -2.42
+        },
+        {
+          "category": "wood",
+          "defect_type": "scratch",
+          "clip_auroc": 93.98,
+          "dino_auroc": 79.7,
+          "diff": 14.29
+        },
+        {
+          "category": "zipper",
+          "defect_type": "fabric_border",
+          "clip_auroc": 100.0,
+          "dino_auroc": 100.0,
+          "diff": 0.0
+        },
+        {
+          "category": "zipper",
+          "defect_type": "fabric_interior",
+          "clip_auroc": 99.22,
+          "dino_auroc": 99.41,
+          "diff": -0.2
+        },
+        {
+          "category": "zipper",
+          "defect_type": "rough",
+          "clip_auroc": 95.59,
+          "dino_auroc": 95.04,
+          "diff": 0.55
+        }
+      ]
+    }
+  },
+  "experiment_5_fusion_weights": {
+    "bottle": {
+      "clip_auroc": 94.92,
+      "dino_auroc": 93.89,
+      "best_single": 94.92,
+      "equal_fusion_auroc": 96.43,
+      "oracle_knn_alpha": 0.4,
+      "oracle_knn_auroc": 96.43,
+      "native_oracle_alpha": 0.9,
+      "native_alpha_knn_auroc": 94.6,
+      "equal_gain_over_best_single": 1.51,
+      "oracle_gain_over_equal": 0.0,
+      "alpha_sweep": {
+        "0.0": 94.92,
+        "0.05": 95.24,
+        "0.1": 95.24,
+        "0.15": 95.56,
+        "0.2": 96.03,
+        "0.25": 96.03,
+        "0.3": 96.27,
+        "0.35": 96.27,
+        "0.4": 96.43,
+        "0.45": 96.35,
+        "0.5": 96.43,
+        "0.55": 96.43,
+        "0.6": 96.19,
+        "0.65": 95.95,
+        "0.7": 95.95,
+        "0.75": 95.79,
+        "0.8": 95.48,
+        "0.85": 95.16,
+        "0.9": 94.6,
+        "0.95": 94.05,
+        "1.0": 93.89
+      }
+    },
+    "cable": {
+      "clip_auroc": 68.25,
+      "dino_auroc": 85.68,
+      "best_single": 85.68,
+      "equal_fusion_auroc": 82.66,
+      "oracle_knn_alpha": 0.95,
+      "oracle_knn_auroc": 85.7,
+      "native_oracle_alpha": 0.55,
+      "native_alpha_knn_auroc": 83.02,
+      "equal_gain_over_best_single": -3.02,
+      "oracle_gain_over_equal": 3.04,
+      "alpha_sweep": {
+        "0.0": 68.25,
+        "0.05": 69.88,
+        "0.1": 71.65,
+        "0.15": 73.41,
+        "0.2": 75.09,
+        "0.25": 76.61,
+        "0.3": 78.15,
+        "0.35": 79.61,
+        "0.4": 80.88,
+        "0.45": 81.75,
+        "0.5": 82.66,
+        "0.55": 83.02,
+        "0.6": 83.6,
+        "0.65": 84.45,
+        "0.7": 84.78,
+        "0.75": 85.08,
+        "0.8": 85.33,
+        "0.85": 85.46,
+        "0.9": 85.59,
+        "0.95": 85.7,
+        "1.0": 85.68
+      }
+    },
+    "capsule": {
+      "clip_auroc": 83.53,
+      "dino_auroc": 85.88,
+      "best_single": 85.88,
+      "equal_fusion_auroc": 88.31,
+      "oracle_knn_alpha": 0.5,
+      "oracle_knn_auroc": 88.31,
+      "native_oracle_alpha": 0.4,
+      "native_alpha_knn_auroc": 88.03,
+      "equal_gain_over_best_single": 2.43,
+      "oracle_gain_over_equal": 0.0,
+      "alpha_sweep": {
+        "0.0": 83.53,
+        "0.05": 84.48,
+        "0.1": 85.36,
+        "0.15": 86.16,
+        "0.2": 86.64,
+        "0.25": 87.24,
+        "0.3": 87.75,
+        "0.35": 88.03,
+        "0.4": 88.03,
+        "0.45": 88.23,
+        "0.5": 88.31,
+        "0.55": 87.83,
+        "0.6": 87.59,
+        "0.65": 87.79,
+        "0.7": 87.59,
+        "0.75": 87.48,
+        "0.8": 87.24,
+        "0.85": 86.8,
+        "0.9": 86.52,
+        "0.95": 86.28,
+        "1.0": 85.88
+      }
+    },
+    "carpet": {
+      "clip_auroc": 99.76,
+      "dino_auroc": 96.63,
+      "best_single": 99.76,
+      "equal_fusion_auroc": 99.96,
+      "oracle_knn_alpha": 0.4,
+      "oracle_knn_auroc": 99.96,
+      "native_oracle_alpha": 0.05,
+      "native_alpha_knn_auroc": 99.76,
+      "equal_gain_over_best_single": 0.2,
+      "oracle_gain_over_equal": 0.0,
+      "alpha_sweep": {
+        "0.0": 99.76,
+        "0.05": 99.76,
+        "0.1": 99.88,
+        "0.15": 99.88,
+        "0.2": 99.92,
+        "0.25": 99.92,
+        "0.3": 99.92,
+        "0.35": 99.92,
+        "0.4": 99.96,
+        "0.45": 99.96,
+        "0.5": 99.96,
+        "0.55": 99.92,
+        "0.6": 99.88,
+        "0.65": 99.88,
+        "0.7": 99.64,
+        "0.75": 99.2,
+        "0.8": 98.88,
+        "0.85": 98.48,
+        "0.9": 98.11,
+        "0.95": 97.51,
+        "1.0": 96.63
+      }
+    },
+    "grid": {
+      "clip_auroc": 86.97,
+      "dino_auroc": 72.18,
+      "best_single": 86.97,
+      "equal_fusion_auroc": 88.89,
+      "oracle_knn_alpha": 0.3,
+      "oracle_knn_auroc": 89.56,
+      "native_oracle_alpha": 0.35,
+      "native_alpha_knn_auroc": 89.39,
+      "equal_gain_over_best_single": 1.92,
+      "oracle_gain_over_equal": 0.67,
+      "alpha_sweep": {
+        "0.0": 86.97,
+        "0.05": 87.47,
+        "0.1": 87.97,
+        "0.15": 88.47,
+        "0.2": 88.55,
+        "0.25": 89.22,
+        "0.3": 89.56,
+        "0.35": 89.39,
+        "0.4": 89.31,
+        "0.45": 89.39,
+        "0.5": 88.89,
+        "0.55": 88.47,
+        "0.6": 87.8,
+        "0.65": 86.47,
+        "0.7": 85.3,
+        "0.75": 84.21,
+        "0.8": 82.71,
+        "0.85": 80.28,
+        "0.9": 77.86,
+        "0.95": 74.85,
+        "1.0": 72.18
+      }
+    },
+    "hazelnut": {
+      "clip_auroc": 88.32,
+      "dino_auroc": 91.5,
+      "best_single": 91.5,
+      "equal_fusion_auroc": 95.82,
+      "oracle_knn_alpha": 0.55,
+      "oracle_knn_auroc": 95.89,
+      "native_oracle_alpha": 0.35,
+      "native_alpha_knn_auroc": 94.89,
+      "equal_gain_over_best_single": 4.32,
+      "oracle_gain_over_equal": 0.07,
+      "alpha_sweep": {
+        "0.0": 88.32,
+        "0.05": 89.46,
+        "0.1": 90.54,
+        "0.15": 91.43,
+        "0.2": 92.68,
+        "0.25": 93.57,
+        "0.3": 94.39,
+        "0.35": 94.89,
+        "0.4": 95.25,
+        "0.45": 95.5,
+        "0.5": 95.82,
+        "0.55": 95.89,
+        "0.6": 95.89,
+        "0.65": 95.64,
+        "0.7": 95.32,
+        "0.75": 94.82,
+        "0.8": 94.36,
+        "0.85": 93.71,
+        "0.9": 93.07,
+        "0.95": 92.25,
+        "1.0": 91.5
+      }
+    },
+    "leather": {
+      "clip_auroc": 99.12,
+      "dino_auroc": 99.66,
+      "best_single": 99.66,
+      "equal_fusion_auroc": 100.0,
+      "oracle_knn_alpha": 0.5,
+      "oracle_knn_auroc": 100.0,
+      "native_oracle_alpha": 0.5,
+      "native_alpha_knn_auroc": 100.0,
+      "equal_gain_over_best_single": 0.34,
+      "oracle_gain_over_equal": 0.0,
+      "alpha_sweep": {
+        "0.0": 99.12,
+        "0.05": 99.39,
+        "0.1": 99.66,
+        "0.15": 99.8,
+        "0.2": 99.93,
+        "0.25": 99.93,
+        "0.3": 99.97,
+        "0.35": 99.97,
+        "0.4": 99.97,
+        "0.45": 99.97,
+        "0.5": 100.0,
+        "0.55": 100.0,
+        "0.6": 100.0,
+        "0.65": 100.0,
+        "0.7": 100.0,
+        "0.75": 99.97,
+        "0.8": 99.93,
+        "0.85": 99.93,
+        "0.9": 99.9,
+        "0.95": 99.83,
+        "1.0": 99.66
+      }
+    },
+    "metal_nut": {
+      "clip_auroc": 91.69,
+      "dino_auroc": 97.12,
+      "best_single": 97.12,
+      "equal_fusion_auroc": 98.44,
+      "oracle_knn_alpha": 0.7,
+      "oracle_knn_auroc": 98.58,
+      "native_oracle_alpha": 0.9,
+      "native_alpha_knn_auroc": 97.95,
+      "equal_gain_over_best_single": 1.32,
+      "oracle_gain_over_equal": 0.14,
+      "alpha_sweep": {
+        "0.0": 91.69,
+        "0.05": 92.82,
+        "0.1": 94.09,
+        "0.15": 94.97,
+        "0.2": 95.6,
+        "0.25": 96.63,
+        "0.3": 97.02,
+        "0.35": 97.65,
+        "0.4": 98.14,
+        "0.45": 98.04,
+        "0.5": 98.44,
+        "0.55": 98.44,
+        "0.6": 98.44,
+        "0.65": 98.53,
+        "0.7": 98.58,
+        "0.75": 98.53,
+        "0.8": 98.44,
+        "0.85": 98.24,
+        "0.9": 97.95,
+        "0.95": 97.51,
+        "1.0": 97.12
+      }
+    },
+    "pill": {
+      "clip_auroc": 85.24,
+      "dino_auroc": 84.4,
+      "best_single": 85.24,
+      "equal_fusion_auroc": 89.44,
+      "oracle_knn_alpha": 0.4,
+      "oracle_knn_auroc": 89.8,
+      "native_oracle_alpha": 0.7,
+      "native_alpha_knn_auroc": 87.83,
+      "equal_gain_over_best_single": 4.2,
+      "oracle_gain_over_equal": 0.36,
+      "alpha_sweep": {
+        "0.0": 85.24,
+        "0.05": 85.92,
+        "0.1": 86.77,
+        "0.15": 87.48,
+        "0.2": 88.24,
+        "0.25": 88.9,
+        "0.3": 89.33,
+        "0.35": 89.72,
+        "0.4": 89.8,
+        "0.45": 89.42,
+        "0.5": 89.44,
+        "0.55": 89.31,
+        "0.6": 89.09,
+        "0.65": 88.79,
+        "0.7": 87.83,
+        "0.75": 87.48,
+        "0.8": 87.12,
+        "0.85": 86.52,
+        "0.9": 85.92,
+        "0.95": 84.97,
+        "1.0": 84.4
+      }
+    },
+    "screw": {
+      "clip_auroc": 65.01,
+      "dino_auroc": 68.25,
+      "best_single": 68.25,
+      "equal_fusion_auroc": 68.62,
+      "oracle_knn_alpha": 0.6,
+      "oracle_knn_auroc": 69.13,
+      "native_oracle_alpha": 0.75,
+      "native_alpha_knn_auroc": 68.7,
+      "equal_gain_over_best_single": 0.37,
+      "oracle_gain_over_equal": 0.51,
+      "alpha_sweep": {
+        "0.0": 65.01,
+        "0.05": 65.48,
+        "0.1": 65.98,
+        "0.15": 66.39,
+        "0.2": 66.88,
+        "0.25": 67.39,
+        "0.3": 67.84,
+        "0.35": 68.05,
+        "0.4": 68.37,
+        "0.45": 68.68,
+        "0.5": 68.62,
+        "0.55": 68.85,
+        "0.6": 69.13,
+        "0.65": 68.87,
+        "0.7": 68.95,
+        "0.75": 68.7,
+        "0.8": 68.93,
+        "0.85": 69.11,
+        "0.9": 68.76,
+        "0.95": 68.46,
+        "1.0": 68.25
+      }
+    },
+    "tile": {
+      "clip_auroc": 96.07,
+      "dino_auroc": 99.49,
+      "best_single": 99.49,
+      "equal_fusion_auroc": 99.71,
+      "oracle_knn_alpha": 0.65,
+      "oracle_knn_auroc": 99.93,
+      "native_oracle_alpha": 0.0,
+      "native_alpha_knn_auroc": 96.07,
+      "equal_gain_over_best_single": 0.22,
+      "oracle_gain_over_equal": 0.22,
+      "alpha_sweep": {
+        "0.0": 96.07,
+        "0.05": 96.86,
+        "0.1": 97.4,
+        "0.15": 98.23,
+        "0.2": 98.77,
+        "0.25": 98.88,
+        "0.3": 99.13,
+        "0.35": 99.35,
+        "0.4": 99.57,
+        "0.45": 99.6,
+        "0.5": 99.71,
+        "0.55": 99.78,
+        "0.6": 99.82,
+        "0.65": 99.93,
+        "0.7": 99.93,
+        "0.75": 99.93,
+        "0.8": 99.93,
+        "0.85": 99.93,
+        "0.9": 99.82,
+        "0.95": 99.78,
+        "1.0": 99.49
+      }
+    },
+    "toothbrush": {
+      "clip_auroc": 84.17,
+      "dino_auroc": 95.56,
+      "best_single": 95.56,
+      "equal_fusion_auroc": 93.33,
+      "oracle_knn_alpha": 0.75,
+      "oracle_knn_auroc": 96.94,
+      "native_oracle_alpha": 0.65,
+      "native_alpha_knn_auroc": 95.83,
+      "equal_gain_over_best_single": -2.23,
+      "oracle_gain_over_equal": 3.61,
+      "alpha_sweep": {
+        "0.0": 84.17,
+        "0.05": 84.44,
+        "0.1": 86.39,
+        "0.15": 87.5,
+        "0.2": 88.89,
+        "0.25": 90.0,
+        "0.3": 90.56,
+        "0.35": 90.83,
+        "0.4": 91.11,
+        "0.45": 91.94,
+        "0.5": 93.33,
+        "0.55": 94.72,
+        "0.6": 95.28,
+        "0.65": 95.83,
+        "0.7": 96.67,
+        "0.75": 96.94,
+        "0.8": 96.67,
+        "0.85": 96.67,
+        "0.9": 96.11,
+        "0.95": 95.83,
+        "1.0": 95.56
+      }
+    },
+    "transistor": {
+      "clip_auroc": 69.58,
+      "dino_auroc": 81.46,
+      "best_single": 81.46,
+      "equal_fusion_auroc": 81.46,
+      "oracle_knn_alpha": 0.65,
+      "oracle_knn_auroc": 84.33,
+      "native_oracle_alpha": 0.55,
+      "native_alpha_knn_auroc": 82.38,
+      "equal_gain_over_best_single": 0.0,
+      "oracle_gain_over_equal": 2.87,
+      "alpha_sweep": {
+        "0.0": 69.58,
+        "0.05": 69.96,
+        "0.1": 71.0,
+        "0.15": 72.17,
+        "0.2": 73.46,
+        "0.25": 74.92,
+        "0.3": 75.67,
+        "0.35": 77.25,
+        "0.4": 79.42,
+        "0.45": 80.12,
+        "0.5": 81.46,
+        "0.55": 82.38,
+        "0.6": 83.5,
+        "0.65": 84.33,
+        "0.7": 84.12,
+        "0.75": 84.04,
+        "0.8": 83.83,
+        "0.85": 83.33,
+        "0.9": 82.88,
+        "0.95": 82.12,
+        "1.0": 81.46
+      }
+    },
+    "wood": {
+      "clip_auroc": 94.47,
+      "dino_auroc": 86.75,
+      "best_single": 94.47,
+      "equal_fusion_auroc": 96.84,
+      "oracle_knn_alpha": 0.4,
+      "oracle_knn_auroc": 96.84,
+      "native_oracle_alpha": 0.7,
+      "native_alpha_knn_auroc": 95.96,
+      "equal_gain_over_best_single": 2.37,
+      "oracle_gain_over_equal": 0.0,
+      "alpha_sweep": {
+        "0.0": 94.47,
+        "0.05": 95.0,
+        "0.1": 95.53,
+        "0.15": 95.79,
+        "0.2": 96.32,
+        "0.25": 96.67,
+        "0.3": 96.75,
+        "0.35": 96.75,
+        "0.4": 96.84,
+        "0.45": 96.84,
+        "0.5": 96.84,
+        "0.55": 96.75,
+        "0.6": 96.75,
+        "0.65": 96.49,
+        "0.7": 95.96,
+        "0.75": 94.74,
+        "0.8": 93.68,
+        "0.85": 91.93,
+        "0.9": 90.61,
+        "0.95": 89.04,
+        "1.0": 86.75
+      }
+    },
+    "zipper": {
+      "clip_auroc": 91.91,
+      "dino_auroc": 98.16,
+      "best_single": 98.16,
+      "equal_fusion_auroc": 98.48,
+      "oracle_knn_alpha": 0.7,
+      "oracle_knn_auroc": 99.0,
+      "native_oracle_alpha": 0.65,
+      "native_alpha_knn_auroc": 98.9,
+      "equal_gain_over_best_single": 0.32,
+      "oracle_gain_over_equal": 0.52,
+      "alpha_sweep": {
+        "0.0": 91.91,
+        "0.05": 92.96,
+        "0.1": 93.86,
+        "0.15": 94.62,
+        "0.2": 95.33,
+        "0.25": 95.82,
+        "0.3": 96.8,
+        "0.35": 97.37,
+        "0.4": 97.87,
+        "0.45": 98.27,
+        "0.5": 98.48,
+        "0.55": 98.71,
+        "0.6": 98.71,
+        "0.65": 98.9,
+        "0.7": 99.0,
+        "0.75": 98.95,
+        "0.8": 98.9,
+        "0.85": 98.82,
+        "0.9": 98.61,
+        "0.95": 98.35,
+        "1.0": 98.16
+      }
+    }
+  },
+  "experiment_6_cls_vs_patch": {
+    "bottle": {
+      "clip_patch_auroc": 94.92,
+      "clip_cls_auroc": 97.86,
+      "dino_patch_auroc": 93.89,
+      "dino_cls_auroc": 95.63,
+      "clip_cls_advantage": 2.94,
+      "dino_cls_advantage": 1.75,
+      "standard_fusion_auroc": 96.43,
+      "cross_fusion_auroc": 97.14,
+      "triple_fusion_auroc": 97.7,
+      "cross_vs_standard": 0.71,
+      "triple_vs_standard": 1.27
+    },
+    "cable": {
+      "clip_patch_auroc": 68.25,
+      "clip_cls_auroc": 68.46,
+      "dino_patch_auroc": 85.68,
+      "dino_cls_auroc": 71.25,
+      "clip_cls_advantage": 0.21,
+      "dino_cls_advantage": -14.43,
+      "standard_fusion_auroc": 82.66,
+      "cross_fusion_auroc": 84.3,
+      "triple_fusion_auroc": 82.51,
+      "cross_vs_standard": 1.63,
+      "triple_vs_standard": -0.15
+    },
+    "capsule": {
+      "clip_patch_auroc": 83.53,
+      "clip_cls_auroc": 63.3,
+      "dino_patch_auroc": 85.88,
+      "dino_cls_auroc": 68.37,
+      "clip_cls_advantage": -20.22,
+      "dino_cls_advantage": -17.51,
+      "standard_fusion_auroc": 88.31,
+      "cross_fusion_auroc": 79.82,
+      "triple_fusion_auroc": 85.52,
+      "cross_vs_standard": -8.5,
+      "triple_vs_standard": -2.79
+    },
+    "carpet": {
+      "clip_patch_auroc": 99.76,
+      "clip_cls_auroc": 91.77,
+      "dino_patch_auroc": 96.63,
+      "dino_cls_auroc": 93.02,
+      "clip_cls_advantage": -7.99,
+      "dino_cls_advantage": -3.61,
+      "standard_fusion_auroc": 99.96,
+      "cross_fusion_auroc": 98.43,
+      "triple_fusion_auroc": 99.92,
+      "cross_vs_standard": -1.52,
+      "triple_vs_standard": -0.04
+    },
+    "grid": {
+      "clip_patch_auroc": 86.97,
+      "clip_cls_auroc": 74.19,
+      "dino_patch_auroc": 72.18,
+      "dino_cls_auroc": 82.54,
+      "clip_cls_advantage": -12.78,
+      "dino_cls_advantage": 10.36,
+      "standard_fusion_auroc": 88.89,
+      "cross_fusion_auroc": 78.36,
+      "triple_fusion_auroc": 86.3,
+      "cross_vs_standard": -10.53,
+      "triple_vs_standard": -2.59
+    },
+    "hazelnut": {
+      "clip_patch_auroc": 88.32,
+      "clip_cls_auroc": 82.68,
+      "dino_patch_auroc": 91.5,
+      "dino_cls_auroc": 67.32,
+      "clip_cls_advantage": -5.64,
+      "dino_cls_advantage": -24.18,
+      "standard_fusion_auroc": 95.82,
+      "cross_fusion_auroc": 93.61,
+      "triple_fusion_auroc": 94.68,
+      "cross_vs_standard": -2.21,
+      "triple_vs_standard": -1.14
+    },
+    "leather": {
+      "clip_patch_auroc": 99.12,
+      "clip_cls_auroc": 100.0,
+      "dino_patch_auroc": 99.66,
+      "dino_cls_auroc": 96.77,
+      "clip_cls_advantage": 0.88,
+      "dino_cls_advantage": -2.89,
+      "standard_fusion_auroc": 100.0,
+      "cross_fusion_auroc": 100.0,
+      "triple_fusion_auroc": 100.0,
+      "cross_vs_standard": 0.0,
+      "triple_vs_standard": 0.0
+    },
+    "metal_nut": {
+      "clip_patch_auroc": 91.69,
+      "clip_cls_auroc": 84.8,
+      "dino_patch_auroc": 97.12,
+      "dino_cls_auroc": 80.01,
+      "clip_cls_advantage": -6.89,
+      "dino_cls_advantage": -17.11,
+      "standard_fusion_auroc": 98.44,
+      "cross_fusion_auroc": 96.77,
+      "triple_fusion_auroc": 97.75,
+      "cross_vs_standard": -1.66,
+      "triple_vs_standard": -0.68
+    },
+    "pill": {
+      "clip_patch_auroc": 85.24,
+      "clip_cls_auroc": 83.93,
+      "dino_patch_auroc": 84.4,
+      "dino_cls_auroc": 76.92,
+      "clip_cls_advantage": -1.31,
+      "dino_cls_advantage": -7.47,
+      "standard_fusion_auroc": 89.44,
+      "cross_fusion_auroc": 87.83,
+      "triple_fusion_auroc": 90.73,
+      "cross_vs_standard": -1.61,
+      "triple_vs_standard": 1.28
+    },
+    "screw": {
+      "clip_patch_auroc": 65.01,
+      "clip_cls_auroc": 50.95,
+      "dino_patch_auroc": 68.25,
+      "dino_cls_auroc": 50.67,
+      "clip_cls_advantage": -14.06,
+      "dino_cls_advantage": -17.59,
+      "standard_fusion_auroc": 68.62,
+      "cross_fusion_auroc": 60.03,
+      "triple_fusion_auroc": 63.0,
+      "cross_vs_standard": -8.59,
+      "triple_vs_standard": -5.62
+    },
+    "tile": {
+      "clip_patch_auroc": 96.07,
+      "clip_cls_auroc": 96.0,
+      "dino_patch_auroc": 99.49,
+      "dino_cls_auroc": 98.23,
+      "clip_cls_advantage": -0.07,
+      "dino_cls_advantage": -1.26,
+      "standard_fusion_auroc": 99.71,
+      "cross_fusion_auroc": 99.75,
+      "triple_fusion_auroc": 99.78,
+      "cross_vs_standard": 0.04,
+      "triple_vs_standard": 0.07
+    },
+    "toothbrush": {
+      "clip_patch_auroc": 84.17,
+      "clip_cls_auroc": 70.0,
+      "dino_patch_auroc": 95.56,
+      "dino_cls_auroc": 65.56,
+      "clip_cls_advantage": -14.17,
+      "dino_cls_advantage": -30.0,
+      "standard_fusion_auroc": 93.33,
+      "cross_fusion_auroc": 84.72,
+      "triple_fusion_auroc": 85.0,
+      "cross_vs_standard": -8.61,
+      "triple_vs_standard": -8.33
+    },
+    "transistor": {
+      "clip_patch_auroc": 69.58,
+      "clip_cls_auroc": 67.58,
+      "dino_patch_auroc": 81.46,
+      "dino_cls_auroc": 91.54,
+      "clip_cls_advantage": -2.0,
+      "dino_cls_advantage": 10.08,
+      "standard_fusion_auroc": 81.46,
+      "cross_fusion_auroc": 82.29,
+      "triple_fusion_auroc": 81.88,
+      "cross_vs_standard": 0.83,
+      "triple_vs_standard": 0.42
+    },
+    "wood": {
+      "clip_patch_auroc": 94.47,
+      "clip_cls_auroc": 98.86,
+      "dino_patch_auroc": 86.75,
+      "dino_cls_auroc": 69.65,
+      "clip_cls_advantage": 4.39,
+      "dino_cls_advantage": -17.11,
+      "standard_fusion_auroc": 96.84,
+      "cross_fusion_auroc": 99.39,
+      "triple_fusion_auroc": 99.47,
+      "cross_vs_standard": 2.54,
+      "triple_vs_standard": 2.63
+    },
+    "zipper": {
+      "clip_patch_auroc": 91.91,
+      "clip_cls_auroc": 90.31,
+      "dino_patch_auroc": 98.16,
+      "dino_cls_auroc": 97.93,
+      "clip_cls_advantage": -1.6,
+      "dino_cls_advantage": -0.24,
+      "standard_fusion_auroc": 98.48,
+      "cross_fusion_auroc": 99.0,
+      "triple_fusion_auroc": 99.11,
+      "cross_vs_standard": 0.53,
+      "triple_vs_standard": 0.63
+    }
+  }
+}

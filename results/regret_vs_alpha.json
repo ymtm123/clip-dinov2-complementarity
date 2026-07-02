@@ -1,0 +1,50 @@
+{
+  "experiment": "regret-vs-alpha",
+  "n_categories": 30,
+  "pooled_optimal_alpha": 0.65,
+  "pooled_min_regret_pp": 0.377,
+  "pooled_regret_at_0.50_pp": 0.924,
+  "pooled_regret_at_0.65_pp": 0.377,
+  "pooled_regret_at_0.70_pp": 0.409,
+  "plateau_within_0.1pp_of_min": [
+    0.6,
+    0.73
+  ],
+  "alpha_range_within_0.10pp_of_optimum": [
+    0.6,
+    0.73
+  ],
+  "alpha_range_within_0.20pp_of_optimum": [
+    0.56,
+    0.76
+  ],
+  "alpha_range_within_0.45pp_of_optimum": [
+    0.52,
+    0.81
+  ],
+  "band_0.5_0.7_max_regret_pp": 0.924,
+  "band_0.5_0.7_spread_pp": 0.547,
+  "per_dataset": {
+    "MVTec": {
+      "optimal_alpha": 0.64,
+      "min_regret_pp": 0.275,
+      "regret_at_0.65_pp": 0.275,
+      "regret_at_0.70_pp": 0.358,
+      "drift_cost_0.65_vs_0.70_pp": 0.082
+    },
+    "VisA": {
+      "optimal_alpha": 0.71,
+      "min_regret_pp": 0.554,
+      "regret_at_0.65_pp": 0.569,
+      "regret_at_0.70_pp": 0.557,
+      "drift_cost_0.65_vs_0.70_pp": 0.013
+    },
+    "BTAD": {
+      "optimal_alpha": 0.69,
+      "min_regret_pp": 0.075,
+      "regret_at_0.65_pp": 0.11,
+      "regret_at_0.70_pp": 0.077,
+      "drift_cost_0.65_vs_0.70_pp": 0.033
+    }
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "experiment_11_native_size": {
+    "total_images": 1258,
+    "mask_area_by_class": {
+      "both": {
+        "n": 975,
+        "mean": 0.041531,
+        "median": 0.016673,
+        "std": 0.077545
+      },
+      "clip_only": {
+        "n": 62,
+        "mean": 0.011785,
+        "median": 0.004541,
+        "std": 0.015982
+      },
+      "dino_only": {
+        "n": 179,
+        "mean": 0.071847,
+        "median": 0.017547,
+        "std": 0.136334
+      },
+      "neither": {
+        "n": 42,
+        "mean": 0.02669,
+        "median": 0.003917,
+        "std": 0.064941
+      }
+    },
+    "size_bin_detection_rates": [
+      {
+        "bin": "tiny (<0.5%)",
+        "lo": 0,
+        "hi": 0.005,
+        "n": 317,
+        "both": 216,
+        "clip_only": 33,
+        "dino_only": 44,
+        "neither": 24,
+        "clip_tpr": 78.54889589905363,
+        "dino_tpr": 82.01892744479495
+      },
+      {
+        "bin": "small (0.5-2%)",
+        "lo": 0.005,
+        "hi": 0.02,
+        "n": 401,
+        "both": 323,
+        "clip_only": 19,
+        "dino_only": 51,
+        "neither": 8,
+        "clip_tpr": 85.286783042394,
+        "dino_tpr": 93.26683291770573
+      },
+      {
+        "bin": "medium (2-5%)",
+        "lo": 0.02,
+        "hi": 0.05,
+        "n": 297,
+        "both": 250,
+        "clip_only": 5,
+        "dino_only": 41,
+        "neither": 1,
+        "clip_tpr": 85.85858585858585,
+        "dino_tpr": 97.97979797979798
+      },
+      {
+        "bin": "large (5-15%)",
+        "lo": 0.05,
+        "hi": 0.15,
+        "n": 167,
+        "both": 132,
+        "clip_only": 5,
+        "dino_only": 22,
+        "neither": 8,
+        "clip_tpr": 82.03592814371258,
+        "dino_tpr": 92.21556886227546
+      },
+      {
+        "bin": "very_large (>15%)",
+        "lo": 0.15,
+        "hi": 1.0,
+        "n": 76,
+        "both": 54,
+        "clip_only": 0,
+        "dino_only": 21,
+        "neither": 1,
+        "clip_tpr": 71.05263157894737,
+        "dino_tpr": 98.68421052631578
+      }
+    ],
+    "percentile_analysis": [
+      {
+        "quintile": 1,
+        "n": 251,
+        "min_area": 0.0371,
+        "max_area": 0.4004478454589844,
+        "clip_tpr": 78.08764940239044,
+        "dino_tpr": 80.87649402390437,
+        "clip_advantage": -2.788844621513931
+      },
+      {
+        "quintile": 2,
+        "n": 251,
+        "min_area": 0.40187835693359375,
+        "max_area": 1.0107994079589844,
+        "clip_tpr": 84.06374501992032,
+        "dino_tpr": 92.03187250996015,
+        "clip_advantage": -7.968127490039834
+      },
+      {
+        "quintile": 3,
+        "n": 251,
+        "min_area": 1.0143280029296875,
+        "max_area": 2.158355712890625,
+        "clip_tpr": 86.05577689243027,
+        "dino_tpr": 93.22709163346613,
+        "clip_advantage": -7.171314741035857
+      },
+      {
+        "quintile": 4,
+        "n": 251,
+        "min_area": 2.1889686584472656,
+        "max_area": 4.831695556640625,
+        "clip_tpr": 85.65737051792829,
+        "dino_tpr": 98.00796812749005,
+        "clip_advantage": -12.35059760956176
+      },
+      {
+        "quintile": 5,
+        "n": 254,
+        "min_area": 4.834461212158203,
+        "max_area": 49.32050704956055,
+        "clip_tpr": 78.34645669291339,
+        "dino_tpr": 94.48818897637796,
+        "clip_advantage": -16.141732283464563
+      }
+    ],
+    "correlation": {
+      "pearson_r": -0.1128,
+      "pearson_p": 0.689,
+      "spearman_rho": -0.0464,
+      "spearman_p": 0.8695
+    }
+  }
+}

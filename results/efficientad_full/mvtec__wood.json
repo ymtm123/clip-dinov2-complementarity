@@ -1,0 +1,13 @@
+{
+  "dataset": "MVTec AD",
+  "dataset_key": "mvtec",
+  "category": "wood",
+  "image_auroc": 97.02,
+  "pixel_auroc": 86.76,
+  "train_seconds": 399.8,
+  "latency_ms_per_image": 4.342,
+  "throughput_img_s": 230.3,
+  "n_predictions": 79,
+  "n_latency_timed": 69,
+  "max_epochs": 15
+}

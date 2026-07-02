@@ -1,0 +1,13 @@
+{
+  "dataset": "MVTec AD",
+  "dataset_key": "mvtec",
+  "category": "hazelnut",
+  "image_auroc": 88.54,
+  "pixel_auroc": 84.1,
+  "train_seconds": 566.6,
+  "latency_ms_per_image": 3.89,
+  "throughput_img_s": 257.0,
+  "n_predictions": 110,
+  "n_latency_timed": 100,
+  "max_epochs": 15
+}

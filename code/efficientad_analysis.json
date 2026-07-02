@@ -1,0 +1,85 @@
+{
+  "experiment": "C5 EfficientAD setting-axis + hybrid cascade",
+  "n_categories": 6,
+  "setting_axis": {
+    "efficientad": {
+      "mean_auroc_subset": 90.13,
+      "latency_ms": 4.584,
+      "target_data": "per-category normal training set (distillation)",
+      "cross_category": "no (re-train per product)"
+    },
+    "clip_dino_fusion": {
+      "mean_auroc_subset": 97.83,
+      "latency_ms": 99.4,
+      "target_data": "none (zero/few-shot)",
+      "cross_category": "yes"
+    }
+  },
+  "per_category": [
+    {
+      "category": "bottle",
+      "effad_auroc": 100.0,
+      "fusion_auroc": 99.7,
+      "n": 83
+    },
+    {
+      "category": "cable",
+      "effad_auroc": 91.9,
+      "fusion_auroc": 92.4,
+      "n": 150
+    },
+    {
+      "category": "carpet",
+      "effad_auroc": 98.5,
+      "fusion_auroc": 99.8,
+      "n": 117
+    },
+    {
+      "category": "grid",
+      "effad_auroc": 99.4,
+      "fusion_auroc": 99.2,
+      "n": 78
+    },
+    {
+      "category": "hazelnut",
+      "effad_auroc": 82.2,
+      "fusion_auroc": 98.7,
+      "n": 110
+    },
+    {
+      "category": "transistor",
+      "effad_auroc": 68.8,
+      "fusion_auroc": 97.2,
+      "n": 100
+    }
+  ],
+  "cascade_by_q": {
+    "50": {
+      "mean_escalation": 0.798,
+      "mean_cascade_auroc": 95.3,
+      "mean_latency_ms": 80.2
+    },
+    "60": {
+      "mean_escalation": 0.743,
+      "mean_cascade_auroc": 93.85,
+      "mean_latency_ms": 75.0
+    },
+    "70": {
+      "mean_escalation": 0.686,
+      "mean_cascade_auroc": 92.33,
+      "mean_latency_ms": 69.6
+    },
+    "80": {
+      "mean_escalation": 0.637,
+      "mean_cascade_auroc": 92.02,
+      "mean_latency_ms": 65.0
+    },
+    "90": {
+      "mean_escalation": 0.54,
+      "mean_cascade_auroc": 90.48,
+      "mean_latency_ms": 55.8
+    }
+  },
+  "fusion_alone_latency_ms": 99.4,
+  "effad_latency_ms": 4.584
+}

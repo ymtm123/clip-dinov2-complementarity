@@ -1,0 +1,100 @@
+{
+  "experiment_23_taxonomy_alpha": {
+    "part_a": {
+      "type_mean_alpha": {
+        "object": 0.6625,
+        "texture": 0.35833333333333334
+      },
+      "sem_mean_alpha": {
+        "shape": 0.6233333333333333,
+        "mixed": 0.6722222222222222,
+        "color": 0.4416666666666667
+      },
+      "type_based_regret": 0.405272222222222,
+      "fixed_regret": 0.33466666666666733
+    },
+    "part_b": {
+      "group_means_2d": {
+        "object_color": 0.85,
+        "object_mixed": 0.6722222222222222,
+        "object_shape": 0.6428571428571429,
+        "texture_color": 0.36,
+        "texture_shape": 0.35
+      },
+      "mean_regret_2d": 0.373137460317462
+    },
+    "part_c": {
+      "fixed_regret": 0.33466666666666733,
+      "loo_type_regret": 0.4455379710144925,
+      "loo_sem_regret": 0.6352824206349211,
+      "loo_2d_regret": 0.46796292735042755,
+      "directional_accuracy_type": 24,
+      "directional_accuracy_sem": 20
+    },
+    "part_d": {
+      "total_regret": 10.04000000000002,
+      "n_zero_regret": 9,
+      "n_small_regret": 15,
+      "n_large_regret": 6
+    },
+    "part_e": {
+      "image_MVTec AD": {
+        "mean_diff": 4.213333333333335,
+        "cohens_d": 0.6307528940490504,
+        "wilcoxon_p": 0.083251953125,
+        "n": 15
+      },
+      "image_VisA": {
+        "mean_diff": 8.024166666666668,
+        "cohens_d": 0.7687984665605798,
+        "wilcoxon_p": 0.00927734375,
+        "n": 12
+      },
+      "image_BTAD": {
+        "mean_diff": 4.086666666666663,
+        "cohens_d": 1.000587646914572,
+        "wilcoxon_p": 0.5,
+        "n": 3
+      },
+      "fusion_gain_MVTec AD": {
+        "mean_gain": 1.398666666666667,
+        "cohens_d": 0.9804274311555855,
+        "n": 15
+      },
+      "fusion_gain_VisA": {
+        "mean_gain": 2.864166666666668,
+        "cohens_d": 1.3991657692406918,
+        "n": 12
+      },
+      "fusion_gain_BTAD": {
+        "mean_gain": 2.066666666666672,
+        "cohens_d": 0.8876083615741283,
+        "n": 3
+      },
+      "pixel_MVTec AD": {
+        "mean_diff": 7.761333333333332,
+        "cohens_d": 0.9489940490495639,
+        "wilcoxon_p": 0.0008544921875,
+        "n": 15
+      },
+      "pixel_VisA": {
+        "mean_diff": 2.5283333333333324,
+        "cohens_d": 0.8797789067414883,
+        "wilcoxon_p": 0.01220703125,
+        "n": 12
+      },
+      "pixel_BTAD": {
+        "mean_diff": 16.163333333333338,
+        "cohens_d": 0.9729842027008851,
+        "wilcoxon_p": null,
+        "n": 3
+      },
+      "pooled_image": {
+        "mean_diff": 5.7250000000000005,
+        "cohens_d": 0.6960045672128554,
+        "wilcoxon_p": 0.0005548261106014252,
+        "n": 30
+      }
+    }
+  }
+}

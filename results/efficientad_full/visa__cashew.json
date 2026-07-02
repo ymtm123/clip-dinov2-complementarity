@@ -1,0 +1,13 @@
+{
+  "dataset": "VisA",
+  "dataset_key": "visa",
+  "category": "cashew",
+  "image_auroc": 90.8,
+  "pixel_auroc": 93.81,
+  "train_seconds": 425.5,
+  "latency_ms_per_image": 5.212,
+  "throughput_img_s": 191.8,
+  "n_predictions": 150,
+  "n_latency_timed": 100,
+  "max_epochs": 15
+}

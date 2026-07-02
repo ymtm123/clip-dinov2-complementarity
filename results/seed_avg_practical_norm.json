@@ -1,0 +1,219 @@
+{
+  "experiment": "seed-averaged deployment-legal normalization",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "n_splits": 20,
+  "method": "per-seed protocol summary, then mean +/- t(9) 95% CI",
+  "protocols": {
+    "transductive_minmax": {
+      "regret_pp": {
+        "mean": 0.6034,
+        "ci95": [
+          0.4414,
+          0.7654
+        ],
+        "seed0": 0.359
+      },
+      "fusion_gain_vs_best": {
+        "mean": 1.1688,
+        "ci95": [
+          0.9481,
+          1.3895
+        ],
+        "seed0": 1.666
+      },
+      "fixed_065": {
+        "mean": 94.812,
+        "ci95": [
+          94.439,
+          95.185
+        ],
+        "seed0": 95.17
+      },
+      "global_alpha": {
+        "mean": 0.651,
+        "ci95": [
+          0.625,
+          0.677
+        ],
+        "seed0": 0.69
+      },
+      "oracle": {
+        "mean": 95.443,
+        "ci95": [
+          95.2204,
+          95.6656
+        ],
+        "seed0": 95.54
+      },
+      "best_single": {
+        "mean": 93.669,
+        "ci95": [
+          93.3894,
+          93.9486
+        ],
+        "seed0": 93.51
+      }
+    },
+    "transductive_zscore": {
+      "regret_pp": {
+        "mean": 0.6328,
+        "ci95": [
+          0.4614,
+          0.8042
+        ],
+        "seed0": 0.397
+      },
+      "fusion_gain_vs_best": {
+        "mean": 1.1387,
+        "ci95": [
+          0.9153,
+          1.3621
+        ],
+        "seed0": 1.63
+      },
+      "fixed_065": {
+        "mean": 94.767,
+        "ci95": [
+          94.4154,
+          95.1186
+        ],
+        "seed0": 95.07
+      },
+      "global_alpha": {
+        "mean": 0.679,
+        "ci95": [
+          0.653,
+          0.705
+        ],
+        "seed0": 0.71
+      },
+      "oracle": {
+        "mean": 95.441,
+        "ci95": [
+          95.2185,
+          95.6635
+        ],
+        "seed0": 95.54
+      },
+      "best_single": {
+        "mean": 93.669,
+        "ci95": [
+          93.3894,
+          93.9486
+        ],
+        "seed0": 93.51
+      }
+    },
+    "calib_zscore": {
+      "regret_pp": {
+        "mean": 0.4999,
+        "ci95": [
+          0.4108,
+          0.589
+        ],
+        "seed0": 0.473
+      },
+      "fusion_gain_vs_best": {
+        "mean": 1.19,
+        "ci95": [
+          1.0371,
+          1.3429
+        ],
+        "seed0": 1.457
+      },
+      "fixed_065": {
+        "mean": 94.653,
+        "ci95": [
+          94.2904,
+          95.0156
+        ],
+        "seed0": 94.84
+      },
+      "global_alpha": {
+        "mean": 0.53,
+        "ci95": [
+          0.5142,
+          0.5458
+        ],
+        "seed0": 0.53
+      },
+      "oracle": {
+        "mean": 95.36,
+        "ci95": [
+          95.1428,
+          95.5772
+        ],
+        "seed0": 95.44
+      },
+      "best_single": {
+        "mean": 93.669,
+        "ci95": [
+          93.3894,
+          93.9486
+        ],
+        "seed0": 93.51
+      }
+    },
+    "calib_robust_minmax": {
+      "regret_pp": {
+        "mean": 0.5062,
+        "ci95": [
+          0.4075,
+          0.6049
+        ],
+        "seed0": 0.486
+      },
+      "fusion_gain_vs_best": {
+        "mean": 1.1797,
+        "ci95": [
+          1.0242,
+          1.3352
+        ],
+        "seed0": 1.444
+      },
+      "fixed_065": {
+        "mean": 94.636,
+        "ci95": [
+          94.251,
+          95.021
+        ],
+        "seed0": 94.82
+      },
+      "global_alpha": {
+        "mean": 0.53,
+        "ci95": [
+          0.5095,
+          0.5505
+        ],
+        "seed0": 0.53
+      },
+      "oracle": {
+        "mean": 95.356,
+        "ci95": [
+          95.1366,
+          95.5754
+        ],
+        "seed0": 95.44
+      },
+      "best_single": {
+        "mean": 93.669,
+        "ci95": [
+          93.3894,
+          93.9486
+        ],
+        "seed0": 93.51
+      }
+    }
+  }
+}

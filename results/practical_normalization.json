@@ -1,0 +1,82 @@
+{
+  "experiment": "practical (calibration-set) normalization",
+  "n_categories": 30,
+  "n_splits": 20,
+  "calib_frac": 0.5,
+  "protocols": {
+    "transductive_minmax": {
+      "global_alpha": 0.69,
+      "clip_only": 87.32,
+      "dino_only": 93.2,
+      "equal": 94.58,
+      "fixed_globalalpha": 95.18,
+      "fixed_065": 95.17,
+      "oracle": 95.54,
+      "best_single": 93.51,
+      "fusion_gain_vs_best": 1.666,
+      "regret_pp": 0.359
+    },
+    "transductive_zscore": {
+      "global_alpha": 0.71,
+      "clip_only": 87.32,
+      "dino_only": 93.2,
+      "equal": 94.36,
+      "fixed_globalalpha": 95.14,
+      "fixed_065": 95.07,
+      "oracle": 95.54,
+      "best_single": 93.51,
+      "fusion_gain_vs_best": 1.63,
+      "regret_pp": 0.397
+    },
+    "calib_zscore": {
+      "global_alpha": 0.53,
+      "clip_only": 87.32,
+      "dino_only": 93.2,
+      "equal": 94.96,
+      "fixed_globalalpha": 94.97,
+      "fixed_065": 94.84,
+      "oracle": 95.44,
+      "best_single": 93.51,
+      "fusion_gain_vs_best": 1.457,
+      "regret_pp": 0.473
+    },
+    "calib_robust_minmax": {
+      "global_alpha": 0.53,
+      "clip_only": 87.32,
+      "dino_only": 93.2,
+      "equal": 94.93,
+      "fixed_globalalpha": 94.96,
+      "fixed_065": 94.82,
+      "oracle": 95.44,
+      "best_single": 93.51,
+      "fusion_gain_vs_best": 1.444,
+      "regret_pp": 0.486
+    }
+  },
+  "calib_size_sweep": [
+    {
+      "calib_size": 5,
+      "global_alpha": 0.56,
+      "regret_pp": 0.529,
+      "fusion_gain": 1.274
+    },
+    {
+      "calib_size": 10,
+      "global_alpha": 0.56,
+      "regret_pp": 0.418,
+      "fusion_gain": 1.438
+    },
+    {
+      "calib_size": 20,
+      "global_alpha": 0.54,
+      "regret_pp": 0.43,
+      "fusion_gain": 1.499
+    },
+    {
+      "calib_size": 40,
+      "global_alpha": 0.53,
+      "regret_pp": 0.5,
+      "fusion_gain": 1.407
+    }
+  ]
+}

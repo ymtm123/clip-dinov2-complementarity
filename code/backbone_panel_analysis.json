@@ -1,0 +1,80 @@
+{
+  "experiment": "C7 6-backbone same-kNN panel",
+  "backbones": [
+    "CLIP",
+    "SigLIP",
+    "DINOv2",
+    "DINOv2-reg",
+    "MAE",
+    "WRN50"
+  ],
+  "n_categories": 27,
+  "mean_auroc_per_backbone": {
+    "CLIP": 83.09,
+    "SigLIP": 83.26,
+    "DINOv2": 89.76,
+    "DINOv2-reg": 87.87,
+    "MAE": 69.26,
+    "WRN50": 73.4
+  },
+  "corr_matrix": {
+    "CLIP": {
+      "CLIP": 1.0,
+      "SigLIP": 0.826,
+      "DINOv2": 0.728,
+      "DINOv2-reg": 0.646,
+      "MAE": 0.469,
+      "WRN50": 0.517
+    },
+    "SigLIP": {
+      "CLIP": 0.826,
+      "SigLIP": 1.0,
+      "DINOv2": 0.77,
+      "DINOv2-reg": 0.787,
+      "MAE": 0.486,
+      "WRN50": 0.451
+    },
+    "DINOv2": {
+      "CLIP": 0.728,
+      "SigLIP": 0.77,
+      "DINOv2": 1.0,
+      "DINOv2-reg": 0.925,
+      "MAE": 0.454,
+      "WRN50": 0.47
+    },
+    "DINOv2-reg": {
+      "CLIP": 0.646,
+      "SigLIP": 0.787,
+      "DINOv2": 0.925,
+      "DINOv2-reg": 1.0,
+      "MAE": 0.492,
+      "WRN50": 0.443
+    },
+    "MAE": {
+      "CLIP": 0.469,
+      "SigLIP": 0.486,
+      "DINOv2": 0.454,
+      "DINOv2-reg": 0.492,
+      "MAE": 1.0,
+      "WRN50": 0.754
+    },
+    "WRN50": {
+      "CLIP": 0.517,
+      "SigLIP": 0.451,
+      "DINOv2": 0.47,
+      "DINOv2-reg": 0.443,
+      "MAE": 0.754,
+      "WRN50": 1.0
+    }
+  },
+  "within_axis_mean_corr": 0.674,
+  "cross_axis_mean_corr": 0.593,
+  "within_minus_cross": 0.081,
+  "permutation_p": 0.2486,
+  "winner_by_axis": {
+    "contrastive-language": 5,
+    "ssl-spatial": 22,
+    "supervised": 0
+  },
+  "clip_vs_dinov2_clip_wins": "5/27"
+}

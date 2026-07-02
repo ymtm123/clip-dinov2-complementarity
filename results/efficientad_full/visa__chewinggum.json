@@ -1,0 +1,13 @@
+{
+  "dataset": "VisA",
+  "dataset_key": "visa",
+  "category": "chewinggum",
+  "image_auroc": 86.94,
+  "pixel_auroc": 97.19,
+  "train_seconds": 398.5,
+  "latency_ms_per_image": 5.521,
+  "throughput_img_s": 181.1,
+  "n_predictions": 150,
+  "n_latency_timed": 100,
+  "max_epochs": 15
+}

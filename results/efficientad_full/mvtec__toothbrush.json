@@ -1,0 +1,13 @@
+{
+  "dataset": "MVTec AD",
+  "dataset_key": "mvtec",
+  "category": "toothbrush",
+  "image_auroc": 78.89,
+  "pixel_auroc": 93.09,
+  "train_seconds": 115.2,
+  "latency_ms_per_image": 7.225,
+  "throughput_img_s": 138.4,
+  "n_predictions": 42,
+  "n_latency_timed": 32,
+  "max_epochs": 15
+}

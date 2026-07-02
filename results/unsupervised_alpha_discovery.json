@@ -1,0 +1,90 @@
+{
+  "summary": {
+    "Fixed-0.65": {
+      "mean_auroc": 95.226,
+      "pearson_r": 0,
+      "mae_alpha": 0.145,
+      "mean_regret": 0.376
+    },
+    "Agreement-weighted": {
+      "mean_auroc": 95.029,
+      "pearson_r": -0.325,
+      "mae_alpha": 0.163,
+      "mean_regret": 0.573
+    },
+    "NormalDeviation-90": {
+      "mean_auroc": 94.974,
+      "pearson_r": -0.068,
+      "mae_alpha": 0.174,
+      "mean_regret": 0.628
+    },
+    "NormalDeviation-80": {
+      "mean_auroc": 94.93,
+      "pearson_r": -0.059,
+      "mae_alpha": 0.18,
+      "mean_regret": 0.672
+    },
+    "NormalDeviation-70": {
+      "mean_auroc": 94.902,
+      "pearson_r": -0.043,
+      "mae_alpha": 0.186,
+      "mean_regret": 0.701
+    },
+    "Bimodality-ratio": {
+      "mean_auroc": 94.897,
+      "pearson_r": 0.187,
+      "mae_alpha": 0.186,
+      "mean_regret": 0.705
+    },
+    "PseudoAUROC-otsu": {
+      "mean_auroc": 94.679,
+      "pearson_r": 0,
+      "mae_alpha": 0.197,
+      "mean_regret": 0.923
+    },
+    "PseudoAUROC-quantile": {
+      "mean_auroc": 94.679,
+      "pearson_r": 0,
+      "mae_alpha": 0.197,
+      "mean_regret": 0.923
+    },
+    "PseudoAUROC-kmeans": {
+      "mean_auroc": 94.679,
+      "pearson_r": 0,
+      "mae_alpha": 0.197,
+      "mean_regret": 0.923
+    },
+    "Fixed-0.50": {
+      "mean_auroc": 94.679,
+      "pearson_r": 0,
+      "mae_alpha": 0.197,
+      "mean_regret": 0.923
+    },
+    "PseudoAUROC-gmm": {
+      "mean_auroc": 94.399,
+      "pearson_r": -0.059,
+      "mae_alpha": 0.214,
+      "mean_regret": 1.203
+    },
+    "PseudoAUROC-ensemble": {
+      "mean_auroc": 94.399,
+      "pearson_r": -0.059,
+      "mae_alpha": 0.214,
+      "mean_regret": 1.203
+    },
+    "MedianScore-ratio": {
+      "mean_auroc": 93.872,
+      "pearson_r": -0.195,
+      "mae_alpha": 0.282,
+      "mean_regret": 1.73
+    },
+    "KL-ratio": {
+      "mean_auroc": 93.703,
+      "pearson_r": 0.151,
+      "mae_alpha": 0.274,
+      "mean_regret": 1.899
+    }
+  },
+  "best_method": "Fixed-0.65",
+  "best_non_fixed": "Agreement-weighted"
+}

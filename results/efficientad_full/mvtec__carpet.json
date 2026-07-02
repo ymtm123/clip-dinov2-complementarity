@@ -1,0 +1,13 @@
+{
+  "dataset": "MVTec AD",
+  "dataset_key": "mvtec",
+  "category": "carpet",
+  "image_auroc": 99.36,
+  "pixel_auroc": 95.78,
+  "train_seconds": 467.9,
+  "latency_ms_per_image": 4.337,
+  "throughput_img_s": 230.6,
+  "n_predictions": 117,
+  "n_latency_timed": 100,
+  "max_epochs": 15
+}

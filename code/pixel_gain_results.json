@@ -1,0 +1,43 @@
+{
+  "experiment_21_pixel_gain": {
+    "part_a": {
+      "mean_gain": 0.4526666666666666,
+      "n_positive": 23,
+      "mean_equal_gain": 0.15033333333333304
+    },
+    "part_b": {
+      "best_single": {
+        "r": -0.5172522845586421,
+        "p": 0.003421513163483393
+      },
+      "alpha_extremity": {
+        "r": -0.6674019030801731,
+        "p": 5.6103987153666916e-05
+      },
+      "auroc_gap": {
+        "r": -0.25728262985189604,
+        "p": 0.16989184079698427
+      },
+      "type": {
+        "texture_mean": 0.5700000000000003,
+        "object_mean": 0.4233333333333332,
+        "p": 0.714889342031501
+      }
+    },
+    "part_c": {
+      "gain_correlation_r": 0.13733859167729315,
+      "gain_correlation_p": 0.46924310865986985,
+      "mean_image_gain": 2.051666666666668,
+      "mean_pixel_gain": 0.4526666666666666,
+      "wilcoxon_p": 0.00014305384791016862,
+      "alpha_correlation_r": 0.3011722348842144,
+      "alpha_correlation_p": 0.10581372188561194
+    },
+    "part_d": {
+      "both_benefit": 13,
+      "image_only": 13,
+      "pixel_only": 2,
+      "neither": 2
+    }
+  }
+}

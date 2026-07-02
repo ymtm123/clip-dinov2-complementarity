@@ -1,0 +1,5427 @@
+{
+  "Fixed-0.65": {
+    "mean_auroc": 95.226,
+    "regret": 0.376,
+    "per_category": [
+      {
+        "ds": "MVTec",
+        "cat": "bottle",
+        "auroc": 99.68,
+        "auroc_oracle": 99.92,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "MVTec",
+        "cat": "cable",
+        "auroc": 92.45,
+        "auroc_oracle": 92.6,
+        "oracle_alpha": 0.57
+      },
+      {
+        "ds": "MVTec",
+        "cat": "capsule",
+        "auroc": 92.74,
+        "auroc_oracle": 94.5,
+        "oracle_alpha": 0.42
+      },
+      {
+        "ds": "MVTec",
+        "cat": "carpet",
+        "auroc": 99.76,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.02
+      },
+      {
+        "ds": "MVTec",
+        "cat": "grid",
+        "auroc": 99.25,
+        "auroc_oracle": 99.83,
+        "oracle_alpha": 0.33
+      },
+      {
+        "ds": "MVTec",
+        "cat": "hazelnut",
+        "auroc": 98.71,
+        "auroc_oracle": 99.04,
+        "oracle_alpha": 0.35
+      },
+      {
+        "ds": "MVTec",
+        "cat": "leather",
+        "auroc": 99.97,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "MVTec",
+        "cat": "metal_nut",
+        "auroc": 99.85,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.86
+      },
+      {
+        "ds": "MVTec",
+        "cat": "pill",
+        "auroc": 95.25,
+        "auroc_oracle": 95.44,
+        "oracle_alpha": 0.69
+      },
+      {
+        "ds": "MVTec",
+        "cat": "screw",
+        "auroc": 91.8,
+        "auroc_oracle": 91.84,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "tile",
+        "auroc": 100.0,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.0
+      },
+      {
+        "ds": "MVTec",
+        "cat": "toothbrush",
+        "auroc": 95.0,
+        "auroc_oracle": 95.0,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "MVTec",
+        "cat": "transistor",
+        "auroc": 97.25,
+        "auroc_oracle": 97.42,
+        "oracle_alpha": 0.59
+      },
+      {
+        "ds": "MVTec",
+        "cat": "wood",
+        "auroc": 98.42,
+        "auroc_oracle": 98.68,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "zipper",
+        "auroc": 99.97,
+        "auroc_oracle": 99.97,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "candle",
+        "auroc": 96.49,
+        "auroc_oracle": 96.52,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "capsules",
+        "auroc": 96.4,
+        "auroc_oracle": 98.1,
+        "oracle_alpha": 0.88
+      },
+      {
+        "ds": "VisA",
+        "cat": "cashew",
+        "auroc": 80.78,
+        "auroc_oracle": 80.94,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "VisA",
+        "cat": "chewinggum",
+        "auroc": 98.9,
+        "auroc_oracle": 99.16,
+        "oracle_alpha": 0.77
+      },
+      {
+        "ds": "VisA",
+        "cat": "fryum",
+        "auroc": 97.76,
+        "auroc_oracle": 97.76,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni1",
+        "auroc": 94.69,
+        "auroc_oracle": 94.97,
+        "oracle_alpha": 0.56
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni2",
+        "auroc": 81.8,
+        "auroc_oracle": 81.92,
+        "oracle_alpha": 0.67
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb1",
+        "auroc": 93.72,
+        "auroc_oracle": 93.78,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb2",
+        "auroc": 91.2,
+        "auroc_oracle": 92.55,
+        "oracle_alpha": 0.84
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb3",
+        "auroc": 85.92,
+        "auroc_oracle": 87.52,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb4",
+        "auroc": 97.51,
+        "auroc_oracle": 97.52,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "pipe_fryum",
+        "auroc": 95.46,
+        "auroc_oracle": 96.72,
+        "oracle_alpha": 0.46
+      },
+      {
+        "ds": "BTAD",
+        "cat": "01",
+        "auroc": 95.34,
+        "auroc_oracle": 95.43,
+        "oracle_alpha": 0.66
+      },
+      {
+        "ds": "BTAD",
+        "cat": "02",
+        "auroc": 91.33,
+        "auroc_oracle": 91.5,
+        "oracle_alpha": 0.54
+      },
+      {
+        "ds": "BTAD",
+        "cat": "03",
+        "auroc": 99.37,
+        "auroc_oracle": 99.43,
+        "oracle_alpha": 0.75
+      }
+    ],
+    "wins_vs_065": "-"
+  },
+  "ConfGated-95": {
+    "mean_auroc": 95.226,
+    "regret": 0.376,
+    "per_category": [
+      {
+        "ds": "MVTec",
+        "cat": "bottle",
+        "auroc": 99.68,
+        "auroc_oracle": 99.92,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "MVTec",
+        "cat": "cable",
+        "auroc": 92.92,
+        "auroc_oracle": 92.6,
+        "oracle_alpha": 0.57
+      },
+      {
+        "ds": "MVTec",
+        "cat": "capsule",
+        "auroc": 92.78,
+        "auroc_oracle": 94.5,
+        "oracle_alpha": 0.42
+      },
+      {
+        "ds": "MVTec",
+        "cat": "carpet",
+        "auroc": 99.76,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.02
+      },
+      {
+        "ds": "MVTec",
+        "cat": "grid",
+        "auroc": 99.25,
+        "auroc_oracle": 99.83,
+        "oracle_alpha": 0.33
+      },
+      {
+        "ds": "MVTec",
+        "cat": "hazelnut",
+        "auroc": 98.71,
+        "auroc_oracle": 99.04,
+        "oracle_alpha": 0.35
+      },
+      {
+        "ds": "MVTec",
+        "cat": "leather",
+        "auroc": 99.97,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "MVTec",
+        "cat": "metal_nut",
+        "auroc": 99.85,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.86
+      },
+      {
+        "ds": "MVTec",
+        "cat": "pill",
+        "auroc": 95.25,
+        "auroc_oracle": 95.44,
+        "oracle_alpha": 0.69
+      },
+      {
+        "ds": "MVTec",
+        "cat": "screw",
+        "auroc": 91.8,
+        "auroc_oracle": 91.84,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "tile",
+        "auroc": 100.0,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.0
+      },
+      {
+        "ds": "MVTec",
+        "cat": "toothbrush",
+        "auroc": 95.0,
+        "auroc_oracle": 95.0,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "MVTec",
+        "cat": "transistor",
+        "auroc": 97.25,
+        "auroc_oracle": 97.42,
+        "oracle_alpha": 0.59
+      },
+      {
+        "ds": "MVTec",
+        "cat": "wood",
+        "auroc": 98.42,
+        "auroc_oracle": 98.68,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "zipper",
+        "auroc": 99.97,
+        "auroc_oracle": 99.97,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "candle",
+        "auroc": 96.49,
+        "auroc_oracle": 96.52,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "capsules",
+        "auroc": 96.4,
+        "auroc_oracle": 98.1,
+        "oracle_alpha": 0.88
+      },
+      {
+        "ds": "VisA",
+        "cat": "cashew",
+        "auroc": 80.78,
+        "auroc_oracle": 80.94,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "VisA",
+        "cat": "chewinggum",
+        "auroc": 98.9,
+        "auroc_oracle": 99.16,
+        "oracle_alpha": 0.77
+      },
+      {
+        "ds": "VisA",
+        "cat": "fryum",
+        "auroc": 97.76,
+        "auroc_oracle": 97.76,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni1",
+        "auroc": 94.7,
+        "auroc_oracle": 94.97,
+        "oracle_alpha": 0.56
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni2",
+        "auroc": 81.08,
+        "auroc_oracle": 81.92,
+        "oracle_alpha": 0.67
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb1",
+        "auroc": 93.73,
+        "auroc_oracle": 93.78,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb2",
+        "auroc": 91.23,
+        "auroc_oracle": 92.55,
+        "oracle_alpha": 0.84
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb3",
+        "auroc": 86.05,
+        "auroc_oracle": 87.52,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb4",
+        "auroc": 97.51,
+        "auroc_oracle": 97.52,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "pipe_fryum",
+        "auroc": 95.46,
+        "auroc_oracle": 96.72,
+        "oracle_alpha": 0.46
+      },
+      {
+        "ds": "BTAD",
+        "cat": "01",
+        "auroc": 95.34,
+        "auroc_oracle": 95.43,
+        "oracle_alpha": 0.66
+      },
+      {
+        "ds": "BTAD",
+        "cat": "02",
+        "auroc": 91.33,
+        "auroc_oracle": 91.5,
+        "oracle_alpha": 0.54
+      },
+      {
+        "ds": "BTAD",
+        "cat": "03",
+        "auroc": 99.41,
+        "auroc_oracle": 99.43,
+        "oracle_alpha": 0.75
+      }
+    ],
+    "wins_vs_065": "5/30"
+  },
+  "Z-0.65": {
+    "mean_auroc": 95.134,
+    "regret": 0.468,
+    "per_category": [
+      {
+        "ds": "MVTec",
+        "cat": "bottle",
+        "auroc": 99.68,
+        "auroc_oracle": 99.92,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "MVTec",
+        "cat": "cable",
+        "auroc": 91.79,
+        "auroc_oracle": 92.6,
+        "oracle_alpha": 0.57
+      },
+      {
+        "ds": "MVTec",
+        "cat": "capsule",
+        "auroc": 93.02,
+        "auroc_oracle": 94.5,
+        "oracle_alpha": 0.42
+      },
+      {
+        "ds": "MVTec",
+        "cat": "carpet",
+        "auroc": 99.68,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.02
+      },
+      {
+        "ds": "MVTec",
+        "cat": "grid",
+        "auroc": 99.33,
+        "auroc_oracle": 99.83,
+        "oracle_alpha": 0.33
+      },
+      {
+        "ds": "MVTec",
+        "cat": "hazelnut",
+        "auroc": 98.96,
+        "auroc_oracle": 99.04,
+        "oracle_alpha": 0.35
+      },
+      {
+        "ds": "MVTec",
+        "cat": "leather",
+        "auroc": 99.97,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "MVTec",
+        "cat": "metal_nut",
+        "auroc": 99.71,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.86
+      },
+      {
+        "ds": "MVTec",
+        "cat": "pill",
+        "auroc": 95.14,
+        "auroc_oracle": 95.44,
+        "oracle_alpha": 0.69
+      },
+      {
+        "ds": "MVTec",
+        "cat": "screw",
+        "auroc": 91.82,
+        "auroc_oracle": 91.84,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "tile",
+        "auroc": 100.0,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.0
+      },
+      {
+        "ds": "MVTec",
+        "cat": "toothbrush",
+        "auroc": 94.72,
+        "auroc_oracle": 95.0,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "MVTec",
+        "cat": "transistor",
+        "auroc": 97.12,
+        "auroc_oracle": 97.42,
+        "oracle_alpha": 0.59
+      },
+      {
+        "ds": "MVTec",
+        "cat": "wood",
+        "auroc": 98.25,
+        "auroc_oracle": 98.68,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "zipper",
+        "auroc": 99.95,
+        "auroc_oracle": 99.97,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "candle",
+        "auroc": 96.49,
+        "auroc_oracle": 96.52,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "capsules",
+        "auroc": 95.77,
+        "auroc_oracle": 98.1,
+        "oracle_alpha": 0.88
+      },
+      {
+        "ds": "VisA",
+        "cat": "cashew",
+        "auroc": 80.44,
+        "auroc_oracle": 80.94,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "VisA",
+        "cat": "chewinggum",
+        "auroc": 98.9,
+        "auroc_oracle": 99.16,
+        "oracle_alpha": 0.77
+      },
+      {
+        "ds": "VisA",
+        "cat": "fryum",
+        "auroc": 97.72,
+        "auroc_oracle": 97.76,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni1",
+        "auroc": 94.59,
+        "auroc_oracle": 94.97,
+        "oracle_alpha": 0.56
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni2",
+        "auroc": 81.75,
+        "auroc_oracle": 81.92,
+        "oracle_alpha": 0.67
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb1",
+        "auroc": 93.79,
+        "auroc_oracle": 93.78,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb2",
+        "auroc": 90.7,
+        "auroc_oracle": 92.55,
+        "oracle_alpha": 0.84
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb3",
+        "auroc": 85.54,
+        "auroc_oracle": 87.52,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb4",
+        "auroc": 97.42,
+        "auroc_oracle": 97.52,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "pipe_fryum",
+        "auroc": 95.9,
+        "auroc_oracle": 96.72,
+        "oracle_alpha": 0.46
+      },
+      {
+        "ds": "BTAD",
+        "cat": "01",
+        "auroc": 95.14,
+        "auroc_oracle": 95.43,
+        "oracle_alpha": 0.66
+      },
+      {
+        "ds": "BTAD",
+        "cat": "02",
+        "auroc": 91.35,
+        "auroc_oracle": 91.5,
+        "oracle_alpha": 0.54
+      },
+      {
+        "ds": "BTAD",
+        "cat": "03",
+        "auroc": 99.38,
+        "auroc_oracle": 99.43,
+        "oracle_alpha": 0.75
+      }
+    ],
+    "wins_vs_065": "7/30"
+  },
+  "CDF-0.65": {
+    "mean_auroc": 95.055,
+    "regret": 0.548,
+    "per_category": [
+      {
+        "ds": "MVTec",
+        "cat": "bottle",
+        "auroc": 99.44,
+        "auroc_oracle": 99.92,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "MVTec",
+        "cat": "cable",
+        "auroc": 92.56,
+        "auroc_oracle": 92.6,
+        "oracle_alpha": 0.57
+      },
+      {
+        "ds": "MVTec",
+        "cat": "capsule",
+        "auroc": 93.9,
+        "auroc_oracle": 94.5,
+        "oracle_alpha": 0.42
+      },
+      {
+        "ds": "MVTec",
+        "cat": "carpet",
+        "auroc": 99.76,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.02
+      },
+      {
+        "ds": "MVTec",
+        "cat": "grid",
+        "auroc": 99.33,
+        "auroc_oracle": 99.83,
+        "oracle_alpha": 0.33
+      },
+      {
+        "ds": "MVTec",
+        "cat": "hazelnut",
+        "auroc": 98.96,
+        "auroc_oracle": 99.04,
+        "oracle_alpha": 0.35
+      },
+      {
+        "ds": "MVTec",
+        "cat": "leather",
+        "auroc": 99.9,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "MVTec",
+        "cat": "metal_nut",
+        "auroc": 99.8,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.86
+      },
+      {
+        "ds": "MVTec",
+        "cat": "pill",
+        "auroc": 96.07,
+        "auroc_oracle": 95.44,
+        "oracle_alpha": 0.69
+      },
+      {
+        "ds": "MVTec",
+        "cat": "screw",
+        "auroc": 91.42,
+        "auroc_oracle": 91.84,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "tile",
+        "auroc": 99.89,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.0
+      },
+      {
+        "ds": "MVTec",
+        "cat": "toothbrush",
+        "auroc": 93.61,
+        "auroc_oracle": 95.0,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "MVTec",
+        "cat": "transistor",
+        "auroc": 96.27,
+        "auroc_oracle": 97.42,
+        "oracle_alpha": 0.59
+      },
+      {
+        "ds": "MVTec",
+        "cat": "wood",
+        "auroc": 98.51,
+        "auroc_oracle": 98.68,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "zipper",
+        "auroc": 99.87,
+        "auroc_oracle": 99.97,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "candle",
+        "auroc": 96.38,
+        "auroc_oracle": 96.52,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "capsules",
+        "auroc": 97.48,
+        "auroc_oracle": 98.1,
+        "oracle_alpha": 0.88
+      },
+      {
+        "ds": "VisA",
+        "cat": "cashew",
+        "auroc": 79.44,
+        "auroc_oracle": 80.94,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "VisA",
+        "cat": "chewinggum",
+        "auroc": 98.9,
+        "auroc_oracle": 99.16,
+        "oracle_alpha": 0.77
+      },
+      {
+        "ds": "VisA",
+        "cat": "fryum",
+        "auroc": 97.18,
+        "auroc_oracle": 97.76,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni1",
+        "auroc": 93.54,
+        "auroc_oracle": 94.97,
+        "oracle_alpha": 0.56
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni2",
+        "auroc": 82.71,
+        "auroc_oracle": 81.92,
+        "oracle_alpha": 0.67
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb1",
+        "auroc": 93.49,
+        "auroc_oracle": 93.78,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb2",
+        "auroc": 90.58,
+        "auroc_oracle": 92.55,
+        "oracle_alpha": 0.84
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb3",
+        "auroc": 86.02,
+        "auroc_oracle": 87.52,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb4",
+        "auroc": 96.87,
+        "auroc_oracle": 97.52,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "pipe_fryum",
+        "auroc": 95.28,
+        "auroc_oracle": 96.72,
+        "oracle_alpha": 0.46
+      },
+      {
+        "ds": "BTAD",
+        "cat": "01",
+        "auroc": 94.85,
+        "auroc_oracle": 95.43,
+        "oracle_alpha": 0.66
+      },
+      {
+        "ds": "BTAD",
+        "cat": "02",
+        "auroc": 90.74,
+        "auroc_oracle": 91.5,
+        "oracle_alpha": 0.54
+      },
+      {
+        "ds": "BTAD",
+        "cat": "03",
+        "auroc": 98.88,
+        "auroc_oracle": 99.43,
+        "oracle_alpha": 0.75
+      }
+    ],
+    "wins_vs_065": "9/30"
+  },
+  "ConfGated-90": {
+    "mean_auroc": 94.906,
+    "regret": 0.696,
+    "per_category": [
+      {
+        "ds": "MVTec",
+        "cat": "bottle",
+        "auroc": 99.68,
+        "auroc_oracle": 99.92,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "MVTec",
+        "cat": "cable",
+        "auroc": 93.18,
+        "auroc_oracle": 92.6,
+        "oracle_alpha": 0.57
+      },
+      {
+        "ds": "MVTec",
+        "cat": "capsule",
+        "auroc": 92.82,
+        "auroc_oracle": 94.5,
+        "oracle_alpha": 0.42
+      },
+      {
+        "ds": "MVTec",
+        "cat": "carpet",
+        "auroc": 99.76,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.02
+      },
+      {
+        "ds": "MVTec",
+        "cat": "grid",
+        "auroc": 99.25,
+        "auroc_oracle": 99.83,
+        "oracle_alpha": 0.33
+      },
+      {
+        "ds": "MVTec",
+        "cat": "hazelnut",
+        "auroc": 98.71,
+        "auroc_oracle": 99.04,
+        "oracle_alpha": 0.35
+      },
+      {
+        "ds": "MVTec",
+        "cat": "leather",
+        "auroc": 99.97,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "MVTec",
+        "cat": "metal_nut",
+        "auroc": 99.85,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.86
+      },
+      {
+        "ds": "MVTec",
+        "cat": "pill",
+        "auroc": 92.31,
+        "auroc_oracle": 95.44,
+        "oracle_alpha": 0.69
+      },
+      {
+        "ds": "MVTec",
+        "cat": "screw",
+        "auroc": 91.82,
+        "auroc_oracle": 91.84,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "tile",
+        "auroc": 100.0,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.0
+      },
+      {
+        "ds": "MVTec",
+        "cat": "toothbrush",
+        "auroc": 95.0,
+        "auroc_oracle": 95.0,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "MVTec",
+        "cat": "transistor",
+        "auroc": 97.25,
+        "auroc_oracle": 97.42,
+        "oracle_alpha": 0.59
+      },
+      {
+        "ds": "MVTec",
+        "cat": "wood",
+        "auroc": 98.42,
+        "auroc_oracle": 98.68,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "zipper",
+        "auroc": 99.97,
+        "auroc_oracle": 99.97,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "candle",
+        "auroc": 96.51,
+        "auroc_oracle": 96.52,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "capsules",
+        "auroc": 96.4,
+        "auroc_oracle": 98.1,
+        "oracle_alpha": 0.88
+      },
+      {
+        "ds": "VisA",
+        "cat": "cashew",
+        "auroc": 80.78,
+        "auroc_oracle": 80.94,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "VisA",
+        "cat": "chewinggum",
+        "auroc": 98.9,
+        "auroc_oracle": 99.16,
+        "oracle_alpha": 0.77
+      },
+      {
+        "ds": "VisA",
+        "cat": "fryum",
+        "auroc": 97.76,
+        "auroc_oracle": 97.76,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni1",
+        "auroc": 93.84,
+        "auroc_oracle": 94.97,
+        "oracle_alpha": 0.56
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni2",
+        "auroc": 80.1,
+        "auroc_oracle": 81.92,
+        "oracle_alpha": 0.67
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb1",
+        "auroc": 93.83,
+        "auroc_oracle": 93.78,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb2",
+        "auroc": 87.47,
+        "auroc_oracle": 92.55,
+        "oracle_alpha": 0.84
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb3",
+        "auroc": 85.98,
+        "auroc_oracle": 87.52,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb4",
+        "auroc": 97.51,
+        "auroc_oracle": 97.52,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "pipe_fryum",
+        "auroc": 95.46,
+        "auroc_oracle": 96.72,
+        "oracle_alpha": 0.46
+      },
+      {
+        "ds": "BTAD",
+        "cat": "01",
+        "auroc": 95.34,
+        "auroc_oracle": 95.43,
+        "oracle_alpha": 0.66
+      },
+      {
+        "ds": "BTAD",
+        "cat": "02",
+        "auroc": 91.33,
+        "auroc_oracle": 91.5,
+        "oracle_alpha": 0.54
+      },
+      {
+        "ds": "BTAD",
+        "cat": "03",
+        "auroc": 97.97,
+        "auroc_oracle": 99.43,
+        "oracle_alpha": 0.75
+      }
+    ],
+    "wins_vs_065": "6/30"
+  },
+  "Fixed-0.50": {
+    "mean_auroc": 94.679,
+    "regret": 0.923,
+    "per_category": [
+      {
+        "ds": "MVTec",
+        "cat": "bottle",
+        "auroc": 98.57,
+        "auroc_oracle": 99.92,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "MVTec",
+        "cat": "cable",
+        "auroc": 92.0,
+        "auroc_oracle": 92.6,
+        "oracle_alpha": 0.57
+      },
+      {
+        "ds": "MVTec",
+        "cat": "capsule",
+        "auroc": 93.78,
+        "auroc_oracle": 94.5,
+        "oracle_alpha": 0.42
+      },
+      {
+        "ds": "MVTec",
+        "cat": "carpet",
+        "auroc": 99.92,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.02
+      },
+      {
+        "ds": "MVTec",
+        "cat": "grid",
+        "auroc": 99.58,
+        "auroc_oracle": 99.83,
+        "oracle_alpha": 0.33
+      },
+      {
+        "ds": "MVTec",
+        "cat": "hazelnut",
+        "auroc": 98.96,
+        "auroc_oracle": 99.04,
+        "oracle_alpha": 0.35
+      },
+      {
+        "ds": "MVTec",
+        "cat": "leather",
+        "auroc": 99.97,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "MVTec",
+        "cat": "metal_nut",
+        "auroc": 99.51,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.86
+      },
+      {
+        "ds": "MVTec",
+        "cat": "pill",
+        "auroc": 94.33,
+        "auroc_oracle": 95.44,
+        "oracle_alpha": 0.69
+      },
+      {
+        "ds": "MVTec",
+        "cat": "screw",
+        "auroc": 90.74,
+        "auroc_oracle": 91.84,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "tile",
+        "auroc": 100.0,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.0
+      },
+      {
+        "ds": "MVTec",
+        "cat": "toothbrush",
+        "auroc": 92.78,
+        "auroc_oracle": 95.0,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "MVTec",
+        "cat": "transistor",
+        "auroc": 97.12,
+        "auroc_oracle": 97.42,
+        "oracle_alpha": 0.59
+      },
+      {
+        "ds": "MVTec",
+        "cat": "wood",
+        "auroc": 98.33,
+        "auroc_oracle": 98.68,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "zipper",
+        "auroc": 99.87,
+        "auroc_oracle": 99.97,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "candle",
+        "auroc": 95.82,
+        "auroc_oracle": 96.52,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "capsules",
+        "auroc": 93.93,
+        "auroc_oracle": 98.1,
+        "oracle_alpha": 0.88
+      },
+      {
+        "ds": "VisA",
+        "cat": "cashew",
+        "auroc": 80.72,
+        "auroc_oracle": 80.94,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "VisA",
+        "cat": "chewinggum",
+        "auroc": 98.62,
+        "auroc_oracle": 99.16,
+        "oracle_alpha": 0.77
+      },
+      {
+        "ds": "VisA",
+        "cat": "fryum",
+        "auroc": 97.52,
+        "auroc_oracle": 97.76,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni1",
+        "auroc": 94.91,
+        "auroc_oracle": 94.97,
+        "oracle_alpha": 0.56
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni2",
+        "auroc": 80.62,
+        "auroc_oracle": 81.92,
+        "oracle_alpha": 0.67
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb1",
+        "auroc": 92.95,
+        "auroc_oracle": 93.78,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb2",
+        "auroc": 87.75,
+        "auroc_oracle": 92.55,
+        "oracle_alpha": 0.84
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb3",
+        "auroc": 82.99,
+        "auroc_oracle": 87.52,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb4",
+        "auroc": 97.23,
+        "auroc_oracle": 97.52,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "pipe_fryum",
+        "auroc": 96.62,
+        "auroc_oracle": 96.72,
+        "oracle_alpha": 0.46
+      },
+      {
+        "ds": "BTAD",
+        "cat": "01",
+        "auroc": 94.95,
+        "auroc_oracle": 95.43,
+        "oracle_alpha": 0.66
+      },
+      {
+        "ds": "BTAD",
+        "cat": "02",
+        "auroc": 91.27,
+        "auroc_oracle": 91.5,
+        "oracle_alpha": 0.54
+      },
+      {
+        "ds": "BTAD",
+        "cat": "03",
+        "auroc": 99.02,
+        "auroc_oracle": 99.43,
+        "oracle_alpha": 0.75
+      }
+    ],
+    "wins_vs_065": "6/30"
+  },
+  "RankAverage": {
+    "mean_auroc": 94.607,
+    "regret": 0.995,
+    "per_category": [
+      {
+        "ds": "MVTec",
+        "cat": "bottle",
+        "auroc": 98.81,
+        "auroc_oracle": 99.92,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "MVTec",
+        "cat": "cable",
+        "auroc": 90.18,
+        "auroc_oracle": 92.6,
+        "oracle_alpha": 0.57
+      },
+      {
+        "ds": "MVTec",
+        "cat": "capsule",
+        "auroc": 94.6,
+        "auroc_oracle": 94.5,
+        "oracle_alpha": 0.42
+      },
+      {
+        "ds": "MVTec",
+        "cat": "carpet",
+        "auroc": 99.92,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.02
+      },
+      {
+        "ds": "MVTec",
+        "cat": "grid",
+        "auroc": 99.79,
+        "auroc_oracle": 99.83,
+        "oracle_alpha": 0.33
+      },
+      {
+        "ds": "MVTec",
+        "cat": "hazelnut",
+        "auroc": 99.27,
+        "auroc_oracle": 99.04,
+        "oracle_alpha": 0.35
+      },
+      {
+        "ds": "MVTec",
+        "cat": "leather",
+        "auroc": 99.93,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "MVTec",
+        "cat": "metal_nut",
+        "auroc": 99.46,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.86
+      },
+      {
+        "ds": "MVTec",
+        "cat": "pill",
+        "auroc": 94.63,
+        "auroc_oracle": 95.44,
+        "oracle_alpha": 0.69
+      },
+      {
+        "ds": "MVTec",
+        "cat": "screw",
+        "auroc": 90.24,
+        "auroc_oracle": 91.84,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "tile",
+        "auroc": 99.93,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.0
+      },
+      {
+        "ds": "MVTec",
+        "cat": "toothbrush",
+        "auroc": 93.33,
+        "auroc_oracle": 95.0,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "MVTec",
+        "cat": "transistor",
+        "auroc": 97.6,
+        "auroc_oracle": 97.42,
+        "oracle_alpha": 0.59
+      },
+      {
+        "ds": "MVTec",
+        "cat": "wood",
+        "auroc": 98.16,
+        "auroc_oracle": 98.68,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "zipper",
+        "auroc": 99.82,
+        "auroc_oracle": 99.97,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "candle",
+        "auroc": 95.26,
+        "auroc_oracle": 96.52,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "capsules",
+        "auroc": 95.6,
+        "auroc_oracle": 98.1,
+        "oracle_alpha": 0.88
+      },
+      {
+        "ds": "VisA",
+        "cat": "cashew",
+        "auroc": 80.58,
+        "auroc_oracle": 80.94,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "VisA",
+        "cat": "chewinggum",
+        "auroc": 98.77,
+        "auroc_oracle": 99.16,
+        "oracle_alpha": 0.77
+      },
+      {
+        "ds": "VisA",
+        "cat": "fryum",
+        "auroc": 97.3,
+        "auroc_oracle": 97.76,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni1",
+        "auroc": 94.29,
+        "auroc_oracle": 94.97,
+        "oracle_alpha": 0.56
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni2",
+        "auroc": 82.21,
+        "auroc_oracle": 81.92,
+        "oracle_alpha": 0.67
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb1",
+        "auroc": 93.52,
+        "auroc_oracle": 93.78,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb2",
+        "auroc": 86.01,
+        "auroc_oracle": 92.55,
+        "oracle_alpha": 0.84
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb3",
+        "auroc": 81.52,
+        "auroc_oracle": 87.52,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb4",
+        "auroc": 97.2,
+        "auroc_oracle": 97.52,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "pipe_fryum",
+        "auroc": 96.3,
+        "auroc_oracle": 96.72,
+        "oracle_alpha": 0.46
+      },
+      {
+        "ds": "BTAD",
+        "cat": "01",
+        "auroc": 94.12,
+        "auroc_oracle": 95.43,
+        "oracle_alpha": 0.66
+      },
+      {
+        "ds": "BTAD",
+        "cat": "02",
+        "auroc": 91.64,
+        "auroc_oracle": 91.5,
+        "oracle_alpha": 0.54
+      },
+      {
+        "ds": "BTAD",
+        "cat": "03",
+        "auroc": 98.23,
+        "auroc_oracle": 99.43,
+        "oracle_alpha": 0.75
+      }
+    ],
+    "wins_vs_065": "8/30"
+  },
+  "CDF-Equal": {
+    "mean_auroc": 94.607,
+    "regret": 0.995,
+    "per_category": [
+      {
+        "ds": "MVTec",
+        "cat": "bottle",
+        "auroc": 98.81,
+        "auroc_oracle": 99.92,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "MVTec",
+        "cat": "cable",
+        "auroc": 90.18,
+        "auroc_oracle": 92.6,
+        "oracle_alpha": 0.57
+      },
+      {
+        "ds": "MVTec",
+        "cat": "capsule",
+        "auroc": 94.6,
+        "auroc_oracle": 94.5,
+        "oracle_alpha": 0.42
+      },
+      {
+        "ds": "MVTec",
+        "cat": "carpet",
+        "auroc": 99.92,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.02
+      },
+      {
+        "ds": "MVTec",
+        "cat": "grid",
+        "auroc": 99.79,
+        "auroc_oracle": 99.83,
+        "oracle_alpha": 0.33
+      },
+      {
+        "ds": "MVTec",
+        "cat": "hazelnut",
+        "auroc": 99.27,
+        "auroc_oracle": 99.04,
+        "oracle_alpha": 0.35
+      },
+      {
+        "ds": "MVTec",
+        "cat": "leather",
+        "auroc": 99.93,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "MVTec",
+        "cat": "metal_nut",
+        "auroc": 99.46,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.86
+      },
+      {
+        "ds": "MVTec",
+        "cat": "pill",
+        "auroc": 94.63,
+        "auroc_oracle": 95.44,
+        "oracle_alpha": 0.69
+      },
+      {
+        "ds": "MVTec",
+        "cat": "screw",
+        "auroc": 90.24,
+        "auroc_oracle": 91.84,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "tile",
+        "auroc": 99.93,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.0
+      },
+      {
+        "ds": "MVTec",
+        "cat": "toothbrush",
+        "auroc": 93.33,
+        "auroc_oracle": 95.0,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "MVTec",
+        "cat": "transistor",
+        "auroc": 97.6,
+        "auroc_oracle": 97.42,
+        "oracle_alpha": 0.59
+      },
+      {
+        "ds": "MVTec",
+        "cat": "wood",
+        "auroc": 98.16,
+        "auroc_oracle": 98.68,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "zipper",
+        "auroc": 99.82,
+        "auroc_oracle": 99.97,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "candle",
+        "auroc": 95.26,
+        "auroc_oracle": 96.52,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "capsules",
+        "auroc": 95.6,
+        "auroc_oracle": 98.1,
+        "oracle_alpha": 0.88
+      },
+      {
+        "ds": "VisA",
+        "cat": "cashew",
+        "auroc": 80.58,
+        "auroc_oracle": 80.94,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "VisA",
+        "cat": "chewinggum",
+        "auroc": 98.77,
+        "auroc_oracle": 99.16,
+        "oracle_alpha": 0.77
+      },
+      {
+        "ds": "VisA",
+        "cat": "fryum",
+        "auroc": 97.3,
+        "auroc_oracle": 97.76,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni1",
+        "auroc": 94.29,
+        "auroc_oracle": 94.97,
+        "oracle_alpha": 0.56
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni2",
+        "auroc": 82.21,
+        "auroc_oracle": 81.92,
+        "oracle_alpha": 0.67
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb1",
+        "auroc": 93.52,
+        "auroc_oracle": 93.78,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb2",
+        "auroc": 86.01,
+        "auroc_oracle": 92.55,
+        "oracle_alpha": 0.84
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb3",
+        "auroc": 81.52,
+        "auroc_oracle": 87.52,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb4",
+        "auroc": 97.2,
+        "auroc_oracle": 97.52,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "pipe_fryum",
+        "auroc": 96.3,
+        "auroc_oracle": 96.72,
+        "oracle_alpha": 0.46
+      },
+      {
+        "ds": "BTAD",
+        "cat": "01",
+        "auroc": 94.12,
+        "auroc_oracle": 95.43,
+        "oracle_alpha": 0.66
+      },
+      {
+        "ds": "BTAD",
+        "cat": "02",
+        "auroc": 91.64,
+        "auroc_oracle": 91.5,
+        "oracle_alpha": 0.54
+      },
+      {
+        "ds": "BTAD",
+        "cat": "03",
+        "auroc": 98.23,
+        "auroc_oracle": 99.43,
+        "oracle_alpha": 0.75
+      }
+    ],
+    "wins_vs_065": "8/30"
+  },
+  "GeometricMean": {
+    "mean_auroc": 94.596,
+    "regret": 1.006,
+    "per_category": [
+      {
+        "ds": "MVTec",
+        "cat": "bottle",
+        "auroc": 97.7,
+        "auroc_oracle": 99.92,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "MVTec",
+        "cat": "cable",
+        "auroc": 91.19,
+        "auroc_oracle": 92.6,
+        "oracle_alpha": 0.57
+      },
+      {
+        "ds": "MVTec",
+        "cat": "capsule",
+        "auroc": 93.5,
+        "auroc_oracle": 94.5,
+        "oracle_alpha": 0.42
+      },
+      {
+        "ds": "MVTec",
+        "cat": "carpet",
+        "auroc": 99.96,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.02
+      },
+      {
+        "ds": "MVTec",
+        "cat": "grid",
+        "auroc": 99.42,
+        "auroc_oracle": 99.83,
+        "oracle_alpha": 0.33
+      },
+      {
+        "ds": "MVTec",
+        "cat": "hazelnut",
+        "auroc": 98.21,
+        "auroc_oracle": 99.04,
+        "oracle_alpha": 0.35
+      },
+      {
+        "ds": "MVTec",
+        "cat": "leather",
+        "auroc": 99.93,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "MVTec",
+        "cat": "metal_nut",
+        "auroc": 99.9,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.86
+      },
+      {
+        "ds": "MVTec",
+        "cat": "pill",
+        "auroc": 93.48,
+        "auroc_oracle": 95.44,
+        "oracle_alpha": 0.69
+      },
+      {
+        "ds": "MVTec",
+        "cat": "screw",
+        "auroc": 91.64,
+        "auroc_oracle": 91.84,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "tile",
+        "auroc": 100.0,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.0
+      },
+      {
+        "ds": "MVTec",
+        "cat": "toothbrush",
+        "auroc": 93.89,
+        "auroc_oracle": 95.0,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "MVTec",
+        "cat": "transistor",
+        "auroc": 96.25,
+        "auroc_oracle": 97.42,
+        "oracle_alpha": 0.59
+      },
+      {
+        "ds": "MVTec",
+        "cat": "wood",
+        "auroc": 98.6,
+        "auroc_oracle": 98.68,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "zipper",
+        "auroc": 99.97,
+        "auroc_oracle": 99.97,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "candle",
+        "auroc": 96.57,
+        "auroc_oracle": 96.52,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "capsules",
+        "auroc": 97.2,
+        "auroc_oracle": 98.1,
+        "oracle_alpha": 0.88
+      },
+      {
+        "ds": "VisA",
+        "cat": "cashew",
+        "auroc": 78.76,
+        "auroc_oracle": 80.94,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "VisA",
+        "cat": "chewinggum",
+        "auroc": 98.96,
+        "auroc_oracle": 99.16,
+        "oracle_alpha": 0.77
+      },
+      {
+        "ds": "VisA",
+        "cat": "fryum",
+        "auroc": 97.28,
+        "auroc_oracle": 97.76,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni1",
+        "auroc": 92.56,
+        "auroc_oracle": 94.97,
+        "oracle_alpha": 0.56
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni2",
+        "auroc": 81.49,
+        "auroc_oracle": 81.92,
+        "oracle_alpha": 0.67
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb1",
+        "auroc": 93.07,
+        "auroc_oracle": 93.78,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb2",
+        "auroc": 90.28,
+        "auroc_oracle": 92.55,
+        "oracle_alpha": 0.84
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb3",
+        "auroc": 81.62,
+        "auroc_oracle": 87.52,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb4",
+        "auroc": 97.35,
+        "auroc_oracle": 97.52,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "pipe_fryum",
+        "auroc": 94.64,
+        "auroc_oracle": 96.72,
+        "oracle_alpha": 0.46
+      },
+      {
+        "ds": "BTAD",
+        "cat": "01",
+        "auroc": 95.14,
+        "auroc_oracle": 95.43,
+        "oracle_alpha": 0.66
+      },
+      {
+        "ds": "BTAD",
+        "cat": "02",
+        "auroc": 89.98,
+        "auroc_oracle": 91.5,
+        "oracle_alpha": 0.54
+      },
+      {
+        "ds": "BTAD",
+        "cat": "03",
+        "auroc": 99.35,
+        "auroc_oracle": 99.43,
+        "oracle_alpha": 0.75
+      }
+    ],
+    "wins_vs_065": "8/30"
+  },
+  "MaxThen065": {
+    "mean_auroc": 94.584,
+    "regret": 1.019,
+    "per_category": [
+      {
+        "ds": "MVTec",
+        "cat": "bottle",
+        "auroc": 99.68,
+        "auroc_oracle": 99.92,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "MVTec",
+        "cat": "cable",
+        "auroc": 91.66,
+        "auroc_oracle": 92.6,
+        "oracle_alpha": 0.57
+      },
+      {
+        "ds": "MVTec",
+        "cat": "capsule",
+        "auroc": 93.26,
+        "auroc_oracle": 94.5,
+        "oracle_alpha": 0.42
+      },
+      {
+        "ds": "MVTec",
+        "cat": "carpet",
+        "auroc": 99.76,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.02
+      },
+      {
+        "ds": "MVTec",
+        "cat": "grid",
+        "auroc": 99.25,
+        "auroc_oracle": 99.83,
+        "oracle_alpha": 0.33
+      },
+      {
+        "ds": "MVTec",
+        "cat": "hazelnut",
+        "auroc": 98.71,
+        "auroc_oracle": 99.04,
+        "oracle_alpha": 0.35
+      },
+      {
+        "ds": "MVTec",
+        "cat": "leather",
+        "auroc": 99.97,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "MVTec",
+        "cat": "metal_nut",
+        "auroc": 99.85,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.86
+      },
+      {
+        "ds": "MVTec",
+        "cat": "pill",
+        "auroc": 93.81,
+        "auroc_oracle": 95.44,
+        "oracle_alpha": 0.69
+      },
+      {
+        "ds": "MVTec",
+        "cat": "screw",
+        "auroc": 90.65,
+        "auroc_oracle": 91.84,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "tile",
+        "auroc": 100.0,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.0
+      },
+      {
+        "ds": "MVTec",
+        "cat": "toothbrush",
+        "auroc": 95.0,
+        "auroc_oracle": 95.0,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "MVTec",
+        "cat": "transistor",
+        "auroc": 96.25,
+        "auroc_oracle": 97.42,
+        "oracle_alpha": 0.59
+      },
+      {
+        "ds": "MVTec",
+        "cat": "wood",
+        "auroc": 98.51,
+        "auroc_oracle": 98.68,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "zipper",
+        "auroc": 99.97,
+        "auroc_oracle": 99.97,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "candle",
+        "auroc": 93.88,
+        "auroc_oracle": 96.52,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "capsules",
+        "auroc": 94.05,
+        "auroc_oracle": 98.1,
+        "oracle_alpha": 0.88
+      },
+      {
+        "ds": "VisA",
+        "cat": "cashew",
+        "auroc": 82.64,
+        "auroc_oracle": 80.94,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "VisA",
+        "cat": "chewinggum",
+        "auroc": 98.9,
+        "auroc_oracle": 99.16,
+        "oracle_alpha": 0.77
+      },
+      {
+        "ds": "VisA",
+        "cat": "fryum",
+        "auroc": 97.76,
+        "auroc_oracle": 97.76,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni1",
+        "auroc": 93.49,
+        "auroc_oracle": 94.97,
+        "oracle_alpha": 0.56
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni2",
+        "auroc": 80.2,
+        "auroc_oracle": 81.92,
+        "oracle_alpha": 0.67
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb1",
+        "auroc": 92.34,
+        "auroc_oracle": 93.78,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb2",
+        "auroc": 86.38,
+        "auroc_oracle": 92.55,
+        "oracle_alpha": 0.84
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb3",
+        "auroc": 85.19,
+        "auroc_oracle": 87.52,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb4",
+        "auroc": 97.01,
+        "auroc_oracle": 97.52,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "pipe_fryum",
+        "auroc": 95.7,
+        "auroc_oracle": 96.72,
+        "oracle_alpha": 0.46
+      },
+      {
+        "ds": "BTAD",
+        "cat": "01",
+        "auroc": 94.17,
+        "auroc_oracle": 95.43,
+        "oracle_alpha": 0.66
+      },
+      {
+        "ds": "BTAD",
+        "cat": "02",
+        "auroc": 91.4,
+        "auroc_oracle": 91.5,
+        "oracle_alpha": 0.54
+      },
+      {
+        "ds": "BTAD",
+        "cat": "03",
+        "auroc": 98.06,
+        "auroc_oracle": 99.43,
+        "oracle_alpha": 0.75
+      }
+    ],
+    "wins_vs_065": "5/30"
+  },
+  "Z-Equal": {
+    "mean_auroc": 94.482,
+    "regret": 1.12,
+    "per_category": [
+      {
+        "ds": "MVTec",
+        "cat": "bottle",
+        "auroc": 98.57,
+        "auroc_oracle": 99.92,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "MVTec",
+        "cat": "cable",
+        "auroc": 90.5,
+        "auroc_oracle": 92.6,
+        "oracle_alpha": 0.57
+      },
+      {
+        "ds": "MVTec",
+        "cat": "capsule",
+        "auroc": 93.82,
+        "auroc_oracle": 94.5,
+        "oracle_alpha": 0.42
+      },
+      {
+        "ds": "MVTec",
+        "cat": "carpet",
+        "auroc": 99.88,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.02
+      },
+      {
+        "ds": "MVTec",
+        "cat": "grid",
+        "auroc": 99.58,
+        "auroc_oracle": 99.83,
+        "oracle_alpha": 0.33
+      },
+      {
+        "ds": "MVTec",
+        "cat": "hazelnut",
+        "auroc": 99.0,
+        "auroc_oracle": 99.04,
+        "oracle_alpha": 0.35
+      },
+      {
+        "ds": "MVTec",
+        "cat": "leather",
+        "auroc": 99.97,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "MVTec",
+        "cat": "metal_nut",
+        "auroc": 99.36,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.86
+      },
+      {
+        "ds": "MVTec",
+        "cat": "pill",
+        "auroc": 93.89,
+        "auroc_oracle": 95.44,
+        "oracle_alpha": 0.69
+      },
+      {
+        "ds": "MVTec",
+        "cat": "screw",
+        "auroc": 90.61,
+        "auroc_oracle": 91.84,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "tile",
+        "auroc": 100.0,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.0
+      },
+      {
+        "ds": "MVTec",
+        "cat": "toothbrush",
+        "auroc": 92.78,
+        "auroc_oracle": 95.0,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "MVTec",
+        "cat": "transistor",
+        "auroc": 97.25,
+        "auroc_oracle": 97.42,
+        "oracle_alpha": 0.59
+      },
+      {
+        "ds": "MVTec",
+        "cat": "wood",
+        "auroc": 98.25,
+        "auroc_oracle": 98.68,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "zipper",
+        "auroc": 99.84,
+        "auroc_oracle": 99.97,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "candle",
+        "auroc": 94.95,
+        "auroc_oracle": 96.52,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "capsules",
+        "auroc": 93.23,
+        "auroc_oracle": 98.1,
+        "oracle_alpha": 0.88
+      },
+      {
+        "ds": "VisA",
+        "cat": "cashew",
+        "auroc": 80.84,
+        "auroc_oracle": 80.94,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "VisA",
+        "cat": "chewinggum",
+        "auroc": 98.46,
+        "auroc_oracle": 99.16,
+        "oracle_alpha": 0.77
+      },
+      {
+        "ds": "VisA",
+        "cat": "fryum",
+        "auroc": 97.3,
+        "auroc_oracle": 97.76,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni1",
+        "auroc": 94.93,
+        "auroc_oracle": 94.97,
+        "oracle_alpha": 0.56
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni2",
+        "auroc": 81.27,
+        "auroc_oracle": 81.92,
+        "oracle_alpha": 0.67
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb1",
+        "auroc": 93.0,
+        "auroc_oracle": 93.78,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb2",
+        "auroc": 86.21,
+        "auroc_oracle": 92.55,
+        "oracle_alpha": 0.84
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb3",
+        "auroc": 81.81,
+        "auroc_oracle": 87.52,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb4",
+        "auroc": 97.36,
+        "auroc_oracle": 97.52,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "pipe_fryum",
+        "auroc": 96.68,
+        "auroc_oracle": 96.72,
+        "oracle_alpha": 0.46
+      },
+      {
+        "ds": "BTAD",
+        "cat": "01",
+        "auroc": 94.95,
+        "auroc_oracle": 95.43,
+        "oracle_alpha": 0.66
+      },
+      {
+        "ds": "BTAD",
+        "cat": "02",
+        "auroc": 91.05,
+        "auroc_oracle": 91.5,
+        "oracle_alpha": 0.54
+      },
+      {
+        "ds": "BTAD",
+        "cat": "03",
+        "auroc": 99.12,
+        "auroc_oracle": 99.43,
+        "oracle_alpha": 0.75
+      }
+    ],
+    "wins_vs_065": "7/30"
+  },
+  "ProbOR": {
+    "mean_auroc": 93.639,
+    "regret": 1.963,
+    "per_category": [
+      {
+        "ds": "MVTec",
+        "cat": "bottle",
+        "auroc": 98.17,
+        "auroc_oracle": 99.92,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "MVTec",
+        "cat": "cable",
+        "auroc": 89.11,
+        "auroc_oracle": 92.6,
+        "oracle_alpha": 0.57
+      },
+      {
+        "ds": "MVTec",
+        "cat": "capsule",
+        "auroc": 94.02,
+        "auroc_oracle": 94.5,
+        "oracle_alpha": 0.42
+      },
+      {
+        "ds": "MVTec",
+        "cat": "carpet",
+        "auroc": 99.92,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.02
+      },
+      {
+        "ds": "MVTec",
+        "cat": "grid",
+        "auroc": 99.33,
+        "auroc_oracle": 99.83,
+        "oracle_alpha": 0.33
+      },
+      {
+        "ds": "MVTec",
+        "cat": "hazelnut",
+        "auroc": 98.61,
+        "auroc_oracle": 99.04,
+        "oracle_alpha": 0.35
+      },
+      {
+        "ds": "MVTec",
+        "cat": "leather",
+        "auroc": 99.83,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "MVTec",
+        "cat": "metal_nut",
+        "auroc": 99.27,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.86
+      },
+      {
+        "ds": "MVTec",
+        "cat": "pill",
+        "auroc": 92.96,
+        "auroc_oracle": 95.44,
+        "oracle_alpha": 0.69
+      },
+      {
+        "ds": "MVTec",
+        "cat": "screw",
+        "auroc": 88.67,
+        "auroc_oracle": 91.84,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "tile",
+        "auroc": 100.0,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.0
+      },
+      {
+        "ds": "MVTec",
+        "cat": "toothbrush",
+        "auroc": 90.28,
+        "auroc_oracle": 95.0,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "MVTec",
+        "cat": "transistor",
+        "auroc": 96.46,
+        "auroc_oracle": 97.42,
+        "oracle_alpha": 0.59
+      },
+      {
+        "ds": "MVTec",
+        "cat": "wood",
+        "auroc": 97.46,
+        "auroc_oracle": 98.68,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "zipper",
+        "auroc": 99.84,
+        "auroc_oracle": 99.97,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "candle",
+        "auroc": 92.92,
+        "auroc_oracle": 96.52,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "capsules",
+        "auroc": 91.35,
+        "auroc_oracle": 98.1,
+        "oracle_alpha": 0.88
+      },
+      {
+        "ds": "VisA",
+        "cat": "cashew",
+        "auroc": 80.56,
+        "auroc_oracle": 80.94,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "VisA",
+        "cat": "chewinggum",
+        "auroc": 98.32,
+        "auroc_oracle": 99.16,
+        "oracle_alpha": 0.77
+      },
+      {
+        "ds": "VisA",
+        "cat": "fryum",
+        "auroc": 96.78,
+        "auroc_oracle": 97.76,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni1",
+        "auroc": 91.97,
+        "auroc_oracle": 94.97,
+        "oracle_alpha": 0.56
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni2",
+        "auroc": 76.42,
+        "auroc_oracle": 81.92,
+        "oracle_alpha": 0.67
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb1",
+        "auroc": 92.23,
+        "auroc_oracle": 93.78,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb2",
+        "auroc": 84.83,
+        "auroc_oracle": 92.55,
+        "oracle_alpha": 0.84
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb3",
+        "auroc": 82.92,
+        "auroc_oracle": 87.52,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb4",
+        "auroc": 96.8,
+        "auroc_oracle": 97.52,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "pipe_fryum",
+        "auroc": 96.36,
+        "auroc_oracle": 96.72,
+        "oracle_alpha": 0.46
+      },
+      {
+        "ds": "BTAD",
+        "cat": "01",
+        "auroc": 94.46,
+        "auroc_oracle": 95.43,
+        "oracle_alpha": 0.66
+      },
+      {
+        "ds": "BTAD",
+        "cat": "02",
+        "auroc": 90.8,
+        "auroc_oracle": 91.5,
+        "oracle_alpha": 0.54
+      },
+      {
+        "ds": "BTAD",
+        "cat": "03",
+        "auroc": 98.51,
+        "auroc_oracle": 99.43,
+        "oracle_alpha": 0.75
+      }
+    ],
+    "wins_vs_065": "4/30"
+  },
+  "ProdComplement": {
+    "mean_auroc": 93.639,
+    "regret": 1.963,
+    "per_category": [
+      {
+        "ds": "MVTec",
+        "cat": "bottle",
+        "auroc": 98.17,
+        "auroc_oracle": 99.92,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "MVTec",
+        "cat": "cable",
+        "auroc": 89.11,
+        "auroc_oracle": 92.6,
+        "oracle_alpha": 0.57
+      },
+      {
+        "ds": "MVTec",
+        "cat": "capsule",
+        "auroc": 94.02,
+        "auroc_oracle": 94.5,
+        "oracle_alpha": 0.42
+      },
+      {
+        "ds": "MVTec",
+        "cat": "carpet",
+        "auroc": 99.92,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.02
+      },
+      {
+        "ds": "MVTec",
+        "cat": "grid",
+        "auroc": 99.33,
+        "auroc_oracle": 99.83,
+        "oracle_alpha": 0.33
+      },
+      {
+        "ds": "MVTec",
+        "cat": "hazelnut",
+        "auroc": 98.61,
+        "auroc_oracle": 99.04,
+        "oracle_alpha": 0.35
+      },
+      {
+        "ds": "MVTec",
+        "cat": "leather",
+        "auroc": 99.83,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "MVTec",
+        "cat": "metal_nut",
+        "auroc": 99.27,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.86
+      },
+      {
+        "ds": "MVTec",
+        "cat": "pill",
+        "auroc": 92.96,
+        "auroc_oracle": 95.44,
+        "oracle_alpha": 0.69
+      },
+      {
+        "ds": "MVTec",
+        "cat": "screw",
+        "auroc": 88.67,
+        "auroc_oracle": 91.84,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "tile",
+        "auroc": 100.0,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.0
+      },
+      {
+        "ds": "MVTec",
+        "cat": "toothbrush",
+        "auroc": 90.28,
+        "auroc_oracle": 95.0,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "MVTec",
+        "cat": "transistor",
+        "auroc": 96.46,
+        "auroc_oracle": 97.42,
+        "oracle_alpha": 0.59
+      },
+      {
+        "ds": "MVTec",
+        "cat": "wood",
+        "auroc": 97.46,
+        "auroc_oracle": 98.68,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "zipper",
+        "auroc": 99.84,
+        "auroc_oracle": 99.97,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "candle",
+        "auroc": 92.92,
+        "auroc_oracle": 96.52,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "capsules",
+        "auroc": 91.35,
+        "auroc_oracle": 98.1,
+        "oracle_alpha": 0.88
+      },
+      {
+        "ds": "VisA",
+        "cat": "cashew",
+        "auroc": 80.56,
+        "auroc_oracle": 80.94,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "VisA",
+        "cat": "chewinggum",
+        "auroc": 98.32,
+        "auroc_oracle": 99.16,
+        "oracle_alpha": 0.77
+      },
+      {
+        "ds": "VisA",
+        "cat": "fryum",
+        "auroc": 96.78,
+        "auroc_oracle": 97.76,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni1",
+        "auroc": 91.97,
+        "auroc_oracle": 94.97,
+        "oracle_alpha": 0.56
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni2",
+        "auroc": 76.43,
+        "auroc_oracle": 81.92,
+        "oracle_alpha": 0.67
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb1",
+        "auroc": 92.23,
+        "auroc_oracle": 93.78,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb2",
+        "auroc": 84.83,
+        "auroc_oracle": 92.55,
+        "oracle_alpha": 0.84
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb3",
+        "auroc": 82.92,
+        "auroc_oracle": 87.52,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb4",
+        "auroc": 96.8,
+        "auroc_oracle": 97.52,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "pipe_fryum",
+        "auroc": 96.36,
+        "auroc_oracle": 96.72,
+        "oracle_alpha": 0.46
+      },
+      {
+        "ds": "BTAD",
+        "cat": "01",
+        "auroc": 94.46,
+        "auroc_oracle": 95.43,
+        "oracle_alpha": 0.66
+      },
+      {
+        "ds": "BTAD",
+        "cat": "02",
+        "auroc": 90.8,
+        "auroc_oracle": 91.5,
+        "oracle_alpha": 0.54
+      },
+      {
+        "ds": "BTAD",
+        "cat": "03",
+        "auroc": 98.51,
+        "auroc_oracle": 99.43,
+        "oracle_alpha": 0.75
+      }
+    ],
+    "wins_vs_065": "4/30"
+  },
+  "RankMax": {
+    "mean_auroc": 93.564,
+    "regret": 2.039,
+    "per_category": [
+      {
+        "ds": "MVTec",
+        "cat": "bottle",
+        "auroc": 98.49,
+        "auroc_oracle": 99.92,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "MVTec",
+        "cat": "cable",
+        "auroc": 88.8,
+        "auroc_oracle": 92.6,
+        "oracle_alpha": 0.57
+      },
+      {
+        "ds": "MVTec",
+        "cat": "capsule",
+        "auroc": 92.28,
+        "auroc_oracle": 94.5,
+        "oracle_alpha": 0.42
+      },
+      {
+        "ds": "MVTec",
+        "cat": "carpet",
+        "auroc": 99.96,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.02
+      },
+      {
+        "ds": "MVTec",
+        "cat": "grid",
+        "auroc": 99.5,
+        "auroc_oracle": 99.83,
+        "oracle_alpha": 0.33
+      },
+      {
+        "ds": "MVTec",
+        "cat": "hazelnut",
+        "auroc": 98.5,
+        "auroc_oracle": 99.04,
+        "oracle_alpha": 0.35
+      },
+      {
+        "ds": "MVTec",
+        "cat": "leather",
+        "auroc": 99.75,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "MVTec",
+        "cat": "metal_nut",
+        "auroc": 99.0,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.86
+      },
+      {
+        "ds": "MVTec",
+        "cat": "pill",
+        "auroc": 92.01,
+        "auroc_oracle": 95.44,
+        "oracle_alpha": 0.69
+      },
+      {
+        "ds": "MVTec",
+        "cat": "screw",
+        "auroc": 87.59,
+        "auroc_oracle": 91.84,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "tile",
+        "auroc": 99.89,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.0
+      },
+      {
+        "ds": "MVTec",
+        "cat": "toothbrush",
+        "auroc": 92.78,
+        "auroc_oracle": 95.0,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "MVTec",
+        "cat": "transistor",
+        "auroc": 95.29,
+        "auroc_oracle": 97.42,
+        "oracle_alpha": 0.59
+      },
+      {
+        "ds": "MVTec",
+        "cat": "wood",
+        "auroc": 97.5,
+        "auroc_oracle": 98.68,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "zipper",
+        "auroc": 99.33,
+        "auroc_oracle": 99.97,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "candle",
+        "auroc": 90.77,
+        "auroc_oracle": 96.52,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "capsules",
+        "auroc": 92.17,
+        "auroc_oracle": 98.1,
+        "oracle_alpha": 0.88
+      },
+      {
+        "ds": "VisA",
+        "cat": "cashew",
+        "auroc": 82.67,
+        "auroc_oracle": 80.94,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "VisA",
+        "cat": "chewinggum",
+        "auroc": 98.48,
+        "auroc_oracle": 99.16,
+        "oracle_alpha": 0.77
+      },
+      {
+        "ds": "VisA",
+        "cat": "fryum",
+        "auroc": 95.29,
+        "auroc_oracle": 97.76,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni1",
+        "auroc": 92.38,
+        "auroc_oracle": 94.97,
+        "oracle_alpha": 0.56
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni2",
+        "auroc": 81.11,
+        "auroc_oracle": 81.92,
+        "oracle_alpha": 0.67
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb1",
+        "auroc": 92.96,
+        "auroc_oracle": 93.78,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb2",
+        "auroc": 82.3,
+        "auroc_oracle": 92.55,
+        "oracle_alpha": 0.84
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb3",
+        "auroc": 82.66,
+        "auroc_oracle": 87.52,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb4",
+        "auroc": 96.74,
+        "auroc_oracle": 97.52,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "pipe_fryum",
+        "auroc": 95.65,
+        "auroc_oracle": 96.72,
+        "oracle_alpha": 0.46
+      },
+      {
+        "ds": "BTAD",
+        "cat": "01",
+        "auroc": 93.34,
+        "auroc_oracle": 95.43,
+        "oracle_alpha": 0.66
+      },
+      {
+        "ds": "BTAD",
+        "cat": "02",
+        "auroc": 91.13,
+        "auroc_oracle": 91.5,
+        "oracle_alpha": 0.54
+      },
+      {
+        "ds": "BTAD",
+        "cat": "03",
+        "auroc": 98.58,
+        "auroc_oracle": 99.43,
+        "oracle_alpha": 0.75
+      }
+    ],
+    "wins_vs_065": "4/30"
+  },
+  "L2-norm": {
+    "mean_auroc": 93.534,
+    "regret": 2.068,
+    "per_category": [
+      {
+        "ds": "MVTec",
+        "cat": "bottle",
+        "auroc": 97.54,
+        "auroc_oracle": 99.92,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "MVTec",
+        "cat": "cable",
+        "auroc": 91.23,
+        "auroc_oracle": 92.6,
+        "oracle_alpha": 0.57
+      },
+      {
+        "ds": "MVTec",
+        "cat": "capsule",
+        "auroc": 93.86,
+        "auroc_oracle": 94.5,
+        "oracle_alpha": 0.42
+      },
+      {
+        "ds": "MVTec",
+        "cat": "carpet",
+        "auroc": 99.92,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.02
+      },
+      {
+        "ds": "MVTec",
+        "cat": "grid",
+        "auroc": 99.33,
+        "auroc_oracle": 99.83,
+        "oracle_alpha": 0.33
+      },
+      {
+        "ds": "MVTec",
+        "cat": "hazelnut",
+        "auroc": 98.61,
+        "auroc_oracle": 99.04,
+        "oracle_alpha": 0.35
+      },
+      {
+        "ds": "MVTec",
+        "cat": "leather",
+        "auroc": 99.9,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "MVTec",
+        "cat": "metal_nut",
+        "auroc": 99.22,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.86
+      },
+      {
+        "ds": "MVTec",
+        "cat": "pill",
+        "auroc": 92.96,
+        "auroc_oracle": 95.44,
+        "oracle_alpha": 0.69
+      },
+      {
+        "ds": "MVTec",
+        "cat": "screw",
+        "auroc": 89.26,
+        "auroc_oracle": 91.84,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "tile",
+        "auroc": 100.0,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.0
+      },
+      {
+        "ds": "MVTec",
+        "cat": "toothbrush",
+        "auroc": 90.83,
+        "auroc_oracle": 95.0,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "MVTec",
+        "cat": "transistor",
+        "auroc": 96.08,
+        "auroc_oracle": 97.42,
+        "oracle_alpha": 0.59
+      },
+      {
+        "ds": "MVTec",
+        "cat": "wood",
+        "auroc": 97.46,
+        "auroc_oracle": 98.68,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "zipper",
+        "auroc": 99.82,
+        "auroc_oracle": 99.97,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "candle",
+        "auroc": 92.34,
+        "auroc_oracle": 96.52,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "capsules",
+        "auroc": 89.02,
+        "auroc_oracle": 98.1,
+        "oracle_alpha": 0.88
+      },
+      {
+        "ds": "VisA",
+        "cat": "cashew",
+        "auroc": 79.72,
+        "auroc_oracle": 80.94,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "VisA",
+        "cat": "chewinggum",
+        "auroc": 98.22,
+        "auroc_oracle": 99.16,
+        "oracle_alpha": 0.77
+      },
+      {
+        "ds": "VisA",
+        "cat": "fryum",
+        "auroc": 96.42,
+        "auroc_oracle": 97.76,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni1",
+        "auroc": 91.88,
+        "auroc_oracle": 94.97,
+        "oracle_alpha": 0.56
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni2",
+        "auroc": 77.49,
+        "auroc_oracle": 81.92,
+        "oracle_alpha": 0.67
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb1",
+        "auroc": 91.9,
+        "auroc_oracle": 93.78,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb2",
+        "auroc": 83.32,
+        "auroc_oracle": 92.55,
+        "oracle_alpha": 0.84
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb3",
+        "auroc": 82.85,
+        "auroc_oracle": 87.52,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb4",
+        "auroc": 96.55,
+        "auroc_oracle": 97.52,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "pipe_fryum",
+        "auroc": 96.84,
+        "auroc_oracle": 96.72,
+        "oracle_alpha": 0.46
+      },
+      {
+        "ds": "BTAD",
+        "cat": "01",
+        "auroc": 95.04,
+        "auroc_oracle": 95.43,
+        "oracle_alpha": 0.66
+      },
+      {
+        "ds": "BTAD",
+        "cat": "02",
+        "auroc": 90.25,
+        "auroc_oracle": 91.5,
+        "oracle_alpha": 0.54
+      },
+      {
+        "ds": "BTAD",
+        "cat": "03",
+        "auroc": 98.15,
+        "auroc_oracle": 99.43,
+        "oracle_alpha": 0.75
+      }
+    ],
+    "wins_vs_065": "4/30"
+  },
+  "LogSumExp-T3": {
+    "mean_auroc": 93.17,
+    "regret": 2.431,
+    "per_category": [
+      {
+        "ds": "MVTec",
+        "cat": "bottle",
+        "auroc": 97.62,
+        "auroc_oracle": 99.92,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "MVTec",
+        "cat": "cable",
+        "auroc": 89.04,
+        "auroc_oracle": 92.6,
+        "oracle_alpha": 0.57
+      },
+      {
+        "ds": "MVTec",
+        "cat": "capsule",
+        "auroc": 93.82,
+        "auroc_oracle": 94.5,
+        "oracle_alpha": 0.42
+      },
+      {
+        "ds": "MVTec",
+        "cat": "carpet",
+        "auroc": 99.92,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.02
+      },
+      {
+        "ds": "MVTec",
+        "cat": "grid",
+        "auroc": 99.25,
+        "auroc_oracle": 99.83,
+        "oracle_alpha": 0.33
+      },
+      {
+        "ds": "MVTec",
+        "cat": "hazelnut",
+        "auroc": 98.54,
+        "auroc_oracle": 99.04,
+        "oracle_alpha": 0.35
+      },
+      {
+        "ds": "MVTec",
+        "cat": "leather",
+        "auroc": 99.83,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "MVTec",
+        "cat": "metal_nut",
+        "auroc": 99.07,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.86
+      },
+      {
+        "ds": "MVTec",
+        "cat": "pill",
+        "auroc": 92.47,
+        "auroc_oracle": 95.44,
+        "oracle_alpha": 0.69
+      },
+      {
+        "ds": "MVTec",
+        "cat": "screw",
+        "auroc": 88.46,
+        "auroc_oracle": 91.84,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "tile",
+        "auroc": 100.0,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.0
+      },
+      {
+        "ds": "MVTec",
+        "cat": "toothbrush",
+        "auroc": 89.72,
+        "auroc_oracle": 95.0,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "MVTec",
+        "cat": "transistor",
+        "auroc": 96.0,
+        "auroc_oracle": 97.42,
+        "oracle_alpha": 0.59
+      },
+      {
+        "ds": "MVTec",
+        "cat": "wood",
+        "auroc": 97.46,
+        "auroc_oracle": 98.68,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "zipper",
+        "auroc": 99.82,
+        "auroc_oracle": 99.97,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "candle",
+        "auroc": 91.08,
+        "auroc_oracle": 96.52,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "capsules",
+        "auroc": 89.45,
+        "auroc_oracle": 98.1,
+        "oracle_alpha": 0.88
+      },
+      {
+        "ds": "VisA",
+        "cat": "cashew",
+        "auroc": 79.72,
+        "auroc_oracle": 80.94,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "VisA",
+        "cat": "chewinggum",
+        "auroc": 98.16,
+        "auroc_oracle": 99.16,
+        "oracle_alpha": 0.77
+      },
+      {
+        "ds": "VisA",
+        "cat": "fryum",
+        "auroc": 96.36,
+        "auroc_oracle": 97.76,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni1",
+        "auroc": 90.92,
+        "auroc_oracle": 94.97,
+        "oracle_alpha": 0.56
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni2",
+        "auroc": 75.99,
+        "auroc_oracle": 81.92,
+        "oracle_alpha": 0.67
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb1",
+        "auroc": 91.67,
+        "auroc_oracle": 93.78,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb2",
+        "auroc": 82.91,
+        "auroc_oracle": 92.55,
+        "oracle_alpha": 0.84
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb3",
+        "auroc": 82.47,
+        "auroc_oracle": 87.52,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb4",
+        "auroc": 96.47,
+        "auroc_oracle": 97.52,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "pipe_fryum",
+        "auroc": 96.18,
+        "auroc_oracle": 96.72,
+        "oracle_alpha": 0.46
+      },
+      {
+        "ds": "BTAD",
+        "cat": "01",
+        "auroc": 94.36,
+        "auroc_oracle": 95.43,
+        "oracle_alpha": 0.66
+      },
+      {
+        "ds": "BTAD",
+        "cat": "02",
+        "auroc": 90.23,
+        "auroc_oracle": 91.5,
+        "oracle_alpha": 0.54
+      },
+      {
+        "ds": "BTAD",
+        "cat": "03",
+        "auroc": 98.13,
+        "auroc_oracle": 99.43,
+        "oracle_alpha": 0.75
+      }
+    ],
+    "wins_vs_065": "3/30"
+  },
+  "SoftmaxAdapt-T2": {
+    "mean_auroc": 92.279,
+    "regret": 3.323,
+    "per_category": [
+      {
+        "ds": "MVTec",
+        "cat": "bottle",
+        "auroc": 97.06,
+        "auroc_oracle": 99.92,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "MVTec",
+        "cat": "cable",
+        "auroc": 83.86,
+        "auroc_oracle": 92.6,
+        "oracle_alpha": 0.57
+      },
+      {
+        "ds": "MVTec",
+        "cat": "capsule",
+        "auroc": 93.66,
+        "auroc_oracle": 94.5,
+        "oracle_alpha": 0.42
+      },
+      {
+        "ds": "MVTec",
+        "cat": "carpet",
+        "auroc": 99.92,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.02
+      },
+      {
+        "ds": "MVTec",
+        "cat": "grid",
+        "auroc": 99.16,
+        "auroc_oracle": 99.83,
+        "oracle_alpha": 0.33
+      },
+      {
+        "ds": "MVTec",
+        "cat": "hazelnut",
+        "auroc": 97.89,
+        "auroc_oracle": 99.04,
+        "oracle_alpha": 0.35
+      },
+      {
+        "ds": "MVTec",
+        "cat": "leather",
+        "auroc": 99.83,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "MVTec",
+        "cat": "metal_nut",
+        "auroc": 98.78,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.86
+      },
+      {
+        "ds": "MVTec",
+        "cat": "pill",
+        "auroc": 91.68,
+        "auroc_oracle": 95.44,
+        "oracle_alpha": 0.69
+      },
+      {
+        "ds": "MVTec",
+        "cat": "screw",
+        "auroc": 87.23,
+        "auroc_oracle": 91.84,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "tile",
+        "auroc": 100.0,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.0
+      },
+      {
+        "ds": "MVTec",
+        "cat": "toothbrush",
+        "auroc": 88.33,
+        "auroc_oracle": 95.0,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "MVTec",
+        "cat": "transistor",
+        "auroc": 95.25,
+        "auroc_oracle": 97.42,
+        "oracle_alpha": 0.59
+      },
+      {
+        "ds": "MVTec",
+        "cat": "wood",
+        "auroc": 97.11,
+        "auroc_oracle": 98.68,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "zipper",
+        "auroc": 99.71,
+        "auroc_oracle": 99.97,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "candle",
+        "auroc": 89.02,
+        "auroc_oracle": 96.52,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "capsules",
+        "auroc": 87.45,
+        "auroc_oracle": 98.1,
+        "oracle_alpha": 0.88
+      },
+      {
+        "ds": "VisA",
+        "cat": "cashew",
+        "auroc": 79.06,
+        "auroc_oracle": 80.94,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "VisA",
+        "cat": "chewinggum",
+        "auroc": 98.02,
+        "auroc_oracle": 99.16,
+        "oracle_alpha": 0.77
+      },
+      {
+        "ds": "VisA",
+        "cat": "fryum",
+        "auroc": 95.64,
+        "auroc_oracle": 97.76,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni1",
+        "auroc": 88.81,
+        "auroc_oracle": 94.97,
+        "oracle_alpha": 0.56
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni2",
+        "auroc": 73.75,
+        "auroc_oracle": 81.92,
+        "oracle_alpha": 0.67
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb1",
+        "auroc": 90.97,
+        "auroc_oracle": 93.78,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb2",
+        "auroc": 80.91,
+        "auroc_oracle": 92.55,
+        "oracle_alpha": 0.84
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb3",
+        "auroc": 81.81,
+        "auroc_oracle": 87.52,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb4",
+        "auroc": 96.03,
+        "auroc_oracle": 97.52,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "pipe_fryum",
+        "auroc": 95.44,
+        "auroc_oracle": 96.72,
+        "oracle_alpha": 0.46
+      },
+      {
+        "ds": "BTAD",
+        "cat": "01",
+        "auroc": 94.36,
+        "auroc_oracle": 95.43,
+        "oracle_alpha": 0.66
+      },
+      {
+        "ds": "BTAD",
+        "cat": "02",
+        "auroc": 89.92,
+        "auroc_oracle": 91.5,
+        "oracle_alpha": 0.54
+      },
+      {
+        "ds": "BTAD",
+        "cat": "03",
+        "auroc": 97.71,
+        "auroc_oracle": 99.43,
+        "oracle_alpha": 0.75
+      }
+    ],
+    "wins_vs_065": "2/30"
+  },
+  "LogSumExp-T5": {
+    "mean_auroc": 92.176,
+    "regret": 3.425,
+    "per_category": [
+      {
+        "ds": "MVTec",
+        "cat": "bottle",
+        "auroc": 96.83,
+        "auroc_oracle": 99.92,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "MVTec",
+        "cat": "cable",
+        "auroc": 84.05,
+        "auroc_oracle": 92.6,
+        "oracle_alpha": 0.57
+      },
+      {
+        "ds": "MVTec",
+        "cat": "capsule",
+        "auroc": 93.46,
+        "auroc_oracle": 94.5,
+        "oracle_alpha": 0.42
+      },
+      {
+        "ds": "MVTec",
+        "cat": "carpet",
+        "auroc": 99.92,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.02
+      },
+      {
+        "ds": "MVTec",
+        "cat": "grid",
+        "auroc": 99.16,
+        "auroc_oracle": 99.83,
+        "oracle_alpha": 0.33
+      },
+      {
+        "ds": "MVTec",
+        "cat": "hazelnut",
+        "auroc": 98.14,
+        "auroc_oracle": 99.04,
+        "oracle_alpha": 0.35
+      },
+      {
+        "ds": "MVTec",
+        "cat": "leather",
+        "auroc": 99.83,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "MVTec",
+        "cat": "metal_nut",
+        "auroc": 98.44,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.86
+      },
+      {
+        "ds": "MVTec",
+        "cat": "pill",
+        "auroc": 91.33,
+        "auroc_oracle": 95.44,
+        "oracle_alpha": 0.69
+      },
+      {
+        "ds": "MVTec",
+        "cat": "screw",
+        "auroc": 86.94,
+        "auroc_oracle": 91.84,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "tile",
+        "auroc": 100.0,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.0
+      },
+      {
+        "ds": "MVTec",
+        "cat": "toothbrush",
+        "auroc": 89.17,
+        "auroc_oracle": 95.0,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "MVTec",
+        "cat": "transistor",
+        "auroc": 95.17,
+        "auroc_oracle": 97.42,
+        "oracle_alpha": 0.59
+      },
+      {
+        "ds": "MVTec",
+        "cat": "wood",
+        "auroc": 97.11,
+        "auroc_oracle": 98.68,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "zipper",
+        "auroc": 99.68,
+        "auroc_oracle": 99.97,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "candle",
+        "auroc": 88.42,
+        "auroc_oracle": 96.52,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "capsules",
+        "auroc": 86.87,
+        "auroc_oracle": 98.1,
+        "oracle_alpha": 0.88
+      },
+      {
+        "ds": "VisA",
+        "cat": "cashew",
+        "auroc": 78.88,
+        "auroc_oracle": 80.94,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "VisA",
+        "cat": "chewinggum",
+        "auroc": 97.96,
+        "auroc_oracle": 99.16,
+        "oracle_alpha": 0.77
+      },
+      {
+        "ds": "VisA",
+        "cat": "fryum",
+        "auroc": 95.66,
+        "auroc_oracle": 97.76,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni1",
+        "auroc": 89.06,
+        "auroc_oracle": 94.97,
+        "oracle_alpha": 0.56
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni2",
+        "auroc": 74.15,
+        "auroc_oracle": 81.92,
+        "oracle_alpha": 0.67
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb1",
+        "auroc": 90.69,
+        "auroc_oracle": 93.78,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb2",
+        "auroc": 80.13,
+        "auroc_oracle": 92.55,
+        "oracle_alpha": 0.84
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb3",
+        "auroc": 81.5,
+        "auroc_oracle": 87.52,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb4",
+        "auroc": 95.85,
+        "auroc_oracle": 97.52,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "pipe_fryum",
+        "auroc": 95.4,
+        "auroc_oracle": 96.72,
+        "oracle_alpha": 0.46
+      },
+      {
+        "ds": "BTAD",
+        "cat": "01",
+        "auroc": 94.07,
+        "auroc_oracle": 95.43,
+        "oracle_alpha": 0.66
+      },
+      {
+        "ds": "BTAD",
+        "cat": "02",
+        "auroc": 89.9,
+        "auroc_oracle": 91.5,
+        "oracle_alpha": 0.54
+      },
+      {
+        "ds": "BTAD",
+        "cat": "03",
+        "auroc": 97.54,
+        "auroc_oracle": 99.43,
+        "oracle_alpha": 0.75
+      }
+    ],
+    "wins_vs_065": "2/30"
+  },
+  "ExtremityWeighted": {
+    "mean_auroc": 91.808,
+    "regret": 3.794,
+    "per_category": [
+      {
+        "ds": "MVTec",
+        "cat": "bottle",
+        "auroc": 99.13,
+        "auroc_oracle": 99.92,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "MVTec",
+        "cat": "cable",
+        "auroc": 90.91,
+        "auroc_oracle": 92.6,
+        "oracle_alpha": 0.57
+      },
+      {
+        "ds": "MVTec",
+        "cat": "capsule",
+        "auroc": 92.06,
+        "auroc_oracle": 94.5,
+        "oracle_alpha": 0.42
+      },
+      {
+        "ds": "MVTec",
+        "cat": "carpet",
+        "auroc": 99.92,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.02
+      },
+      {
+        "ds": "MVTec",
+        "cat": "grid",
+        "auroc": 99.33,
+        "auroc_oracle": 99.83,
+        "oracle_alpha": 0.33
+      },
+      {
+        "ds": "MVTec",
+        "cat": "hazelnut",
+        "auroc": 95.18,
+        "auroc_oracle": 99.04,
+        "oracle_alpha": 0.35
+      },
+      {
+        "ds": "MVTec",
+        "cat": "leather",
+        "auroc": 99.01,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "MVTec",
+        "cat": "metal_nut",
+        "auroc": 99.61,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.86
+      },
+      {
+        "ds": "MVTec",
+        "cat": "pill",
+        "auroc": 92.99,
+        "auroc_oracle": 95.44,
+        "oracle_alpha": 0.69
+      },
+      {
+        "ds": "MVTec",
+        "cat": "screw",
+        "auroc": 91.19,
+        "auroc_oracle": 91.84,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "tile",
+        "auroc": 99.49,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.0
+      },
+      {
+        "ds": "MVTec",
+        "cat": "toothbrush",
+        "auroc": 91.39,
+        "auroc_oracle": 95.0,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "MVTec",
+        "cat": "transistor",
+        "auroc": 94.04,
+        "auroc_oracle": 97.42,
+        "oracle_alpha": 0.59
+      },
+      {
+        "ds": "MVTec",
+        "cat": "wood",
+        "auroc": 92.02,
+        "auroc_oracle": 98.68,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "zipper",
+        "auroc": 100.0,
+        "auroc_oracle": 99.97,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "candle",
+        "auroc": 92.89,
+        "auroc_oracle": 96.52,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "capsules",
+        "auroc": 91.58,
+        "auroc_oracle": 98.1,
+        "oracle_alpha": 0.88
+      },
+      {
+        "ds": "VisA",
+        "cat": "cashew",
+        "auroc": 79.38,
+        "auroc_oracle": 80.94,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "VisA",
+        "cat": "chewinggum",
+        "auroc": 98.72,
+        "auroc_oracle": 99.16,
+        "oracle_alpha": 0.77
+      },
+      {
+        "ds": "VisA",
+        "cat": "fryum",
+        "auroc": 92.56,
+        "auroc_oracle": 97.76,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni1",
+        "auroc": 78.9,
+        "auroc_oracle": 94.97,
+        "oracle_alpha": 0.56
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni2",
+        "auroc": 67.49,
+        "auroc_oracle": 81.92,
+        "oracle_alpha": 0.67
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb1",
+        "auroc": 89.85,
+        "auroc_oracle": 93.78,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb2",
+        "auroc": 85.38,
+        "auroc_oracle": 92.55,
+        "oracle_alpha": 0.84
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb3",
+        "auroc": 82.57,
+        "auroc_oracle": 87.52,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb4",
+        "auroc": 93.5,
+        "auroc_oracle": 97.52,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "pipe_fryum",
+        "auroc": 89.86,
+        "auroc_oracle": 96.72,
+        "oracle_alpha": 0.46
+      },
+      {
+        "ds": "BTAD",
+        "cat": "01",
+        "auroc": 94.36,
+        "auroc_oracle": 95.43,
+        "oracle_alpha": 0.66
+      },
+      {
+        "ds": "BTAD",
+        "cat": "02",
+        "auroc": 85.55,
+        "auroc_oracle": 91.5,
+        "oracle_alpha": 0.54
+      },
+      {
+        "ds": "BTAD",
+        "cat": "03",
+        "auroc": 95.38,
+        "auroc_oracle": 99.43,
+        "oracle_alpha": 0.75
+      }
+    ],
+    "wins_vs_065": "3/30"
+  },
+  "LogSumExp-T10": {
+    "mean_auroc": 90.825,
+    "regret": 4.777,
+    "per_category": [
+      {
+        "ds": "MVTec",
+        "cat": "bottle",
+        "auroc": 96.11,
+        "auroc_oracle": 99.92,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "MVTec",
+        "cat": "cable",
+        "auroc": 78.15,
+        "auroc_oracle": 92.6,
+        "oracle_alpha": 0.57
+      },
+      {
+        "ds": "MVTec",
+        "cat": "capsule",
+        "auroc": 92.46,
+        "auroc_oracle": 94.5,
+        "oracle_alpha": 0.42
+      },
+      {
+        "ds": "MVTec",
+        "cat": "carpet",
+        "auroc": 99.92,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.02
+      },
+      {
+        "ds": "MVTec",
+        "cat": "grid",
+        "auroc": 98.75,
+        "auroc_oracle": 99.83,
+        "oracle_alpha": 0.33
+      },
+      {
+        "ds": "MVTec",
+        "cat": "hazelnut",
+        "auroc": 97.79,
+        "auroc_oracle": 99.04,
+        "oracle_alpha": 0.35
+      },
+      {
+        "ds": "MVTec",
+        "cat": "leather",
+        "auroc": 99.83,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "MVTec",
+        "cat": "metal_nut",
+        "auroc": 96.58,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.86
+      },
+      {
+        "ds": "MVTec",
+        "cat": "pill",
+        "auroc": 89.91,
+        "auroc_oracle": 95.44,
+        "oracle_alpha": 0.69
+      },
+      {
+        "ds": "MVTec",
+        "cat": "screw",
+        "auroc": 85.02,
+        "auroc_oracle": 91.84,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "tile",
+        "auroc": 100.0,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.0
+      },
+      {
+        "ds": "MVTec",
+        "cat": "toothbrush",
+        "auroc": 86.11,
+        "auroc_oracle": 95.0,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "MVTec",
+        "cat": "transistor",
+        "auroc": 94.67,
+        "auroc_oracle": 97.42,
+        "oracle_alpha": 0.59
+      },
+      {
+        "ds": "MVTec",
+        "cat": "wood",
+        "auroc": 96.93,
+        "auroc_oracle": 98.68,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "zipper",
+        "auroc": 99.34,
+        "auroc_oracle": 99.97,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "candle",
+        "auroc": 84.7,
+        "auroc_oracle": 96.52,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "capsules",
+        "auroc": 84.68,
+        "auroc_oracle": 98.1,
+        "oracle_alpha": 0.88
+      },
+      {
+        "ds": "VisA",
+        "cat": "cashew",
+        "auroc": 77.52,
+        "auroc_oracle": 80.94,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "VisA",
+        "cat": "chewinggum",
+        "auroc": 97.66,
+        "auroc_oracle": 99.16,
+        "oracle_alpha": 0.77
+      },
+      {
+        "ds": "VisA",
+        "cat": "fryum",
+        "auroc": 94.84,
+        "auroc_oracle": 97.76,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni1",
+        "auroc": 87.45,
+        "auroc_oracle": 94.97,
+        "oracle_alpha": 0.56
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni2",
+        "auroc": 72.71,
+        "auroc_oracle": 81.92,
+        "oracle_alpha": 0.67
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb1",
+        "auroc": 89.32,
+        "auroc_oracle": 93.78,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb2",
+        "auroc": 76.56,
+        "auroc_oracle": 92.55,
+        "oracle_alpha": 0.84
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb3",
+        "auroc": 79.71,
+        "auroc_oracle": 87.52,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb4",
+        "auroc": 95.02,
+        "auroc_oracle": 97.52,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "pipe_fryum",
+        "auroc": 94.52,
+        "auroc_oracle": 96.72,
+        "oracle_alpha": 0.46
+      },
+      {
+        "ds": "BTAD",
+        "cat": "01",
+        "auroc": 92.71,
+        "auroc_oracle": 95.43,
+        "oracle_alpha": 0.66
+      },
+      {
+        "ds": "BTAD",
+        "cat": "02",
+        "auroc": 89.03,
+        "auroc_oracle": 91.5,
+        "oracle_alpha": 0.54
+      },
+      {
+        "ds": "BTAD",
+        "cat": "03",
+        "auroc": 96.76,
+        "auroc_oracle": 99.43,
+        "oracle_alpha": 0.75
+      }
+    ],
+    "wins_vs_065": "1/30"
+  },
+  "Max": {
+    "mean_auroc": 89.882,
+    "regret": 5.72,
+    "per_category": [
+      {
+        "ds": "MVTec",
+        "cat": "bottle",
+        "auroc": 95.48,
+        "auroc_oracle": 99.92,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "MVTec",
+        "cat": "cable",
+        "auroc": 75.0,
+        "auroc_oracle": 92.6,
+        "oracle_alpha": 0.57
+      },
+      {
+        "ds": "MVTec",
+        "cat": "capsule",
+        "auroc": 91.46,
+        "auroc_oracle": 94.5,
+        "oracle_alpha": 0.42
+      },
+      {
+        "ds": "MVTec",
+        "cat": "carpet",
+        "auroc": 99.92,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.02
+      },
+      {
+        "ds": "MVTec",
+        "cat": "grid",
+        "auroc": 98.5,
+        "auroc_oracle": 99.83,
+        "oracle_alpha": 0.33
+      },
+      {
+        "ds": "MVTec",
+        "cat": "hazelnut",
+        "auroc": 97.61,
+        "auroc_oracle": 99.04,
+        "oracle_alpha": 0.35
+      },
+      {
+        "ds": "MVTec",
+        "cat": "leather",
+        "auroc": 99.83,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "MVTec",
+        "cat": "metal_nut",
+        "auroc": 94.48,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.86
+      },
+      {
+        "ds": "MVTec",
+        "cat": "pill",
+        "auroc": 88.11,
+        "auroc_oracle": 95.44,
+        "oracle_alpha": 0.69
+      },
+      {
+        "ds": "MVTec",
+        "cat": "screw",
+        "auroc": 83.34,
+        "auroc_oracle": 91.84,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "tile",
+        "auroc": 100.0,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.0
+      },
+      {
+        "ds": "MVTec",
+        "cat": "toothbrush",
+        "auroc": 86.11,
+        "auroc_oracle": 95.0,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "MVTec",
+        "cat": "transistor",
+        "auroc": 94.17,
+        "auroc_oracle": 97.42,
+        "oracle_alpha": 0.59
+      },
+      {
+        "ds": "MVTec",
+        "cat": "wood",
+        "auroc": 96.84,
+        "auroc_oracle": 98.68,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "zipper",
+        "auroc": 98.87,
+        "auroc_oracle": 99.97,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "candle",
+        "auroc": 81.93,
+        "auroc_oracle": 96.52,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "capsules",
+        "auroc": 83.02,
+        "auroc_oracle": 98.1,
+        "oracle_alpha": 0.88
+      },
+      {
+        "ds": "VisA",
+        "cat": "cashew",
+        "auroc": 76.86,
+        "auroc_oracle": 80.94,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "VisA",
+        "cat": "chewinggum",
+        "auroc": 97.38,
+        "auroc_oracle": 99.16,
+        "oracle_alpha": 0.77
+      },
+      {
+        "ds": "VisA",
+        "cat": "fryum",
+        "auroc": 94.44,
+        "auroc_oracle": 97.76,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni1",
+        "auroc": 86.88,
+        "auroc_oracle": 94.97,
+        "oracle_alpha": 0.56
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni2",
+        "auroc": 72.4,
+        "auroc_oracle": 81.92,
+        "oracle_alpha": 0.67
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb1",
+        "auroc": 88.18,
+        "auroc_oracle": 93.78,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb2",
+        "auroc": 73.37,
+        "auroc_oracle": 92.55,
+        "oracle_alpha": 0.84
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb3",
+        "auroc": 77.82,
+        "auroc_oracle": 87.52,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb4",
+        "auroc": 94.41,
+        "auroc_oracle": 97.52,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "pipe_fryum",
+        "auroc": 93.86,
+        "auroc_oracle": 96.72,
+        "oracle_alpha": 0.46
+      },
+      {
+        "ds": "BTAD",
+        "cat": "01",
+        "auroc": 91.84,
+        "auroc_oracle": 95.43,
+        "oracle_alpha": 0.66
+      },
+      {
+        "ds": "BTAD",
+        "cat": "02",
+        "auroc": 88.3,
+        "auroc_oracle": 91.5,
+        "oracle_alpha": 0.54
+      },
+      {
+        "ds": "BTAD",
+        "cat": "03",
+        "auroc": 96.05,
+        "auroc_oracle": 99.43,
+        "oracle_alpha": 0.75
+      }
+    ],
+    "wins_vs_065": "1/30"
+  },
+  "SoftmaxAdapt-T5": {
+    "mean_auroc": 89.501,
+    "regret": 6.101,
+    "per_category": [
+      {
+        "ds": "MVTec",
+        "cat": "bottle",
+        "auroc": 95.32,
+        "auroc_oracle": 99.92,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "MVTec",
+        "cat": "cable",
+        "auroc": 70.43,
+        "auroc_oracle": 92.6,
+        "oracle_alpha": 0.57
+      },
+      {
+        "ds": "MVTec",
+        "cat": "capsule",
+        "auroc": 91.42,
+        "auroc_oracle": 94.5,
+        "oracle_alpha": 0.42
+      },
+      {
+        "ds": "MVTec",
+        "cat": "carpet",
+        "auroc": 99.92,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.02
+      },
+      {
+        "ds": "MVTec",
+        "cat": "grid",
+        "auroc": 98.41,
+        "auroc_oracle": 99.83,
+        "oracle_alpha": 0.33
+      },
+      {
+        "ds": "MVTec",
+        "cat": "hazelnut",
+        "auroc": 96.07,
+        "auroc_oracle": 99.04,
+        "oracle_alpha": 0.35
+      },
+      {
+        "ds": "MVTec",
+        "cat": "leather",
+        "auroc": 99.52,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "MVTec",
+        "cat": "metal_nut",
+        "auroc": 94.13,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.86
+      },
+      {
+        "ds": "MVTec",
+        "cat": "pill",
+        "auroc": 88.9,
+        "auroc_oracle": 95.44,
+        "oracle_alpha": 0.69
+      },
+      {
+        "ds": "MVTec",
+        "cat": "screw",
+        "auroc": 83.3,
+        "auroc_oracle": 91.84,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "tile",
+        "auroc": 100.0,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.0
+      },
+      {
+        "ds": "MVTec",
+        "cat": "toothbrush",
+        "auroc": 83.61,
+        "auroc_oracle": 95.0,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "MVTec",
+        "cat": "transistor",
+        "auroc": 93.79,
+        "auroc_oracle": 97.42,
+        "oracle_alpha": 0.59
+      },
+      {
+        "ds": "MVTec",
+        "cat": "wood",
+        "auroc": 96.32,
+        "auroc_oracle": 98.68,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "zipper",
+        "auroc": 99.24,
+        "auroc_oracle": 99.97,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "candle",
+        "auroc": 82.03,
+        "auroc_oracle": 96.52,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "capsules",
+        "auroc": 82.58,
+        "auroc_oracle": 98.1,
+        "oracle_alpha": 0.88
+      },
+      {
+        "ds": "VisA",
+        "cat": "cashew",
+        "auroc": 76.74,
+        "auroc_oracle": 80.94,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "VisA",
+        "cat": "chewinggum",
+        "auroc": 97.32,
+        "auroc_oracle": 99.16,
+        "oracle_alpha": 0.77
+      },
+      {
+        "ds": "VisA",
+        "cat": "fryum",
+        "auroc": 93.56,
+        "auroc_oracle": 97.76,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni1",
+        "auroc": 85.35,
+        "auroc_oracle": 94.97,
+        "oracle_alpha": 0.56
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni2",
+        "auroc": 70.6,
+        "auroc_oracle": 81.92,
+        "oracle_alpha": 0.67
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb1",
+        "auroc": 88.5,
+        "auroc_oracle": 93.78,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb2",
+        "auroc": 74.77,
+        "auroc_oracle": 92.55,
+        "oracle_alpha": 0.84
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb3",
+        "auroc": 78.94,
+        "auroc_oracle": 87.52,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb4",
+        "auroc": 94.37,
+        "auroc_oracle": 97.52,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "pipe_fryum",
+        "auroc": 93.18,
+        "auroc_oracle": 96.72,
+        "oracle_alpha": 0.46
+      },
+      {
+        "ds": "BTAD",
+        "cat": "01",
+        "auroc": 92.13,
+        "auroc_oracle": 95.43,
+        "oracle_alpha": 0.66
+      },
+      {
+        "ds": "BTAD",
+        "cat": "02",
+        "auroc": 88.28,
+        "auroc_oracle": 91.5,
+        "oracle_alpha": 0.54
+      },
+      {
+        "ds": "BTAD",
+        "cat": "03",
+        "auroc": 96.3,
+        "auroc_oracle": 99.43,
+        "oracle_alpha": 0.75
+      }
+    ],
+    "wins_vs_065": "1/30"
+  },
+  "ScoreProportional": {
+    "mean_auroc": 89.495,
+    "regret": 6.107,
+    "per_category": [
+      {
+        "ds": "MVTec",
+        "cat": "bottle",
+        "auroc": 95.32,
+        "auroc_oracle": 99.92,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "MVTec",
+        "cat": "cable",
+        "auroc": 76.71,
+        "auroc_oracle": 92.6,
+        "oracle_alpha": 0.57
+      },
+      {
+        "ds": "MVTec",
+        "cat": "capsule",
+        "auroc": 92.82,
+        "auroc_oracle": 94.5,
+        "oracle_alpha": 0.42
+      },
+      {
+        "ds": "MVTec",
+        "cat": "carpet",
+        "auroc": 99.92,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.02
+      },
+      {
+        "ds": "MVTec",
+        "cat": "grid",
+        "auroc": 99.16,
+        "auroc_oracle": 99.83,
+        "oracle_alpha": 0.33
+      },
+      {
+        "ds": "MVTec",
+        "cat": "hazelnut",
+        "auroc": 93.96,
+        "auroc_oracle": 99.04,
+        "oracle_alpha": 0.35
+      },
+      {
+        "ds": "MVTec",
+        "cat": "leather",
+        "auroc": 98.4,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "MVTec",
+        "cat": "metal_nut",
+        "auroc": 94.48,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.86
+      },
+      {
+        "ds": "MVTec",
+        "cat": "pill",
+        "auroc": 89.55,
+        "auroc_oracle": 95.44,
+        "oracle_alpha": 0.69
+      },
+      {
+        "ds": "MVTec",
+        "cat": "screw",
+        "auroc": 86.78,
+        "auroc_oracle": 91.84,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "tile",
+        "auroc": 100.0,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.0
+      },
+      {
+        "ds": "MVTec",
+        "cat": "toothbrush",
+        "auroc": 81.39,
+        "auroc_oracle": 95.0,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "MVTec",
+        "cat": "transistor",
+        "auroc": 93.21,
+        "auroc_oracle": 97.42,
+        "oracle_alpha": 0.59
+      },
+      {
+        "ds": "MVTec",
+        "cat": "wood",
+        "auroc": 88.51,
+        "auroc_oracle": 98.68,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "zipper",
+        "auroc": 99.29,
+        "auroc_oracle": 99.97,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "candle",
+        "auroc": 84.25,
+        "auroc_oracle": 96.52,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "capsules",
+        "auroc": 79.65,
+        "auroc_oracle": 98.1,
+        "oracle_alpha": 0.88
+      },
+      {
+        "ds": "VisA",
+        "cat": "cashew",
+        "auroc": 76.68,
+        "auroc_oracle": 80.94,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "VisA",
+        "cat": "chewinggum",
+        "auroc": 97.4,
+        "auroc_oracle": 99.16,
+        "oracle_alpha": 0.77
+      },
+      {
+        "ds": "VisA",
+        "cat": "fryum",
+        "auroc": 91.4,
+        "auroc_oracle": 97.76,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni1",
+        "auroc": 83.36,
+        "auroc_oracle": 94.97,
+        "oracle_alpha": 0.56
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni2",
+        "auroc": 68.98,
+        "auroc_oracle": 81.92,
+        "oracle_alpha": 0.67
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb1",
+        "auroc": 89.47,
+        "auroc_oracle": 93.78,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb2",
+        "auroc": 76.23,
+        "auroc_oracle": 92.55,
+        "oracle_alpha": 0.84
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb3",
+        "auroc": 81.08,
+        "auroc_oracle": 87.52,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb4",
+        "auroc": 94.51,
+        "auroc_oracle": 97.52,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "pipe_fryum",
+        "auroc": 94.42,
+        "auroc_oracle": 96.72,
+        "oracle_alpha": 0.46
+      },
+      {
+        "ds": "BTAD",
+        "cat": "01",
+        "auroc": 93.68,
+        "auroc_oracle": 95.43,
+        "oracle_alpha": 0.66
+      },
+      {
+        "ds": "BTAD",
+        "cat": "02",
+        "auroc": 87.77,
+        "auroc_oracle": 91.5,
+        "oracle_alpha": 0.54
+      },
+      {
+        "ds": "BTAD",
+        "cat": "03",
+        "auroc": 96.48,
+        "auroc_oracle": 99.43,
+        "oracle_alpha": 0.75
+      }
+    ],
+    "wins_vs_065": "2/30"
+  },
+  "QuantileAdaptive": {
+    "mean_auroc": 89.491,
+    "regret": 6.111,
+    "per_category": [
+      {
+        "ds": "MVTec",
+        "cat": "bottle",
+        "auroc": 96.98,
+        "auroc_oracle": 99.92,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "MVTec",
+        "cat": "cable",
+        "auroc": 78.11,
+        "auroc_oracle": 92.6,
+        "oracle_alpha": 0.57
+      },
+      {
+        "ds": "MVTec",
+        "cat": "capsule",
+        "auroc": 91.42,
+        "auroc_oracle": 94.5,
+        "oracle_alpha": 0.42
+      },
+      {
+        "ds": "MVTec",
+        "cat": "carpet",
+        "auroc": 99.92,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.02
+      },
+      {
+        "ds": "MVTec",
+        "cat": "grid",
+        "auroc": 99.08,
+        "auroc_oracle": 99.83,
+        "oracle_alpha": 0.33
+      },
+      {
+        "ds": "MVTec",
+        "cat": "hazelnut",
+        "auroc": 96.54,
+        "auroc_oracle": 99.04,
+        "oracle_alpha": 0.35
+      },
+      {
+        "ds": "MVTec",
+        "cat": "leather",
+        "auroc": 99.22,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "MVTec",
+        "cat": "metal_nut",
+        "auroc": 97.95,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.86
+      },
+      {
+        "ds": "MVTec",
+        "cat": "pill",
+        "auroc": 90.92,
+        "auroc_oracle": 95.44,
+        "oracle_alpha": 0.69
+      },
+      {
+        "ds": "MVTec",
+        "cat": "screw",
+        "auroc": 84.28,
+        "auroc_oracle": 91.84,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "tile",
+        "auroc": 100.0,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.0
+      },
+      {
+        "ds": "MVTec",
+        "cat": "toothbrush",
+        "auroc": 83.89,
+        "auroc_oracle": 95.0,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "MVTec",
+        "cat": "transistor",
+        "auroc": 90.0,
+        "auroc_oracle": 97.42,
+        "oracle_alpha": 0.59
+      },
+      {
+        "ds": "MVTec",
+        "cat": "wood",
+        "auroc": 94.74,
+        "auroc_oracle": 98.68,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "zipper",
+        "auroc": 99.37,
+        "auroc_oracle": 99.97,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "candle",
+        "auroc": 83.94,
+        "auroc_oracle": 96.52,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "capsules",
+        "auroc": 79.78,
+        "auroc_oracle": 98.1,
+        "oracle_alpha": 0.88
+      },
+      {
+        "ds": "VisA",
+        "cat": "cashew",
+        "auroc": 76.2,
+        "auroc_oracle": 80.94,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "VisA",
+        "cat": "chewinggum",
+        "auroc": 97.68,
+        "auroc_oracle": 99.16,
+        "oracle_alpha": 0.77
+      },
+      {
+        "ds": "VisA",
+        "cat": "fryum",
+        "auroc": 90.28,
+        "auroc_oracle": 97.76,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni1",
+        "auroc": 77.44,
+        "auroc_oracle": 94.97,
+        "oracle_alpha": 0.56
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni2",
+        "auroc": 65.46,
+        "auroc_oracle": 81.92,
+        "oracle_alpha": 0.67
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb1",
+        "auroc": 88.52,
+        "auroc_oracle": 93.78,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb2",
+        "auroc": 79.0,
+        "auroc_oracle": 92.55,
+        "oracle_alpha": 0.84
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb3",
+        "auroc": 80.15,
+        "auroc_oracle": 87.52,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb4",
+        "auroc": 93.84,
+        "auroc_oracle": 97.52,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "pipe_fryum",
+        "auroc": 91.14,
+        "auroc_oracle": 96.72,
+        "oracle_alpha": 0.46
+      },
+      {
+        "ds": "BTAD",
+        "cat": "01",
+        "auroc": 93.78,
+        "auroc_oracle": 95.43,
+        "oracle_alpha": 0.66
+      },
+      {
+        "ds": "BTAD",
+        "cat": "02",
+        "auroc": 89.32,
+        "auroc_oracle": 91.5,
+        "oracle_alpha": 0.54
+      },
+      {
+        "ds": "BTAD",
+        "cat": "03",
+        "auroc": 95.79,
+        "auroc_oracle": 99.43,
+        "oracle_alpha": 0.75
+      }
+    ],
+    "wins_vs_065": "1/30"
+  },
+  "DisagreeSwitch": {
+    "mean_auroc": 85.094,
+    "regret": 10.508,
+    "per_category": [
+      {
+        "ds": "MVTec",
+        "cat": "bottle",
+        "auroc": 91.98,
+        "auroc_oracle": 99.92,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "MVTec",
+        "cat": "cable",
+        "auroc": 58.51,
+        "auroc_oracle": 92.6,
+        "oracle_alpha": 0.57
+      },
+      {
+        "ds": "MVTec",
+        "cat": "capsule",
+        "auroc": 87.28,
+        "auroc_oracle": 94.5,
+        "oracle_alpha": 0.42
+      },
+      {
+        "ds": "MVTec",
+        "cat": "carpet",
+        "auroc": 99.92,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.02
+      },
+      {
+        "ds": "MVTec",
+        "cat": "grid",
+        "auroc": 98.25,
+        "auroc_oracle": 99.83,
+        "oracle_alpha": 0.33
+      },
+      {
+        "ds": "MVTec",
+        "cat": "hazelnut",
+        "auroc": 83.36,
+        "auroc_oracle": 99.04,
+        "oracle_alpha": 0.35
+      },
+      {
+        "ds": "MVTec",
+        "cat": "leather",
+        "auroc": 98.2,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "MVTec",
+        "cat": "metal_nut",
+        "auroc": 88.76,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.86
+      },
+      {
+        "ds": "MVTec",
+        "cat": "pill",
+        "auroc": 85.16,
+        "auroc_oracle": 95.44,
+        "oracle_alpha": 0.69
+      },
+      {
+        "ds": "MVTec",
+        "cat": "screw",
+        "auroc": 77.91,
+        "auroc_oracle": 91.84,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "tile",
+        "auroc": 100.0,
+        "auroc_oracle": 100.0,
+        "oracle_alpha": 0.0
+      },
+      {
+        "ds": "MVTec",
+        "cat": "toothbrush",
+        "auroc": 71.94,
+        "auroc_oracle": 95.0,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "MVTec",
+        "cat": "transistor",
+        "auroc": 91.62,
+        "auroc_oracle": 97.42,
+        "oracle_alpha": 0.59
+      },
+      {
+        "ds": "MVTec",
+        "cat": "wood",
+        "auroc": 81.4,
+        "auroc_oracle": 98.68,
+        "oracle_alpha": 0.68
+      },
+      {
+        "ds": "MVTec",
+        "cat": "zipper",
+        "auroc": 98.21,
+        "auroc_oracle": 99.97,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "candle",
+        "auroc": 76.07,
+        "auroc_oracle": 96.52,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "capsules",
+        "auroc": 77.27,
+        "auroc_oracle": 98.1,
+        "oracle_alpha": 0.88
+      },
+      {
+        "ds": "VisA",
+        "cat": "cashew",
+        "auroc": 76.3,
+        "auroc_oracle": 80.94,
+        "oracle_alpha": 0.58
+      },
+      {
+        "ds": "VisA",
+        "cat": "chewinggum",
+        "auroc": 95.94,
+        "auroc_oracle": 99.16,
+        "oracle_alpha": 0.77
+      },
+      {
+        "ds": "VisA",
+        "cat": "fryum",
+        "auroc": 86.4,
+        "auroc_oracle": 97.76,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni1",
+        "auroc": 79.05,
+        "auroc_oracle": 94.97,
+        "oracle_alpha": 0.56
+      },
+      {
+        "ds": "VisA",
+        "cat": "macaroni2",
+        "auroc": 67.95,
+        "auroc_oracle": 81.92,
+        "oracle_alpha": 0.67
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb1",
+        "auroc": 85.72,
+        "auroc_oracle": 93.78,
+        "oracle_alpha": 0.63
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb2",
+        "auroc": 70.76,
+        "auroc_oracle": 92.55,
+        "oracle_alpha": 0.84
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb3",
+        "auroc": 76.57,
+        "auroc_oracle": 87.52,
+        "oracle_alpha": 0.89
+      },
+      {
+        "ds": "VisA",
+        "cat": "pcb4",
+        "auroc": 92.14,
+        "auroc_oracle": 97.52,
+        "oracle_alpha": 0.64
+      },
+      {
+        "ds": "VisA",
+        "cat": "pipe_fryum",
+        "auroc": 83.82,
+        "auroc_oracle": 96.72,
+        "oracle_alpha": 0.46
+      },
+      {
+        "ds": "BTAD",
+        "cat": "01",
+        "auroc": 90.57,
+        "auroc_oracle": 95.43,
+        "oracle_alpha": 0.66
+      },
+      {
+        "ds": "BTAD",
+        "cat": "02",
+        "auroc": 87.4,
+        "auroc_oracle": 91.5,
+        "oracle_alpha": 0.54
+      },
+      {
+        "ds": "BTAD",
+        "cat": "03",
+        "auroc": 94.35,
+        "auroc_oracle": 99.43,
+        "oracle_alpha": 0.75
+      }
+    ],
+    "wins_vs_065": "1/30"
+  }
+}

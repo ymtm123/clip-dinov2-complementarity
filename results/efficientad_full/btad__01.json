@@ -1,0 +1,13 @@
+{
+  "dataset": "BTAD",
+  "dataset_key": "btad",
+  "category": "01",
+  "image_auroc": 93.29,
+  "pixel_auroc": 63.14,
+  "train_seconds": 408.5,
+  "latency_ms_per_image": 5.931,
+  "throughput_img_s": 168.6,
+  "n_predictions": 70,
+  "n_latency_timed": 60,
+  "max_epochs": 15
+}

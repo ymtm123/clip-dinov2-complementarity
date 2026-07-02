@@ -1,0 +1,66 @@
+{
+  "fine_grained_sweep": {
+    "best_global_alpha": 0.67,
+    "best_global_auroc": 95.085,
+    "alpha_0.64": 95.062,
+    "alpha_0.65": 95.08
+  },
+  "per_category_oracle_alpha": {
+    "01": 0.66,
+    "02": 0.54,
+    "03": 0.75,
+    "bottle": 0.89,
+    "cable": 0.57,
+    "candle": 0.63,
+    "capsule": 0.42,
+    "capsules": 0.88,
+    "carpet": 0.02,
+    "cashew": 0.58,
+    "chewinggum": 0.77,
+    "fryum": 0.63,
+    "grid": 0.33,
+    "hazelnut": 0.35,
+    "leather": 0.58,
+    "macaroni1": 0.56,
+    "macaroni2": 0.67,
+    "metal_nut": 0.86,
+    "pcb1": 0.63,
+    "pcb2": 0.84,
+    "pcb3": 0.89,
+    "pcb4": 0.64,
+    "pill": 0.69,
+    "pipe_fryum": 0.46,
+    "screw": 0.68,
+    "tile": 0.0,
+    "toothbrush": 0.64,
+    "transistor": 0.59,
+    "wood": 0.68,
+    "zipper": 0.64
+  },
+  "per_category_alpha_stats": {
+    "mean": 0.602,
+    "median": 0.635,
+    "std": 0.212,
+    "min": 0.0,
+    "max": 0.89
+  },
+  "inverse_error_weighting": {
+    "pearson_r": 0.8356,
+    "mae": 0.0998,
+    "rmse": 0.1281,
+    "global_predicted_alpha": 0.6052
+  },
+  "performance_comparison": {
+    "clip_only": 87.48,
+    "dino_only": 93.2,
+    "fixed_065": 95.23,
+    "predicted_per_cat": 95.38,
+    "oracle_per_cat": 95.6
+  },
+  "regret": {
+    "fixed_065_mean": 0.377,
+    "fixed_065_max": 1.755,
+    "predicted_mean": 0.225,
+    "predicted_max": 1.053
+  }
+}

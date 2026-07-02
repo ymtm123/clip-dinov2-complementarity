@@ -1,0 +1,252 @@
+{
+  "loco_validation": {
+    "total_categories": 30,
+    "wrong_model_penalty": {
+      "mean_pp": 6.34,
+      "median_pp": 2.38,
+      "max_pp": 29.36,
+      "per_category": [
+        {
+          "name": "pcb2",
+          "dataset": "VisA",
+          "clip_auroc": 62.05,
+          "dino_auroc": 91.41,
+          "best": "DINOv2",
+          "penalty": 29.36
+        },
+        {
+          "name": "pcb3",
+          "dataset": "VisA",
+          "clip_auroc": 61.68,
+          "dino_auroc": 87.0,
+          "best": "DINOv2",
+          "penalty": 25.32
+        },
+        {
+          "name": "cable",
+          "dataset": "MVTec",
+          "clip_auroc": 70.28,
+          "dino_auroc": 91.09,
+          "best": "DINOv2",
+          "penalty": 20.810000000000002
+        },
+        {
+          "name": "capsules",
+          "dataset": "VisA",
+          "clip_auroc": 82.78,
+          "dino_auroc": 97.47,
+          "best": "DINOv2",
+          "penalty": 14.689999999999998
+        },
+        {
+          "name": "candle",
+          "dataset": "VisA",
+          "clip_auroc": 80.94,
+          "dino_auroc": 94.0,
+          "best": "DINOv2",
+          "penalty": 13.060000000000002
+        },
+        {
+          "name": "pill",
+          "dataset": "MVTec",
+          "clip_auroc": 81.1,
+          "dino_auroc": 92.64,
+          "best": "DINOv2",
+          "penalty": 11.540000000000006
+        },
+        {
+          "name": "bottle",
+          "dataset": "MVTec",
+          "clip_auroc": 88.65,
+          "dino_auroc": 99.92,
+          "best": "DINOv2",
+          "penalty": 11.269999999999996
+        },
+        {
+          "name": "screw",
+          "dataset": "MVTec",
+          "clip_auroc": 82.11,
+          "dino_auroc": 90.14,
+          "best": "DINOv2",
+          "penalty": 8.030000000000001
+        },
+        {
+          "name": "toothbrush",
+          "dataset": "MVTec",
+          "clip_auroc": 85.28,
+          "dino_auroc": 93.06,
+          "best": "DINOv2",
+          "penalty": 7.780000000000001
+        },
+        {
+          "name": "metal_nut",
+          "dataset": "MVTec",
+          "clip_auroc": 92.38,
+          "dino_auroc": 100.0,
+          "best": "DINOv2",
+          "penalty": 7.6200000000000045
+        },
+        {
+          "name": "01",
+          "dataset": "BTAD",
+          "clip_auroc": 87.17,
+          "dino_auroc": 94.56,
+          "best": "DINOv2",
+          "penalty": 7.390000000000001
+        },
+        {
+          "name": "macaroni2",
+          "dataset": "VisA",
+          "clip_auroc": 72.21,
+          "dino_auroc": 78.88,
+          "best": "DINOv2",
+          "penalty": 6.670000000000002
+        },
+        {
+          "name": "03",
+          "dataset": "BTAD",
+          "clip_auroc": 93.5,
+          "dino_auroc": 98.85,
+          "best": "DINOv2",
+          "penalty": 5.349999999999994
+        },
+        {
+          "name": "pcb1",
+          "dataset": "VisA",
+          "clip_auroc": 85.19,
+          "dino_auroc": 90.46,
+          "best": "DINOv2",
+          "penalty": 5.269999999999996
+        },
+        {
+          "name": "wood",
+          "dataset": "MVTec",
+          "clip_auroc": 96.93,
+          "dino_auroc": 94.47,
+          "best": "CLIP",
+          "penalty": 2.460000000000008
+        },
+        {
+          "name": "transistor",
+          "dataset": "MVTec",
+          "clip_auroc": 93.88,
+          "dino_auroc": 91.58,
+          "best": "CLIP",
+          "penalty": 2.299999999999997
+        },
+        {
+          "name": "chewinggum",
+          "dataset": "VisA",
+          "clip_auroc": 97.22,
+          "dino_auroc": 98.96,
+          "best": "DINOv2",
+          "penalty": 1.7399999999999949
+        },
+        {
+          "name": "macaroni1",
+          "dataset": "VisA",
+          "clip_auroc": 86.74,
+          "dino_auroc": 88.15,
+          "best": "DINOv2",
+          "penalty": 1.4100000000000108
+        },
+        {
+          "name": "zipper",
+          "dataset": "MVTec",
+          "clip_auroc": 98.4,
+          "dino_auroc": 99.79,
+          "best": "DINOv2",
+          "penalty": 1.3900000000000006
+        },
+        {
+          "name": "pipe_fryum",
+          "dataset": "VisA",
+          "clip_auroc": 92.28,
+          "dino_auroc": 91.0,
+          "best": "CLIP",
+          "penalty": 1.2800000000000011
+        },
+        {
+          "name": "cashew",
+          "dataset": "VisA",
+          "clip_auroc": 75.96,
+          "dino_auroc": 74.68,
+          "best": "CLIP",
+          "penalty": 1.279999999999987
+        },
+        {
+          "name": "carpet",
+          "dataset": "MVTec",
+          "clip_auroc": 99.96,
+          "dino_auroc": 99.04,
+          "best": "CLIP",
+          "penalty": 0.9199999999999875
+        },
+        {
+          "name": "pcb4",
+          "dataset": "VisA",
+          "clip_auroc": 93.89,
+          "dino_auroc": 94.7,
+          "best": "DINOv2",
+          "penalty": 0.8100000000000023
+        },
+        {
+          "name": "hazelnut",
+          "dataset": "MVTec",
+          "clip_auroc": 97.18,
+          "dino_auroc": 97.75,
+          "best": "DINOv2",
+          "penalty": 0.5699999999999932
+        },
+        {
+          "name": "fryum",
+          "dataset": "VisA",
+          "clip_auroc": 92.7,
+          "dino_auroc": 93.22,
+          "best": "DINOv2",
+          "penalty": 0.519999999999996
+        },
+        {
+          "name": "02",
+          "dataset": "BTAD",
+          "clip_auroc": 86.7,
+          "dino_auroc": 86.22,
+          "best": "CLIP",
+          "penalty": 0.480000000000004
+        },
+        {
+          "name": "tile",
+          "dataset": "MVTec",
+          "clip_auroc": 100.0,
+          "dino_auroc": 99.64,
+          "best": "CLIP",
+          "penalty": 0.35999999999999943
+        },
+        {
+          "name": "grid",
+          "dataset": "MVTec",
+          "clip_auroc": 97.83,
+          "dino_auroc": 98.08,
+          "best": "DINOv2",
+          "penalty": 0.25
+        },
+        {
+          "name": "leather",
+          "dataset": "MVTec",
+          "clip_auroc": 99.83,
+          "dino_auroc": 99.73,
+          "best": "CLIP",
+          "penalty": 0.09999999999999432
+        },
+        {
+          "name": "capsule",
+          "dataset": "MVTec",
+          "clip_auroc": 89.51,
+          "dino_auroc": 89.59,
+          "best": "DINOv2",
+          "penalty": 0.0799999999999983
+        }
+      ]
+    }
+  }
+}

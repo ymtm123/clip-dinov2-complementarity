@@ -1,0 +1,13 @@
+{
+  "dataset": "VisA",
+  "dataset_key": "visa",
+  "category": "pcb1",
+  "image_auroc": 94.03,
+  "pixel_auroc": 98.91,
+  "train_seconds": 765.1,
+  "latency_ms_per_image": 4.671,
+  "throughput_img_s": 214.1,
+  "n_predictions": 200,
+  "n_latency_timed": 100,
+  "max_epochs": 15
+}

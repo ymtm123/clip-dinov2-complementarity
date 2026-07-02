@@ -1,0 +1,82 @@
+{
+  "experiment_17_negative_premium": {
+    "n_clip_negative": 9,
+    "n_dino_negative": 3,
+    "clip_mean_premium": 4.202962962962964,
+    "dino_mean_premium": 8.64,
+    "negative_categories": [
+      {
+        "category": "bottle",
+        "dataset": "MVTec AD",
+        "clip_knn": 95.32,
+        "clip_premium": -6.6699999999999875,
+        "dino_premium": 7.540000000000006,
+        "type": "object"
+      },
+      {
+        "category": "cable",
+        "dataset": "MVTec AD",
+        "clip_knn": 79.35,
+        "clip_premium": -9.069999999999993,
+        "dino_premium": 12.659999999999997,
+        "type": "object"
+      },
+      {
+        "category": "metal_nut",
+        "dataset": "MVTec AD",
+        "clip_knn": 92.42,
+        "clip_premium": -0.04000000000000625,
+        "dino_premium": 4.150000000000006,
+        "type": "object"
+      },
+      {
+        "category": "pill",
+        "dataset": "MVTec AD",
+        "clip_knn": 89.58,
+        "clip_premium": -8.480000000000004,
+        "dino_premium": 17.08,
+        "type": "object"
+      },
+      {
+        "category": "wood",
+        "dataset": "MVTec AD",
+        "clip_knn": 98.6,
+        "clip_premium": -1.6699999999999875,
+        "dino_premium": 0.519999999999996,
+        "type": "texture"
+      },
+      {
+        "category": "candle",
+        "dataset": "VisA",
+        "clip_knn": 86.21,
+        "clip_premium": -5.269999999999996,
+        "dino_premium": 16.870000000000005,
+        "type": "object"
+      },
+      {
+        "category": "cashew",
+        "dataset": "VisA",
+        "clip_knn": 89.9,
+        "clip_premium": -13.940000000000012,
+        "dino_premium": -14.719999999999999,
+        "type": "object"
+      },
+      {
+        "category": "pcb2",
+        "dataset": "VisA",
+        "clip_knn": 69.26,
+        "clip_premium": -7.210000000000008,
+        "dino_premium": 19.299999999999997,
+        "type": "object"
+      },
+      {
+        "category": "pipe_fryum",
+        "dataset": "VisA",
+        "clip_knn": 97.18,
+        "clip_premium": -4.900000000000006,
+        "dino_premium": -5.1200000000000045,
+        "type": "object"
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "dataset": "VisA",
+  "dataset_key": "visa",
+  "category": "macaroni2",
+  "image_auroc": 80.7,
+  "pixel_auroc": 98.4,
+  "train_seconds": 737.5,
+  "latency_ms_per_image": 5.324,
+  "throughput_img_s": 187.8,
+  "n_predictions": 200,
+  "n_latency_timed": 100,
+  "max_epochs": 15
+}

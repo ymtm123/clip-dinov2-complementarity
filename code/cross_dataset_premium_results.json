@@ -1,0 +1,341 @@
+{
+  "experiment_14_cross_dataset_premium": {
+    "per_category": [
+      {
+        "category": "bottle",
+        "dataset": "MVTec AD",
+        "clip_knn": 95.32,
+        "clip_native": 88.65,
+        "clip_premium": -6.6699999999999875,
+        "dino_knn": 92.38,
+        "dino_native": 99.92,
+        "dino_premium": 7.540000000000006
+      },
+      {
+        "category": "cable",
+        "dataset": "MVTec AD",
+        "clip_knn": 79.35,
+        "clip_native": 70.28,
+        "clip_premium": -9.069999999999993,
+        "dino_knn": 78.43,
+        "dino_native": 91.09,
+        "dino_premium": 12.659999999999997
+      },
+      {
+        "category": "capsule",
+        "dataset": "MVTec AD",
+        "clip_knn": 62.82,
+        "clip_native": 89.51,
+        "clip_premium": 26.690000000000005,
+        "dino_knn": 65.02,
+        "dino_native": 89.59,
+        "dino_premium": 24.570000000000007
+      },
+      {
+        "category": "carpet",
+        "dataset": "MVTec AD",
+        "clip_knn": 99.64,
+        "clip_native": 99.96,
+        "clip_premium": 0.3199999999999932,
+        "dino_knn": 99.2,
+        "dino_native": 99.04,
+        "dino_premium": -0.1599999999999966
+      },
+      {
+        "category": "grid",
+        "dataset": "MVTec AD",
+        "clip_knn": 90.89,
+        "clip_native": 97.83,
+        "clip_premium": 6.939999999999998,
+        "dino_knn": 91.81,
+        "dino_native": 98.08,
+        "dino_premium": 6.269999999999996
+      },
+      {
+        "category": "hazelnut",
+        "dataset": "MVTec AD",
+        "clip_knn": 85.36,
+        "clip_native": 97.18,
+        "clip_premium": 11.820000000000007,
+        "dino_knn": 97.5,
+        "dino_native": 97.75,
+        "dino_premium": 0.25
+      },
+      {
+        "category": "leather",
+        "dataset": "MVTec AD",
+        "clip_knn": 98.98,
+        "clip_native": 99.83,
+        "clip_premium": 0.8499999999999943,
+        "dino_knn": 97.15,
+        "dino_native": 99.73,
+        "dino_premium": 2.5799999999999983
+      },
+      {
+        "category": "metal_nut",
+        "dataset": "MVTec AD",
+        "clip_knn": 92.42,
+        "clip_native": 92.38,
+        "clip_premium": -0.04000000000000625,
+        "dino_knn": 95.85,
+        "dino_native": 100.0,
+        "dino_premium": 4.150000000000006
+      },
+      {
+        "category": "pill",
+        "dataset": "MVTec AD",
+        "clip_knn": 89.58,
+        "clip_native": 81.1,
+        "clip_premium": -8.480000000000004,
+        "dino_knn": 75.56,
+        "dino_native": 92.64,
+        "dino_premium": 17.08
+      },
+      {
+        "category": "screw",
+        "dataset": "MVTec AD",
+        "clip_knn": 77.91,
+        "clip_native": 82.11,
+        "clip_premium": 4.200000000000003,
+        "dino_knn": 73.77,
+        "dino_native": 90.14,
+        "dino_premium": 16.370000000000005
+      },
+      {
+        "category": "tile",
+        "dataset": "MVTec AD",
+        "clip_knn": 97.47,
+        "clip_native": 100.0,
+        "clip_premium": 2.530000000000001,
+        "dino_knn": 95.45,
+        "dino_native": 99.64,
+        "dino_premium": 4.189999999999998
+      },
+      {
+        "category": "toothbrush",
+        "dataset": "MVTec AD",
+        "clip_knn": 85.28,
+        "clip_native": 85.28,
+        "clip_premium": 0.0,
+        "dino_knn": 86.67,
+        "dino_native": 93.06,
+        "dino_premium": 6.390000000000001
+      },
+      {
+        "category": "transistor",
+        "dataset": "MVTec AD",
+        "clip_knn": 62.17,
+        "clip_native": 93.88,
+        "clip_premium": 31.709999999999994,
+        "dino_knn": 62.62,
+        "dino_native": 91.58,
+        "dino_premium": 28.96
+      },
+      {
+        "category": "wood",
+        "dataset": "MVTec AD",
+        "clip_knn": 98.6,
+        "clip_native": 96.93,
+        "clip_premium": -1.6699999999999875,
+        "dino_knn": 93.95,
+        "dino_native": 94.47,
+        "dino_premium": 0.519999999999996
+      },
+      {
+        "category": "zipper",
+        "dataset": "MVTec AD",
+        "clip_knn": 90.41,
+        "clip_native": 98.4,
+        "clip_premium": 7.990000000000009,
+        "dino_knn": 87.79,
+        "dino_native": 99.79,
+        "dino_premium": 12.0
+      },
+      {
+        "category": "candle",
+        "dataset": "VisA",
+        "clip_knn": 86.21,
+        "clip_native": 80.94,
+        "clip_premium": -5.269999999999996,
+        "dino_knn": 77.13,
+        "dino_native": 94.0,
+        "dino_premium": 16.870000000000005
+      },
+      {
+        "category": "capsules",
+        "dataset": "VisA",
+        "clip_knn": 75.82,
+        "clip_native": 82.78,
+        "clip_premium": 6.960000000000008,
+        "dino_knn": 81.55,
+        "dino_native": 97.47,
+        "dino_premium": 15.920000000000002
+      },
+      {
+        "category": "cashew",
+        "dataset": "VisA",
+        "clip_knn": 89.9,
+        "clip_native": 75.96,
+        "clip_premium": -13.940000000000012,
+        "dino_knn": 89.4,
+        "dino_native": 74.68,
+        "dino_premium": -14.719999999999999
+      },
+      {
+        "category": "chewinggum",
+        "dataset": "VisA",
+        "clip_knn": 96.32,
+        "clip_native": 97.22,
+        "clip_premium": 0.9000000000000057,
+        "dino_knn": 98.5,
+        "dino_native": 98.96,
+        "dino_premium": 0.45999999999999375
+      },
+      {
+        "category": "fryum",
+        "dataset": "VisA",
+        "clip_knn": 90.62,
+        "clip_native": 92.7,
+        "clip_premium": 2.0799999999999983,
+        "dino_knn": 92.1,
+        "dino_native": 93.22,
+        "dino_premium": 1.1200000000000045
+      },
+      {
+        "category": "macaroni1",
+        "dataset": "VisA",
+        "clip_knn": 73.46,
+        "clip_native": 86.74,
+        "clip_premium": 13.280000000000001,
+        "dino_knn": 77.71,
+        "dino_native": 88.15,
+        "dino_premium": 10.440000000000012
+      },
+      {
+        "category": "macaroni2",
+        "dataset": "VisA",
+        "clip_knn": 63.69,
+        "clip_native": 72.21,
+        "clip_premium": 8.519999999999996,
+        "dino_knn": 69.66,
+        "dino_native": 78.88,
+        "dino_premium": 9.219999999999999
+      },
+      {
+        "category": "pcb1",
+        "dataset": "VisA",
+        "clip_knn": 74.13,
+        "clip_native": 85.19,
+        "clip_premium": 11.060000000000002,
+        "dino_knn": 74.99,
+        "dino_native": 90.46,
+        "dino_premium": 15.469999999999999
+      },
+      {
+        "category": "pcb2",
+        "dataset": "VisA",
+        "clip_knn": 69.26,
+        "clip_native": 62.05,
+        "clip_premium": -7.210000000000008,
+        "dino_knn": 72.11,
+        "dino_native": 91.41,
+        "dino_premium": 19.299999999999997
+      },
+      {
+        "category": "pcb3",
+        "dataset": "VisA",
+        "clip_knn": 54.64,
+        "clip_native": 61.68,
+        "clip_premium": 7.039999999999999,
+        "dino_knn": 73.67,
+        "dino_native": 87.0,
+        "dino_premium": 13.329999999999998
+      },
+      {
+        "category": "pcb4",
+        "dataset": "VisA",
+        "clip_knn": 66.05,
+        "clip_native": 93.89,
+        "clip_premium": 27.840000000000003,
+        "dino_knn": 87.08,
+        "dino_native": 94.7,
+        "dino_premium": 7.6200000000000045
+      },
+      {
+        "category": "pipe_fryum",
+        "dataset": "VisA",
+        "clip_knn": 97.18,
+        "clip_native": 92.28,
+        "clip_premium": -4.900000000000006,
+        "dino_knn": 96.12,
+        "dino_native": 91.0,
+        "dino_premium": -5.1200000000000045
+      }
+    ],
+    "compensatory_pattern": {
+      "mvtec": {
+        "clip_r": -0.7286,
+        "clip_p": 0.0021,
+        "dino_r": -0.9716,
+        "dino_p": 0.0,
+        "n": 15
+      },
+      "visa": {
+        "clip_r": -0.5567,
+        "clip_p": 0.0601,
+        "dino_r": -0.7481,
+        "dino_p": 0.0051,
+        "n": 12
+      },
+      "combined": {
+        "clip_r": -0.5985,
+        "clip_p": 0.000975,
+        "dino_r": -0.8281,
+        "dino_p": 0.0,
+        "n": 27
+      }
+    },
+    "premium_summary": {
+      "mvtec": {
+        "clip_mean": 4.47,
+        "dino_mean": 9.56
+      },
+      "visa": {
+        "clip_mean": 3.86,
+        "dino_mean": 7.49
+      },
+      "combined": {
+        "clip_mean": 4.2,
+        "dino_mean": 8.64,
+        "paired_ttest_p": 0.0391
+      }
+    },
+    "difficulty_analysis": {
+      "r_difficulty_fusion": -0.3694,
+      "p_difficulty_fusion": 0.0579,
+      "r_gap_fusion": -0.6434,
+      "p_gap_fusion": 0.0003,
+      "r_difficulty_penalty": -0.184,
+      "p_difficulty_penalty": 0.3581
+    },
+    "backbone_reversals": {
+      "clip_to_dino": 6,
+      "dino_to_clip": 1,
+      "total": 27
+    },
+    "negative_premium": {
+      "clip_count": 9,
+      "categories": [
+        "cashew (VisA)",
+        "cable (MVTec AD)",
+        "pill (MVTec AD)",
+        "pcb2 (VisA)",
+        "bottle (MVTec AD)",
+        "candle (VisA)",
+        "pipe_fryum (VisA)",
+        "wood (MVTec AD)",
+        "metal_nut (MVTec AD)"
+      ]
+    }
+  }
+}

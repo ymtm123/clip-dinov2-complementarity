@@ -1,0 +1,114 @@
+{
+  "experiment": "online/streaming normalization variant of fixed fusion",
+  "warmup_normals": 10,
+  "n_stream_orders": 5,
+  "ema_lambda": 0.01,
+  "method": "causal per-sample z-score (running Welford / EMA), warm-started on a normal prefix; seed-averaged over 10 DINO seeds x 5 stream orders, t(9) 95% CI",
+  "protocols": {
+    "running_zscore": {
+      "regret_pp": {
+        "mean": 0.6469,
+        "ci95": [
+          0.4851,
+          0.8088
+        ],
+        "seed0": 0.4225
+      },
+      "fusion_gain_vs_best": {
+        "mean": 1.1308,
+        "ci95": [
+          0.9472,
+          1.3145
+        ],
+        "seed0": 1.4953
+      },
+      "global_alpha": {
+        "mean": 0.677,
+        "ci95": [
+          0.6465,
+          0.7075
+        ],
+        "seed0": 0.7
+      },
+      "oracle": {
+        "mean": 94.5623,
+        "ci95": [
+          94.3391,
+          94.7854
+        ],
+        "seed0": 94.4676
+      },
+      "streaming": true
+    },
+    "ema_zscore": {
+      "regret_pp": {
+        "mean": 0.6163,
+        "ci95": [
+          0.4967,
+          0.7359
+        ],
+        "seed0": 0.4453
+      },
+      "fusion_gain_vs_best": {
+        "mean": 1.1806,
+        "ci95": [
+          1.0088,
+          1.3525
+        ],
+        "seed0": 1.4918
+      },
+      "global_alpha": {
+        "mean": 0.643,
+        "ci95": [
+          0.6191,
+          0.6669
+        ],
+        "seed0": 0.65
+      },
+      "oracle": {
+        "mean": 94.2341,
+        "ci95": [
+          94.0457,
+          94.4224
+        ],
+        "seed0": 94.0381
+      },
+      "streaming": true
+    },
+    "calib_zscore": {
+      "regret_pp": {
+        "mean": 0.5382,
+        "ci95": [
+          0.4338,
+          0.6425
+        ],
+        "seed0": 0.4161
+      },
+      "fusion_gain_vs_best": {
+        "mean": 1.1302,
+        "ci95": [
+          0.9731,
+          1.2874
+        ],
+        "seed0": 1.5258
+      },
+      "global_alpha": {
+        "mean": 0.55,
+        "ci95": [
+          0.5232,
+          0.5768
+        ],
+        "seed0": 0.53
+      },
+      "oracle": {
+        "mean": 95.3496,
+        "ci95": [
+          95.1191,
+          95.5801
+        ],
+        "seed0": 95.3614
+      },
+      "streaming": false
+    }
+  }
+}

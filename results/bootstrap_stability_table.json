@@ -1,0 +1,500 @@
+{
+  "n_total": 30,
+  "n_reversal": 13,
+  "reversal_rate": 0.433,
+  "reversal_rate_ci": [
+    0.267,
+    0.6
+  ],
+  "n_stable_reversal": 5,
+  "stable_reversal_categories": [
+    "grid (MVTec AD)",
+    "screw (MVTec AD)",
+    "candle (VisA)",
+    "capsules (VisA)",
+    "pipe_fryum (VisA)"
+  ],
+  "note": "seed-0 scores, all 30 categories (MVTec from the weak+strong splits); pixel alpha seed-0; alpha grid 0.05; 1000 bootstrap resamples of the test set",
+  "categories": [
+    {
+      "category": "bottle",
+      "dataset": "MVTec AD",
+      "alpha_img": 0.9,
+      "alpha_img_recomputed": 0.9,
+      "alpha_pix": 1.0,
+      "ci": [
+        0.5,
+        0.95
+      ],
+      "ci_width": 0.45,
+      "crosses_05": false,
+      "reversal": false,
+      "dominance_stability": 0.96,
+      "stable_reversal": false
+    },
+    {
+      "category": "cable",
+      "dataset": "MVTec AD",
+      "alpha_img": 0.55,
+      "alpha_img_recomputed": 0.55,
+      "alpha_pix": 0.4,
+      "ci": [
+        0.45,
+        0.85
+      ],
+      "ci_width": 0.4,
+      "crosses_05": true,
+      "reversal": true,
+      "dominance_stability": 0.961,
+      "stable_reversal": false
+    },
+    {
+      "category": "capsule",
+      "dataset": "MVTec AD",
+      "alpha_img": 0.4,
+      "alpha_img_recomputed": 0.4,
+      "alpha_pix": 0.8,
+      "ci": [
+        0.2,
+        0.85
+      ],
+      "ci_width": 0.65,
+      "crosses_05": true,
+      "reversal": true,
+      "dominance_stability": 0.779,
+      "stable_reversal": false
+    },
+    {
+      "category": "carpet",
+      "dataset": "MVTec AD",
+      "alpha_img": 0.05,
+      "alpha_img_recomputed": 0.05,
+      "alpha_pix": 0.45,
+      "ci": [
+        0.0,
+        0.05
+      ],
+      "ci_width": 0.05,
+      "crosses_05": false,
+      "reversal": false,
+      "dominance_stability": 1.0,
+      "stable_reversal": false
+    },
+    {
+      "category": "grid",
+      "dataset": "MVTec AD",
+      "alpha_img": 0.35,
+      "alpha_img_recomputed": 0.35,
+      "alpha_pix": 1.0,
+      "ci": [
+        0.0,
+        0.45
+      ],
+      "ci_width": 0.45,
+      "crosses_05": false,
+      "reversal": true,
+      "dominance_stability": 0.991,
+      "stable_reversal": true
+    },
+    {
+      "category": "hazelnut",
+      "dataset": "MVTec AD",
+      "alpha_img": 0.35,
+      "alpha_img_recomputed": 0.35,
+      "alpha_pix": 0.8,
+      "ci": [
+        0.2,
+        0.75
+      ],
+      "ci_width": 0.55,
+      "crosses_05": true,
+      "reversal": true,
+      "dominance_stability": 0.754,
+      "stable_reversal": false
+    },
+    {
+      "category": "leather",
+      "dataset": "MVTec AD",
+      "alpha_img": 0.5,
+      "alpha_img_recomputed": 0.5,
+      "alpha_pix": 0.75,
+      "ci": [
+        0.0,
+        0.65
+      ],
+      "ci_width": 0.65,
+      "crosses_05": true,
+      "reversal": false,
+      "dominance_stability": 0.735,
+      "stable_reversal": false
+    },
+    {
+      "category": "metal_nut",
+      "dataset": "MVTec AD",
+      "alpha_img": 0.9,
+      "alpha_img_recomputed": 0.9,
+      "alpha_pix": 1.0,
+      "ci": [
+        0.3,
+        0.9
+      ],
+      "ci_width": 0.6,
+      "crosses_05": true,
+      "reversal": false,
+      "dominance_stability": 0.636,
+      "stable_reversal": false
+    },
+    {
+      "category": "pill",
+      "dataset": "MVTec AD",
+      "alpha_img": 0.7,
+      "alpha_img_recomputed": 0.7,
+      "alpha_pix": 0.75,
+      "ci": [
+        0.5,
+        0.8
+      ],
+      "ci_width": 0.3,
+      "crosses_05": false,
+      "reversal": false,
+      "dominance_stability": 0.957,
+      "stable_reversal": false
+    },
+    {
+      "category": "screw",
+      "dataset": "MVTec AD",
+      "alpha_img": 0.75,
+      "alpha_img_recomputed": 0.75,
+      "alpha_pix": 0.4,
+      "ci": [
+        0.55,
+        0.95
+      ],
+      "ci_width": 0.4,
+      "crosses_05": false,
+      "reversal": true,
+      "dominance_stability": 0.988,
+      "stable_reversal": true
+    },
+    {
+      "category": "tile",
+      "dataset": "MVTec AD",
+      "alpha_img": 0.0,
+      "alpha_img_recomputed": 0.0,
+      "alpha_pix": 0.25,
+      "ci": [
+        0.0,
+        0.05
+      ],
+      "ci_width": 0.05,
+      "crosses_05": false,
+      "reversal": false,
+      "dominance_stability": 1.0,
+      "stable_reversal": false
+    },
+    {
+      "category": "toothbrush",
+      "dataset": "MVTec AD",
+      "alpha_img": 0.65,
+      "alpha_img_recomputed": 0.65,
+      "alpha_pix": 0.8,
+      "ci": [
+        0.15,
+        0.95
+      ],
+      "ci_width": 0.8,
+      "crosses_05": true,
+      "reversal": false,
+      "dominance_stability": 0.785,
+      "stable_reversal": false
+    },
+    {
+      "category": "transistor",
+      "dataset": "MVTec AD",
+      "alpha_img": 0.55,
+      "alpha_img_recomputed": 0.55,
+      "alpha_pix": 0.35,
+      "ci": [
+        0.3,
+        0.7
+      ],
+      "ci_width": 0.4,
+      "crosses_05": true,
+      "reversal": true,
+      "dominance_stability": 0.695,
+      "stable_reversal": false
+    },
+    {
+      "category": "wood",
+      "dataset": "MVTec AD",
+      "alpha_img": 0.7,
+      "alpha_img_recomputed": 0.7,
+      "alpha_pix": 0.0,
+      "ci": [
+        0.0,
+        0.8
+      ],
+      "ci_width": 0.8,
+      "crosses_05": true,
+      "reversal": true,
+      "dominance_stability": 0.723,
+      "stable_reversal": false
+    },
+    {
+      "category": "zipper",
+      "dataset": "MVTec AD",
+      "alpha_img": 0.65,
+      "alpha_img_recomputed": 0.65,
+      "alpha_pix": 0.4,
+      "ci": [
+        0.1,
+        0.85
+      ],
+      "ci_width": 0.75,
+      "crosses_05": true,
+      "reversal": true,
+      "dominance_stability": 0.628,
+      "stable_reversal": false
+    },
+    {
+      "category": "candle",
+      "dataset": "VisA",
+      "alpha_img": 0.6,
+      "alpha_img_recomputed": 0.6,
+      "alpha_pix": 0.2,
+      "ci": [
+        0.5,
+        0.8
+      ],
+      "ci_width": 0.3,
+      "crosses_05": false,
+      "reversal": true,
+      "dominance_stability": 0.961,
+      "stable_reversal": true
+    },
+    {
+      "category": "capsules",
+      "dataset": "VisA",
+      "alpha_img": 0.85,
+      "alpha_img_recomputed": 0.85,
+      "alpha_pix": 0.35,
+      "ci": [
+        0.75,
+        0.95
+      ],
+      "ci_width": 0.2,
+      "crosses_05": false,
+      "reversal": true,
+      "dominance_stability": 1.0,
+      "stable_reversal": true
+    },
+    {
+      "category": "cashew",
+      "dataset": "VisA",
+      "alpha_img": 0.55,
+      "alpha_img_recomputed": 0.55,
+      "alpha_pix": 0.6,
+      "ci": [
+        0.3,
+        0.8
+      ],
+      "ci_width": 0.5,
+      "crosses_05": true,
+      "reversal": false,
+      "dominance_stability": 0.553,
+      "stable_reversal": false
+    },
+    {
+      "category": "chewinggum",
+      "dataset": "VisA",
+      "alpha_img": 0.75,
+      "alpha_img_recomputed": 0.75,
+      "alpha_pix": 1.0,
+      "ci": [
+        0.4,
+        1.0
+      ],
+      "ci_width": 0.6,
+      "crosses_05": true,
+      "reversal": false,
+      "dominance_stability": 0.933,
+      "stable_reversal": false
+    },
+    {
+      "category": "fryum",
+      "dataset": "VisA",
+      "alpha_img": 0.65,
+      "alpha_img_recomputed": 0.65,
+      "alpha_pix": 0.3,
+      "ci": [
+        0.35,
+        0.8
+      ],
+      "ci_width": 0.45,
+      "crosses_05": true,
+      "reversal": true,
+      "dominance_stability": 0.873,
+      "stable_reversal": false
+    },
+    {
+      "category": "macaroni1",
+      "dataset": "VisA",
+      "alpha_img": 0.5,
+      "alpha_img_recomputed": 0.5,
+      "alpha_pix": 0.65,
+      "ci": [
+        0.45,
+        0.7
+      ],
+      "ci_width": 0.25,
+      "crosses_05": true,
+      "reversal": false,
+      "dominance_stability": 0.359,
+      "stable_reversal": false
+    },
+    {
+      "category": "macaroni2",
+      "dataset": "VisA",
+      "alpha_img": 0.65,
+      "alpha_img_recomputed": 0.65,
+      "alpha_pix": 0.75,
+      "ci": [
+        0.4,
+        0.9
+      ],
+      "ci_width": 0.5,
+      "crosses_05": true,
+      "reversal": false,
+      "dominance_stability": 0.909,
+      "stable_reversal": false
+    },
+    {
+      "category": "pcb1",
+      "dataset": "VisA",
+      "alpha_img": 0.65,
+      "alpha_img_recomputed": 0.65,
+      "alpha_pix": 0.8,
+      "ci": [
+        0.5,
+        0.8
+      ],
+      "ci_width": 0.3,
+      "crosses_05": false,
+      "reversal": false,
+      "dominance_stability": 0.949,
+      "stable_reversal": false
+    },
+    {
+      "category": "pcb2",
+      "dataset": "VisA",
+      "alpha_img": 0.85,
+      "alpha_img_recomputed": 0.85,
+      "alpha_pix": 0.95,
+      "ci": [
+        0.7,
+        0.95
+      ],
+      "ci_width": 0.25,
+      "crosses_05": false,
+      "reversal": false,
+      "dominance_stability": 1.0,
+      "stable_reversal": false
+    },
+    {
+      "category": "pcb3",
+      "dataset": "VisA",
+      "alpha_img": 0.9,
+      "alpha_img_recomputed": 0.9,
+      "alpha_pix": 1.0,
+      "ci": [
+        0.7,
+        1.0
+      ],
+      "ci_width": 0.3,
+      "crosses_05": false,
+      "reversal": false,
+      "dominance_stability": 1.0,
+      "stable_reversal": false
+    },
+    {
+      "category": "pcb4",
+      "dataset": "VisA",
+      "alpha_img": 0.65,
+      "alpha_img_recomputed": 0.65,
+      "alpha_pix": 0.6,
+      "ci": [
+        0.4,
+        0.75
+      ],
+      "ci_width": 0.35,
+      "crosses_05": true,
+      "reversal": false,
+      "dominance_stability": 0.923,
+      "stable_reversal": false
+    },
+    {
+      "category": "pipe_fryum",
+      "dataset": "VisA",
+      "alpha_img": 0.45,
+      "alpha_img_recomputed": 0.45,
+      "alpha_pix": 0.65,
+      "ci": [
+        0.3,
+        0.5
+      ],
+      "ci_width": 0.2,
+      "crosses_05": false,
+      "reversal": true,
+      "dominance_stability": 0.983,
+      "stable_reversal": true
+    },
+    {
+      "category": "01",
+      "dataset": "BTAD",
+      "alpha_img": 0.7,
+      "alpha_img_recomputed": 0.7,
+      "alpha_pix": 0.8,
+      "ci": [
+        0.25,
+        1.0
+      ],
+      "ci_width": 0.75,
+      "crosses_05": true,
+      "reversal": false,
+      "dominance_stability": 0.671,
+      "stable_reversal": false
+    },
+    {
+      "category": "02",
+      "dataset": "BTAD",
+      "alpha_img": 0.55,
+      "alpha_img_recomputed": 0.55,
+      "alpha_pix": 0.25,
+      "ci": [
+        0.35,
+        0.8
+      ],
+      "ci_width": 0.45,
+      "crosses_05": true,
+      "reversal": true,
+      "dominance_stability": 0.733,
+      "stable_reversal": false
+    },
+    {
+      "category": "03",
+      "dataset": "BTAD",
+      "alpha_img": 0.75,
+      "alpha_img_recomputed": 0.75,
+      "alpha_pix": 0.75,
+      "ci": [
+        0.55,
+        0.8
+      ],
+      "ci_width": 0.25,
+      "crosses_05": false,
+      "reversal": false,
+      "dominance_stability": 0.991,
+      "stable_reversal": false
+    }
+  ]
+}

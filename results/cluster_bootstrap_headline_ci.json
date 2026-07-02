@@ -1,0 +1,65 @@
+{
+  "experiment": "cluster-robust (dataset-stratified) bootstrap of headline CIs",
+  "n_categories": 30,
+  "n_clusters": 3,
+  "n_boot": 10000,
+  "note": "seed-0 per-category values; flat = i.i.d. category bootstrap (naive), cluster_robust = two-stage dataset->category bootstrap. With only 3 dataset clusters the cluster-robust CI is intentionally coarse/wide \u2014 that is the honest reflection of the dataset cluster structure.",
+  "metrics": {
+    "reversal_rate": {
+      "point": 0.4333,
+      "flat_ci95": [
+        0.2667,
+        0.6
+      ],
+      "cluster_robust_ci95": [
+        0.1852,
+        0.6364
+      ],
+      "flat_width": 0.3333,
+      "cluster_robust_width": 0.4512,
+      "width_inflation": 1.35
+    },
+    "fixed_065_regret_pp": {
+      "point": 0.3766,
+      "flat_ci95": [
+        0.1997,
+        0.5817
+      ],
+      "cluster_robust_ci95": [
+        0.1137,
+        0.6705
+      ],
+      "flat_width": 0.382,
+      "cluster_robust_width": 0.5569,
+      "width_inflation": 1.46
+    },
+    "lodo_transfer_regret_pp": {
+      "point": 0.4177,
+      "flat_ci95": [
+        0.231,
+        0.6202
+      ],
+      "cluster_robust_ci95": [
+        0.1137,
+        0.6767
+      ],
+      "flat_width": 0.3892,
+      "cluster_robust_width": 0.563,
+      "width_inflation": 1.45
+    },
+    "calib_zscore_regret_pp": {
+      "point": 0.4729,
+      "flat_ci95": [
+        0.2428,
+        0.7759
+      ],
+      "cluster_robust_ci95": [
+        0.1474,
+        1.0054
+      ],
+      "flat_width": 0.5331,
+      "cluster_robust_width": 0.8579,
+      "width_inflation": 1.61
+    }
+  }
+}

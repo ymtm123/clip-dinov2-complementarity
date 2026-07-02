@@ -1,0 +1,127 @@
+{
+  "Fixed-0.65": {
+    "mean_auroc": 95.226,
+    "regret": 0.376,
+    "wins_vs_065": "-"
+  },
+  "ConfGated-95": {
+    "mean_auroc": 95.226,
+    "regret": 0.376,
+    "wins_vs_065": "5/30"
+  },
+  "Z-0.65": {
+    "mean_auroc": 95.134,
+    "regret": 0.468,
+    "wins_vs_065": "7/30"
+  },
+  "CDF-0.65": {
+    "mean_auroc": 95.055,
+    "regret": 0.548,
+    "wins_vs_065": "9/30"
+  },
+  "ConfGated-90": {
+    "mean_auroc": 94.906,
+    "regret": 0.696,
+    "wins_vs_065": "6/30"
+  },
+  "Fixed-0.50": {
+    "mean_auroc": 94.679,
+    "regret": 0.923,
+    "wins_vs_065": "6/30"
+  },
+  "RankAverage": {
+    "mean_auroc": 94.607,
+    "regret": 0.995,
+    "wins_vs_065": "8/30"
+  },
+  "CDF-Equal": {
+    "mean_auroc": 94.607,
+    "regret": 0.995,
+    "wins_vs_065": "8/30"
+  },
+  "GeometricMean": {
+    "mean_auroc": 94.596,
+    "regret": 1.006,
+    "wins_vs_065": "8/30"
+  },
+  "MaxThen065": {
+    "mean_auroc": 94.584,
+    "regret": 1.019,
+    "wins_vs_065": "5/30"
+  },
+  "Z-Equal": {
+    "mean_auroc": 94.482,
+    "regret": 1.12,
+    "wins_vs_065": "7/30"
+  },
+  "ProbOR": {
+    "mean_auroc": 93.639,
+    "regret": 1.963,
+    "wins_vs_065": "4/30"
+  },
+  "ProdComplement": {
+    "mean_auroc": 93.639,
+    "regret": 1.963,
+    "wins_vs_065": "4/30"
+  },
+  "RankMax": {
+    "mean_auroc": 93.564,
+    "regret": 2.039,
+    "wins_vs_065": "4/30"
+  },
+  "L2-norm": {
+    "mean_auroc": 93.534,
+    "regret": 2.068,
+    "wins_vs_065": "4/30"
+  },
+  "LogSumExp-T3": {
+    "mean_auroc": 93.17,
+    "regret": 2.431,
+    "wins_vs_065": "3/30"
+  },
+  "SoftmaxAdapt-T2": {
+    "mean_auroc": 92.279,
+    "regret": 3.323,
+    "wins_vs_065": "2/30"
+  },
+  "LogSumExp-T5": {
+    "mean_auroc": 92.176,
+    "regret": 3.425,
+    "wins_vs_065": "2/30"
+  },
+  "ExtremityWeighted": {
+    "mean_auroc": 91.808,
+    "regret": 3.794,
+    "wins_vs_065": "3/30"
+  },
+  "LogSumExp-T10": {
+    "mean_auroc": 90.825,
+    "regret": 4.777,
+    "wins_vs_065": "1/30"
+  },
+  "Max": {
+    "mean_auroc": 89.882,
+    "regret": 5.72,
+    "wins_vs_065": "1/30"
+  },
+  "SoftmaxAdapt-T5": {
+    "mean_auroc": 89.501,
+    "regret": 6.101,
+    "wins_vs_065": "1/30"
+  },
+  "ScoreProportional": {
+    "mean_auroc": 89.495,
+    "regret": 6.107,
+    "wins_vs_065": "2/30"
+  },
+  "QuantileAdaptive": {
+    "mean_auroc": 89.491,
+    "regret": 6.111,
+    "wins_vs_065": "1/30"
+  },
+  "DisagreeSwitch": {
+    "mean_auroc": 85.094,
+    "regret": 10.508,
+    "wins_vs_065": "1/30"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "experiment": "cluster-robust bootstrap of fixed alpha=0.65 fusion gain, N=30->N=45",
+  "effect": "fixed alpha=0.65 fusion gain (AUROC@0.65 - best single), seed-0, image-level",
+  "n_boot": 10000,
+  "note": "Cluster-robust = resample datasets then categories within. N=45 adds DAGM (10) + MVTec-LOCO structural (5) as 2 extra clusters. LOCO is its own cluster so its heterogeneity (negative fixed-fusion gain) is HONESTLY absorbed into the between-dataset variance. 5 clusters give a less-coarse cluster CI than the 3-cluster case.",
+  "stages": {
+    "N30_3clusters_core": {
+      "label": "N30_3clusters_core",
+      "N": 30,
+      "n_clusters": 3,
+      "point": 1.7174,
+      "flat_ci95": [
+        1.0714,
+        2.4035
+      ],
+      "flat_width": 1.3321,
+      "cluster_robust_ci95": [
+        0.9482,
+        2.8901
+      ],
+      "cluster_robust_width": 1.9419,
+      "per_cluster": {
+        "MVTec": {
+          "n": 15,
+          "mean": 1.165
+        },
+        "VisA": {
+          "n": 12,
+          "mean": 2.344
+        },
+        "BTAD": {
+          "n": 3,
+          "mean": 1.974
+        }
+      }
+    },
+    "N40_4clusters_core+DAGM_sameRegime": {
+      "label": "N40_4clusters_core+DAGM_sameRegime",
+      "N": 40,
+      "n_clusters": 4,
+      "point": 1.2851,
+      "flat_ci95": [
+        0.7513,
+        1.8792
+      ],
+      "flat_width": 1.1279,
+      "cluster_robust_ci95": [
+        0.2864,
+        2.4511
+      ],
+      "cluster_robust_width": 2.1647,
+      "per_cluster": {
+        "MVTec": {
+          "n": 15,
+          "mean": 1.165
+        },
+        "VisA": {
+          "n": 12,
+          "mean": 2.344
+        },
+        "BTAD": {
+          "n": 3,
+          "mean": 1.974
+        },
+        "DAGM": {
+          "n": 10,
+          "mean": -0.012
+        }
+      }
+    },
+    "N45_5clusters_+LOCO_crossRegime": {
+      "label": "N45_5clusters_+LOCO_crossRegime",
+      "N": 45,
+      "n_clusters": 5,
+      "point": 0.9172,
+      "flat_ci95": [
+        0.1219,
+        1.6983
+      ],
+      "flat_width": 1.5764,
+      "cluster_robust_ci95": [
+        -0.8001,
+        2.1161
+      ],
+      "cluster_robust_width": 2.9162,
+      "per_cluster": {
+        "MVTec": {
+          "n": 15,
+          "mean": 1.165
+        },
+        "VisA": {
+          "n": 12,
+          "mean": 2.344
+        },
+        "BTAD": {
+          "n": 3,
+          "mean": 1.974
+        },
+        "DAGM": {
+          "n": 10,
+          "mean": -0.012
+        },
+        "MVTec-LOCO (structural)": {
+          "n": 5,
+          "mean": -2.026
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,874 @@
+{
+  "experiment_8_kshot": {
+    "bottle": {
+      "1": {
+        "clip_auroc": 94.92,
+        "dino_auroc": 93.89,
+        "fusion_auroc": 96.43,
+        "fusion_gain": 1.51,
+        "winner": "CLIP",
+        "gap": 1.03
+      },
+      "2": {
+        "clip_auroc": 98.1,
+        "dino_auroc": 98.65,
+        "fusion_auroc": 99.05,
+        "fusion_gain": 0.4,
+        "winner": "DINOv2",
+        "gap": 0.56
+      },
+      "4": {
+        "clip_auroc": 98.02,
+        "dino_auroc": 98.73,
+        "fusion_auroc": 99.29,
+        "fusion_gain": 0.56,
+        "winner": "DINOv2",
+        "gap": 0.71
+      },
+      "8": {
+        "clip_auroc": 99.21,
+        "dino_auroc": 99.6,
+        "fusion_auroc": 99.92,
+        "fusion_gain": 0.32,
+        "winner": "DINOv2",
+        "gap": 0.4
+      }
+    },
+    "cable": {
+      "1": {
+        "clip_auroc": 68.25,
+        "dino_auroc": 85.68,
+        "fusion_auroc": 82.66,
+        "fusion_gain": -3.02,
+        "winner": "DINOv2",
+        "gap": 17.43
+      },
+      "2": {
+        "clip_auroc": 72.06,
+        "dino_auroc": 85.94,
+        "fusion_auroc": 85.31,
+        "fusion_gain": -0.64,
+        "winner": "DINOv2",
+        "gap": 13.89
+      },
+      "4": {
+        "clip_auroc": 77.77,
+        "dino_auroc": 89.84,
+        "fusion_auroc": 89.58,
+        "fusion_gain": -0.26,
+        "winner": "DINOv2",
+        "gap": 12.07
+      },
+      "8": {
+        "clip_auroc": 80.12,
+        "dino_auroc": 90.24,
+        "fusion_auroc": 90.12,
+        "fusion_gain": -0.11,
+        "winner": "DINOv2",
+        "gap": 10.12
+      }
+    },
+    "capsule": {
+      "1": {
+        "clip_auroc": 83.53,
+        "dino_auroc": 85.88,
+        "fusion_auroc": 88.31,
+        "fusion_gain": 2.43,
+        "winner": "DINOv2",
+        "gap": 2.35
+      },
+      "2": {
+        "clip_auroc": 86.32,
+        "dino_auroc": 87.55,
+        "fusion_auroc": 91.22,
+        "fusion_gain": 3.67,
+        "winner": "DINOv2",
+        "gap": 1.24
+      },
+      "4": {
+        "clip_auroc": 84.72,
+        "dino_auroc": 87.24,
+        "fusion_auroc": 90.83,
+        "fusion_gain": 3.59,
+        "winner": "DINOv2",
+        "gap": 2.51
+      },
+      "8": {
+        "clip_auroc": 87.16,
+        "dino_auroc": 89.43,
+        "fusion_auroc": 92.34,
+        "fusion_gain": 2.91,
+        "winner": "DINOv2",
+        "gap": 2.27
+      }
+    },
+    "carpet": {
+      "1": {
+        "clip_auroc": 99.76,
+        "dino_auroc": 96.63,
+        "fusion_auroc": 99.96,
+        "fusion_gain": 0.2,
+        "winner": "CLIP",
+        "gap": 3.13
+      },
+      "2": {
+        "clip_auroc": 99.84,
+        "dino_auroc": 97.07,
+        "fusion_auroc": 99.92,
+        "fusion_gain": 0.08,
+        "winner": "CLIP",
+        "gap": 2.77
+      },
+      "4": {
+        "clip_auroc": 99.68,
+        "dino_auroc": 95.83,
+        "fusion_auroc": 99.68,
+        "fusion_gain": 0.0,
+        "winner": "CLIP",
+        "gap": 3.85
+      },
+      "8": {
+        "clip_auroc": 99.84,
+        "dino_auroc": 96.79,
+        "fusion_auroc": 99.84,
+        "fusion_gain": 0.0,
+        "winner": "CLIP",
+        "gap": 3.05
+      }
+    },
+    "grid": {
+      "1": {
+        "clip_auroc": 86.97,
+        "dino_auroc": 72.18,
+        "fusion_auroc": 88.89,
+        "fusion_gain": 1.92,
+        "winner": "CLIP",
+        "gap": 14.79
+      },
+      "2": {
+        "clip_auroc": 87.89,
+        "dino_auroc": 92.23,
+        "fusion_auroc": 97.16,
+        "fusion_gain": 4.93,
+        "winner": "DINOv2",
+        "gap": 4.34
+      },
+      "4": {
+        "clip_auroc": 92.9,
+        "dino_auroc": 99.33,
+        "fusion_auroc": 98.41,
+        "fusion_gain": -0.92,
+        "winner": "DINOv2",
+        "gap": 6.43
+      },
+      "8": {
+        "clip_auroc": 94.57,
+        "dino_auroc": 99.33,
+        "fusion_auroc": 99.25,
+        "fusion_gain": -0.08,
+        "winner": "DINOv2",
+        "gap": 4.76
+      }
+    },
+    "hazelnut": {
+      "1": {
+        "clip_auroc": 88.32,
+        "dino_auroc": 91.5,
+        "fusion_auroc": 95.82,
+        "fusion_gain": 4.32,
+        "winner": "DINOv2",
+        "gap": 3.18
+      },
+      "2": {
+        "clip_auroc": 88.46,
+        "dino_auroc": 94.36,
+        "fusion_auroc": 96.46,
+        "fusion_gain": 2.11,
+        "winner": "DINOv2",
+        "gap": 5.89
+      },
+      "4": {
+        "clip_auroc": 85.75,
+        "dino_auroc": 96.29,
+        "fusion_auroc": 96.36,
+        "fusion_gain": 0.07,
+        "winner": "DINOv2",
+        "gap": 10.54
+      },
+      "8": {
+        "clip_auroc": 87.18,
+        "dino_auroc": 98.04,
+        "fusion_auroc": 97.0,
+        "fusion_gain": -1.04,
+        "winner": "DINOv2",
+        "gap": 10.86
+      }
+    },
+    "leather": {
+      "1": {
+        "clip_auroc": 99.12,
+        "dino_auroc": 99.66,
+        "fusion_auroc": 100.0,
+        "fusion_gain": 0.34,
+        "winner": "DINOv2",
+        "gap": 0.54
+      },
+      "2": {
+        "clip_auroc": 98.74,
+        "dino_auroc": 100.0,
+        "fusion_auroc": 99.97,
+        "fusion_gain": -0.03,
+        "winner": "DINOv2",
+        "gap": 1.26
+      },
+      "4": {
+        "clip_auroc": 98.88,
+        "dino_auroc": 100.0,
+        "fusion_auroc": 100.0,
+        "fusion_gain": 0.0,
+        "winner": "DINOv2",
+        "gap": 1.12
+      },
+      "8": {
+        "clip_auroc": 99.97,
+        "dino_auroc": 99.97,
+        "fusion_auroc": 100.0,
+        "fusion_gain": 0.03,
+        "winner": "DINOv2",
+        "gap": 0.0
+      }
+    },
+    "metal_nut": {
+      "1": {
+        "clip_auroc": 91.69,
+        "dino_auroc": 97.12,
+        "fusion_auroc": 98.44,
+        "fusion_gain": 1.32,
+        "winner": "DINOv2",
+        "gap": 5.43
+      },
+      "2": {
+        "clip_auroc": 90.96,
+        "dino_auroc": 98.0,
+        "fusion_auroc": 98.14,
+        "fusion_gain": 0.15,
+        "winner": "DINOv2",
+        "gap": 7.04
+      },
+      "4": {
+        "clip_auroc": 97.31,
+        "dino_auroc": 98.83,
+        "fusion_auroc": 99.71,
+        "fusion_gain": 0.88,
+        "winner": "DINOv2",
+        "gap": 1.52
+      },
+      "8": {
+        "clip_auroc": 98.24,
+        "dino_auroc": 98.92,
+        "fusion_auroc": 99.61,
+        "fusion_gain": 0.68,
+        "winner": "DINOv2",
+        "gap": 0.68
+      }
+    },
+    "pill": {
+      "1": {
+        "clip_auroc": 85.24,
+        "dino_auroc": 84.4,
+        "fusion_auroc": 89.44,
+        "fusion_gain": 4.2,
+        "winner": "CLIP",
+        "gap": 0.85
+      },
+      "2": {
+        "clip_auroc": 85.13,
+        "dino_auroc": 84.15,
+        "fusion_auroc": 89.85,
+        "fusion_gain": 4.72,
+        "winner": "CLIP",
+        "gap": 0.98
+      },
+      "4": {
+        "clip_auroc": 84.67,
+        "dino_auroc": 83.8,
+        "fusion_auroc": 89.55,
+        "fusion_gain": 4.88,
+        "winner": "CLIP",
+        "gap": 0.87
+      },
+      "8": {
+        "clip_auroc": 86.28,
+        "dino_auroc": 89.28,
+        "fusion_auroc": 92.72,
+        "fusion_gain": 3.44,
+        "winner": "DINOv2",
+        "gap": 3.0
+      }
+    },
+    "screw": {
+      "1": {
+        "clip_auroc": 65.01,
+        "dino_auroc": 68.25,
+        "fusion_auroc": 68.62,
+        "fusion_gain": 0.37,
+        "winner": "DINOv2",
+        "gap": 3.24
+      },
+      "2": {
+        "clip_auroc": 73.07,
+        "dino_auroc": 76.0,
+        "fusion_auroc": 78.21,
+        "fusion_gain": 2.21,
+        "winner": "DINOv2",
+        "gap": 2.93
+      },
+      "4": {
+        "clip_auroc": 76.86,
+        "dino_auroc": 72.23,
+        "fusion_auroc": 76.82,
+        "fusion_gain": -0.04,
+        "winner": "CLIP",
+        "gap": 4.63
+      },
+      "8": {
+        "clip_auroc": 80.24,
+        "dino_auroc": 77.66,
+        "fusion_auroc": 83.09,
+        "fusion_gain": 2.85,
+        "winner": "CLIP",
+        "gap": 2.58
+      }
+    },
+    "tile": {
+      "1": {
+        "clip_auroc": 96.07,
+        "dino_auroc": 99.49,
+        "fusion_auroc": 99.71,
+        "fusion_gain": 0.22,
+        "winner": "DINOv2",
+        "gap": 3.43
+      },
+      "2": {
+        "clip_auroc": 95.24,
+        "dino_auroc": 99.96,
+        "fusion_auroc": 99.86,
+        "fusion_gain": -0.11,
+        "winner": "DINOv2",
+        "gap": 4.73
+      },
+      "4": {
+        "clip_auroc": 95.53,
+        "dino_auroc": 99.93,
+        "fusion_auroc": 99.78,
+        "fusion_gain": -0.14,
+        "winner": "DINOv2",
+        "gap": 4.4
+      },
+      "8": {
+        "clip_auroc": 96.28,
+        "dino_auroc": 100.0,
+        "fusion_auroc": 99.78,
+        "fusion_gain": -0.22,
+        "winner": "DINOv2",
+        "gap": 3.72
+      }
+    },
+    "toothbrush": {
+      "1": {
+        "clip_auroc": 84.17,
+        "dino_auroc": 95.56,
+        "fusion_auroc": 93.33,
+        "fusion_gain": -2.22,
+        "winner": "DINOv2",
+        "gap": 11.39
+      },
+      "2": {
+        "clip_auroc": 85.0,
+        "dino_auroc": 97.5,
+        "fusion_auroc": 94.17,
+        "fusion_gain": -3.33,
+        "winner": "DINOv2",
+        "gap": 12.5
+      },
+      "4": {
+        "clip_auroc": 90.28,
+        "dino_auroc": 94.44,
+        "fusion_auroc": 94.72,
+        "fusion_gain": 0.28,
+        "winner": "DINOv2",
+        "gap": 4.17
+      },
+      "8": {
+        "clip_auroc": 87.22,
+        "dino_auroc": 95.0,
+        "fusion_auroc": 93.61,
+        "fusion_gain": -1.39,
+        "winner": "DINOv2",
+        "gap": 7.78
+      }
+    },
+    "transistor": {
+      "1": {
+        "clip_auroc": 69.58,
+        "dino_auroc": 81.46,
+        "fusion_auroc": 81.46,
+        "fusion_gain": 0.0,
+        "winner": "DINOv2",
+        "gap": 11.88
+      },
+      "2": {
+        "clip_auroc": 74.62,
+        "dino_auroc": 87.38,
+        "fusion_auroc": 88.13,
+        "fusion_gain": 0.75,
+        "winner": "DINOv2",
+        "gap": 12.75
+      },
+      "4": {
+        "clip_auroc": 72.5,
+        "dino_auroc": 90.25,
+        "fusion_auroc": 87.42,
+        "fusion_gain": -2.83,
+        "winner": "DINOv2",
+        "gap": 17.75
+      },
+      "8": {
+        "clip_auroc": 68.33,
+        "dino_auroc": 92.83,
+        "fusion_auroc": 85.42,
+        "fusion_gain": -7.42,
+        "winner": "DINOv2",
+        "gap": 24.5
+      }
+    },
+    "wood": {
+      "1": {
+        "clip_auroc": 94.47,
+        "dino_auroc": 86.75,
+        "fusion_auroc": 96.84,
+        "fusion_gain": 2.37,
+        "winner": "CLIP",
+        "gap": 7.72
+      },
+      "2": {
+        "clip_auroc": 93.95,
+        "dino_auroc": 91.58,
+        "fusion_auroc": 97.11,
+        "fusion_gain": 3.16,
+        "winner": "CLIP",
+        "gap": 2.37
+      },
+      "4": {
+        "clip_auroc": 95.53,
+        "dino_auroc": 93.51,
+        "fusion_auroc": 98.16,
+        "fusion_gain": 2.63,
+        "winner": "CLIP",
+        "gap": 2.02
+      },
+      "8": {
+        "clip_auroc": 95.26,
+        "dino_auroc": 92.81,
+        "fusion_auroc": 98.16,
+        "fusion_gain": 2.89,
+        "winner": "CLIP",
+        "gap": 2.46
+      }
+    },
+    "zipper": {
+      "1": {
+        "clip_auroc": 91.91,
+        "dino_auroc": 98.16,
+        "fusion_auroc": 98.48,
+        "fusion_gain": 0.32,
+        "winner": "DINOv2",
+        "gap": 6.25
+      },
+      "2": {
+        "clip_auroc": 95.12,
+        "dino_auroc": 99.19,
+        "fusion_auroc": 99.71,
+        "fusion_gain": 0.53,
+        "winner": "DINOv2",
+        "gap": 4.07
+      },
+      "4": {
+        "clip_auroc": 96.11,
+        "dino_auroc": 99.58,
+        "fusion_auroc": 99.63,
+        "fusion_gain": 0.05,
+        "winner": "DINOv2",
+        "gap": 3.47
+      },
+      "8": {
+        "clip_auroc": 96.72,
+        "dino_auroc": 99.55,
+        "fusion_auroc": 99.79,
+        "fusion_gain": 0.24,
+        "winner": "DINOv2",
+        "gap": 2.84
+      }
+    }
+  },
+  "experiment_9_difficulty": {
+    "mask_area_by_class": {
+      "both": {
+        "n": 433,
+        "mean": 0.059546,
+        "median": 0.024662,
+        "std": 0.098416
+      },
+      "clip_only": {
+        "n": 224,
+        "mean": 0.025587,
+        "median": 0.010066,
+        "std": 0.05686
+      },
+      "dino_only": {
+        "n": 193,
+        "mean": 0.074017,
+        "median": 0.028911,
+        "std": 0.121297
+      },
+      "neither": {
+        "n": 408,
+        "mean": 0.023051,
+        "median": 0.007385,
+        "std": 0.056735
+      }
+    },
+    "defect_type_breakdown": [
+      {
+        "defect": "cable/cut_outer_insulation",
+        "total": 10,
+        "both": 0,
+        "clip_only": 0,
+        "dino_only": 8,
+        "neither": 2,
+        "exclusive_rate": 0.8,
+        "clip_only_rate": 0.0,
+        "dino_only_rate": 0.8
+      },
+      {
+        "defect": "hazelnut/hole",
+        "total": 18,
+        "both": 3,
+        "clip_only": 2,
+        "dino_only": 12,
+        "neither": 1,
+        "exclusive_rate": 0.7777777777777778,
+        "clip_only_rate": 0.1111111111111111,
+        "dino_only_rate": 0.6666666666666666
+      },
+      {
+        "defect": "capsule/faulty_imprint",
+        "total": 22,
+        "both": 1,
+        "clip_only": 17,
+        "dino_only": 0,
+        "neither": 4,
+        "exclusive_rate": 0.7727272727272727,
+        "clip_only_rate": 0.7727272727272727,
+        "dino_only_rate": 0.0
+      },
+      {
+        "defect": "pill/combined",
+        "total": 17,
+        "both": 1,
+        "clip_only": 12,
+        "dino_only": 1,
+        "neither": 3,
+        "exclusive_rate": 0.7647058823529411,
+        "clip_only_rate": 0.7058823529411765,
+        "dino_only_rate": 0.058823529411764705
+      },
+      {
+        "defect": "pill/color",
+        "total": 25,
+        "both": 5,
+        "clip_only": 19,
+        "dino_only": 0,
+        "neither": 1,
+        "exclusive_rate": 0.76,
+        "clip_only_rate": 0.76,
+        "dino_only_rate": 0.0
+      },
+      {
+        "defect": "cable/missing_cable",
+        "total": 12,
+        "both": 0,
+        "clip_only": 1,
+        "dino_only": 8,
+        "neither": 3,
+        "exclusive_rate": 0.75,
+        "clip_only_rate": 0.08333333333333333,
+        "dino_only_rate": 0.6666666666666666
+      },
+      {
+        "defect": "tile/gray_stroke",
+        "total": 16,
+        "both": 1,
+        "clip_only": 2,
+        "dino_only": 10,
+        "neither": 3,
+        "exclusive_rate": 0.75,
+        "clip_only_rate": 0.125,
+        "dino_only_rate": 0.625
+      },
+      {
+        "defect": "hazelnut/crack",
+        "total": 18,
+        "both": 5,
+        "clip_only": 1,
+        "dino_only": 11,
+        "neither": 1,
+        "exclusive_rate": 0.6666666666666666,
+        "clip_only_rate": 0.05555555555555555,
+        "dino_only_rate": 0.6111111111111112
+      },
+      {
+        "defect": "toothbrush/defective",
+        "total": 30,
+        "both": 3,
+        "clip_only": 0,
+        "dino_only": 20,
+        "neither": 7,
+        "exclusive_rate": 0.6666666666666666,
+        "clip_only_rate": 0.0,
+        "dino_only_rate": 0.6666666666666666
+      },
+      {
+        "defect": "zipper/squeezed_teeth",
+        "total": 16,
+        "both": 4,
+        "clip_only": 2,
+        "dino_only": 8,
+        "neither": 2,
+        "exclusive_rate": 0.625,
+        "clip_only_rate": 0.125,
+        "dino_only_rate": 0.5
+      },
+      {
+        "defect": "wood/liquid",
+        "total": 10,
+        "both": 4,
+        "clip_only": 1,
+        "dino_only": 5,
+        "neither": 0,
+        "exclusive_rate": 0.6,
+        "clip_only_rate": 0.1,
+        "dino_only_rate": 0.5
+      },
+      {
+        "defect": "carpet/color",
+        "total": 19,
+        "both": 8,
+        "clip_only": 11,
+        "dino_only": 0,
+        "neither": 0,
+        "exclusive_rate": 0.5789473684210527,
+        "clip_only_rate": 0.5789473684210527,
+        "dino_only_rate": 0.0
+      },
+      {
+        "defect": "capsule/poke",
+        "total": 21,
+        "both": 1,
+        "clip_only": 12,
+        "dino_only": 0,
+        "neither": 8,
+        "exclusive_rate": 0.5714285714285714,
+        "clip_only_rate": 0.5714285714285714,
+        "dino_only_rate": 0.0
+      },
+      {
+        "defect": "capsule/squeeze",
+        "total": 20,
+        "both": 1,
+        "clip_only": 9,
+        "dino_only": 2,
+        "neither": 8,
+        "exclusive_rate": 0.55,
+        "clip_only_rate": 0.45,
+        "dino_only_rate": 0.1
+      },
+      {
+        "defect": "wood/scratch",
+        "total": 21,
+        "both": 0,
+        "clip_only": 7,
+        "dino_only": 4,
+        "neither": 10,
+        "exclusive_rate": 0.5238095238095238,
+        "clip_only_rate": 0.3333333333333333,
+        "dino_only_rate": 0.19047619047619047
+      },
+      {
+        "defect": "cable/cut_inner_insulation",
+        "total": 14,
+        "both": 1,
+        "clip_only": 2,
+        "dino_only": 5,
+        "neither": 6,
+        "exclusive_rate": 0.5,
+        "clip_only_rate": 0.14285714285714285,
+        "dino_only_rate": 0.35714285714285715
+      },
+      {
+        "defect": "wood/color",
+        "total": 8,
+        "both": 0,
+        "clip_only": 3,
+        "dino_only": 1,
+        "neither": 4,
+        "exclusive_rate": 0.5,
+        "clip_only_rate": 0.375,
+        "dino_only_rate": 0.125
+      },
+      {
+        "defect": "wood/hole",
+        "total": 10,
+        "both": 2,
+        "clip_only": 4,
+        "dino_only": 1,
+        "neither": 3,
+        "exclusive_rate": 0.5,
+        "clip_only_rate": 0.4,
+        "dino_only_rate": 0.1
+      },
+      {
+        "defect": "capsule/crack",
+        "total": 23,
+        "both": 0,
+        "clip_only": 11,
+        "dino_only": 0,
+        "neither": 12,
+        "exclusive_rate": 0.4782608695652174,
+        "clip_only_rate": 0.4782608695652174,
+        "dino_only_rate": 0.0
+      },
+      {
+        "defect": "metal_nut/flip",
+        "total": 23,
+        "both": 12,
+        "clip_only": 0,
+        "dino_only": 11,
+        "neither": 0,
+        "exclusive_rate": 0.4782608695652174,
+        "clip_only_rate": 0.0,
+        "dino_only_rate": 0.4782608695652174
+      },
+      {
+        "defect": "pill/contamination",
+        "total": 21,
+        "both": 4,
+        "clip_only": 8,
+        "dino_only": 2,
+        "neither": 7,
+        "exclusive_rate": 0.47619047619047616,
+        "clip_only_rate": 0.38095238095238093,
+        "dino_only_rate": 0.09523809523809523
+      },
+      {
+        "defect": "zipper/rough",
+        "total": 17,
+        "both": 7,
+        "clip_only": 5,
+        "dino_only": 3,
+        "neither": 2,
+        "exclusive_rate": 0.47058823529411764,
+        "clip_only_rate": 0.29411764705882354,
+        "dino_only_rate": 0.17647058823529413
+      },
+      {
+        "defect": "cable/bent_wire",
+        "total": 13,
+        "both": 2,
+        "clip_only": 0,
+        "dino_only": 6,
+        "neither": 5,
+        "exclusive_rate": 0.46153846153846156,
+        "clip_only_rate": 0.0,
+        "dino_only_rate": 0.46153846153846156
+      },
+      {
+        "defect": "pill/scratch",
+        "total": 24,
+        "both": 6,
+        "clip_only": 8,
+        "dino_only": 3,
+        "neither": 7,
+        "exclusive_rate": 0.4583333333333333,
+        "clip_only_rate": 0.3333333333333333,
+        "dino_only_rate": 0.125
+      },
+      {
+        "defect": "cable/combined",
+        "total": 11,
+        "both": 1,
+        "clip_only": 0,
+        "dino_only": 5,
+        "neither": 5,
+        "exclusive_rate": 0.45454545454545453,
+        "clip_only_rate": 0.0,
+        "dino_only_rate": 0.45454545454545453
+      },
+      {
+        "defect": "zipper/split_teeth",
+        "total": 18,
+        "both": 9,
+        "clip_only": 0,
+        "dino_only": 8,
+        "neither": 1,
+        "exclusive_rate": 0.4444444444444444,
+        "clip_only_rate": 0.0,
+        "dino_only_rate": 0.4444444444444444
+      },
+      {
+        "defect": "capsule/scratch",
+        "total": 23,
+        "both": 0,
+        "clip_only": 10,
+        "dino_only": 0,
+        "neither": 13,
+        "exclusive_rate": 0.43478260869565216,
+        "clip_only_rate": 0.43478260869565216,
+        "dino_only_rate": 0.0
+      },
+      {
+        "defect": "hazelnut/print",
+        "total": 17,
+        "both": 2,
+        "clip_only": 4,
+        "dino_only": 3,
+        "neither": 8,
+        "exclusive_rate": 0.4117647058823529,
+        "clip_only_rate": 0.23529411764705882,
+        "dino_only_rate": 0.17647058823529413
+      },
+      {
+        "defect": "bottle/broken_small",
+        "total": 22,
+        "both": 8,
+        "clip_only": 9,
+        "dino_only": 0,
+        "neither": 5,
+        "exclusive_rate": 0.4090909090909091,
+        "clip_only_rate": 0.4090909090909091,
+        "dino_only_rate": 0.0
+      },
+      {
+        "defect": "metal_nut/color",
+        "total": 22,
+        "both": 9,
+        "clip_only": 6,
+        "dino_only": 3,
+        "neither": 4,
+        "exclusive_rate": 0.4090909090909091,
+        "clip_only_rate": 0.2727272727272727,
+        "dino_only_rate": 0.13636363636363635
+      }
+    ]
+  }
+}
