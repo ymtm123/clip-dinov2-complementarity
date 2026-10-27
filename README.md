@@ -33,10 +33,3 @@ Scripts write their outputs next to themselves (`code/`) or into `../results/`, 
 Not shipped (too large): the pixel-level anomaly maps. `pixel_fusion.py`, `pixel_seed0_metrics.py` and `pixel_multiseed_analysis.py` need them; regenerate the AnomalyDINO maps with `run_multiseed_maps.py --seeds 0 1 2 3 4 5 6 7 8 9` and the AnomalyCLIP maps with `AnomalyCLIP/test_save_maps.py` and the prompts in `prompts/`, against the public datasets. Score regeneration from images also needs the public [AnomalyDINO](https://github.com/dammsi/AnomalyDINO) and [AnomalyCLIP](https://github.com/zqhang/AnomalyCLIP) repositories and the backbones in `CHECKPOINTS.md` (GPU); the run drivers are in `code/` (`run_multiseed_categories.py`, `run_dagm_dino.py`, `build_dagm_layout.py`). The EfficientAD benchmark (`efficientad_benchmark_full.py`) trains per-category student–teacher models from scratch (GPU, long); its aggregates and per-image scores are shipped. The reference-strategy comparison (`refstrategy_eval.py`) additionally needs the medoid/farthest score variants, regenerable with the same drivers.
 
 The VLM logical-anomaly baseline: `vlm_loco_pilot.py` and `vlm_loco_v2.py` are the initial generic-question runs; `vlm_loco_v3.py` is the final count/composition question set (designed from the LOCO defect specification before the run, executed once, reported as-is in the paper). All three are kept for transparency; `results/vlm_loco_v3_apriori/` holds the reported run.
-
-## Citation
-
-If you use this code or the released scores, please cite:
-
-    T. Yamazaki, "CLIP–DINOv2 complementarity for industrial anomaly detection: a systematic study of
-    the understanding–optimization gap," Machine Vision and Applications, accepted, 2026.
