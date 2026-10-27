@@ -1,4 +1,4 @@
-"""C5 / + : EfficientAD FULL-BENCHMARK reference (image+pixel AUROC + latency)."""
+"""EfficientAD FULL-BENCHMARK reference (image+pixel AUROC + latency)."""
 import os
 import csv
 import json
@@ -82,7 +82,7 @@ def measure_latency(model, datamodule, device, n_warmup=10, n_iter=100):
         if device.type == "cuda":
             torch.cuda.synchronize()
         dt = time.perf_counter() - t0
-    if k < 1:  # too few test images to time -> don't fabricate a number
+    if k < 1:  # too few test images to time
         return None, None, k
     ms = 1000 * dt / k
     return round(ms, 3), (round(1000 / ms, 1) if ms > 0 else None), k
@@ -183,15 +183,13 @@ def aggregate(max_epochs, max_steps=None):
                 out[DSLABEL[ds]] = dict(n=len(rs), mean=round(float(np.mean([r[key] for r in rs])), 2))
         return out
 
-    budget_note = (("70,000-step official EfficientAD budget (T3 §4b full training) — the headline that "
-                    "SUPERSEDES the 15-epoch reduced run in results/efficientad_full/ and replaces the "
-                    "cited ~99.1%.") if max_steps is not None else
-                   ("15-epoch reduced budget (T2 intermediate). The original 6-category run "
-                    "(efficientad_benchmark.py) used 20 epochs; FULL EfficientAD training for all 30 "
-                    "categories is T3 §4b (--max_steps 70000) and supersedes these numbers. Report both "
-                    "budgets wherever EfficientAD numbers appear."))
+    budget_note = (("70,000-step official EfficientAD budget (full training); supersedes the 15-epoch "
+                    "reduced run in results/efficientad_full/.") if max_steps is not None else
+                   ("15-epoch reduced budget. The original 6-category run "
+                    "(efficientad_benchmark.py) used 20 epochs; full EfficientAD training for all 30 "
+                    "categories (--max_steps 70000) supersedes these numbers."))
     summary = dict(
-        experiment="C5 EfficientAD FULL benchmark (image+pixel AUROC + latency)",
+        experiment="EfficientAD FULL benchmark (image+pixel AUROC + latency)",
         hardware="RTX 4090", max_epochs=max_epochs, max_steps=max_steps,
         epoch_budget_note=budget_note,
         n_expected=n_expected, n_errored=len(errored), errored_categories=errored,

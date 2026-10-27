@@ -1,8 +1,8 @@
 {
-  "experiment": "C5 EfficientAD FULL benchmark (image+pixel AUROC + latency)",
+  "experiment": "EfficientAD FULL benchmark (image+pixel AUROC + latency)",
   "hardware": "RTX 4090",
   "max_epochs": 15,
-  "epoch_budget_note": "15-epoch reduced budget (T2 intermediate). The original 6-category run (efficientad_benchmark.py) used 20 epochs; FULL EfficientAD training for all 30 categories is T3 \u00a74b and supersedes these numbers. Report both budgets wherever EfficientAD numbers appear.",
+  "epoch_budget_note": "15-epoch reduced budget. The original 6-category run (efficientad_benchmark.py) used 20 epochs; full EfficientAD training for all 30 categories (--max_steps 70000) supersedes these numbers.",
   "n_expected": 30,
   "n_errored": 0,
   "errored_categories": [],

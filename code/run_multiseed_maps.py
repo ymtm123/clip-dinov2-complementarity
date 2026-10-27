@@ -1,12 +1,12 @@
 """
-T3 §4a: Pixel-level multi-seed AnomalyDINO maps (seeds 1..9) for all 30 categories.
-==================================================================================
+Pixel-level multi-seed AnomalyDINO maps (seeds 1..9) for all 30 categories.
+============================================================================
 
 run_multiseed_categories.py generated the seed 1..9 ANOMALY SCORES (measurements_seed=K.csv)
 with save_patch_dists=False, so only seed-0 has pixel anomaly maps on disk. This driver
 re-runs the EXACT same configs with save_patch_dists=True to write the per-seed pixel maps
 to anomaly_maps/seed={seed}/{obj}/test/{atype}/{id}.npy (the path pixel_fusion.py reads), so
-the image-vs-pixel reversal-rate CI and the DEFINITIVE Contribution-2/D verdict can be computed
+the image-vs-pixel reversal-rate CI and the reversal->fusion-gain test can be computed
 on seed-averaged PIXEL oracle alpha (currently seed-0 only).
 
 Key differences from run_multiseed_categories.py:

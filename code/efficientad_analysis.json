@@ -1,5 +1,5 @@
 {
-  "experiment": "C5 EfficientAD setting-axis + hybrid cascade",
+  "experiment": "EfficientAD setting-axis + hybrid cascade",
   "n_categories": 6,
   "setting_axis": {
     "efficientad": {

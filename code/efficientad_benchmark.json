@@ -1,5 +1,5 @@
 {
-  "experiment": "C5 EfficientAD reference benchmark",
+  "experiment": "EfficientAD reference benchmark",
   "hardware": "RTX 4090",
   "n_categories": 6,
   "mean_image_auroc": 90.15,

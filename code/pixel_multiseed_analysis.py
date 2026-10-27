@@ -1,17 +1,17 @@
 """
-T3 §4a deliverable: pixel-level MULTI-SEED analysis (the definitive Contribution-2 / D verdict).
-================================================================================================
+Pixel-level MULTI-SEED analysis.
+================================
 
 run_multiseed_maps.py generates the seed-1..9 pixel anomaly maps (seed-0 already on disk). This
-script consumes all 10 seeds to deliver what T1/§3b could only do for seed-0:
+script consumes all 10 seeds (pixel_seed0_metrics.py covers seed-0 only):
 
   1. Seed-AVERAGED pixel oracle alpha* per category (image-side CLIP maps are seed-independent;
      DINOv2 maps are seed-specific, so the pixel alpha* varies by seed).
   2. Seed-ROBUST image-vs-pixel reversal RATE with a 95% CI over the 10 DINO seeds (the central
      image-vs-pixel claim, previously seed-0 only).
-  3. DEFINITIVE association-D verdict: re-run the within-dataset permutation test for
+  3. Reversal->fusion-gain association: re-run the within-dataset permutation test for
      reversal->fusion-gain using the SEED-AVERAGED pixel alpha (replaces the hybrid seed-avg-image
-     + seed-0-pixel D of hierarchical_stats_seedavg, n_reversal hybrid p=0.034).
+     + seed-0-pixel test of hierarchical_stats_seedavg, n_reversal hybrid p=0.034).
 
 Reuses validated machinery: pixel_seed0_metrics (build_category_arrays / category_curve / ALPHAS,
 256x256 maps, alpha-0.02 grid, per-cat min-max, unbiased NEG_CAP) for the pixel curves;
@@ -137,7 +137,7 @@ def main():
         rate_by_seed.append(float(np.mean(revs)))
     rate_m, rate_lo, rate_hi = ci95(rate_by_seed)
 
-    # (3) DEFINITIVE D: seed-avg image alpha vs seed-AVG pixel alpha
+    # (3) reversal->gain: seed-avg image alpha vs seed-AVG pixel alpha
     import pandas as pd
     rows = [dict(category=c, dataset=cat_ds[c], fusion_gain=fusion_gain[c],
                  alpha_img=img_alpha[c], alpha_pix=seed_avg_pix[c],
@@ -148,11 +148,11 @@ def main():
     _, perm_p, nds = perm_twogroup(dfr, "fusion_gain", "reversal")
 
     out = dict(
-        experiment="T3 §4a pixel multi-seed: seed-averaged pixel alpha*, seed-robust reversal rate, definitive D",
+        experiment="pixel multi-seed: seed-averaged pixel alpha*, seed-robust reversal rate, reversal->gain test",
         seeds_available=avail, n_categories=len(common),
         note="image alpha* and fusion gain are seed-averaged (hierarchical_stats_seedavg convention); "
-             "pixel alpha* is now also seed-averaged over the available DINO seeds (was seed-0 in T1/§3b). "
-             "Definitive D replaces the hybrid seed-avg-image + seed-0-pixel reversal of "
+             "pixel alpha* is now also seed-averaged over the available DINO seeds (was seed-0 in pixel_seed0_metrics). "
+             "This test replaces the hybrid seed-avg-image + seed-0-pixel reversal of "
              "hierarchical_stats_seedavg (which gave within-ds perm p=0.034, n_reversal=12).",
         reversal_rate_seed_robust=dict(mean=round(rate_m, 4), ci95=[round(rate_lo, 4), round(rate_hi, 4)],
                                        per_seed=[round(r, 4) for r in rate_by_seed],
@@ -174,7 +174,7 @@ def main():
     print(f"  seed-robust reversal RATE: {r['mean']:.3f} [{r['ci95'][0]:.3f},{r['ci95'][1]:.3f}]  "
           f"(seed-avg n_reversal={r['n_reversal_seedavg']}/{len(common)}); per-seed {r['per_seed']}")
     d = out["D_reversal_to_gain"]
-    print(f"  DEFINITIVE D (reversal->gain, seed-avg pixel): within-ds perm p={d['perm_within_dataset_p']} "
+    print(f"  reversal->gain (, seed-avg pixel): within-ds perm p={d['perm_within_dataset_p']} "
           f"(n_rev={d['n_reversal']}, rev gain {d['reversal_mean_gain']} vs non {d['nonreversal_mean_gain']})")
     print(f"\n  Saved: results/pixel_multiseed_analysis.json")
 

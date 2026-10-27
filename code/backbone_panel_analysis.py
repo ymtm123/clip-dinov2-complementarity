@@ -1,4 +1,4 @@
-"""C7 / : analyze the 6-backbone same-kNN panel."""
+"""Analyze the 6-backbone same-kNN panel."""
 import os
 import json
 import numpy as np

@@ -1,4 +1,4 @@
-"""T3 §4f(ii) / : measured edge compression (FP16 / INT8) + async-pipelined inference for EfficientAD."""
+"""Measured edge compression (FP16 / INT8) + async-pipelined inference for EfficientAD."""
 import os
 import sys
 import json
@@ -87,7 +87,7 @@ def run_category(ds, cat, max_epochs):
         rec["image_auroc_fp16"] = img16; rec["pixel_auroc_fp16"] = pix16
     except Exception as e:
         rec["image_auroc_fp16"] = None; rec["fp16_auroc_error"] = str(e)[:120]
-    # INT8 (dynamic) — attempt on a CPU copy; conv-heavy net usually not accelerated -> disclose
+    # INT8 (dynamic) on a CPU copy; conv-heavy net usually not accelerated
     try:
         qnet = torch.quantization.quantize_dynamic(copy.deepcopy(net).float().cpu(), {torch.nn.Linear}, dtype=torch.qint8)
         cpu_imgs = [im.float().cpu() for im in imgs[:40]]
@@ -102,11 +102,11 @@ def run_category(ds, cat, max_epochs):
         rec["int8_dynamic_cpu_latency_ms"] = round(1000 * dt / max(k, 1), 3)
         rec["int8_note"] = ("dynamic INT8 quantizes only Linear layers; EfficientAd is conv-dominated so "
                             "this does NOT meaningfully accelerate it (measured on CPU). Static INT8 of the "
-                            "student-teacher conv stack needs a custom calibrated qconfig + fused conv-bn — "
-                            "DISCLOSED as out of scope; FP16 is the recommended edge precision.")
+                            "student-teacher conv stack needs a custom calibrated qconfig + fused conv-bn (not done); "
+                            "FP16 is the recommended edge precision.")
     except Exception as e:
         rec["int8_dynamic_cpu_latency_ms"] = None
-        rec["int8_note"] = f"dynamic INT8 not applicable / errored ({str(e)[:80]}); disclosed. FP16 is the edge precision."
+        rec["int8_note"] = f"dynamic INT8 not applicable / errored ({str(e)[:80]}). FP16 is the edge precision."
     print(f"  [{ds}/{cat}] fp32 {rec['latency_fp32_ms']}ms (img {img32}/pix {pix32}) | "
           f"fp16 {rec.get('latency_fp16_ms')}ms x{rec.get('fp16_speedup')} (img {rec.get('image_auroc_fp16')}) | "
           f"async {rec['latency_async_fp32_ms']}ms", flush=True)

@@ -1,9 +1,9 @@
 {
-  "experiment": "C5 EfficientAD FULL benchmark (image+pixel AUROC + latency)",
+  "experiment": "EfficientAD FULL benchmark (image+pixel AUROC + latency)",
   "hardware": "RTX 4090",
   "max_epochs": null,
   "max_steps": 70000,
-  "epoch_budget_note": "70,000-step official EfficientAD budget (T3 \u00a74b full training) \u2014 the headline that SUPERSEDES the 15-epoch reduced run in results/efficientad_full/ and replaces the cited ~99.1%.",
+  "epoch_budget_note": "70,000-step official EfficientAD budget (full training); supersedes the 15-epoch reduced run in results/efficientad_full/.",
   "n_expected": 30,
   "n_errored": 0,
   "errored_categories": [],

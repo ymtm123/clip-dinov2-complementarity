@@ -1,6 +1,6 @@
 """
-Additional Experiments for Paper Strengthening
-==============================================
+Additional Experiments
+======================
 1. Controlled Setting (Backbone Isolation): Both CLIP and DINOv2 in 1-shot kNN mode
 2. Feature Visualization: t-SNE plots for representative categories
 3. 3rd VFM: PatchCore-style with WideResNet-50-2 backbone
@@ -579,7 +579,7 @@ def three_model_fusion(wrn_results):
 # ========== Main ==========
 
 if __name__ == '__main__':
-    print("Additional Experiments for Paper Strengthening")
+    print("Additional Experiments")
     print("=" * 70)
     print(f"Device: {DEVICE}")
     print(f"Time: {time.strftime('%Y-%m-%d %H:%M:%S')}")

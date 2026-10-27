@@ -20,7 +20,7 @@ plt.rcParams.update({
 })
 
 src_dir = Path(__file__).parent
-fig_dir = src_dir.parent / 'paper' / 'figures'
+fig_dir = src_dir / 'figures'
 fig_dir.mkdir(exist_ok=True)
 
 # Load data

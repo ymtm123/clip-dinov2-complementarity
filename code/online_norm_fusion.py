@@ -1,4 +1,4 @@
-"""T3 §4f(iv) / : online / streaming-normalization variant of the fixed fusion."""
+"""Online / streaming-normalization variant of the fixed fusion."""
 import os
 import sys
 import json

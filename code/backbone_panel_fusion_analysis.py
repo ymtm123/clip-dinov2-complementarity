@@ -1,4 +1,4 @@
-"""C7 / : 15-pair backbone-fusion MATRIX + paradigm analysis from the panel score dumps."""
+"""15-pair backbone-fusion MATRIX + paradigm analysis from the panel score dumps."""
 import os
 import sys
 import json

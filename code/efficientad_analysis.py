@@ -1,4 +1,4 @@
-"""C5 / + : setting-axis comparison and hybrid fast-screen cascade."""
+"""Setting-axis comparison and hybrid fast-screen cascade."""
 import os
 import csv
 import json
@@ -135,7 +135,7 @@ def main():
         json.dump(out, f, indent=2)
 
     print("=" * 80)
-    print("  C5 SETTING-AXIS (subset) + HYBRID CASCADE")
+    print("  SETTING-AXIS (subset) + HYBRID CASCADE")
     print("=" * 80)
     print(f"  EfficientAD: mean AUROC {mean_eff} @ {eff_lat} ms/img (per-category distillation, no cross-category)")
     print(f"  CLIP-DINOv2 fusion: mean AUROC {mean_fuse} @ {fusion_lat} ms/img (zero/few-shot, cross-category)")

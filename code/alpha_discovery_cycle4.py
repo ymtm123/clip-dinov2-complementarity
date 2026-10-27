@@ -5,7 +5,7 @@ Alpha Discovery Cycle 4: Conditional Score Analysis
   Independent model signals, cross-model signals, and direct metric
   optimization ALL fail to beat fixed alpha=0.65.
 
-NEW INSIGHT: We need to look at CONDITIONAL behavior:
+Next: look at CONDITIONAL behavior:
   "Among the images that LOOK anomalous, which model contributes more?"
 
 Approaches:

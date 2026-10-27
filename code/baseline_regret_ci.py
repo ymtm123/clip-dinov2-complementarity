@@ -1,5 +1,5 @@
 """
-Third-round reviewer response experiments.
+Naive baseline, regret bootstrap CI and effect sizes.
 
 Part 1: Naive baseline accuracy (always-predict-DINOv2)
 Part 2: Bootstrap CI for regret values (fixed vs taxonomy)
@@ -19,7 +19,7 @@ src_dir = Path(__file__).parent
 with open(src_dir / 'category_taxonomy_results.json') as f:
     tax_data = json.load(f)
 
-with open(src_dir / 'reviewer_response_results.json') as f:
+with open(src_dir / 'bootstrap_robustness_results.json') as f:
     rr_data = json.load(f)
 
 with open(src_dir / 'fusion_results.json') as f:
@@ -336,7 +336,7 @@ results = {
     },
 }
 
-with open(src_dir / 'third_round_results.json', 'w') as f:
+with open(src_dir / 'baseline_regret_ci_results.json', 'w') as f:
     json.dump(results, f, indent=2, default=lambda o: o.item() if hasattr(o, "item") else str(o))
 
-print(f"\n\nResults saved to third_round_results.json")
+print(f"\n\nResults saved to baseline_regret_ci_results.json")

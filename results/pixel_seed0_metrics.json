@@ -1,5 +1,5 @@
 {
-  "experiment": "T2 \u00a73b pixel-level (seed-0) re-runs of the four image-level headline analyses",
+  "experiment": "pixel-level (seed-0) re-runs of the four image-level headline analyses",
   "level": "pixel",
   "seed": 0,
   "n_categories": 30,

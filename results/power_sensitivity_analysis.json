@@ -1,5 +1,5 @@
 {
-  "experiment": "SECONDARY pooled-t power illustration (LEAD = cluster_bootstrap_headline_ci.json)",
+  "experiment": "secondary pooled-t power illustration (primary = cluster_bootstrap_headline_ci.json)",
   "lead_inference": "results/cluster_bootstrap_headline_ci.json (cluster-robust bootstrap)",
   "primary_effect": "fixed alpha=0.65 fusion gain (AUROC@0.65 - best single), seed-0, image-level",
   "ruling": "Pooled-t treats categories as independent, ignoring the dataset clustering, so this is a SECONDARY illustration; the cluster-robust bootstrap is the real inference. oracle_gain>=0 by construction + post-hoc alpha = near-tautological (caveated note only). LOCO-structural is a separate heterogeneity/scope finding, NOT pooled into power-vs-N.",

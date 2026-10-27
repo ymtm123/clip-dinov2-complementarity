@@ -1,5 +1,5 @@
 """
-T3 §4c: build AnomalyCLIP meta.json for the DAGM->MVTec shim so test_save_scores.py can score it.
+Build AnomalyCLIP meta.json for the DAGM->MVTec shim so test_save_scores.py can score it.
 dataset.py reads {root}/meta.json -> meta[mode][cls_name] = [{img_path, mask_path, cls_name,
 specie_name, anomaly}]. Paths are relative to root. Run with the default python.
 """

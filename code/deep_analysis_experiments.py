@@ -633,7 +633,7 @@ def save_intermediate(results, tag=""):
 if __name__ == "__main__":
     output_path = Path(__file__).parent / "deep_analysis_results.json"
 
-    # v2: CLIP feature extraction fixed (ln_post added, patch_dropout removed)
+    # v2: CLIP feature extraction with ln_post, without patch_dropout
     # Force re-run of experiments 1-3 that use CLIP kNN
     RESULT_VERSION = "v2_ln_post_fixed"
 

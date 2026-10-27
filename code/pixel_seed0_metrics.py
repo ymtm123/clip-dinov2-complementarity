@@ -1,4 +1,4 @@
-"""T2 §3b: Pixel-level (seed-0) re-runs of the four T1 image-level headline analyses."""
+"""Pixel-level (seed-0) re-runs of the four image-level headline analyses."""
 import os
 import sys
 import json
@@ -21,7 +21,7 @@ RESULTS = os.path.join(os.path.dirname(BASE), "results")
 D9 = "data"
 
 ALPHAS = [round(i / 50.0, 2) for i in range(51)]
-ALPHAS_R12 = [round(i / 20.0, 2) for i in range(21)]
+ALPHAS_CALIB = [round(i / 20.0, 2) for i in range(21)]
 DSNAME = {"mvtec": "MVTec AD", "visa": "VisA", "btad": "BTAD"}
 IMG_ALPHA_KEY = {"mvtec": "mvtec_image", "visa": "visa_image", "btad": "btad_image"}
 RNG = np.random.RandomState(42)
@@ -181,7 +181,7 @@ def _norm_apply(x, loc, sc):
     return (x - loc) / (sc if sc > 1e-10 else 1.0)
 
 
-def analyse_r12(cats_by_obj):
+def analyse_calibration(cats_by_obj):
     """transductive_minmax (paper) vs calib_zscore (fit on NORMAL maps only).
     Per category, split the per-map normal set into calib/eval halves; eval set =
     held-out normal maps + all anomaly maps. Average over CALIB_SPLITS random splits."""
@@ -231,16 +231,16 @@ def analyse_r12(cats_by_obj):
                     clo, chi = np.percentile(cal_c, 1), np.percentile(cal_c, 99)
                     dlo, dhi = np.percentile(cal_d, 1), np.percentile(cal_d, 99)
                     cl = _norm_apply(ev_c, clo, chi - clo); dn = _norm_apply(ev_d, dlo, dhi - dlo)
-                acc[p].append([auroc(ev_y, (1 - a) * cl + a * dn) for a in ALPHAS_R12])
+                acc[p].append([auroc(ev_y, (1 - a) * cl + a * dn) for a in ALPHAS_CALIB])
         for p in protocols:
             if acc[p]:
-                cat_curves[p][obj] = dict(zip(ALPHAS_R12, np.mean(acc[p], axis=0)))
+                cat_curves[p][obj] = dict(zip(ALPHAS_CALIB, np.mean(acc[p], axis=0)))
     out = {}
     for p in protocols:
         cc = cat_curves[p]
         if not cc:
             continue
-        glob_a = max(ALPHAS_R12, key=lambda a: np.mean([cc[c][a] for c in cc]))
+        glob_a = max(ALPHAS_CALIB, key=lambda a: np.mean([cc[c][a] for c in cc]))
         regret = float(np.mean([max(cc[c].values()) - cc[c][glob_a] for c in cc]))
         best_single = float(np.mean([max(cc[c][0.0], cc[c][1.0]) for c in cc]))
         fixed = float(np.mean([cc[c][glob_a] for c in cc]))
@@ -325,11 +325,11 @@ def main():
 
     rb = analyse_regret_band(curves, cat2ds)
     hier, df = analyse_hierarchical(curves, cat2ds, tax, img_alpha)
-    calib = analyse_r12(all_cats)
+    calib = analyse_calibration(all_cats)
     dirn = analyse_directional(df, tax)
 
     out = dict(
-        experiment="T2 §3b pixel-level (seed-0) re-runs of the four image-level headline analyses",
+        experiment="pixel-level (seed-0) re-runs of the four image-level headline analyses",
         level="pixel", seed=0, n_categories=len(curves),
         alpha_convention="alpha = DINOv2 weight; fused = (1-a)*CLIP + a*DINOv2; per-category min-max (transductive) except the calibration protocol",
         map_resolution="256x256", alpha_grid_step=0.02, neg_pixel_cap=NEG_CAP,

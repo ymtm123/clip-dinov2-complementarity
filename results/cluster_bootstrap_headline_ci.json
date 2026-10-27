@@ -3,7 +3,7 @@
   "n_categories": 30,
   "n_clusters": 3,
   "n_boot": 10000,
-  "note": "seed-0 per-category values; flat = i.i.d. category bootstrap (naive), cluster_robust = two-stage dataset->category bootstrap. With only 3 dataset clusters the cluster-robust CI is intentionally coarse/wide \u2014 that is the honest reflection of the dataset cluster structure.",
+  "note": "seed-0 per-category values; flat = i.i.d. category bootstrap (naive), cluster_robust = two-stage dataset->category bootstrap. With only 3 dataset clusters the cluster-robust CI is coarse/wide, reflecting the dataset cluster structure.",
   "metrics": {
     "reversal_rate": {
       "point": 0.4333,

@@ -1,4 +1,4 @@
-"""C7 / : same-kNN backbone-isolation panel across 6 frozen backbones."""
+"""Same-kNN backbone-isolation panel across 6 frozen backbones."""
 import os
 import json
 import numpy as np

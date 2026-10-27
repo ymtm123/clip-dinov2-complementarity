@@ -1,9 +1,9 @@
-""": per-category bootstrap-stability table over ALL 30 categories."""
+"""Per-category bootstrap-stability table over ALL 30 categories."""
 import os, sys, json
 import numpy as np
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import reviewer_response_experiments as rr
+import bootstrap_robustness as rr
 
 ALPHA_GRID = np.arange(0.0, 1.01, 0.05)
 NB = 1000

@@ -6,7 +6,7 @@ import json
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 RESULTS = os.path.join(os.path.dirname(BASE_DIR), "results")
-REVDIR = os.path.dirname(BASE_DIR)
+ROOT_DIR = os.path.dirname(BASE_DIR)
 
 CYCLES = [
     ("unsupervised_alpha_discovery.json", "C1", "unsupervised_alpha_discovery.py",
@@ -96,14 +96,14 @@ def main():
         n = sum(1 for r in rows if r['cycle'] == tag)
         lines.append(f"- **{tag}** ({n} methods) — {theme}. Source: `src/{script}`.")
     md = "\n".join(lines) + "\n"
-    with open(os.path.join(REVDIR, "unsupervised_strategies_table.md"), 'w', encoding='utf-8') as f:
+    with open(os.path.join(ROOT_DIR, "unsupervised_strategies_table.md"), 'w', encoding='utf-8') as f:
         f.write(md)
 
     print(f"Distinct methods: {len(rows)} | Fixed-0.65 AUROC {fixed_auroc:.3f} | "
           f"best non-fixed margin {out['max_margin_over_fixed_pp']:+.4f} pp")
     print("Top 5:", [(r['method'], r['mean_auroc']) for r in rows[:5]])
     print("Saved: results/unsupervised_strategies_full.json")
-    print("Saved: paper/revision_round1/unsupervised_strategies_table.md")
+    print("Saved: unsupervised_strategies_table.md")
 
 
 if __name__ == "__main__":

@@ -1,4 +1,4 @@
-"""T3 §4c : cluster-robust bootstrap of the FIXED alpha=0.65 fusion gain, N=30 -> N=45."""
+"""Cluster-robust bootstrap of the FIXED alpha=0.65 fusion gain, N=30 -> N=45."""
 import os
 import sys
 import json
@@ -31,8 +31,8 @@ def main():
     core = core_rows(); dagm = dagm_rows(); loco = loco_structural_rows()
     print(f"core={len(core)}  DAGM={len(dagm)}  LOCO-structural={len(loco)}  (n_boot={NB})")
     # N30 (3 clusters, starting point); N40 (4 clusters core+DAGM = same traditional-AD regime = the
-    # "doubled-datasets, conclusion-holds" LEAD); N45 (5 clusters +LOCO = cross-regime, where LOCO's
-    # heterogeneity HONESTLY widens the cluster-robust CI to include 0 -> the understanding-optimization gap).
+    # same traditional-AD regime); N45 (5 clusters +LOCO = cross-regime, where LOCO's
+    # heterogeneity widens the cluster-robust CI to include 0).
     stages = [_stage(core, "N30_3clusters_core")]
     if dagm:
         stages.append(_stage(core + dagm, "N40_4clusters_core+DAGM_sameRegime"))
@@ -43,7 +43,7 @@ def main():
                n_boot=NB,
                note="Cluster-robust = resample datasets then categories within. N=45 adds DAGM (10) + "
                     "MVTec-LOCO structural (5) as 2 extra clusters. LOCO is its own cluster so its "
-                    "heterogeneity (negative fixed-fusion gain) is HONESTLY absorbed into the between-"
+                    "heterogeneity (negative fixed-fusion gain) is absorbed into the between-"
                     "dataset variance. 5 clusters give a less-coarse cluster CI than the 3-cluster case.",
                stages={s["label"]: s for s in stages})
     json.dump(out, open(os.path.join(RES, "cluster_bootstrap_fusion_N45.json"), "w"), indent=2)

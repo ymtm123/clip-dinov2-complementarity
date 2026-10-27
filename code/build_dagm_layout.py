@@ -1,5 +1,5 @@
 """
-T3 §4c: build a DAGM -> MVTec-style layout so the existing AnomalyCLIP / AnomalyDINO pipelines run on it.
+Build a DAGM -> MVTec-style layout so the existing AnomalyCLIP / AnomalyDINO pipelines run on it.
 
 DAGM_KaggleUpload/<ClassN>/{Train,Test}/*.PNG with defect masks in {Train,Test}/Label/<stem>_label.PNG.
 A test image is ANOMALOUS iff it has a corresponding <stem>_label.PNG; otherwise NORMAL.
@@ -11,7 +11,7 @@ Produces (hardlinks where possible -> no data duplication; same volume; falls ba
      test/defect/<stem>.PNG         (Test anomalous images)
      ground_truth/defect/<stem>.png (Test masks, renamed to match; for pixel-level later)
 
-Image-level scoring (what §4c needs) uses only train/good + test/{good,defect}; ground_truth enables
+Image-level scoring uses only train/good + test/{good,defect}; ground_truth enables
 pixel-level if pursued. Deterministic, resumable (skips files already linked).
 
 Run with the default python:

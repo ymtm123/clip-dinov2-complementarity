@@ -1,5 +1,5 @@
 """
-T3 §4c: AnomalyDINO 1-shot image scores for DAGM (10 classes), seed-0, on the DAGM->MVTec shim.
+AnomalyDINO 1-shot image scores for DAGM (10 classes), seed-0, on the DAGM->MVTec shim.
 Mirrors run_multiseed_categories.py; DAGM is an unknown dataset so get_dataset_info falls back to the
 generic 'agnostic_no_mask' preset (same path BTAD used). Scores only (save_patch_dists=False).
 

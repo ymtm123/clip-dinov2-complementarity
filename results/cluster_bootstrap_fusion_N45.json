@@ -2,7 +2,7 @@
   "experiment": "cluster-robust bootstrap of fixed alpha=0.65 fusion gain, N=30->N=45",
   "effect": "fixed alpha=0.65 fusion gain (AUROC@0.65 - best single), seed-0, image-level",
   "n_boot": 10000,
-  "note": "Cluster-robust = resample datasets then categories within. N=45 adds DAGM (10) + MVTec-LOCO structural (5) as 2 extra clusters. LOCO is its own cluster so its heterogeneity (negative fixed-fusion gain) is HONESTLY absorbed into the between-dataset variance. 5 clusters give a less-coarse cluster CI than the 3-cluster case.",
+  "note": "Cluster-robust = resample datasets then categories within. N=45 adds DAGM (10) + MVTec-LOCO structural (5) as 2 extra clusters. LOCO is its own cluster so its heterogeneity (negative fixed-fusion gain) is absorbed into the between-dataset variance. 5 clusters give a less-coarse cluster CI than the 3-cluster case.",
   "stages": {
     "N30_3clusters_core": {
       "label": "N30_3clusters_core",

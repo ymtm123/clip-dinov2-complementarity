@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this code or the released scores, please cite the accompanying article (see README)."
+type: software
+title: "CLIP–DINOv2 complementarity for industrial anomaly detection: code and per-category results"
+authors:
+  - family-names: Yamazaki
+    given-names: Tomoaki
+    affiliation: Kanagawa University
+license: MIT
+repository-code: "https://github.com/ymtm123/clip-dinov2-complementarity"
+keywords:
+  - industrial anomaly detection
+  - CLIP
+  - DINOv2
+  - score-level fusion

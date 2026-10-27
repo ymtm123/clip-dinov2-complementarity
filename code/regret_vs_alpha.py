@@ -124,7 +124,7 @@ def main():
     ax.indicate_inset_zoom(axin, edgecolor='0.5')
     fig.tight_layout()
 
-    fig_dir = os.path.join(os.path.dirname(BASE_DIR), "paper", "figures")
+    fig_dir = os.path.join(BASE_DIR, "figures")
     os.makedirs(fig_dir, exist_ok=True)
     for ext in ("pdf", "png"):
         fig.savefig(os.path.join(fig_dir, f"regret_vs_alpha.{ext}"), bbox_inches='tight')

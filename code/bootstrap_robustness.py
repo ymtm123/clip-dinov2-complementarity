@@ -1,7 +1,7 @@
 """
-Reviewer Response Experiments: Bootstrap CI for oracle alpha, reversal rate, directional accuracy.
+Bootstrap robustness: CI for oracle alpha, reversal rate, directional accuracy.
 
-Addresses reviewer concerns about:
+Covers:
 - Robustness of oracle alpha to test-set composition (grid resolution noise)
 - Robustness of 43% level reversal rate
 - Bootstrap CI for 83% directional accuracy
@@ -17,7 +17,7 @@ from collections import defaultdict
 import csv
 import re
 
-RESULTS_FILE = os.path.join(os.path.dirname(__file__), "reviewer_response_results.json")
+RESULTS_FILE = os.path.join(os.path.dirname(__file__), "bootstrap_robustness_results.json")
 
 
 # === Data Loading (from normalization_robustness.py) ===
@@ -526,7 +526,7 @@ def part_d_intragroup_variance(taxonomy):
 # =============================================================================
 
 def main():
-    print("Reviewer Response Experiments")
+    print("Bootstrap robustness")
     print("=" * 70)
 
     base = os.path.dirname(__file__)

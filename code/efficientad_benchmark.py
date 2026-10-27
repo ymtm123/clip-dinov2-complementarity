@@ -1,4 +1,4 @@
-"""C5 / + : EfficientAD reference benchmark (AUROC + latency)."""
+"""EfficientAD reference benchmark (AUROC + latency)."""
 import os
 import csv
 import json

@@ -1,5 +1,5 @@
 {
-  "experiment": "C7 6-backbone same-kNN panel",
+  "experiment": "6-backbone same-kNN panel",
   "backbones": [
     "CLIP",
     "SigLIP",

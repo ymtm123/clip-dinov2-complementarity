@@ -2,13 +2,13 @@
 Alpha Discovery Cycle 5: Beyond Linear Fusion
 =============================================
 
-PARADIGM SHIFT: Cycles 1-4 tried to estimate per-category alpha from score
+Cycles 1-4 tried to estimate per-category alpha from score
 statistics. ALL 67 methods failed to beat fixed alpha=0.65.
 
 Root cause: The oracle surface is too flat (0.406pp regret). Any noise in
 alpha estimation exceeds the signal.
 
-NEW QUESTION: Instead of "what is the right alpha?", ask:
+Instead of "what is the right alpha?", ask:
   1. Can NON-LINEAR fusion bypass the alpha problem entirely?
   2. Can SAMPLE-LEVEL adaptation outperform category-level alpha?
   3. Can SCORE CALIBRATION make equal-weight fusion better?

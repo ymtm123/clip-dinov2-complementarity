@@ -1,4 +1,4 @@
-"""T3 §4e : evaluate the reference-selection strategies across all 30 categories."""
+"""Evaluate the reference-selection strategies across all 30 categories."""
 import os
 import sys
 import json

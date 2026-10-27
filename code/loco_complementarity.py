@@ -1,4 +1,4 @@
-"""C6 / : Logical vs structural complementarity on MVTec LOCO."""
+"""Logical vs structural complementarity on MVTec LOCO."""
 
 import os
 import sys

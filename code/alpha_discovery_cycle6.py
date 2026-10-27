@@ -6,7 +6,7 @@ After 5 cycles and ~92 methods, NO unsupervised approach beats fixed alpha=0.65.
 The closest was ConfGated-95 at -0.002pp.
 
 This cycle has TWO goals:
-  1. FINAL ATTEMPT: Power-mean family, ensemble-of-alphas, and refined gating
+  1. Power-mean family, ensemble-of-alphas, and refined gating
   2. DIAGNOSTIC: Explain WHY fixed-0.65 is unbeatable — decompose the regret
 
 The diagnostic is the key contribution: it proves that the oracle surface is
@@ -50,7 +50,7 @@ def load_btad_dino_scores(csv_path):
 
 
 # ============================================================================
-# PART 1: Final attempt methods
+# PART 1: Additional methods
 # ============================================================================
 
 def fusion_power_mean(clip_norm, dino_norm, p, alpha=0.65):

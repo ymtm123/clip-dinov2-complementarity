@@ -1,4 +1,4 @@
-"""T2 §3a : FULL-benchmark setting-axis table + hybrid cascade."""
+"""FULL-benchmark setting-axis table + hybrid cascade."""
 import os
 import csv
 import json
@@ -139,7 +139,7 @@ def main():
             esc = float(escalate.mean())
             final = np.where(escalate, fused, -1.0 + 0.001 * (eff_s - eff_s.min()))
             casc = roc_auc_score(y, final) * 100
-            # never fabricate a fast cascade from a missing latency measurement
+            # latency unavailable -> no cascade latency
             mean_lat = round((1 - esc) * eff_lat + esc * fusion_lat, 1) if lat_ok else None
             cascade_rows.append(dict(dataset_key=ds, category=cat, q=q, escalation_rate=round(esc, 3),
                                      cascade_auroc=round(casc, 1), mean_latency_ms=mean_lat))
@@ -182,7 +182,7 @@ def main():
     json.dump(out, open(os.path.join(RES, "efficientad_analysis_full.json"), "w"), indent=2)
 
     print("=" * 90)
-    print(f"  C5 FULL SETTING-AXIS ({len(setting_rows)} categories) + HYBRID CASCADE")
+    print(f"  FULL SETTING-AXIS ({len(setting_rows)} categories) + HYBRID CASCADE")
     print("=" * 90)
     ov = out["setting_axis"]["overall"]
     print(f"  EfficientAD: image {ov['mean_effad_image_auroc']}  pixel {ov['mean_effad_pixel_auroc']}  @ {eff_lat} ms/img (per-cat distillation, no cross-category)")

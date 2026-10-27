@@ -1,5 +1,5 @@
 {
-  "experiment": "T3 \u00a74a pixel multi-seed: seed-averaged pixel alpha*, seed-robust reversal rate, definitive D",
+  "experiment": "pixel multi-seed: seed-averaged pixel alpha*, seed-robust reversal rate, reversal->gain test",
   "seeds_available": [
     0,
     1,
@@ -13,7 +13,7 @@
     9
   ],
   "n_categories": 30,
-  "note": "image alpha* and fusion gain are seed-averaged (hierarchical_stats_seedavg convention); pixel alpha* is now also seed-averaged over the available DINO seeds (was seed-0 in T1/\u00a73b). Definitive D replaces the hybrid seed-avg-image + seed-0-pixel reversal of hierarchical_stats_seedavg (which gave within-ds perm p=0.034, n_reversal=12).",
+  "note": "image alpha* and fusion gain are seed-averaged (hierarchical_stats_seedavg convention); pixel alpha* is now also seed-averaged over the available DINO seeds (was seed-0 in pixel_seed0_metrics). This test replaces the hybrid seed-avg-image + seed-0-pixel reversal of hierarchical_stats_seedavg (which gave within-ds perm p=0.034, n_reversal=12).",
   "reversal_rate_seed_robust": {
     "mean": 0.3933,
     "ci95": [

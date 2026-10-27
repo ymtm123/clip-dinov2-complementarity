@@ -1,4 +1,4 @@
-"""T3 §4c : statistical power / sensitivity of the fusion-gain effect vs N — SECONDARY illustration."""
+"""Statistical power / sensitivity of the fusion-gain effect vs N (secondary illustration)."""
 import os
 import sys
 import csv
@@ -138,7 +138,7 @@ def main():
         pool_stages.append((f"N{len(core)+len(dagm)}_core+DAGM", core + dagm))
 
     out = dict(
-        experiment="SECONDARY pooled-t power illustration (LEAD = cluster_bootstrap_headline_ci.json)",
+        experiment="secondary pooled-t power illustration (primary = cluster_bootstrap_headline_ci.json)",
         lead_inference="results/cluster_bootstrap_headline_ci.json (cluster-robust bootstrap)",
         primary_effect="fixed alpha=0.65 fusion gain (AUROC@0.65 - best single), seed-0, image-level",
         ruling=("Pooled-t treats categories as independent, ignoring the dataset clustering, so this is a "
@@ -175,7 +175,7 @@ def main():
               f"(equal {h['equal_gain_mean']:+.2f}, oracle {h['oracle_gain_mean']:+.2f})")
 
     json.dump(out, open(os.path.join(RES, "power_sensitivity_analysis.json"), "w"), indent=2)
-    print(f"\n  LEAD inference = results/cluster_bootstrap_headline_ci.json (re-run at N=45 once DAGM scores exist).")
+    print(f"\n  Primary inference = results/cluster_bootstrap_headline_ci.json.")
     print(f"  Saved: results/power_sensitivity_analysis.json")
 
 

@@ -274,7 +274,7 @@ def main():
     # 1. Aggregate AnomalyDINO speed from existing CSVs
     print("\n--- AnomalyDINO Inference Speed (from CSVs) ---")
     dino_csvs = [
-        # MVTec: weak_cats + strong_cats = full 15 cats (NOT the buggy 8-cat 'agnostic' file)
+        # MVTec: weak_cats + strong_cats = full 15 cats (the 'agnostic' file covers only 8 cats)
         os.path.join(base_dir, "AnomalyDINO", "results_MVTec", "dinov2_vitl14_448",
                      "1-shot_preprocess=agnostic_weak_cats", "measurements_seed=0.csv"),
         os.path.join(base_dir, "AnomalyDINO", "results_MVTec", "dinov2_vitl14_448",

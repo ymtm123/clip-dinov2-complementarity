@@ -1,4 +1,4 @@
-"""T3 §4f(iii) / : cluster-robust (dataset-stratified) bootstrap of the headline CIs."""
+"""Cluster-robust (dataset-stratified) bootstrap of the headline CIs."""
 import os
 import sys
 import json
@@ -77,8 +77,8 @@ def main():
            "n_categories": len(cats), "n_clusters": 3, "n_boot": NB,
            "note": ("seed-0 per-category values; flat = i.i.d. category bootstrap (naive), "
                     "cluster_robust = two-stage dataset->category bootstrap. With only 3 dataset "
-                    "clusters the cluster-robust CI is intentionally coarse/wide — that is the honest "
-                    "reflection of the dataset cluster structure."),
+                    "clusters the cluster-robust CI is coarse/wide, "
+                    "reflecting the dataset cluster structure."),
            "metrics": {}}
     print(f"\n  {'metric':<26}{'point':>8}   {'flat 95% CI':>20}   {'cluster-robust 95% CI':>22}")
     for m in metrics:

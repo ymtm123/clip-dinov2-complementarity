@@ -69,8 +69,7 @@ def load_anomalyclip_maps(maps_dir, dataset_root, dataset='mvtec'):
                     # Find GT mask — extension-agnostic. Naming differs by dataset:
                     # MVTec '<id>_mask.png', VisA/BTAD-01/02 '<id>.png', BTAD-03 '<id>.bmp'.
                     # Try the named patterns first, then glob ANY extension so e.g. BTAD-03's
-                    # .bmp masks are loaded (the previous .png-only lookup silently fell through
-                    # to an all-ones mask, fabricating pixel ground truth -- never do that).
+                    # .bmp masks are loaded (a .png-only lookup would miss them).
                     import glob as _glob
                     gt_dir = os.path.join(dataset_root, obj, "ground_truth", atype)
                     gt_mask_path = None
@@ -89,8 +88,7 @@ def load_anomalyclip_maps(maps_dir, dataset_root, dataset='mvtec'):
                         gt_mask = np.array(gt_img, dtype=np.float32) / 255.0
                     else:
                         raise FileNotFoundError(
-                            f"No ground-truth mask for anomalous {obj}/{atype}/{img_id} in {gt_dir} "
-                            f"(refusing to fabricate an all-ones mask)")
+                            f"No ground-truth mask for anomalous {obj}/{atype}/{img_id} in {gt_dir}")
 
                 data[obj].append({
                     'map': amap.astype(np.float32),

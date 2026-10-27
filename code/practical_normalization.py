@@ -1,4 +1,4 @@
-"""C3 / : Deployment-legal (calibration-set) score normalization."""
+"""Deployment-legal (calibration-set) score normalization."""
 
 import os
 import sys

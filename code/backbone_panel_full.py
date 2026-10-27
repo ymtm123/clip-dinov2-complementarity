@@ -1,4 +1,4 @@
-"""C7 / : FULL 6-backbone isolation panel — 30 categories, image+pixel, 10 seeds, fusion matrix."""
+"""FULL 6-backbone isolation panel — 30 categories, image+pixel, 10 seeds, fusion matrix."""
 import os
 import sys
 import json
