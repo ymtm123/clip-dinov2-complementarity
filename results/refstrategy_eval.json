@@ -1,0 +1,774 @@
+{
+  "experiment": "reference-selection strategies (seed-0 representative)",
+  "strategies": [
+    "sorted",
+    "medoid",
+    "farthest"
+  ],
+  "n_categories": 30,
+  "fixed_alpha": 0.65,
+  "by_strategy": {
+    "sorted": {
+      "mean_dino_only": 93.2,
+      "mean_fused_065": 95.23,
+      "mean_oracle": 95.6,
+      "mean_oracle_alpha": 0.602
+    },
+    "medoid": {
+      "mean_dino_only": 93.35,
+      "mean_fused_065": 95.22,
+      "mean_oracle": 95.87,
+      "mean_oracle_alpha": 0.594
+    },
+    "farthest": {
+      "mean_dino_only": 91.68,
+      "mean_fused_065": 94.19,
+      "mean_oracle": 94.93,
+      "mean_oracle_alpha": 0.574
+    }
+  },
+  "vs_sorted": {
+    "medoid": {
+      "mean_abs_delta_dino": 3.424,
+      "max_abs_delta_dino": 17.09,
+      "mean_abs_delta_fused065": 1.96,
+      "mean_delta_fused065": -0.005,
+      "n_dominance_flips": 6
+    },
+    "farthest": {
+      "mean_abs_delta_dino": 3.767,
+      "max_abs_delta_dino": 20.97,
+      "mean_abs_delta_fused065": 2.215,
+      "mean_delta_fused065": -1.039,
+      "n_dominance_flips": 5
+    }
+  },
+  "per_category": {
+    "sorted": {
+      "01": {
+        "dataset": "BTAD",
+        "dino_only": 94.558,
+        "clip_only": 87.172,
+        "fused_065": 95.335,
+        "oracle": 95.432,
+        "oracle_alpha": 0.66
+      },
+      "02": {
+        "dataset": "BTAD",
+        "dino_only": 86.217,
+        "clip_only": 86.7,
+        "fused_065": 91.333,
+        "oracle": 91.5,
+        "oracle_alpha": 0.54
+      },
+      "03": {
+        "dataset": "BTAD",
+        "dino_only": 98.854,
+        "clip_only": 93.5,
+        "fused_065": 99.366,
+        "oracle": 99.433,
+        "oracle_alpha": 0.75
+      },
+      "bottle": {
+        "dataset": "MVTec AD",
+        "dino_only": 99.921,
+        "clip_only": 88.651,
+        "fused_065": 99.683,
+        "oracle": 99.921,
+        "oracle_alpha": 0.89
+      },
+      "cable": {
+        "dataset": "MVTec AD",
+        "dino_only": 91.089,
+        "clip_only": 70.277,
+        "fused_065": 92.448,
+        "oracle": 92.597,
+        "oracle_alpha": 0.57
+      },
+      "candle": {
+        "dataset": "VisA",
+        "dino_only": 94.0,
+        "clip_only": 80.94,
+        "fused_065": 96.49,
+        "oracle": 96.52,
+        "oracle_alpha": 0.63
+      },
+      "capsule": {
+        "dataset": "MVTec AD",
+        "dino_only": 89.589,
+        "clip_only": 89.509,
+        "fused_065": 92.74,
+        "oracle": 94.495,
+        "oracle_alpha": 0.42
+      },
+      "capsules": {
+        "dataset": "VisA",
+        "dino_only": 97.475,
+        "clip_only": 82.783,
+        "fused_065": 96.4,
+        "oracle": 98.1,
+        "oracle_alpha": 0.88
+      },
+      "carpet": {
+        "dataset": "MVTec AD",
+        "dino_only": 99.037,
+        "clip_only": 99.96,
+        "fused_065": 99.759,
+        "oracle": 100.0,
+        "oracle_alpha": 0.02
+      },
+      "cashew": {
+        "dataset": "VisA",
+        "dino_only": 74.68,
+        "clip_only": 75.96,
+        "fused_065": 80.78,
+        "oracle": 80.94,
+        "oracle_alpha": 0.58
+      },
+      "chewinggum": {
+        "dataset": "VisA",
+        "dino_only": 98.96,
+        "clip_only": 97.22,
+        "fused_065": 98.9,
+        "oracle": 99.16,
+        "oracle_alpha": 0.77
+      },
+      "fryum": {
+        "dataset": "VisA",
+        "dino_only": 93.22,
+        "clip_only": 92.7,
+        "fused_065": 97.76,
+        "oracle": 97.76,
+        "oracle_alpha": 0.63
+      },
+      "grid": {
+        "dataset": "MVTec AD",
+        "dino_only": 98.079,
+        "clip_only": 97.828,
+        "fused_065": 99.248,
+        "oracle": 99.833,
+        "oracle_alpha": 0.33
+      },
+      "hazelnut": {
+        "dataset": "MVTec AD",
+        "dino_only": 97.75,
+        "clip_only": 97.179,
+        "fused_065": 98.714,
+        "oracle": 99.036,
+        "oracle_alpha": 0.35
+      },
+      "leather": {
+        "dataset": "MVTec AD",
+        "dino_only": 99.728,
+        "clip_only": 99.83,
+        "fused_065": 99.966,
+        "oracle": 100.0,
+        "oracle_alpha": 0.58
+      },
+      "macaroni1": {
+        "dataset": "VisA",
+        "dino_only": 88.15,
+        "clip_only": 86.74,
+        "fused_065": 94.69,
+        "oracle": 94.97,
+        "oracle_alpha": 0.56
+      },
+      "macaroni2": {
+        "dataset": "VisA",
+        "dino_only": 78.885,
+        "clip_only": 72.21,
+        "fused_065": 81.8,
+        "oracle": 81.92,
+        "oracle_alpha": 0.67
+      },
+      "metal_nut": {
+        "dataset": "MVTec AD",
+        "dino_only": 100.0,
+        "clip_only": 92.375,
+        "fused_065": 99.853,
+        "oracle": 100.0,
+        "oracle_alpha": 0.86
+      },
+      "pcb1": {
+        "dataset": "VisA",
+        "dino_only": 90.46,
+        "clip_only": 85.19,
+        "fused_065": 93.72,
+        "oracle": 93.78,
+        "oracle_alpha": 0.63
+      },
+      "pcb2": {
+        "dataset": "VisA",
+        "dino_only": 91.405,
+        "clip_only": 62.05,
+        "fused_065": 91.2,
+        "oracle": 92.55,
+        "oracle_alpha": 0.84
+      },
+      "pcb3": {
+        "dataset": "VisA",
+        "dino_only": 87.005,
+        "clip_only": 61.683,
+        "fused_065": 85.921,
+        "oracle": 87.525,
+        "oracle_alpha": 0.89
+      },
+      "pcb4": {
+        "dataset": "VisA",
+        "dino_only": 94.703,
+        "clip_only": 93.891,
+        "fused_065": 97.515,
+        "oracle": 97.525,
+        "oracle_alpha": 0.64
+      },
+      "pill": {
+        "dataset": "MVTec AD",
+        "dino_only": 92.635,
+        "clip_only": 81.097,
+        "fused_065": 95.254,
+        "oracle": 95.445,
+        "oracle_alpha": 0.69
+      },
+      "pipe_fryum": {
+        "dataset": "VisA",
+        "dino_only": 91.0,
+        "clip_only": 92.28,
+        "fused_065": 95.46,
+        "oracle": 96.72,
+        "oracle_alpha": 0.46
+      },
+      "screw": {
+        "dataset": "MVTec AD",
+        "dino_only": 90.141,
+        "clip_only": 82.107,
+        "fused_065": 91.802,
+        "oracle": 91.843,
+        "oracle_alpha": 0.68
+      },
+      "tile": {
+        "dataset": "MVTec AD",
+        "dino_only": 99.639,
+        "clip_only": 100.0,
+        "fused_065": 100.0,
+        "oracle": 100.0,
+        "oracle_alpha": 0.0
+      },
+      "toothbrush": {
+        "dataset": "MVTec AD",
+        "dino_only": 93.056,
+        "clip_only": 85.278,
+        "fused_065": 95.0,
+        "oracle": 95.0,
+        "oracle_alpha": 0.64
+      },
+      "transistor": {
+        "dataset": "MVTec AD",
+        "dino_only": 91.583,
+        "clip_only": 93.875,
+        "fused_065": 97.25,
+        "oracle": 97.417,
+        "oracle_alpha": 0.59
+      },
+      "wood": {
+        "dataset": "MVTec AD",
+        "dino_only": 94.474,
+        "clip_only": 96.93,
+        "fused_065": 98.421,
+        "oracle": 98.684,
+        "oracle_alpha": 0.68
+      },
+      "zipper": {
+        "dataset": "MVTec AD",
+        "dino_only": 99.79,
+        "clip_only": 98.398,
+        "fused_065": 99.974,
+        "oracle": 99.974,
+        "oracle_alpha": 0.64
+      }
+    },
+    "medoid": {
+      "01": {
+        "dataset": "BTAD",
+        "dino_only": 96.987,
+        "clip_only": 87.172,
+        "fused_065": 96.696,
+        "oracle": 97.085,
+        "oracle_alpha": 0.95
+      },
+      "02": {
+        "dataset": "BTAD",
+        "dino_only": 93.3,
+        "clip_only": 86.7,
+        "fused_065": 94.55,
+        "oracle": 95.15,
+        "oracle_alpha": 0.82
+      },
+      "03": {
+        "dataset": "BTAD",
+        "dino_only": 90.726,
+        "clip_only": 93.5,
+        "fused_065": 96.854,
+        "oracle": 96.957,
+        "oracle_alpha": 0.69
+      },
+      "bottle": {
+        "dataset": "MVTec AD",
+        "dino_only": 99.921,
+        "clip_only": 88.651,
+        "fused_065": 99.444,
+        "oracle": 99.921,
+        "oracle_alpha": 0.98
+      },
+      "cable": {
+        "dataset": "MVTec AD",
+        "dino_only": 93.066,
+        "clip_only": 70.277,
+        "fused_065": 94.959,
+        "oracle": 95.127,
+        "oracle_alpha": 0.6
+      },
+      "candle": {
+        "dataset": "VisA",
+        "dino_only": 94.46,
+        "clip_only": 80.94,
+        "fused_065": 96.17,
+        "oracle": 96.2,
+        "oracle_alpha": 0.66
+      },
+      "capsule": {
+        "dataset": "MVTec AD",
+        "dino_only": 79.777,
+        "clip_only": 89.509,
+        "fused_065": 86.957,
+        "oracle": 91.982,
+        "oracle_alpha": 0.27
+      },
+      "capsules": {
+        "dataset": "VisA",
+        "dino_only": 95.642,
+        "clip_only": 82.783,
+        "fused_065": 95.05,
+        "oracle": 96.533,
+        "oracle_alpha": 0.83
+      },
+      "carpet": {
+        "dataset": "MVTec AD",
+        "dino_only": 98.997,
+        "clip_only": 99.96,
+        "fused_065": 99.599,
+        "oracle": 100.0,
+        "oracle_alpha": 0.03
+      },
+      "cashew": {
+        "dataset": "VisA",
+        "dino_only": 91.77,
+        "clip_only": 75.96,
+        "fused_065": 92.2,
+        "oracle": 92.66,
+        "oracle_alpha": 0.84
+      },
+      "chewinggum": {
+        "dataset": "VisA",
+        "dino_only": 98.79,
+        "clip_only": 97.22,
+        "fused_065": 98.98,
+        "oracle": 99.14,
+        "oracle_alpha": 0.72
+      },
+      "fryum": {
+        "dataset": "VisA",
+        "dino_only": 91.1,
+        "clip_only": 92.7,
+        "fused_065": 96.62,
+        "oracle": 97.56,
+        "oracle_alpha": 0.45
+      },
+      "grid": {
+        "dataset": "MVTec AD",
+        "dino_only": 98.58,
+        "clip_only": 97.828,
+        "fused_065": 99.749,
+        "oracle": 100.0,
+        "oracle_alpha": 0.27
+      },
+      "hazelnut": {
+        "dataset": "MVTec AD",
+        "dino_only": 99.464,
+        "clip_only": 97.179,
+        "fused_065": 99.821,
+        "oracle": 99.821,
+        "oracle_alpha": 0.58
+      },
+      "leather": {
+        "dataset": "MVTec AD",
+        "dino_only": 99.796,
+        "clip_only": 99.83,
+        "fused_065": 99.932,
+        "oracle": 100.0,
+        "oracle_alpha": 0.35
+      },
+      "macaroni1": {
+        "dataset": "VisA",
+        "dino_only": 91.98,
+        "clip_only": 86.74,
+        "fused_065": 95.64,
+        "oracle": 95.67,
+        "oracle_alpha": 0.66
+      },
+      "macaroni2": {
+        "dataset": "VisA",
+        "dino_only": 83.02,
+        "clip_only": 72.21,
+        "fused_065": 84.87,
+        "oracle": 85.08,
+        "oracle_alpha": 0.73
+      },
+      "metal_nut": {
+        "dataset": "MVTec AD",
+        "dino_only": 99.658,
+        "clip_only": 92.375,
+        "fused_065": 99.756,
+        "oracle": 99.853,
+        "oracle_alpha": 0.67
+      },
+      "pcb1": {
+        "dataset": "VisA",
+        "dino_only": 88.375,
+        "clip_only": 85.19,
+        "fused_065": 93.23,
+        "oracle": 93.3,
+        "oracle_alpha": 0.68
+      },
+      "pcb2": {
+        "dataset": "VisA",
+        "dino_only": 89.32,
+        "clip_only": 62.05,
+        "fused_065": 87.6,
+        "oracle": 89.55,
+        "oracle_alpha": 0.93
+      },
+      "pcb3": {
+        "dataset": "VisA",
+        "dino_only": 84.243,
+        "clip_only": 61.683,
+        "fused_065": 83.495,
+        "oracle": 84.347,
+        "oracle_alpha": 0.9
+      },
+      "pcb4": {
+        "dataset": "VisA",
+        "dino_only": 98.624,
+        "clip_only": 93.891,
+        "fused_065": 99.03,
+        "oracle": 99.03,
+        "oracle_alpha": 0.57
+      },
+      "pill": {
+        "dataset": "MVTec AD",
+        "dino_only": 94.449,
+        "clip_only": 81.097,
+        "fused_065": 96.481,
+        "oracle": 96.972,
+        "oracle_alpha": 0.7
+      },
+      "pipe_fryum": {
+        "dataset": "VisA",
+        "dino_only": 96.48,
+        "clip_only": 92.28,
+        "fused_065": 97.82,
+        "oracle": 98.38,
+        "oracle_alpha": 0.48
+      },
+      "screw": {
+        "dataset": "MVTec AD",
+        "dino_only": 80.775,
+        "clip_only": 82.107,
+        "fused_065": 85.981,
+        "oracle": 87.067,
+        "oracle_alpha": 0.44
+      },
+      "tile": {
+        "dataset": "MVTec AD",
+        "dino_only": 100.0,
+        "clip_only": 100.0,
+        "fused_065": 100.0,
+        "oracle": 100.0,
+        "oracle_alpha": 0.0
+      },
+      "toothbrush": {
+        "dataset": "MVTec AD",
+        "dino_only": 88.056,
+        "clip_only": 85.278,
+        "fused_065": 92.5,
+        "oracle": 94.167,
+        "oracle_alpha": 0.43
+      },
+      "transistor": {
+        "dataset": "MVTec AD",
+        "dino_only": 86.292,
+        "clip_only": 93.875,
+        "fused_065": 94.375,
+        "oracle": 96.042,
+        "oracle_alpha": 0.37
+      },
+      "wood": {
+        "dataset": "MVTec AD",
+        "dino_only": 97.105,
+        "clip_only": 96.93,
+        "fused_065": 98.421,
+        "oracle": 98.596,
+        "oracle_alpha": 0.68
+      },
+      "zipper": {
+        "dataset": "MVTec AD",
+        "dino_only": 99.606,
+        "clip_only": 98.398,
+        "fused_065": 99.842,
+        "oracle": 99.869,
+        "oracle_alpha": 0.55
+      }
+    },
+    "farthest": {
+      "01": {
+        "dataset": "BTAD",
+        "dino_only": 96.89,
+        "clip_only": 87.172,
+        "fused_065": 96.113,
+        "oracle": 96.987,
+        "oracle_alpha": 0.98
+      },
+      "02": {
+        "dataset": "BTAD",
+        "dino_only": 86.217,
+        "clip_only": 86.7,
+        "fused_065": 91.333,
+        "oracle": 91.5,
+        "oracle_alpha": 0.54
+      },
+      "03": {
+        "dataset": "BTAD",
+        "dino_only": 99.061,
+        "clip_only": 93.5,
+        "fused_065": 99.506,
+        "oracle": 99.573,
+        "oracle_alpha": 0.72
+      },
+      "bottle": {
+        "dataset": "MVTec AD",
+        "dino_only": 99.841,
+        "clip_only": 88.651,
+        "fused_065": 99.206,
+        "oracle": 99.841,
+        "oracle_alpha": 0.86
+      },
+      "cable": {
+        "dataset": "MVTec AD",
+        "dino_only": 87.369,
+        "clip_only": 70.277,
+        "fused_065": 88.849,
+        "oracle": 89.074,
+        "oracle_alpha": 0.57
+      },
+      "candle": {
+        "dataset": "VisA",
+        "dino_only": 91.15,
+        "clip_only": 80.94,
+        "fused_065": 94.05,
+        "oracle": 94.2,
+        "oracle_alpha": 0.61
+      },
+      "capsule": {
+        "dataset": "MVTec AD",
+        "dino_only": 86.418,
+        "clip_only": 89.509,
+        "fused_065": 92.541,
+        "oracle": 93.897,
+        "oracle_alpha": 0.34
+      },
+      "capsules": {
+        "dataset": "VisA",
+        "dino_only": 95.75,
+        "clip_only": 82.783,
+        "fused_065": 95.583,
+        "oracle": 97.05,
+        "oracle_alpha": 0.85
+      },
+      "carpet": {
+        "dataset": "MVTec AD",
+        "dino_only": 99.318,
+        "clip_only": 99.96,
+        "fused_065": 99.799,
+        "oracle": 100.0,
+        "oracle_alpha": 0.03
+      },
+      "cashew": {
+        "dataset": "VisA",
+        "dino_only": 89.44,
+        "clip_only": 75.96,
+        "fused_065": 90.36,
+        "oracle": 91.1,
+        "oracle_alpha": 0.75
+      },
+      "chewinggum": {
+        "dataset": "VisA",
+        "dino_only": 98.36,
+        "clip_only": 97.22,
+        "fused_065": 98.34,
+        "oracle": 98.6,
+        "oracle_alpha": 0.8
+      },
+      "fryum": {
+        "dataset": "VisA",
+        "dino_only": 94.24,
+        "clip_only": 92.7,
+        "fused_065": 98.06,
+        "oracle": 98.16,
+        "oracle_alpha": 0.63
+      },
+      "grid": {
+        "dataset": "MVTec AD",
+        "dino_only": 94.987,
+        "clip_only": 97.828,
+        "fused_065": 98.079,
+        "oracle": 99.248,
+        "oracle_alpha": 0.15
+      },
+      "hazelnut": {
+        "dataset": "MVTec AD",
+        "dino_only": 97.643,
+        "clip_only": 97.179,
+        "fused_065": 99.143,
+        "oracle": 99.286,
+        "oracle_alpha": 0.52
+      },
+      "leather": {
+        "dataset": "MVTec AD",
+        "dino_only": 99.728,
+        "clip_only": 99.83,
+        "fused_065": 100.0,
+        "oracle": 100.0,
+        "oracle_alpha": 0.44
+      },
+      "macaroni1": {
+        "dataset": "VisA",
+        "dino_only": 87.47,
+        "clip_only": 86.74,
+        "fused_065": 93.84,
+        "oracle": 94.05,
+        "oracle_alpha": 0.61
+      },
+      "macaroni2": {
+        "dataset": "VisA",
+        "dino_only": 70.3,
+        "clip_only": 72.21,
+        "fused_065": 75.67,
+        "oracle": 76.48,
+        "oracle_alpha": 0.42
+      },
+      "metal_nut": {
+        "dataset": "MVTec AD",
+        "dino_only": 79.032,
+        "clip_only": 92.375,
+        "fused_065": 88.074,
+        "oracle": 93.597,
+        "oracle_alpha": 0.12
+      },
+      "pcb1": {
+        "dataset": "VisA",
+        "dino_only": 86.675,
+        "clip_only": 85.19,
+        "fused_065": 92.53,
+        "oracle": 92.66,
+        "oracle_alpha": 0.53
+      },
+      "pcb2": {
+        "dataset": "VisA",
+        "dino_only": 90.875,
+        "clip_only": 62.05,
+        "fused_065": 89.61,
+        "oracle": 91.19,
+        "oracle_alpha": 0.84
+      },
+      "pcb3": {
+        "dataset": "VisA",
+        "dino_only": 77.604,
+        "clip_only": 61.683,
+        "fused_065": 77.733,
+        "oracle": 78.594,
+        "oracle_alpha": 0.85
+      },
+      "pcb4": {
+        "dataset": "VisA",
+        "dino_only": 97.673,
+        "clip_only": 93.891,
+        "fused_065": 99.347,
+        "oracle": 99.356,
+        "oracle_alpha": 0.67
+      },
+      "pill": {
+        "dataset": "MVTec AD",
+        "dino_only": 84.697,
+        "clip_only": 81.097,
+        "fused_065": 90.589,
+        "oracle": 91.162,
+        "oracle_alpha": 0.55
+      },
+      "pipe_fryum": {
+        "dataset": "VisA",
+        "dino_only": 97.32,
+        "clip_only": 92.28,
+        "fused_065": 98.3,
+        "oracle": 98.38,
+        "oracle_alpha": 0.5
+      },
+      "screw": {
+        "dataset": "MVTec AD",
+        "dino_only": 89.67,
+        "clip_only": 82.107,
+        "fused_065": 92.847,
+        "oracle": 92.888,
+        "oracle_alpha": 0.66
+      },
+      "tile": {
+        "dataset": "MVTec AD",
+        "dino_only": 99.856,
+        "clip_only": 100.0,
+        "fused_065": 100.0,
+        "oracle": 100.0,
+        "oracle_alpha": 0.0
+      },
+      "toothbrush": {
+        "dataset": "MVTec AD",
+        "dino_only": 92.5,
+        "clip_only": 85.278,
+        "fused_065": 94.167,
+        "oracle": 95.833,
+        "oracle_alpha": 0.68
+      },
+      "transistor": {
+        "dataset": "MVTec AD",
+        "dino_only": 81.125,
+        "clip_only": 93.875,
+        "fused_065": 93.167,
+        "oracle": 95.417,
+        "oracle_alpha": 0.28
+      },
+      "wood": {
+        "dataset": "MVTec AD",
+        "dino_only": 100.0,
+        "clip_only": 96.93,
+        "fused_065": 99.035,
+        "oracle": 100.0,
+        "oracle_alpha": 0.99
+      },
+      "zipper": {
+        "dataset": "MVTec AD",
+        "dino_only": 99.133,
+        "clip_only": 98.398,
+        "fused_065": 99.737,
+        "oracle": 99.764,
+        "oracle_alpha": 0.73
+      }
+    }
+  }
+}

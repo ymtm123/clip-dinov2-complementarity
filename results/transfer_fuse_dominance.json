@@ -1,0 +1,46 @@
+{
+  "experiment": "decision-to-fuse dominance under LODO transfer",
+  "n_categories": 30,
+  "pooled": {
+    "floor_dino_only": 93.203,
+    "floor_clip_only": 87.477,
+    "fused_transfer": 95.185,
+    "ceiling_oracle": 95.603,
+    "value_decide_to_fuse_pp": 1.982,
+    "value_optimize_weight_pp": 0.418,
+    "decide_to_fuse_share_pct": 82.6,
+    "decide_over_optimize_ratio": 4.7
+  },
+  "per_fold": {
+    "MVTec": {
+      "transferred_alpha": 0.7,
+      "n": 15,
+      "floor_dino_only": 95.767,
+      "fused_transfer": 97.259,
+      "ceiling_oracle": 97.616,
+      "value_decide_to_fuse_pp": 1.491,
+      "value_optimize_weight_pp": 0.358,
+      "decide_share_pct": 80.7
+    },
+    "VisA": {
+      "transferred_alpha": 0.65,
+      "n": 12,
+      "floor_dino_only": 89.995,
+      "fused_transfer": 92.553,
+      "ceiling_oracle": 93.122,
+      "value_decide_to_fuse_pp": 2.558,
+      "value_optimize_weight_pp": 0.569,
+      "decide_share_pct": 81.8
+    },
+    "BTAD": {
+      "transferred_alpha": 0.65,
+      "n": 3,
+      "floor_dino_only": 93.209,
+      "fused_transfer": 95.345,
+      "ceiling_oracle": 95.455,
+      "value_decide_to_fuse_pp": 2.135,
+      "value_optimize_weight_pp": 0.11,
+      "decide_share_pct": 95.1
+    }
+  }
+}

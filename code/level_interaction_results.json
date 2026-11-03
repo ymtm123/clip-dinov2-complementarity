@@ -1,0 +1,24 @@
+{
+  "experiment_26_level_interaction": {
+    "part_a": {
+      "mean_alpha_diff": 0.24166666666666664,
+      "n_reversals": 15,
+      "n_small_diff": 9,
+      "n_large_diff": 10
+    },
+    "part_b": {
+      "reversal_img_gain": 2.651333333333333,
+      "non_reversal_img_gain": 1.4520000000000028,
+      "reversal_pix_gain": 0.6713333333333348
+    },
+    "part_c": {
+      "n_evidence_items": 12
+    },
+    "part_d": {
+      "regret_dino": 2.3576666666666672,
+      "regret_equal": 0.8810000000000012,
+      "regret_fixed": 0.33466666666666733,
+      "regret_oracle": 0.0
+    }
+  }
+}

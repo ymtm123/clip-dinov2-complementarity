@@ -1,0 +1,13 @@
+{
+  "dataset": "MVTec AD",
+  "dataset_key": "mvtec",
+  "category": "cable",
+  "image_auroc": 92.58,
+  "pixel_auroc": 96.17,
+  "train_seconds": 469.2,
+  "latency_ms_per_image": 4.683,
+  "throughput_img_s": 213.5,
+  "n_predictions": 150,
+  "n_latency_timed": 100,
+  "max_epochs": 15
+}

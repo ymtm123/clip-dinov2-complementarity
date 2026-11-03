@@ -1,0 +1,50 @@
+{
+  "n_categories": 30,
+  "note": "seed-0 inputs; superseded by the seed-averaged rerun (hierarchical_stats_seedavg.py)",
+  "associations": {
+    "A_clip_vs_dino": {
+      "pooled_wilcoxon_p": 0.0006,
+      "pooled_mean_diff": 5.725,
+      "perm_within_dataset_p": 0.0001,
+      "dataset_avg_effect": 5.441,
+      "mixedlm_intercept_p": null,
+      "between_dataset_var_share_icc": 0.054,
+      "per_dataset_mean_diff": {
+        "MVTec AD": 4.21,
+        "VisA": 8.02,
+        "BTAD": 4.09
+      }
+    },
+    "B_fusion_vs_best_single": {
+      "pooled_wilcoxon_p": 0.0098,
+      "pooled_mean_gain": 1.171,
+      "perm_within_dataset_p": 0.0156,
+      "dataset_avg_gain": 1.332,
+      "mixedlm_intercept_p": null,
+      "between_dataset_var_share_icc": 0.017
+    },
+    "C_type_to_alpha": {
+      "pooled_mannwhitney_p": 0.0142,
+      "object_mean_alpha": 0.662,
+      "texture_mean_alpha": 0.358,
+      "n_object": 24,
+      "n_texture": 6,
+      "perm_within_dataset_p": 0.0053,
+      "dataset_avg_obj_minus_tex": 0.247,
+      "n_datasets_with_both_types": 2,
+      "mixedlm_type_p": 0.0006,
+      "between_dataset_var_share_icc": 0.101
+    },
+    "D_reversal_to_gain": {
+      "pooled_mannwhitney_p": 0.0788,
+      "reversal_mean_gain": 1.894,
+      "nonreversal_mean_gain": 0.618,
+      "n_reversal": 13,
+      "n_nonreversal": 17,
+      "perm_within_dataset_p": 0.0848,
+      "dataset_avg_rev_minus_nonrev": 2.142,
+      "n_datasets_with_both": 3,
+      "mixedlm_reversal_p": 0.1001
+    }
+  }
+}

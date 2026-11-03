@@ -1,0 +1,13 @@
+{
+  "dataset": "VisA",
+  "dataset_key": "visa",
+  "category": "capsules",
+  "image_auroc": 59.72,
+  "pixel_auroc": 94.38,
+  "train_seconds": 489.3,
+  "latency_ms_per_image": 4.467,
+  "throughput_img_s": 223.8,
+  "n_predictions": 160,
+  "n_latency_timed": 100,
+  "max_epochs": 15
+}

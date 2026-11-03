@@ -1,0 +1,13 @@
+{
+  "dataset": "MVTec AD",
+  "dataset_key": "mvtec",
+  "category": "metal_nut",
+  "image_auroc": 96.97,
+  "pixel_auroc": 92.67,
+  "train_seconds": 229.3,
+  "latency_ms_per_image": 4.407,
+  "throughput_img_s": 226.9,
+  "n_predictions": 115,
+  "n_latency_timed": 100,
+  "max_epochs": 15
+}

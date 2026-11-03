@@ -1,0 +1,25 @@
+{
+  "experiment_22_alpha_sensitivity": {
+    "part_a": {
+      "mean_range": 8.28133333333333,
+      "median_range": 5.989999999999995,
+      "n_flat": 7,
+      "n_medium": 3,
+      "n_steep": 20
+    },
+    "part_b": {},
+    "part_c": {
+      "mean_safe_width": 0.29166666666666663,
+      "n_065_safe": 25,
+      "n_050_safe": 22,
+      "n_both_safe": 20,
+      "n_none_safe": 1
+    },
+    "part_d": {
+      "risk_reduction_pct": 94.71884698332543,
+      "mean_wrong_model_penalty": 6.337,
+      "mean_fixed_regret": 0.33466666666666733,
+      "n_fixed_safe": 25
+    }
+  }
+}

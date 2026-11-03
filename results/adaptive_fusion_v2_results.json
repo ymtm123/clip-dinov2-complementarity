@@ -1,0 +1,38 @@
+{
+  "MVTec AD": {
+    "baselines": {
+      "CLIP only": 91.5529112117459,
+      "DINOv2 only": 95.76736734846416,
+      "Equal (a=0.5)": 97.03047007715321,
+      "Fixed (a=0.65)": 97.34076712661367,
+      "Oracle": 97.57531259431363
+    },
+    "ParamFree-AllSignals": 97.29866666666666,
+    "ParamFree-BestSignals": 97.32199999999999,
+    "ImageLevel-extremity": 96.99866666666665,
+    "ImageLevel-rank_extremity": 96.24533333333333,
+    "ImageLevel-softmax": 96.85133333333333,
+    "ImageLevel-agreement_weighted": 94.60666666666665,
+    "ImageLevel-hybrid_cat_img": 97.35133333333333,
+    "DistBased-gmm_bic": 96.9,
+    "DistBased-ks_test": 97.34
+  },
+  "VisA": {
+    "baselines": {
+      "CLIP only": 81.97063256325633,
+      "DINOv2 only": 89.99524339933993,
+      "Equal (a=0.5)": 91.64009625962593,
+      "Fixed (a=0.65)": 92.55297029702969,
+      "Oracle": 93.0714301430143
+    },
+    "ParamFree-AllSignals": 92.68583333333333,
+    "ParamFree-BestSignals": 92.65083333333332,
+    "ImageLevel-extremity": 91.84500000000001,
+    "ImageLevel-rank_extremity": 88.55083333333333,
+    "ImageLevel-softmax": 90.99083333333334,
+    "ImageLevel-agreement_weighted": 88.92333333333333,
+    "ImageLevel-hybrid_cat_img": 92.52999999999999,
+    "DistBased-gmm_bic": 92.50166666666667,
+    "DistBased-ks_test": 92.5525
+  }
+}

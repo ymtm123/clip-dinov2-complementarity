@@ -1,0 +1,13 @@
+{
+  "dataset": "VisA",
+  "dataset_key": "visa",
+  "category": "pipe_fryum",
+  "image_auroc": 92.04,
+  "pixel_auroc": 98.27,
+  "train_seconds": 386.6,
+  "latency_ms_per_image": 5.345,
+  "throughput_img_s": 187.1,
+  "n_predictions": 150,
+  "n_latency_timed": 100,
+  "max_epochs": 15
+}

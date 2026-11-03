@@ -1,0 +1,86 @@
+{
+  "Fixed-0.65": {
+    "mean_auroc": 95.226,
+    "pearson_r": 0,
+    "mae_alpha": 0.145,
+    "regret": 0.376
+  },
+  "WeightedPCA": {
+    "mean_auroc": 95.015,
+    "pearson_r": 0.269,
+    "mae_alpha": 0.179,
+    "regret": 0.588
+  },
+  "PCA-weights": {
+    "mean_auroc": 94.89,
+    "pearson_r": 0.117,
+    "mae_alpha": 0.198,
+    "regret": 0.713
+  },
+  "CondVar-50%": {
+    "mean_auroc": 94.88,
+    "pearson_r": -0.091,
+    "mae_alpha": 0.182,
+    "regret": 0.722
+  },
+  "CondVar-30%": {
+    "mean_auroc": 94.82,
+    "pearson_r": -0.154,
+    "mae_alpha": 0.189,
+    "regret": 0.782
+  },
+  "ScoreGradient": {
+    "mean_auroc": 94.816,
+    "pearson_r": 0.123,
+    "mae_alpha": 0.214,
+    "regret": 0.786
+  },
+  "Fixed-0.50": {
+    "mean_auroc": 94.679,
+    "pearson_r": 0,
+    "mae_alpha": 0.197,
+    "regret": 0.923
+  },
+  "TopkContrib-10%": {
+    "mean_auroc": 94.44,
+    "pearson_r": -0.175,
+    "mae_alpha": 0.226,
+    "regret": 1.162
+  },
+  "ScoreRatio-10%": {
+    "mean_auroc": 94.44,
+    "pearson_r": -0.175,
+    "mae_alpha": 0.226,
+    "regret": 1.162
+  },
+  "TopkContrib-20%": {
+    "mean_auroc": 94.274,
+    "pearson_r": -0.175,
+    "mae_alpha": 0.244,
+    "regret": 1.328
+  },
+  "ScoreRatio-20%": {
+    "mean_auroc": 94.274,
+    "pearson_r": -0.175,
+    "mae_alpha": 0.244,
+    "regret": 1.328
+  },
+  "RankConcentration": {
+    "mean_auroc": 94.192,
+    "pearson_r": -0.183,
+    "mae_alpha": 0.253,
+    "regret": 1.41
+  },
+  "ElbowClarity": {
+    "mean_auroc": 94.183,
+    "pearson_r": 0.138,
+    "mae_alpha": 0.243,
+    "regret": 1.418
+  },
+  "TopkContrib-30%": {
+    "mean_auroc": 94.143,
+    "pearson_r": -0.169,
+    "mae_alpha": 0.257,
+    "regret": 1.459
+  }
+}

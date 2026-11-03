@@ -1,0 +1,13 @@
+{
+  "dataset": "MVTec AD",
+  "dataset_key": "mvtec",
+  "category": "bottle",
+  "image_auroc": 100.0,
+  "pixel_auroc": 97.59,
+  "train_seconds": 229.2,
+  "latency_ms_per_image": 4.898,
+  "throughput_img_s": 204.2,
+  "n_predictions": 83,
+  "n_latency_timed": 73,
+  "max_epochs": 15
+}

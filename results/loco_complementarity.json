@@ -1,0 +1,115 @@
+{
+  "experiment": "LOCO logical/structural complementarity",
+  "per_category": {
+    "breakfast_box|structural": {
+      "clip": 60.61002178649238,
+      "dino": 90.62636165577342,
+      "fused065": 84.3681917211329,
+      "oracle_alpha": 0.99,
+      "oracle": 90.69716775599129,
+      "n_good": 102,
+      "n_anom": 90
+    },
+    "breakfast_box|logical": {
+      "clip": 68.53295535081502,
+      "dino": 62.266713914481464,
+      "fused065": 69.92676588707772,
+      "oracle_alpha": 0.67,
+      "oracle": 70.08032128514057,
+      "n_good": 102,
+      "n_anom": 83
+    },
+    "juice_bottle|structural": {
+      "clip": 73.86826618379358,
+      "dino": 67.29289271163422,
+      "fused065": 70.06564056133998,
+      "oracle_alpha": 0.22,
+      "oracle": 75.15844273426889,
+      "n_good": 94,
+      "n_anom": 94
+    },
+    "juice_bottle|logical": {
+      "clip": 61.747078213964635,
+      "dino": 56.03086604734793,
+      "fused065": 56.29307761462392,
+      "oracle_alpha": 0.03,
+      "oracle": 61.88192987713516,
+      "n_good": 94,
+      "n_anom": 142
+    },
+    "pushpins|structural": {
+      "clip": 66.013598139202,
+      "dino": 55.3050635176239,
+      "fused065": 58.31096797280372,
+      "oracle_alpha": 0.07,
+      "oracle": 66.12989801395598,
+      "n_good": 138,
+      "n_anom": 81
+    },
+    "pushpins|logical": {
+      "clip": 54.578754578754584,
+      "dino": 46.17375378244943,
+      "fused065": 43.75696767001115,
+      "oracle_alpha": 0.0,
+      "oracle": 54.578754578754584,
+      "n_good": 138,
+      "n_anom": 91
+    },
+    "screw_bag|structural": {
+      "clip": 68.75249900039984,
+      "dino": 82.7668932427029,
+      "fused065": 83.60655737704919,
+      "oracle_alpha": 0.76,
+      "oracle": 85.02598960415833,
+      "n_good": 122,
+      "n_anom": 82
+    },
+    "screw_bag|logical": {
+      "clip": 47.8341510111284,
+      "dino": 51.83080052650473,
+      "fused065": 50.424793586215145,
+      "oracle_alpha": 1.0,
+      "oracle": 51.83080052650473,
+      "n_good": 122,
+      "n_anom": 137
+    },
+    "splicing_connectors|structural": {
+      "clip": 60.85022244191794,
+      "dino": 68.72960949085515,
+      "fused065": 75.52150271873455,
+      "oracle_alpha": 0.63,
+      "oracle": 75.58082056351952,
+      "n_good": 119,
+      "n_anom": 85
+    },
+    "splicing_connectors|logical": {
+      "clip": 53.68036103330221,
+      "dino": 69.35885465297231,
+      "fused065": 72.01991907874262,
+      "oracle_alpha": 0.66,
+      "oracle": 72.05882352941177,
+      "n_good": 119,
+      "n_anom": 108
+    }
+  },
+  "summary": {
+    "structural": {
+      "clip_mean": 66.0,
+      "dino_mean": 72.9,
+      "best_single_mean": 76.4,
+      "fused065_mean": 74.4,
+      "oracle_mean": 78.5,
+      "mean_oracle_alpha": 0.534,
+      "fusion_gain_vs_best": -2.03
+    },
+    "logical": {
+      "clip_mean": 57.3,
+      "dino_mean": 57.1,
+      "best_single_mean": 61.2,
+      "fused065_mean": 58.5,
+      "oracle_mean": 62.1,
+      "mean_oracle_alpha": 0.472,
+      "fusion_gain_vs_best": -2.73
+    }
+  }
+}

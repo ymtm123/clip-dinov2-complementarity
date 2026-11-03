@@ -1,0 +1,38 @@
+{
+  "part1_naive_baseline": {
+    "n_dino_preferred": 24,
+    "n_clip_preferred": 6,
+    "n_total": 30,
+    "naive_accuracy": 0.8,
+    "taxonomy_accuracy": 0.8,
+    "improvement_categories": 0
+  },
+  "part2_regret_bootstrap": {
+    "mean_regret_fixed": 4.361416666666667,
+    "mean_regret_taxonomy": 4.270523333333334,
+    "ci_fixed": [
+      3.4348012500000005,
+      5.3583495833333314
+    ],
+    "ci_taxonomy": [
+      3.3491696340579717,
+      5.240860862318843
+    ],
+    "ci_diff": [
+      -0.16019983333333226,
+      -0.0399866992753617
+    ]
+  },
+  "part4_r_value": {
+    "pearson_r": -0.6617854865664256,
+    "pearson_p": 6.815469586098607e-05,
+    "spearman_rho": -0.7738202013652291,
+    "spearman_p": 5.292865426445098e-07,
+    "n": 30
+  },
+  "part5_robust_reversals": {
+    "n_reversal": 15,
+    "n_robust": 5,
+    "n_uncertain": 10
+  }
+}

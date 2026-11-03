@@ -1,0 +1,13 @@
+{
+  "dataset": "MVTec AD",
+  "dataset_key": "mvtec",
+  "category": "zipper",
+  "image_auroc": 93.25,
+  "pixel_auroc": 94.91,
+  "train_seconds": 271.0,
+  "latency_ms_per_image": 3.777,
+  "throughput_img_s": 264.8,
+  "n_predictions": 151,
+  "n_latency_timed": 100,
+  "max_epochs": 15
+}

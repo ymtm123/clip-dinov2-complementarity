@@ -1,0 +1,13 @@
+{
+  "dataset": "MVTec AD",
+  "dataset_key": "mvtec",
+  "category": "grid",
+  "image_auroc": 99.42,
+  "pixel_auroc": 92.9,
+  "train_seconds": 253.0,
+  "latency_ms_per_image": 4.916,
+  "throughput_img_s": 203.4,
+  "n_predictions": 78,
+  "n_latency_timed": 68,
+  "max_epochs": 15
+}

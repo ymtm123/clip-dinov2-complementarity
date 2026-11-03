@@ -1,0 +1,168 @@
+{
+  "experiment": "Step C: taxonomy LOO directional accuracy on seed-averaged alpha*",
+  "n_seeds": 10,
+  "n_categories": 30,
+  "convention_note": "alpha* = image-level oracle on the 0.01 grid, per-category min-max (identical machinery to multiseed_aggregate E1/E2/E3).",
+  "per_seed": {
+    "directional_accuracy_count": {
+      "mean": 23.4,
+      "sd": 1.506,
+      "ci95": [
+        22.467,
+        24.333
+      ],
+      "range": [
+        21.0,
+        26.0
+      ]
+    },
+    "majority_baseline_count": {
+      "mean": 21.6,
+      "sd": 1.955,
+      "ci95": [
+        20.388,
+        22.812
+      ],
+      "range": [
+        18.0,
+        24.0
+      ]
+    },
+    "raw_accuracy_by_seed": [
+      24,
+      22,
+      23,
+      22,
+      26,
+      21,
+      24,
+      25,
+      24,
+      23
+    ],
+    "raw_baseline_by_seed": [
+      24,
+      18,
+      23,
+      20,
+      22,
+      19,
+      22,
+      23,
+      22,
+      23
+    ]
+  },
+  "avg_alpha": {
+    "directional_accuracy": {
+      "count": 25,
+      "pct": 83.3
+    },
+    "majority_baseline": {
+      "count": 23,
+      "pct": 76.7
+    },
+    "margin": 2,
+    "binomial_p_one_sided": 0.2666,
+    "group_mean_alpha": {
+      "texture": {
+        "mean": 0.328,
+        "sd": 0.276,
+        "n": 6
+      },
+      "object": {
+        "mean": 0.647,
+        "sd": 0.145,
+        "n": 24
+      }
+    }
+  },
+  "seed0_anchor": {
+    "directional_accuracy": {
+      "count": 24,
+      "pct": 80.0
+    },
+    "majority_baseline": {
+      "count": 24,
+      "pct": 80.0
+    },
+    "margin": 0,
+    "binomial_p_one_sided": 0.607,
+    "group_mean_alpha": {
+      "texture": {
+        "mean": 0.358,
+        "sd": 0.293,
+        "n": 6
+      },
+      "object": {
+        "mean": 0.663,
+        "sd": 0.144,
+        "n": 24
+      }
+    }
+  },
+  "avg_alpha_per_category": {
+    "01": 0.751,
+    "02": 0.548,
+    "03": 0.699,
+    "bottle": 0.792,
+    "cable": 0.564,
+    "candle": 0.561,
+    "capsule": 0.351,
+    "capsules": 0.843,
+    "carpet": 0.027,
+    "cashew": 0.761,
+    "chewinggum": 0.848,
+    "fryum": 0.545,
+    "grid": 0.28,
+    "hazelnut": 0.561,
+    "leather": 0.443,
+    "macaroni1": 0.566,
+    "macaroni2": 0.551,
+    "metal_nut": 0.72,
+    "pcb1": 0.701,
+    "pcb2": 0.888,
+    "pcb3": 0.843,
+    "pcb4": 0.553,
+    "pill": 0.66,
+    "pipe_fryum": 0.408,
+    "screw": 0.635,
+    "tile": 0.0,
+    "toothbrush": 0.633,
+    "transistor": 0.429,
+    "wood": 0.671,
+    "zipper": 0.668
+  },
+  "type_per_category": {
+    "01": "object",
+    "02": "texture",
+    "03": "object",
+    "bottle": "object",
+    "cable": "object",
+    "candle": "object",
+    "capsule": "object",
+    "capsules": "object",
+    "carpet": "texture",
+    "cashew": "object",
+    "chewinggum": "object",
+    "fryum": "object",
+    "grid": "texture",
+    "hazelnut": "object",
+    "leather": "texture",
+    "macaroni1": "object",
+    "macaroni2": "object",
+    "metal_nut": "object",
+    "pcb1": "object",
+    "pcb2": "object",
+    "pcb3": "object",
+    "pcb4": "object",
+    "pill": "object",
+    "pipe_fryum": "object",
+    "screw": "object",
+    "tile": "texture",
+    "toothbrush": "object",
+    "transistor": "object",
+    "wood": "texture",
+    "zipper": "object"
+  }
+}

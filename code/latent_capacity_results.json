@@ -1,0 +1,171 @@
+{
+  "experiment_13_latent_capacity": {
+    "per_category": [
+      {
+        "category": "bottle",
+        "type": "Obj",
+        "clip_knn": 94.92,
+        "clip_native": 88.65,
+        "clip_premium": -6.269999999999996,
+        "dino_knn": 93.89,
+        "dino_native": 99.92,
+        "dino_premium": 6.030000000000001
+      },
+      {
+        "category": "cable",
+        "type": "Obj",
+        "clip_knn": 68.25,
+        "clip_native": 70.28,
+        "clip_premium": 2.030000000000001,
+        "dino_knn": 85.68,
+        "dino_native": 91.09,
+        "dino_premium": 5.409999999999997
+      },
+      {
+        "category": "capsule",
+        "type": "Obj",
+        "clip_knn": 83.53,
+        "clip_native": 89.51,
+        "clip_premium": 5.980000000000004,
+        "dino_knn": 85.88,
+        "dino_native": 89.59,
+        "dino_premium": 3.710000000000008
+      },
+      {
+        "category": "carpet",
+        "type": "Tex",
+        "clip_knn": 99.76,
+        "clip_native": 99.96,
+        "clip_premium": 0.19999999999998863,
+        "dino_knn": 96.63,
+        "dino_native": 99.04,
+        "dino_premium": 2.410000000000011
+      },
+      {
+        "category": "grid",
+        "type": "Tex",
+        "clip_knn": 86.97,
+        "clip_native": 97.83,
+        "clip_premium": 10.86,
+        "dino_knn": 72.18,
+        "dino_native": 98.08,
+        "dino_premium": 25.89999999999999
+      },
+      {
+        "category": "hazelnut",
+        "type": "Obj",
+        "clip_knn": 88.32,
+        "clip_native": 97.18,
+        "clip_premium": 8.860000000000014,
+        "dino_knn": 91.5,
+        "dino_native": 97.75,
+        "dino_premium": 6.25
+      },
+      {
+        "category": "leather",
+        "type": "Tex",
+        "clip_knn": 99.12,
+        "clip_native": 99.83,
+        "clip_premium": 0.7099999999999937,
+        "dino_knn": 99.66,
+        "dino_native": 99.73,
+        "dino_premium": 0.07000000000000739
+      },
+      {
+        "category": "metal_nut",
+        "type": "Obj",
+        "clip_knn": 91.69,
+        "clip_native": 92.38,
+        "clip_premium": 0.6899999999999977,
+        "dino_knn": 97.12,
+        "dino_native": 100.0,
+        "dino_premium": 2.8799999999999955
+      },
+      {
+        "category": "pill",
+        "type": "Obj",
+        "clip_knn": 85.24,
+        "clip_native": 81.1,
+        "clip_premium": -4.140000000000001,
+        "dino_knn": 84.4,
+        "dino_native": 92.64,
+        "dino_premium": 8.239999999999995
+      },
+      {
+        "category": "screw",
+        "type": "Obj",
+        "clip_knn": 65.01,
+        "clip_native": 82.11,
+        "clip_premium": 17.099999999999994,
+        "dino_knn": 68.25,
+        "dino_native": 90.14,
+        "dino_premium": 21.89
+      },
+      {
+        "category": "tile",
+        "type": "Tex",
+        "clip_knn": 96.07,
+        "clip_native": 100.0,
+        "clip_premium": 3.930000000000007,
+        "dino_knn": 99.49,
+        "dino_native": 99.64,
+        "dino_premium": 0.15000000000000568
+      },
+      {
+        "category": "toothbrush",
+        "type": "Obj",
+        "clip_knn": 84.17,
+        "clip_native": 85.28,
+        "clip_premium": 1.1099999999999994,
+        "dino_knn": 95.56,
+        "dino_native": 93.06,
+        "dino_premium": -2.5
+      },
+      {
+        "category": "transistor",
+        "type": "Obj",
+        "clip_knn": 69.58,
+        "clip_native": 93.88,
+        "clip_premium": 24.299999999999997,
+        "dino_knn": 81.46,
+        "dino_native": 91.58,
+        "dino_premium": 10.120000000000005
+      },
+      {
+        "category": "wood",
+        "type": "Tex",
+        "clip_knn": 94.47,
+        "clip_native": 96.93,
+        "clip_premium": 2.460000000000008,
+        "dino_knn": 86.75,
+        "dino_native": 94.47,
+        "dino_premium": 7.719999999999999
+      },
+      {
+        "category": "zipper",
+        "type": "Obj",
+        "clip_knn": 91.91,
+        "clip_native": 98.4,
+        "clip_premium": 6.490000000000009,
+        "dino_knn": 98.16,
+        "dino_native": 99.79,
+        "dino_premium": 1.6300000000000097
+      }
+    ],
+    "aggregates": {
+      "clip_premium_mean": 4.95,
+      "dino_premium_mean": 6.66,
+      "clip_premium_texture": 3.63,
+      "clip_premium_object": 5.62,
+      "dino_premium_texture": 7.25,
+      "dino_premium_object": 6.37,
+      "paired_ttest_p": 0.4032
+    },
+    "compensation": {
+      "clip_r": -0.6224,
+      "clip_p": 0.0132,
+      "dino_r": -0.9156,
+      "dino_p": 0.0
+    }
+  }
+}

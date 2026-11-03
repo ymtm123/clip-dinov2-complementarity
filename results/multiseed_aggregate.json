@@ -1,0 +1,726 @@
+{
+  "experiment": "multi-seed aggregate",
+  "n_seeds": 10,
+  "n_categories": 30,
+  "E1_per_category": {
+    "01": {
+      "dataset": "BTAD",
+      "dino_mean": 95.52,
+      "dino_sd": 0.83,
+      "dino_ci": [
+        95.0,
+        96.04
+      ],
+      "seed0_dino": 94.56,
+      "fixed065_mean": 95.92,
+      "fixed065_sd": 0.27
+    },
+    "02": {
+      "dataset": "BTAD",
+      "dino_mean": 85.68,
+      "dino_sd": 7.91,
+      "dino_ci": [
+        80.78,
+        90.58
+      ],
+      "seed0_dino": 86.22,
+      "fixed065_mean": 91.39,
+      "fixed065_sd": 3.76
+    },
+    "03": {
+      "dataset": "BTAD",
+      "dino_mean": 97.25,
+      "dino_sd": 3.24,
+      "dino_ci": [
+        95.24,
+        99.25
+      ],
+      "seed0_dino": 98.85,
+      "fixed065_mean": 98.8,
+      "fixed065_sd": 1.12
+    },
+    "bottle": {
+      "dataset": "MVTec",
+      "dino_mean": 99.16,
+      "dino_sd": 1.67,
+      "dino_ci": [
+        98.13,
+        100.19
+      ],
+      "seed0_dino": 99.92,
+      "fixed065_mean": 99.02,
+      "fixed065_sd": 1.14
+    },
+    "cable": {
+      "dataset": "MVTec",
+      "dino_mean": 90.56,
+      "dino_sd": 1.36,
+      "dino_ci": [
+        89.71,
+        91.4
+      ],
+      "seed0_dino": 91.09,
+      "fixed065_mean": 92.61,
+      "fixed065_sd": 1.06
+    },
+    "candle": {
+      "dataset": "VisA",
+      "dino_mean": 90.44,
+      "dino_sd": 2.62,
+      "dino_ci": [
+        88.82,
+        92.07
+      ],
+      "seed0_dino": 94.0,
+      "fixed065_mean": 94.33,
+      "fixed065_sd": 1.58
+    },
+    "capsule": {
+      "dataset": "MVTec",
+      "dino_mean": 82.87,
+      "dino_sd": 7.57,
+      "dino_ci": [
+        78.18,
+        87.56
+      ],
+      "seed0_dino": 89.59,
+      "fixed065_mean": 88.97,
+      "fixed065_sd": 4.5
+    },
+    "capsules": {
+      "dataset": "VisA",
+      "dino_mean": 96.77,
+      "dino_sd": 1.36,
+      "dino_ci": [
+        95.92,
+        97.61
+      ],
+      "seed0_dino": 97.48,
+      "fixed065_mean": 95.97,
+      "fixed065_sd": 0.86
+    },
+    "carpet": {
+      "dataset": "MVTec",
+      "dino_mean": 99.33,
+      "dino_sd": 0.33,
+      "dino_ci": [
+        99.12,
+        99.53
+      ],
+      "seed0_dino": 99.04,
+      "fixed065_mean": 99.84,
+      "fixed065_sd": 0.11
+    },
+    "cashew": {
+      "dataset": "VisA",
+      "dino_mean": 87.61,
+      "dino_sd": 5.73,
+      "dino_ci": [
+        84.06,
+        91.16
+      ],
+      "seed0_dino": 74.68,
+      "fixed065_mean": 89.07,
+      "fixed065_sd": 3.89
+    },
+    "chewinggum": {
+      "dataset": "VisA",
+      "dino_mean": 99.15,
+      "dino_sd": 0.31,
+      "dino_ci": [
+        98.96,
+        99.34
+      ],
+      "seed0_dino": 98.96,
+      "fixed065_mean": 98.95,
+      "fixed065_sd": 0.18
+    },
+    "fryum": {
+      "dataset": "VisA",
+      "dino_mean": 93.28,
+      "dino_sd": 2.37,
+      "dino_ci": [
+        91.82,
+        94.75
+      ],
+      "seed0_dino": 93.22,
+      "fixed065_mean": 97.14,
+      "fixed065_sd": 0.99
+    },
+    "grid": {
+      "dataset": "MVTec",
+      "dino_mean": 98.44,
+      "dino_sd": 0.54,
+      "dino_ci": [
+        98.1,
+        98.78
+      ],
+      "seed0_dino": 98.08,
+      "fixed065_mean": 99.54,
+      "fixed065_sd": 0.26
+    },
+    "hazelnut": {
+      "dataset": "MVTec",
+      "dino_mean": 99.14,
+      "dino_sd": 0.73,
+      "dino_ci": [
+        98.69,
+        99.59
+      ],
+      "seed0_dino": 97.75,
+      "fixed065_mean": 99.51,
+      "fixed065_sd": 0.37
+    },
+    "leather": {
+      "dataset": "MVTec",
+      "dino_mean": 99.84,
+      "dino_sd": 0.19,
+      "dino_ci": [
+        99.72,
+        99.96
+      ],
+      "seed0_dino": 99.73,
+      "fixed065_mean": 99.99,
+      "fixed065_sd": 0.02
+    },
+    "macaroni1": {
+      "dataset": "VisA",
+      "dino_mean": 88.8,
+      "dino_sd": 2.83,
+      "dino_ci": [
+        87.05,
+        90.56
+      ],
+      "seed0_dino": 88.15,
+      "fixed065_mean": 93.96,
+      "fixed065_sd": 1.47
+    },
+    "macaroni2": {
+      "dataset": "VisA",
+      "dino_mean": 75.32,
+      "dino_sd": 4.84,
+      "dino_ci": [
+        72.32,
+        78.32
+      ],
+      "seed0_dino": 78.88,
+      "fixed065_mean": 79.71,
+      "fixed065_sd": 3.34
+    },
+    "metal_nut": {
+      "dataset": "MVTec",
+      "dino_mean": 99.64,
+      "dino_sd": 0.48,
+      "dino_ci": [
+        99.35,
+        99.94
+      ],
+      "seed0_dino": 100.0,
+      "fixed065_mean": 99.76,
+      "fixed065_sd": 0.2
+    },
+    "pcb1": {
+      "dataset": "VisA",
+      "dino_mean": 90.65,
+      "dino_sd": 1.39,
+      "dino_ci": [
+        89.78,
+        91.51
+      ],
+      "seed0_dino": 90.46,
+      "fixed065_mean": 94.05,
+      "fixed065_sd": 0.99
+    },
+    "pcb2": {
+      "dataset": "VisA",
+      "dino_mean": 90.8,
+      "dino_sd": 1.29,
+      "dino_ci": [
+        90.0,
+        91.6
+      ],
+      "seed0_dino": 91.4,
+      "fixed065_mean": 89.6,
+      "fixed065_sd": 1.4
+    },
+    "pcb3": {
+      "dataset": "VisA",
+      "dino_mean": 84.37,
+      "dino_sd": 3.3,
+      "dino_ci": [
+        82.32,
+        86.42
+      ],
+      "seed0_dino": 87.0,
+      "fixed065_mean": 83.85,
+      "fixed065_sd": 2.85
+    },
+    "pcb4": {
+      "dataset": "VisA",
+      "dino_mean": 92.44,
+      "dino_sd": 8.82,
+      "dino_ci": [
+        86.97,
+        97.91
+      ],
+      "seed0_dino": 94.7,
+      "fixed065_mean": 96.17,
+      "fixed065_sd": 5.67
+    },
+    "pill": {
+      "dataset": "MVTec",
+      "dino_mean": 90.9,
+      "dino_sd": 2.86,
+      "dino_ci": [
+        89.13,
+        92.68
+      ],
+      "seed0_dino": 92.64,
+      "fixed065_mean": 94.23,
+      "fixed065_sd": 1.89
+    },
+    "pipe_fryum": {
+      "dataset": "VisA",
+      "dino_mean": 91.08,
+      "dino_sd": 4.54,
+      "dino_ci": [
+        88.27,
+        93.89
+      ],
+      "seed0_dino": 91.0,
+      "fixed065_mean": 95.12,
+      "fixed065_sd": 2.28
+    },
+    "screw": {
+      "dataset": "MVTec",
+      "dino_mean": 88.33,
+      "dino_sd": 4.0,
+      "dino_ci": [
+        85.85,
+        90.81
+      ],
+      "seed0_dino": 90.14,
+      "fixed065_mean": 91.14,
+      "fixed065_sd": 2.27
+    },
+    "tile": {
+      "dataset": "MVTec",
+      "dino_mean": 99.91,
+      "dino_sd": 0.16,
+      "dino_ci": [
+        99.81,
+        100.0
+      ],
+      "seed0_dino": 99.64,
+      "fixed065_mean": 99.99,
+      "fixed065_sd": 0.02
+    },
+    "toothbrush": {
+      "dataset": "MVTec",
+      "dino_mean": 91.81,
+      "dino_sd": 1.81,
+      "dino_ci": [
+        90.69,
+        92.93
+      ],
+      "seed0_dino": 93.06,
+      "fixed065_mean": 93.42,
+      "fixed065_sd": 1.61
+    },
+    "transistor": {
+      "dataset": "MVTec",
+      "dino_mean": 86.06,
+      "dino_sd": 2.77,
+      "dino_ci": [
+        84.34,
+        87.78
+      ],
+      "seed0_dino": 91.58,
+      "fixed065_mean": 94.62,
+      "fixed065_sd": 1.25
+    },
+    "wood": {
+      "dataset": "MVTec",
+      "dino_mean": 96.45,
+      "dino_sd": 2.69,
+      "dino_ci": [
+        94.78,
+        98.11
+      ],
+      "seed0_dino": 94.47,
+      "fixed065_mean": 98.78,
+      "fixed065_sd": 0.47
+    },
+    "zipper": {
+      "dataset": "MVTec",
+      "dino_mean": 99.67,
+      "dino_sd": 0.24,
+      "dino_ci": [
+        99.52,
+        99.82
+      ],
+      "seed0_dino": 99.79,
+      "fixed065_mean": 99.87,
+      "fixed065_sd": 0.08
+    }
+  },
+  "E1_summary": {
+    "dino_sd_median": 2.09,
+    "dino_sd_max": 8.82,
+    "fused_sd_median": 1.13
+  },
+  "E2_borderline": {
+    "02": {
+      "seed0_alpha": 0.54,
+      "n_seeds_dino": 7,
+      "n_seeds_clip": 3,
+      "flips": 3,
+      "alpha_sd": 0.184
+    },
+    "cable": {
+      "seed0_alpha": 0.57,
+      "n_seeds_dino": 9,
+      "n_seeds_clip": 1,
+      "flips": 1,
+      "alpha_sd": 0.074
+    },
+    "candle": {
+      "seed0_alpha": 0.63,
+      "n_seeds_dino": 8,
+      "n_seeds_clip": 2,
+      "flips": 2,
+      "alpha_sd": 0.069
+    },
+    "capsule": {
+      "seed0_alpha": 0.42,
+      "n_seeds_dino": 1,
+      "n_seeds_clip": 9,
+      "flips": 1,
+      "alpha_sd": 0.133
+    },
+    "cashew": {
+      "seed0_alpha": 0.58,
+      "n_seeds_dino": 10,
+      "n_seeds_clip": 0,
+      "flips": 0,
+      "alpha_sd": 0.097
+    },
+    "fryum": {
+      "seed0_alpha": 0.63,
+      "n_seeds_dino": 6,
+      "n_seeds_clip": 4,
+      "flips": 4,
+      "alpha_sd": 0.125
+    },
+    "leather": {
+      "seed0_alpha": 0.58,
+      "n_seeds_dino": 4,
+      "n_seeds_clip": 6,
+      "flips": 4,
+      "alpha_sd": 0.116
+    },
+    "macaroni1": {
+      "seed0_alpha": 0.56,
+      "n_seeds_dino": 7,
+      "n_seeds_clip": 3,
+      "flips": 3,
+      "alpha_sd": 0.078
+    },
+    "pcb1": {
+      "seed0_alpha": 0.63,
+      "n_seeds_dino": 10,
+      "n_seeds_clip": 0,
+      "flips": 0,
+      "alpha_sd": 0.048
+    },
+    "pcb4": {
+      "seed0_alpha": 0.64,
+      "n_seeds_dino": 8,
+      "n_seeds_clip": 2,
+      "flips": 2,
+      "alpha_sd": 0.15
+    },
+    "pipe_fryum": {
+      "seed0_alpha": 0.46,
+      "n_seeds_dino": 1,
+      "n_seeds_clip": 9,
+      "flips": 1,
+      "alpha_sd": 0.089
+    },
+    "toothbrush": {
+      "seed0_alpha": 0.64,
+      "n_seeds_dino": 10,
+      "n_seeds_clip": 0,
+      "flips": 0,
+      "alpha_sd": 0.078
+    },
+    "transistor": {
+      "seed0_alpha": 0.59,
+      "n_seeds_dino": 1,
+      "n_seeds_clip": 9,
+      "flips": 1,
+      "alpha_sd": 0.073
+    },
+    "zipper": {
+      "seed0_alpha": 0.64,
+      "n_seeds_dino": 10,
+      "n_seeds_clip": 0,
+      "flips": 0,
+      "alpha_sd": 0.125
+    }
+  },
+  "E2_nonborderline_total_flips": 6,
+  "E2_all_flips": {
+    "01": {
+      "seed0_alpha": 0.66,
+      "n_seeds_dino": 10,
+      "n_seeds_clip": 0,
+      "flips": 0,
+      "alpha_sd": 0.153
+    },
+    "02": {
+      "seed0_alpha": 0.54,
+      "n_seeds_dino": 7,
+      "n_seeds_clip": 3,
+      "flips": 3,
+      "alpha_sd": 0.184
+    },
+    "03": {
+      "seed0_alpha": 0.75,
+      "n_seeds_dino": 10,
+      "n_seeds_clip": 0,
+      "flips": 0,
+      "alpha_sd": 0.058
+    },
+    "bottle": {
+      "seed0_alpha": 0.89,
+      "n_seeds_dino": 10,
+      "n_seeds_clip": 0,
+      "flips": 0,
+      "alpha_sd": 0.146
+    },
+    "cable": {
+      "seed0_alpha": 0.57,
+      "n_seeds_dino": 9,
+      "n_seeds_clip": 1,
+      "flips": 1,
+      "alpha_sd": 0.074
+    },
+    "candle": {
+      "seed0_alpha": 0.63,
+      "n_seeds_dino": 8,
+      "n_seeds_clip": 2,
+      "flips": 2,
+      "alpha_sd": 0.069
+    },
+    "capsule": {
+      "seed0_alpha": 0.42,
+      "n_seeds_dino": 1,
+      "n_seeds_clip": 9,
+      "flips": 1,
+      "alpha_sd": 0.133
+    },
+    "capsules": {
+      "seed0_alpha": 0.88,
+      "n_seeds_dino": 10,
+      "n_seeds_clip": 0,
+      "flips": 0,
+      "alpha_sd": 0.037
+    },
+    "carpet": {
+      "seed0_alpha": 0.02,
+      "n_seeds_dino": 0,
+      "n_seeds_clip": 10,
+      "flips": 0,
+      "alpha_sd": 0.005
+    },
+    "cashew": {
+      "seed0_alpha": 0.58,
+      "n_seeds_dino": 10,
+      "n_seeds_clip": 0,
+      "flips": 0,
+      "alpha_sd": 0.097
+    },
+    "chewinggum": {
+      "seed0_alpha": 0.77,
+      "n_seeds_dino": 10,
+      "n_seeds_clip": 0,
+      "flips": 0,
+      "alpha_sd": 0.075
+    },
+    "fryum": {
+      "seed0_alpha": 0.63,
+      "n_seeds_dino": 6,
+      "n_seeds_clip": 4,
+      "flips": 4,
+      "alpha_sd": 0.125
+    },
+    "grid": {
+      "seed0_alpha": 0.33,
+      "n_seeds_dino": 0,
+      "n_seeds_clip": 10,
+      "flips": 0,
+      "alpha_sd": 0.033
+    },
+    "hazelnut": {
+      "seed0_alpha": 0.35,
+      "n_seeds_dino": 7,
+      "n_seeds_clip": 3,
+      "flips": 3,
+      "alpha_sd": 0.122
+    },
+    "leather": {
+      "seed0_alpha": 0.58,
+      "n_seeds_dino": 4,
+      "n_seeds_clip": 6,
+      "flips": 4,
+      "alpha_sd": 0.116
+    },
+    "macaroni1": {
+      "seed0_alpha": 0.56,
+      "n_seeds_dino": 7,
+      "n_seeds_clip": 3,
+      "flips": 3,
+      "alpha_sd": 0.078
+    },
+    "macaroni2": {
+      "seed0_alpha": 0.67,
+      "n_seeds_dino": 7,
+      "n_seeds_clip": 3,
+      "flips": 3,
+      "alpha_sd": 0.145
+    },
+    "metal_nut": {
+      "seed0_alpha": 0.86,
+      "n_seeds_dino": 10,
+      "n_seeds_clip": 0,
+      "flips": 0,
+      "alpha_sd": 0.121
+    },
+    "pcb1": {
+      "seed0_alpha": 0.63,
+      "n_seeds_dino": 10,
+      "n_seeds_clip": 0,
+      "flips": 0,
+      "alpha_sd": 0.048
+    },
+    "pcb2": {
+      "seed0_alpha": 0.84,
+      "n_seeds_dino": 10,
+      "n_seeds_clip": 0,
+      "flips": 0,
+      "alpha_sd": 0.066
+    },
+    "pcb3": {
+      "seed0_alpha": 0.89,
+      "n_seeds_dino": 10,
+      "n_seeds_clip": 0,
+      "flips": 0,
+      "alpha_sd": 0.071
+    },
+    "pcb4": {
+      "seed0_alpha": 0.64,
+      "n_seeds_dino": 8,
+      "n_seeds_clip": 2,
+      "flips": 2,
+      "alpha_sd": 0.15
+    },
+    "pill": {
+      "seed0_alpha": 0.69,
+      "n_seeds_dino": 10,
+      "n_seeds_clip": 0,
+      "flips": 0,
+      "alpha_sd": 0.084
+    },
+    "pipe_fryum": {
+      "seed0_alpha": 0.46,
+      "n_seeds_dino": 1,
+      "n_seeds_clip": 9,
+      "flips": 1,
+      "alpha_sd": 0.089
+    },
+    "screw": {
+      "seed0_alpha": 0.68,
+      "n_seeds_dino": 10,
+      "n_seeds_clip": 0,
+      "flips": 0,
+      "alpha_sd": 0.108
+    },
+    "tile": {
+      "seed0_alpha": 0.0,
+      "n_seeds_dino": 0,
+      "n_seeds_clip": 10,
+      "flips": 0,
+      "alpha_sd": 0.0
+    },
+    "toothbrush": {
+      "seed0_alpha": 0.64,
+      "n_seeds_dino": 10,
+      "n_seeds_clip": 0,
+      "flips": 0,
+      "alpha_sd": 0.078
+    },
+    "transistor": {
+      "seed0_alpha": 0.59,
+      "n_seeds_dino": 1,
+      "n_seeds_clip": 9,
+      "flips": 1,
+      "alpha_sd": 0.073
+    },
+    "wood": {
+      "seed0_alpha": 0.68,
+      "n_seeds_dino": 10,
+      "n_seeds_clip": 0,
+      "flips": 0,
+      "alpha_sd": 0.091
+    },
+    "zipper": {
+      "seed0_alpha": 0.64,
+      "n_seeds_dino": 10,
+      "n_seeds_clip": 0,
+      "flips": 0,
+      "alpha_sd": 0.125
+    }
+  },
+  "E3_headline": {
+    "dino_preferred_count_of_30": {
+      "mean": 21.6,
+      "sd": 1.955,
+      "ci95": [
+        20.388,
+        22.812
+      ],
+      "seed0": 24.0,
+      "range": [
+        18.0,
+        24.0
+      ]
+    },
+    "wrong_model_penalty_pp": {
+      "mean": 7.189,
+      "sd": 0.524,
+      "ci95": [
+        6.865,
+        7.514
+      ],
+      "seed0": 6.337,
+      "range": [
+        6.337,
+        8.084
+      ]
+    },
+    "fixed065_regret_pp": {
+      "mean": 0.642,
+      "sd": 0.256,
+      "ci95": [
+        0.483,
+        0.801
+      ],
+      "seed0": 0.377,
+      "range": [
+        0.377,
+        1.247
+      ]
+    }
+  }
+}

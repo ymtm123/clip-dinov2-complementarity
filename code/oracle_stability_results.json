@@ -1,0 +1,14 @@
+{
+  "experiment_25_oracle_stability": {
+    "part_a": {
+      "note": "No per-image scores available"
+    },
+    "part_b": {},
+    "part_c": {},
+    "part_d": {
+      "mean_margin": 0.21599999999999966,
+      "n_tiny_margin": 14,
+      "n_small_margin": 27
+    }
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "experiment": "15-pair backbone-fusion matrix",
+  "n_backbones": 6,
+  "n_pairs": 15,
+  "n_categories": 30,
+  "note": "equal_gain = AUROC@0.5 - best single (FIXED fusion, can be <0); oracle_gain = best-alpha - best single (>=0). Cross-paradigm = the two backbones span different representational axes (contrastive-language / ssl-spatial / supervised).",
+  "n_pairs_net_positive_equal": 5,
+  "cross_paradigm_mean_equal_gain": -0.354,
+  "within_paradigm_mean_equal_gain": -0.661,
+  "cross_paradigm_mean_oracle_gain": 1.621,
+  "within_paradigm_mean_oracle_gain": 1.323,
+  "pair_matrix": {
+    "CLIPxSigLIP": {
+      "cross_paradigm": false,
+      "mean_equal_gain": 0.609,
+      "mean_oracle_gain": 1.664,
+      "frac_equal_positive": 0.6,
+      "n_cats": 30
+    },
+    "CLIPxDINOv2": {
+      "cross_paradigm": true,
+      "mean_equal_gain": 1.018,
+      "mean_oracle_gain": 1.874,
+      "frac_equal_positive": 0.63,
+      "n_cats": 30
+    },
+    "CLIPxDINOv2-reg": {
+      "cross_paradigm": true,
+      "mean_equal_gain": 1.436,
+      "mean_oracle_gain": 2.295,
+      "frac_equal_positive": 0.67,
+      "n_cats": 30
+    },
+    "CLIPxMAE": {
+      "cross_paradigm": true,
+      "mean_equal_gain": -1.514,
+      "mean_oracle_gain": 1.349,
+      "frac_equal_positive": 0.27,
+      "n_cats": 30
+    },
+    "CLIPxWRN50": {
+      "cross_paradigm": true,
+      "mean_equal_gain": -0.364,
+      "mean_oracle_gain": 1.837,
+      "frac_equal_positive": 0.57,
+      "n_cats": 30
+    },
+    "SigLIPxDINOv2": {
+      "cross_paradigm": true,
+      "mean_equal_gain": 0.162,
+      "mean_oracle_gain": 1.512,
+      "frac_equal_positive": 0.53,
+      "n_cats": 30
+    },
+    "SigLIPxDINOv2-reg": {
+      "cross_paradigm": true,
+      "mean_equal_gain": 0.664,
+      "mean_oracle_gain": 1.751,
+      "frac_equal_positive": 0.53,
+      "n_cats": 30
+    },
+    "SigLIPxMAE": {
+      "cross_paradigm": true,
+      "mean_equal_gain": -1.687,
+      "mean_oracle_gain": 1.138,
+      "frac_equal_positive": 0.47,
+      "n_cats": 30
+    },
+    "SigLIPxWRN50": {
+      "cross_paradigm": true,
+      "mean_equal_gain": -1.142,
+      "mean_oracle_gain": 1.254,
+      "frac_equal_positive": 0.5,
+      "n_cats": 30
+    },
+    "DINOv2xDINOv2-reg": {
+      "cross_paradigm": false,
+      "mean_equal_gain": -0.528,
+      "mean_oracle_gain": 0.543,
+      "frac_equal_positive": 0.47,
+      "n_cats": 30
+    },
+    "DINOv2xMAE": {
+      "cross_paradigm": false,
+      "mean_equal_gain": -1.668,
+      "mean_oracle_gain": 1.395,
+      "frac_equal_positive": 0.47,
+      "n_cats": 30
+    },
+    "DINOv2xWRN50": {
+      "cross_paradigm": true,
+      "mean_equal_gain": -0.995,
+      "mean_oracle_gain": 1.645,
+      "frac_equal_positive": 0.4,
+      "n_cats": 30
+    },
+    "DINOv2-regxMAE": {
+      "cross_paradigm": false,
+      "mean_equal_gain": -1.057,
+      "mean_oracle_gain": 1.692,
+      "frac_equal_positive": 0.4,
+      "n_cats": 30
+    },
+    "DINOv2-regxWRN50": {
+      "cross_paradigm": true,
+      "mean_equal_gain": -0.639,
+      "mean_oracle_gain": 1.77,
+      "frac_equal_positive": 0.57,
+      "n_cats": 30
+    },
+    "MAExWRN50": {
+      "cross_paradigm": true,
+      "mean_equal_gain": -0.835,
+      "mean_oracle_gain": 1.41,
+      "frac_equal_positive": 0.47,
+      "n_cats": 30
+    }
+  }
+}

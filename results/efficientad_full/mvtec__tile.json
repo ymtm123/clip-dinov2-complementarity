@@ -1,0 +1,13 @@
+{
+  "dataset": "MVTec AD",
+  "dataset_key": "mvtec",
+  "category": "tile",
+  "image_auroc": 99.89,
+  "pixel_auroc": 89.02,
+  "train_seconds": 325.9,
+  "latency_ms_per_image": 5.151,
+  "throughput_img_s": 194.1,
+  "n_predictions": 117,
+  "n_latency_timed": 100,
+  "max_epochs": 15
+}

@@ -1,0 +1,70 @@
+{
+  "Trimmed-95": {
+    "mean_auroc": 95.23,
+    "regret": 0.373
+  },
+  "Fixed-0.65": {
+    "mean_auroc": 95.226,
+    "regret": 0.376
+  },
+  "Ensemble-5": {
+    "mean_auroc": 95.226,
+    "regret": 0.376
+  },
+  "Ensemble-narrow": {
+    "mean_auroc": 95.226,
+    "regret": 0.376
+  },
+  "SmoothAdapt-s0.1": {
+    "mean_auroc": 95.198,
+    "regret": 0.403
+  },
+  "Trimmed-90": {
+    "mean_auroc": 95.153,
+    "regret": 0.449
+  },
+  "Ensemble-7": {
+    "mean_auroc": 95.147,
+    "regret": 0.455
+  },
+  "RankW-0.65": {
+    "mean_auroc": 95.055,
+    "regret": 0.548
+  },
+  "SmoothAdapt-s0.2": {
+    "mean_auroc": 94.951,
+    "regret": 0.651
+  },
+  "PowerMean-p0.5": {
+    "mean_auroc": 94.917,
+    "regret": 0.685
+  },
+  "Fixed-0.50": {
+    "mean_auroc": 94.679,
+    "regret": 0.923
+  },
+  "PowerMean-p2": {
+    "mean_auroc": 94.553,
+    "regret": 1.049
+  },
+  "SmoothAdapt-s0.3": {
+    "mean_auroc": 94.516,
+    "regret": 1.086
+  },
+  "GeomMean-0.65": {
+    "mean_auroc": 94.412,
+    "regret": 1.19
+  },
+  "PowerMean-p-1": {
+    "mean_auroc": 93.788,
+    "regret": 1.814
+  },
+  "PowerMean-p3": {
+    "mean_auroc": 93.496,
+    "regret": 2.107
+  },
+  "Clayton-Copula": {
+    "mean_auroc": 92.753,
+    "regret": 2.849
+  }
+}

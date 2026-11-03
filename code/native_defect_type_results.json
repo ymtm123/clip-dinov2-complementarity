@@ -1,0 +1,822 @@
+{
+  "experiment_10_native_defect_type": {
+    "description": "Per-defect-type AUROC comparison in native mode (AnomalyCLIP 0-shot vs AnomalyDINO 1-shot)",
+    "total_defect_types": 73,
+    "clip_wins": 20,
+    "dino_wins": 53,
+    "mean_diff": -4.76,
+    "per_defect_type": [
+      {
+        "category": "bottle",
+        "defect_type": "broken_large",
+        "clip_auroc": 95.5,
+        "dino_auroc": 100.0,
+        "diff": -4.5,
+        "winner": "DINOv2",
+        "nature": "structural"
+      },
+      {
+        "category": "bottle",
+        "defect_type": "broken_small",
+        "clip_auroc": 99.54545454545453,
+        "dino_auroc": 100.0,
+        "diff": -0.45454545454546746,
+        "winner": "DINOv2",
+        "nature": "structural"
+      },
+      {
+        "category": "bottle",
+        "defect_type": "contamination",
+        "clip_auroc": 70.71428571428571,
+        "dino_auroc": 99.76190476190476,
+        "diff": -29.04761904761905,
+        "winner": "DINOv2",
+        "nature": "foreign_object"
+      },
+      {
+        "category": "cable",
+        "defect_type": "bent_wire",
+        "clip_auroc": 58.355437665782496,
+        "dino_auroc": 96.94960212201592,
+        "diff": -38.59416445623342,
+        "winner": "DINOv2",
+        "nature": "geometric"
+      },
+      {
+        "category": "cable",
+        "defect_type": "cable_swap",
+        "clip_auroc": 76.72413793103449,
+        "dino_auroc": 61.35057471264368,
+        "diff": 15.373563218390814,
+        "winner": "CLIP",
+        "nature": "semantic"
+      },
+      {
+        "category": "cable",
+        "defect_type": "combined",
+        "clip_auroc": 82.75862068965517,
+        "dino_auroc": 98.11912225705328,
+        "diff": -15.360501567398103,
+        "winner": "DINOv2",
+        "nature": "mixed"
+      },
+      {
+        "category": "cable",
+        "defect_type": "cut_inner_insulation",
+        "clip_auroc": 68.8423645320197,
+        "dino_auroc": 95.07389162561576,
+        "diff": -26.231527093596057,
+        "winner": "DINOv2",
+        "nature": "geometric"
+      },
+      {
+        "category": "cable",
+        "defect_type": "cut_outer_insulation",
+        "clip_auroc": 77.75862068965517,
+        "dino_auroc": 98.87931034482759,
+        "diff": -21.120689655172413,
+        "winner": "DINOv2",
+        "nature": "geometric"
+      },
+      {
+        "category": "cable",
+        "defect_type": "missing_cable",
+        "clip_auroc": 66.37931034482759,
+        "dino_auroc": 99.71264367816093,
+        "diff": -33.33333333333334,
+        "winner": "DINOv2",
+        "nature": "semantic"
+      },
+      {
+        "category": "cable",
+        "defect_type": "missing_wire",
+        "clip_auroc": 65.17241379310346,
+        "dino_auroc": 83.96551724137932,
+        "diff": -18.793103448275858,
+        "winner": "DINOv2",
+        "nature": "semantic"
+      },
+      {
+        "category": "cable",
+        "defect_type": "poke_insulation",
+        "clip_auroc": 68.62068965517241,
+        "dino_auroc": 94.82758620689656,
+        "diff": -26.206896551724142,
+        "winner": "DINOv2",
+        "nature": "structural"
+      },
+      {
+        "category": "capsule",
+        "defect_type": "crack",
+        "clip_auroc": 95.84120982986768,
+        "dino_auroc": 91.30434782608697,
+        "diff": 4.536862003780712,
+        "winner": "CLIP",
+        "nature": "structural"
+      },
+      {
+        "category": "capsule",
+        "defect_type": "faulty_imprint",
+        "clip_auroc": 74.70355731225298,
+        "dino_auroc": 85.37549407114624,
+        "diff": -10.671936758893253,
+        "winner": "DINOv2",
+        "nature": "color"
+      },
+      {
+        "category": "capsule",
+        "defect_type": "poke",
+        "clip_auroc": 95.8592132505176,
+        "dino_auroc": 89.648033126294,
+        "diff": 6.211180124223603,
+        "winner": "CLIP",
+        "nature": "structural"
+      },
+      {
+        "category": "capsule",
+        "defect_type": "scratch",
+        "clip_auroc": 91.68241965973534,
+        "dino_auroc": 86.95652173913044,
+        "diff": 4.725897920604908,
+        "winner": "CLIP",
+        "nature": "texture_surface"
+      },
+      {
+        "category": "capsule",
+        "defect_type": "squeeze",
+        "clip_auroc": 89.34782608695653,
+        "dino_auroc": 95.21739130434781,
+        "diff": -5.869565217391283,
+        "winner": "DINOv2",
+        "nature": "geometric"
+      },
+      {
+        "category": "carpet",
+        "defect_type": "color",
+        "clip_auroc": 100.0,
+        "dino_auroc": 99.62406015037594,
+        "diff": 0.3759398496240607,
+        "winner": "CLIP",
+        "nature": "color"
+      },
+      {
+        "category": "carpet",
+        "defect_type": "cut",
+        "clip_auroc": 100.0,
+        "dino_auroc": 100.0,
+        "diff": 0.0,
+        "winner": "DINOv2",
+        "nature": "structural"
+      },
+      {
+        "category": "carpet",
+        "defect_type": "hole",
+        "clip_auroc": 99.78991596638656,
+        "dino_auroc": 100.0,
+        "diff": -0.21008403361344108,
+        "winner": "DINOv2",
+        "nature": "structural"
+      },
+      {
+        "category": "carpet",
+        "defect_type": "metal_contamination",
+        "clip_auroc": 100.0,
+        "dino_auroc": 100.0,
+        "diff": 0.0,
+        "winner": "DINOv2",
+        "nature": "foreign_object"
+      },
+      {
+        "category": "carpet",
+        "defect_type": "thread",
+        "clip_auroc": 100.0,
+        "dino_auroc": 95.86466165413535,
+        "diff": 4.135338345864653,
+        "winner": "CLIP",
+        "nature": "texture_surface"
+      },
+      {
+        "category": "grid",
+        "defect_type": "bent",
+        "clip_auroc": 96.82539682539682,
+        "dino_auroc": 95.23809523809523,
+        "diff": 1.5873015873015959,
+        "winner": "CLIP",
+        "nature": "geometric"
+      },
+      {
+        "category": "grid",
+        "defect_type": "broken",
+        "clip_auroc": 100.0,
+        "dino_auroc": 99.6031746031746,
+        "diff": 0.3968253968254061,
+        "winner": "CLIP",
+        "nature": "structural"
+      },
+      {
+        "category": "grid",
+        "defect_type": "glue",
+        "clip_auroc": 100.0,
+        "dino_auroc": 96.53679653679653,
+        "diff": 3.4632034632034703,
+        "winner": "CLIP",
+        "nature": "foreign_object"
+      },
+      {
+        "category": "grid",
+        "defect_type": "metal_contamination",
+        "clip_auroc": 100.0,
+        "dino_auroc": 99.13419913419914,
+        "diff": 0.865800865800864,
+        "winner": "CLIP",
+        "nature": "foreign_object"
+      },
+      {
+        "category": "grid",
+        "defect_type": "thread",
+        "clip_auroc": 92.20779220779221,
+        "dino_auroc": 100.0,
+        "diff": -7.79220779220779,
+        "winner": "DINOv2",
+        "nature": "texture_surface"
+      },
+      {
+        "category": "hazelnut",
+        "defect_type": "crack",
+        "clip_auroc": 100.0,
+        "dino_auroc": 100.0,
+        "diff": 0.0,
+        "winner": "DINOv2",
+        "nature": "structural"
+      },
+      {
+        "category": "hazelnut",
+        "defect_type": "cut",
+        "clip_auroc": 96.3235294117647,
+        "dino_auroc": 93.67647058823529,
+        "diff": 2.647058823529406,
+        "winner": "CLIP",
+        "nature": "structural"
+      },
+      {
+        "category": "hazelnut",
+        "defect_type": "hole",
+        "clip_auroc": 100.0,
+        "dino_auroc": 100.0,
+        "diff": 0.0,
+        "winner": "DINOv2",
+        "nature": "structural"
+      },
+      {
+        "category": "hazelnut",
+        "defect_type": "print",
+        "clip_auroc": 92.05882352941177,
+        "dino_auroc": 97.05882352941177,
+        "diff": -5.0,
+        "winner": "DINOv2",
+        "nature": "color"
+      },
+      {
+        "category": "leather",
+        "defect_type": "color",
+        "clip_auroc": 100.0,
+        "dino_auroc": 100.0,
+        "diff": 0.0,
+        "winner": "DINOv2",
+        "nature": "color"
+      },
+      {
+        "category": "leather",
+        "defect_type": "cut",
+        "clip_auroc": 100.0,
+        "dino_auroc": 100.0,
+        "diff": 0.0,
+        "winner": "DINOv2",
+        "nature": "structural"
+      },
+      {
+        "category": "leather",
+        "defect_type": "fold",
+        "clip_auroc": 99.26470588235294,
+        "dino_auroc": 98.52941176470588,
+        "diff": 0.735294117647058,
+        "winner": "CLIP",
+        "nature": "geometric"
+      },
+      {
+        "category": "leather",
+        "defect_type": "glue",
+        "clip_auroc": 100.0,
+        "dino_auroc": 100.0,
+        "diff": 0.0,
+        "winner": "DINOv2",
+        "nature": "foreign_object"
+      },
+      {
+        "category": "leather",
+        "defect_type": "poke",
+        "clip_auroc": 99.82638888888889,
+        "dino_auroc": 100.0,
+        "diff": -0.17361111111111427,
+        "winner": "DINOv2",
+        "nature": "structural"
+      },
+      {
+        "category": "metal_nut",
+        "defect_type": "bent",
+        "clip_auroc": 98.9090909090909,
+        "dino_auroc": 100.0,
+        "diff": -1.0909090909090935,
+        "winner": "DINOv2",
+        "nature": "geometric"
+      },
+      {
+        "category": "metal_nut",
+        "defect_type": "color",
+        "clip_auroc": 95.24793388429752,
+        "dino_auroc": 100.0,
+        "diff": -4.752066115702476,
+        "winner": "DINOv2",
+        "nature": "color"
+      },
+      {
+        "category": "metal_nut",
+        "defect_type": "flip",
+        "clip_auroc": 82.01581027667983,
+        "dino_auroc": 100.0,
+        "diff": -17.98418972332017,
+        "winner": "DINOv2",
+        "nature": "semantic"
+      },
+      {
+        "category": "metal_nut",
+        "defect_type": "scratch",
+        "clip_auroc": 92.88537549407114,
+        "dino_auroc": 100.0,
+        "diff": -7.114624505928859,
+        "winner": "DINOv2",
+        "nature": "texture_surface"
+      },
+      {
+        "category": "pill",
+        "defect_type": "color",
+        "clip_auroc": 88.30769230769232,
+        "dino_auroc": 72.76923076923076,
+        "diff": 15.538461538461561,
+        "winner": "CLIP",
+        "nature": "color"
+      },
+      {
+        "category": "pill",
+        "defect_type": "combined",
+        "clip_auroc": 77.60180995475113,
+        "dino_auroc": 99.5475113122172,
+        "diff": -21.945701357466064,
+        "winner": "DINOv2",
+        "nature": "mixed"
+      },
+      {
+        "category": "pill",
+        "defect_type": "contamination",
+        "clip_auroc": 81.86813186813187,
+        "dino_auroc": 98.35164835164835,
+        "diff": -16.483516483516482,
+        "winner": "DINOv2",
+        "nature": "foreign_object"
+      },
+      {
+        "category": "pill",
+        "defect_type": "crack",
+        "clip_auroc": 67.603550295858,
+        "dino_auroc": 90.23668639053254,
+        "diff": -22.63313609467454,
+        "winner": "DINOv2",
+        "nature": "structural"
+      },
+      {
+        "category": "pill",
+        "defect_type": "faulty_imprint",
+        "clip_auroc": 87.85425101214574,
+        "dino_auroc": 98.17813765182186,
+        "diff": -10.323886639676118,
+        "winner": "DINOv2",
+        "nature": "color"
+      },
+      {
+        "category": "pill",
+        "defect_type": "pill_type",
+        "clip_auroc": 98.2905982905983,
+        "dino_auroc": 100.0,
+        "diff": -1.7094017094017033,
+        "winner": "DINOv2",
+        "nature": "semantic"
+      },
+      {
+        "category": "pill",
+        "defect_type": "scratch",
+        "clip_auroc": 78.2051282051282,
+        "dino_auroc": 98.87820512820514,
+        "diff": -20.673076923076934,
+        "winner": "DINOv2",
+        "nature": "texture_surface"
+      },
+      {
+        "category": "screw",
+        "defect_type": "manipulated_front",
+        "clip_auroc": 73.17073170731707,
+        "dino_auroc": 77.9471544715447,
+        "diff": -4.7764227642276325,
+        "winner": "DINOv2",
+        "nature": "geometric"
+      },
+      {
+        "category": "screw",
+        "defect_type": "scratch_head",
+        "clip_auroc": 82.72357723577237,
+        "dino_auroc": 95.1219512195122,
+        "diff": -12.39837398373983,
+        "winner": "DINOv2",
+        "nature": "texture_surface"
+      },
+      {
+        "category": "screw",
+        "defect_type": "scratch_neck",
+        "clip_auroc": 84.78048780487805,
+        "dino_auroc": 96.97560975609755,
+        "diff": -12.195121951219505,
+        "winner": "DINOv2",
+        "nature": "texture_surface"
+      },
+      {
+        "category": "screw",
+        "defect_type": "thread_side",
+        "clip_auroc": 79.95758218451749,
+        "dino_auroc": 86.42629904559915,
+        "diff": -6.46871686108166,
+        "winner": "DINOv2",
+        "nature": "texture_surface"
+      },
+      {
+        "category": "screw",
+        "defect_type": "thread_top",
+        "clip_auroc": 90.03181336161188,
+        "dino_auroc": 93.95546129374337,
+        "diff": -3.9236479321314874,
+        "winner": "DINOv2",
+        "nature": "texture_surface"
+      },
+      {
+        "category": "tile",
+        "defect_type": "crack",
+        "clip_auroc": 100.0,
+        "dino_auroc": 100.0,
+        "diff": 0.0,
+        "winner": "DINOv2",
+        "nature": "structural"
+      },
+      {
+        "category": "tile",
+        "defect_type": "glue_strip",
+        "clip_auroc": 100.0,
+        "dino_auroc": 100.0,
+        "diff": 0.0,
+        "winner": "DINOv2",
+        "nature": "foreign_object"
+      },
+      {
+        "category": "tile",
+        "defect_type": "gray_stroke",
+        "clip_auroc": 100.0,
+        "dino_auroc": 98.10606060606061,
+        "diff": 1.893939393939391,
+        "winner": "CLIP",
+        "nature": "color"
+      },
+      {
+        "category": "tile",
+        "defect_type": "oil",
+        "clip_auroc": 100.0,
+        "dino_auroc": 100.0,
+        "diff": 0.0,
+        "winner": "DINOv2",
+        "nature": "foreign_object"
+      },
+      {
+        "category": "tile",
+        "defect_type": "rough",
+        "clip_auroc": 100.0,
+        "dino_auroc": 100.0,
+        "diff": 0.0,
+        "winner": "DINOv2",
+        "nature": "texture_surface"
+      },
+      {
+        "category": "toothbrush",
+        "defect_type": "defective",
+        "clip_auroc": 85.27777777777779,
+        "dino_auroc": 93.05555555555554,
+        "diff": -7.777777777777757,
+        "winner": "DINOv2",
+        "nature": "structural"
+      },
+      {
+        "category": "transistor",
+        "defect_type": "bent_lead",
+        "clip_auroc": 94.83333333333333,
+        "dino_auroc": 88.66666666666667,
+        "diff": 6.166666666666657,
+        "winner": "CLIP",
+        "nature": "geometric"
+      },
+      {
+        "category": "transistor",
+        "defect_type": "cut_lead",
+        "clip_auroc": 95.66666666666667,
+        "dino_auroc": 84.83333333333334,
+        "diff": 10.833333333333329,
+        "winner": "CLIP",
+        "nature": "geometric"
+      },
+      {
+        "category": "transistor",
+        "defect_type": "damaged_case",
+        "clip_auroc": 94.5,
+        "dino_auroc": 99.0,
+        "diff": -4.5,
+        "winner": "DINOv2",
+        "nature": "structural"
+      },
+      {
+        "category": "transistor",
+        "defect_type": "misplaced",
+        "clip_auroc": 90.49999999999999,
+        "dino_auroc": 93.83333333333333,
+        "diff": -3.333333333333343,
+        "winner": "DINOv2",
+        "nature": "semantic"
+      },
+      {
+        "category": "wood",
+        "defect_type": "color",
+        "clip_auroc": 100.0,
+        "dino_auroc": 98.68421052631578,
+        "diff": 1.3157894736842195,
+        "winner": "CLIP",
+        "nature": "color"
+      },
+      {
+        "category": "wood",
+        "defect_type": "combined",
+        "clip_auroc": 87.08133971291866,
+        "dino_auroc": 93.77990430622009,
+        "diff": -6.698564593301427,
+        "winner": "DINOv2",
+        "nature": "mixed"
+      },
+      {
+        "category": "wood",
+        "defect_type": "hole",
+        "clip_auroc": 100.0,
+        "dino_auroc": 96.84210526315789,
+        "diff": 3.1578947368421098,
+        "winner": "CLIP",
+        "nature": "structural"
+      },
+      {
+        "category": "wood",
+        "defect_type": "liquid",
+        "clip_auroc": 100.0,
+        "dino_auroc": 100.0,
+        "diff": 0.0,
+        "winner": "DINOv2",
+        "nature": "foreign_object"
+      },
+      {
+        "category": "wood",
+        "defect_type": "scratch",
+        "clip_auroc": 97.99498746867168,
+        "dino_auroc": 89.47368421052633,
+        "diff": 8.521303258145352,
+        "winner": "CLIP",
+        "nature": "texture_surface"
+      },
+      {
+        "category": "zipper",
+        "defect_type": "broken_teeth",
+        "clip_auroc": 98.35526315789474,
+        "dino_auroc": 99.50657894736842,
+        "diff": -1.151315789473685,
+        "winner": "DINOv2",
+        "nature": "structural"
+      },
+      {
+        "category": "zipper",
+        "defect_type": "combined",
+        "clip_auroc": 98.828125,
+        "dino_auroc": 100.0,
+        "diff": -1.171875,
+        "winner": "DINOv2",
+        "nature": "mixed"
+      },
+      {
+        "category": "zipper",
+        "defect_type": "fabric_border",
+        "clip_auroc": 100.0,
+        "dino_auroc": 100.0,
+        "diff": 0.0,
+        "winner": "DINOv2",
+        "nature": "texture_surface"
+      },
+      {
+        "category": "zipper",
+        "defect_type": "fabric_interior",
+        "clip_auroc": 98.2421875,
+        "dino_auroc": 99.8046875,
+        "diff": -1.5625,
+        "winner": "DINOv2",
+        "nature": "texture_surface"
+      },
+      {
+        "category": "zipper",
+        "defect_type": "rough",
+        "clip_auroc": 100.0,
+        "dino_auroc": 99.63235294117648,
+        "diff": 0.3676470588235219,
+        "winner": "CLIP",
+        "nature": "texture_surface"
+      },
+      {
+        "category": "zipper",
+        "defect_type": "split_teeth",
+        "clip_auroc": 97.91666666666666,
+        "dino_auroc": 99.82638888888889,
+        "diff": -1.9097222222222285,
+        "winner": "DINOv2",
+        "nature": "structural"
+      },
+      {
+        "category": "zipper",
+        "defect_type": "squeezed_teeth",
+        "clip_auroc": 95.3125,
+        "dino_auroc": 99.8046875,
+        "diff": -4.4921875,
+        "winner": "DINOv2",
+        "nature": "geometric"
+      }
+    ],
+    "taxonomy": {
+      "color": {
+        "n": 9,
+        "mean_diff": -1.29,
+        "clip_win_rate": 44.4,
+        "p_value": 0.6372,
+        "diffs": [
+          -10.67,
+          0.38,
+          -5.0,
+          0.0,
+          -4.75,
+          15.54,
+          -10.32,
+          1.89,
+          1.32
+        ]
+      },
+      "texture_surface": {
+        "n": 14,
+        "mean_diff": -3.88,
+        "clip_win_rate": 28.6,
+        "p_value": 0.0871,
+        "diffs": [
+          4.73,
+          4.14,
+          -7.79,
+          -7.11,
+          -20.67,
+          -12.4,
+          -12.2,
+          -6.47,
+          -3.92,
+          0.0,
+          8.52,
+          0.0,
+          -1.56,
+          0.37
+        ]
+      },
+      "structural": {
+        "n": 20,
+        "mean_diff": -2.63,
+        "clip_win_rate": 25.0,
+        "p_value": 0.1625,
+        "diffs": [
+          -4.5,
+          -0.45,
+          -26.21,
+          4.54,
+          6.21,
+          0.0,
+          -0.21,
+          0.4,
+          0.0,
+          2.65,
+          0.0,
+          0.0,
+          -0.17,
+          -22.63,
+          0.0,
+          -7.78,
+          -4.5,
+          3.16,
+          -1.15,
+          -1.91
+        ]
+      },
+      "geometric": {
+        "n": 11,
+        "mean_diff": -7.53,
+        "clip_win_rate": 36.4,
+        "p_value": 0.1258,
+        "diffs": [
+          -38.59,
+          -26.23,
+          -21.12,
+          -5.87,
+          1.59,
+          0.74,
+          -1.09,
+          -4.78,
+          6.17,
+          10.83,
+          -4.49
+        ]
+      },
+      "foreign_object": {
+        "n": 9,
+        "mean_diff": -4.58,
+        "clip_win_rate": 22.2,
+        "p_value": 0.2407,
+        "diffs": [
+          -29.05,
+          0.0,
+          3.46,
+          0.87,
+          0.0,
+          -16.48,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "semantic": {
+        "n": 6,
+        "mean_diff": -9.96,
+        "clip_win_rate": 16.7,
+        "p_value": 0.2103,
+        "diffs": [
+          15.37,
+          -33.33,
+          -18.79,
+          -17.98,
+          -1.71,
+          -3.33
+        ]
+      },
+      "mixed": {
+        "n": 4,
+        "mean_diff": -11.29,
+        "clip_win_rate": 0.0,
+        "p_value": 0.0911,
+        "diffs": [
+          -15.36,
+          -21.95,
+          -6.7,
+          -1.17
+        ]
+      }
+    },
+    "anova_p": 0.5631,
+    "pairwise": {
+      "color_vs_structural": {
+        "t_stat": 0.418,
+        "p_value": 0.6814
+      },
+      "color_vs_geometric": {
+        "t_stat": 1.195,
+        "p_value": 0.2499
+      },
+      "color_vs_semantic": {
+        "t_stat": 1.169,
+        "p_value": 0.2837
+      },
+      "semantic_vs_structural": {
+        "t_stat": -1.024,
+        "p_value": 0.3475
+      },
+      "texture_surface_vs_geometric": {
+        "t_stat": 0.733,
+        "p_value": 0.4752
+      }
+    }
+  }
+}

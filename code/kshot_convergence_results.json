@@ -1,0 +1,47 @@
+{
+  "experiment_12_kshot_convergence": {
+    "aggregate": {
+      "k=1": {
+        "clip_mean": 86.6,
+        "dino_mean": 89.11,
+        "fusion_mean": 91.89,
+        "gap": 2.51
+      },
+      "k=2": {
+        "clip_mean": 88.3,
+        "dino_mean": 92.64,
+        "fusion_mean": 94.28,
+        "gap": 4.34
+      },
+      "k=4": {
+        "clip_mean": 89.77,
+        "dino_mean": 93.32,
+        "fusion_mean": 94.66,
+        "gap": 3.55
+      },
+      "k=8": {
+        "clip_mean": 90.44,
+        "dino_mean": 94.63,
+        "fusion_mean": 95.38,
+        "gap": 4.19
+      }
+    },
+    "winner_stability": {
+      "unstable_categories": [
+        "bottle",
+        "grid",
+        "pill",
+        "screw"
+      ],
+      "n_unstable": 4,
+      "n_total": 15
+    },
+    "gap_convergence": {
+      "mean_change": -0.908,
+      "n_converging": 11,
+      "n_diverging": 4,
+      "paired_ttest_p": 0.5409,
+      "wilcoxon_p": 0.2293
+    }
+  }
+}

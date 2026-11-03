@@ -1,0 +1,169 @@
+{
+  "experiment_18_fusion_gain_analysis": {
+    "part_a": {
+      "mean_gain": 2.051666666666668,
+      "median_gain": 1.664999999999992,
+      "std_gain": 1.8234401248433934,
+      "n_positive": 27,
+      "n_zero": 3,
+      "top5_friendly": [
+        {
+          "cat": "macaroni1",
+          "dataset": "VisA",
+          "gain": 6.759999999999991
+        },
+        {
+          "cat": "cashew",
+          "dataset": "VisA",
+          "gain": 4.88000000000001
+        },
+        {
+          "cat": "capsule",
+          "dataset": "MVTec AD",
+          "gain": 4.75
+        },
+        {
+          "cat": "02",
+          "dataset": "BTAD",
+          "gain": 4.75
+        },
+        {
+          "cat": "fryum",
+          "dataset": "VisA",
+          "gain": 4.540000000000006
+        }
+      ],
+      "top5_resistant": [
+        {
+          "cat": "leather",
+          "dataset": "MVTec AD",
+          "gain": 0.14000000000000057
+        },
+        {
+          "cat": "carpet",
+          "dataset": "MVTec AD",
+          "gain": 0.04000000000000625
+        },
+        {
+          "cat": "bottle",
+          "dataset": "MVTec AD",
+          "gain": 0.0
+        },
+        {
+          "cat": "metal_nut",
+          "dataset": "MVTec AD",
+          "gain": 0.0
+        },
+        {
+          "cat": "tile",
+          "dataset": "MVTec AD",
+          "gain": 0.0
+        }
+      ]
+    },
+    "part_b": {
+      "auroc_gap": {
+        "r": -0.22771289001624043,
+        "p": 0.22619614289205406
+      },
+      "best_single": {
+        "r": -0.7738202013652291,
+        "p": 5.292865426445098e-07
+      },
+      "alpha_extremity": {
+        "r": -0.7120813287819346,
+        "p": 1.0184297684840878e-05
+      },
+      "type_texture_vs_object": {
+        "texture_mean": 1.3783333333333327,
+        "object_mean": 2.220000000000002,
+        "p": 0.2759751747535334
+      },
+      "premium_diff": {
+        "r": -0.39951137570279627,
+        "p": 0.03896458567183299,
+        "N": 27
+      },
+      "reversal_status": {
+        "reversal_mean": 2.651333333333333,
+        "nonreversal_mean": 1.4520000000000028,
+        "p": 0.08132513384236902
+      },
+      "lcs": {
+        "r": 0.021617750188562084,
+        "p": 0.9097236750707489,
+        "N": 30
+      },
+      "worst_single": {
+        "r": -0.3648303291658046,
+        "p": 0.047448719296228854
+      }
+    },
+    "part_c": {
+      "fixed_total_regret": 10.04000000000002,
+      "fixed_mean_regret": 0.33466666666666733,
+      "equal_total_regret": 26.430000000000035,
+      "n_zero_regret": 9,
+      "alpha_vs_regret_r": 0.0801930757663979,
+      "alpha_vs_regret_p": 0.673571548920276,
+      "alpha_dist_vs_regret_r": 0.6436742701023015,
+      "alpha_dist_vs_regret_p": 0.00012431063962889229,
+      "top5_fixed_contributors": [
+        {
+          "cat": "capsules",
+          "dataset": "VisA",
+          "regret": 1.6699999999999875,
+          "alpha": 0.85
+        },
+        {
+          "cat": "capsule",
+          "dataset": "MVTec AD",
+          "regret": 1.6000000000000085,
+          "alpha": 0.4
+        },
+        {
+          "cat": "pcb3",
+          "dataset": "VisA",
+          "regret": 1.519999999999996,
+          "alpha": 0.9
+        },
+        {
+          "cat": "pcb2",
+          "dataset": "VisA",
+          "regret": 1.289999999999992,
+          "alpha": 0.85
+        },
+        {
+          "cat": "pipe_fryum",
+          "dataset": "VisA",
+          "regret": 1.220000000000013,
+          "alpha": 0.45
+        }
+      ]
+    },
+    "part_d": {
+      "top_mean_gap": 2.0099999999999993,
+      "bottom_mean_gap": 6.875999999999998,
+      "top_mean_best": 88.382,
+      "bottom_mean_best": 98.178,
+      "top_mean_extremity": 0.09000000000000001,
+      "bottom_mean_extremity": 0.315
+    },
+    "part_e": {
+      "single_r2": {
+        "auroc_gap": 0.09207125481814071,
+        "best_single": 0.4379600302299611,
+        "alpha_extremity": 0.4665666907305994,
+        "is_texture": 0.03408923251773943
+      },
+      "all_features_r2": 0.702837122207682,
+      "loo_r2": 0.5296439754744877,
+      "loo_mae": 0.9944805103059198,
+      "best_2feature_combo": [
+        "best_single",
+        "alpha_extremity"
+      ],
+      "best_2feature_r2": 0.6432000747445414
+    }
+  }
+}

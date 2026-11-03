@@ -1,0 +1,3440 @@
+{
+  "CLIP": {
+    "_axis": "contrastive-language",
+    "bottle": {
+      "image_auroc_mean": 95.8,
+      "image_auroc_seeds": [
+        94.29,
+        95.0,
+        95.63,
+        96.98,
+        93.81,
+        99.44,
+        96.9,
+        95.32,
+        95.0,
+        95.63
+      ],
+      "pixel_auroc_mean": 92.17,
+      "pixel_aupro_seed0": 78.17,
+      "n": 83,
+      "n_anom": 63
+    },
+    "cable": {
+      "image_auroc_mean": 68.7,
+      "image_auroc_seeds": [
+        68.23,
+        64.52,
+        67.56,
+        77.36,
+        71.27,
+        69.25,
+        62.89,
+        73.82,
+        67.24,
+        64.86
+      ],
+      "pixel_auroc_mean": 80.46,
+      "pixel_aupro_seed0": 44.44,
+      "n": 150,
+      "n_anom": 92
+    },
+    "capsule": {
+      "image_auroc_mean": 67.11,
+      "image_auroc_seeds": [
+        60.75,
+        63.02,
+        62.11,
+        62.5,
+        62.23,
+        62.19,
+        85.0,
+        64.66,
+        83.93,
+        64.7
+      ],
+      "pixel_auroc_mean": 92.37,
+      "pixel_aupro_seed0": 68.96,
+      "n": 132,
+      "n_anom": 109
+    },
+    "carpet": {
+      "image_auroc_mean": 99.91,
+      "image_auroc_seeds": [
+        100.0,
+        99.96,
+        99.96,
+        99.64,
+        100.0,
+        99.84,
+        99.96,
+        99.92,
+        100.0,
+        99.84
+      ],
+      "pixel_auroc_mean": 98.31,
+      "pixel_aupro_seed0": 94.32,
+      "n": 117,
+      "n_anom": 89
+    },
+    "grid": {
+      "image_auroc_mean": 92.51,
+      "image_auroc_seeds": [
+        93.07,
+        92.9,
+        96.32,
+        93.65,
+        93.98,
+        89.89,
+        93.82,
+        85.96,
+        92.06,
+        93.4
+      ],
+      "pixel_auroc_mean": 90.53,
+      "pixel_aupro_seed0": 70.98,
+      "n": 78,
+      "n_anom": 57
+    },
+    "hazelnut": {
+      "image_auroc_mean": 83.95,
+      "image_auroc_seeds": [
+        83.18,
+        87.64,
+        78.96,
+        79.68,
+        86.54,
+        79.68,
+        84.21,
+        86.89,
+        86.75,
+        85.96
+      ],
+      "pixel_auroc_mean": 91.94,
+      "pixel_aupro_seed0": 54.92,
+      "n": 110,
+      "n_anom": 70
+    },
+    "leather": {
+      "image_auroc_mean": 99.16,
+      "image_auroc_seeds": [
+        98.44,
+        99.29,
+        99.05,
+        100.0,
+        99.52,
+        98.54,
+        98.95,
+        99.22,
+        100.0,
+        98.64
+      ],
+      "pixel_auroc_mean": 98.11,
+      "pixel_aupro_seed0": 95.06,
+      "n": 124,
+      "n_anom": 92
+    },
+    "metal_nut": {
+      "image_auroc_mean": 91.15,
+      "image_auroc_seeds": [
+        87.83,
+        93.74,
+        94.23,
+        91.3,
+        90.57,
+        89.15,
+        81.43,
+        91.1,
+        94.87,
+        97.26
+      ],
+      "pixel_auroc_mean": 86.28,
+      "pixel_aupro_seed0": 65.7,
+      "n": 115,
+      "n_anom": 93
+    },
+    "pill": {
+      "image_auroc_mean": 91.2,
+      "image_auroc_seeds": [
+        91.9,
+        93.32,
+        88.71,
+        89.28,
+        91.63,
+        91.6,
+        93.45,
+        88.11,
+        93.1,
+        90.92
+      ],
+      "pixel_auroc_mean": 91.31,
+      "pixel_aupro_seed0": 80.63,
+      "n": 167,
+      "n_anom": 141
+    },
+    "screw": {
+      "image_auroc_mean": 69.6,
+      "image_auroc_seeds": [
+        70.2,
+        75.26,
+        74.42,
+        75.86,
+        70.34,
+        63.15,
+        65.61,
+        61.63,
+        70.34,
+        69.22
+      ],
+      "pixel_auroc_mean": 95.51,
+      "pixel_aupro_seed0": 78.05,
+      "n": 160,
+      "n_anom": 119
+    },
+    "tile": {
+      "image_auroc_mean": 94.46,
+      "image_auroc_seeds": [
+        93.9,
+        93.69,
+        95.53,
+        93.33,
+        96.03,
+        94.05,
+        94.59,
+        94.19,
+        94.77,
+        94.55
+      ],
+      "pixel_auroc_mean": 89.31,
+      "pixel_aupro_seed0": 76.08,
+      "n": 117,
+      "n_anom": 84
+    },
+    "toothbrush": {
+      "image_auroc_mean": 79.78,
+      "image_auroc_seeds": [
+        86.67,
+        80.0,
+        78.33,
+        73.33,
+        76.94,
+        82.22,
+        85.28,
+        82.22,
+        79.17,
+        73.61
+      ],
+      "pixel_auroc_mean": 95.65,
+      "pixel_aupro_seed0": 75.18,
+      "n": 42,
+      "n_anom": 30
+    },
+    "transistor": {
+      "image_auroc_mean": 71.98,
+      "image_auroc_seeds": [
+        78.29,
+        66.96,
+        69.79,
+        69.96,
+        76.08,
+        72.83,
+        69.75,
+        71.88,
+        74.58,
+        69.62
+      ],
+      "pixel_auroc_mean": 75.65,
+      "pixel_aupro_seed0": 51.24,
+      "n": 100,
+      "n_anom": 40
+    },
+    "wood": {
+      "image_auroc_mean": 95.97,
+      "image_auroc_seeds": [
+        96.75,
+        95.35,
+        95.26,
+        95.26,
+        98.6,
+        95.44,
+        95.0,
+        96.32,
+        95.61,
+        96.14
+      ],
+      "pixel_auroc_mean": 91.06,
+      "pixel_aupro_seed0": 81.01,
+      "n": 79,
+      "n_anom": 60
+    },
+    "zipper": {
+      "image_auroc_mean": 92.92,
+      "image_auroc_seeds": [
+        86.69,
+        91.86,
+        91.23,
+        96.01,
+        94.12,
+        92.7,
+        95.69,
+        91.44,
+        94.14,
+        95.35
+      ],
+      "pixel_auroc_mean": 92.97,
+      "pixel_aupro_seed0": 74.97,
+      "n": 151,
+      "n_anom": 119
+    },
+    "candle": {
+      "image_auroc_mean": 86.38,
+      "image_auroc_seeds": [
+        89.91,
+        84.56,
+        85.38,
+        81.35,
+        91.85,
+        91.14,
+        76.16,
+        86.58,
+        88.73,
+        88.12
+      ],
+      "pixel_auroc_mean": 94.22,
+      "pixel_aupro_seed0": 84.2,
+      "n": 200,
+      "n_anom": 100
+    },
+    "capsules": {
+      "image_auroc_mean": 73.42,
+      "image_auroc_seeds": [
+        76.15,
+        74.78,
+        74.28,
+        71.33,
+        71.62,
+        77.3,
+        71.75,
+        74.42,
+        73.0,
+        69.62
+      ],
+      "pixel_auroc_mean": 69.5,
+      "pixel_aupro_seed0": 34.94,
+      "n": 160,
+      "n_anom": 100
+    },
+    "cashew": {
+      "image_auroc_mean": 90.84,
+      "image_auroc_seeds": [
+        91.32,
+        89.86,
+        86.42,
+        93.8,
+        91.8,
+        90.5,
+        89.72,
+        92.28,
+        90.34,
+        92.36
+      ],
+      "pixel_auroc_mean": 97.59,
+      "pixel_aupro_seed0": 83.61,
+      "n": 150,
+      "n_anom": 100
+    },
+    "chewinggum": {
+      "image_auroc_mean": 97.1,
+      "image_auroc_seeds": [
+        97.8,
+        97.34,
+        96.3,
+        96.82,
+        97.22,
+        97.08,
+        97.64,
+        97.98,
+        96.9,
+        95.9
+      ],
+      "pixel_auroc_mean": 99.03,
+      "pixel_aupro_seed0": 81.46,
+      "n": 150,
+      "n_anom": 100
+    },
+    "fryum": {
+      "image_auroc_mean": 88.6,
+      "image_auroc_seeds": [
+        89.1,
+        87.92,
+        89.54,
+        87.46,
+        89.62,
+        91.58,
+        80.0,
+        89.32,
+        90.14,
+        91.28
+      ],
+      "pixel_auroc_mean": 89.07,
+      "pixel_aupro_seed0": 59.01,
+      "n": 150,
+      "n_anom": 100
+    },
+    "macaroni1": {
+      "image_auroc_mean": 74.98,
+      "image_auroc_seeds": [
+        75.68,
+        70.17,
+        74.12,
+        79.07,
+        74.37,
+        77.59,
+        72.5,
+        79.83,
+        71.04,
+        75.43
+      ],
+      "pixel_auroc_mean": 79.67,
+      "pixel_aupro_seed0": 48.76,
+      "n": 200,
+      "n_anom": 100
+    },
+    "macaroni2": {
+      "image_auroc_mean": 64.87,
+      "image_auroc_seeds": [
+        68.09,
+        60.78,
+        69.28,
+        60.63,
+        67.04,
+        59.33,
+        61.85,
+        71.25,
+        63.52,
+        66.94
+      ],
+      "pixel_auroc_mean": 72.86,
+      "pixel_aupro_seed0": 31.17,
+      "n": 200,
+      "n_anom": 100
+    },
+    "pcb1": {
+      "image_auroc_mean": 71.39,
+      "image_auroc_seeds": [
+        77.31,
+        70.92,
+        71.11,
+        74.86,
+        49.41,
+        71.07,
+        76.31,
+        71.48,
+        77.64,
+        73.82
+      ],
+      "pixel_auroc_mean": 92.84,
+      "pixel_aupro_seed0": 64.74,
+      "n": 200,
+      "n_anom": 100
+    },
+    "pcb2": {
+      "image_auroc_mean": 67.79,
+      "image_auroc_seeds": [
+        65.17,
+        60.9,
+        68.3,
+        70.76,
+        63.49,
+        72.72,
+        66.49,
+        71.08,
+        71.71,
+        67.28
+      ],
+      "pixel_auroc_mean": 83.57,
+      "pixel_aupro_seed0": 51.08,
+      "n": 200,
+      "n_anom": 100
+    },
+    "pcb3": {
+      "image_auroc_mean": 57.0,
+      "image_auroc_seeds": [
+        59.14,
+        51.44,
+        46.95,
+        63.5,
+        59.98,
+        56.36,
+        59.3,
+        59.2,
+        54.57,
+        59.52
+      ],
+      "pixel_auroc_mean": 85.66,
+      "pixel_aupro_seed0": 41.04,
+      "n": 201,
+      "n_anom": 100
+    },
+    "pcb4": {
+      "image_auroc_mean": 73.66,
+      "image_auroc_seeds": [
+        74.36,
+        63.25,
+        76.38,
+        76.67,
+        81.38,
+        77.06,
+        68.84,
+        67.22,
+        82.97,
+        68.52
+      ],
+      "pixel_auroc_mean": 92.99,
+      "pixel_aupro_seed0": 72.24,
+      "n": 201,
+      "n_anom": 100
+    },
+    "pipe_fryum": {
+      "image_auroc_mean": 96.53,
+      "image_auroc_seeds": [
+        97.04,
+        96.2,
+        97.18,
+        97.06,
+        95.98,
+        97.1,
+        96.66,
+        96.36,
+        94.74,
+        96.98
+      ],
+      "pixel_auroc_mean": 96.3,
+      "pixel_aupro_seed0": 92.17,
+      "n": 150,
+      "n_anom": 100
+    },
+    "01": {
+      "image_auroc_mean": 89.54,
+      "image_auroc_seeds": [
+        89.21,
+        92.91,
+        89.02,
+        91.64,
+        91.45,
+        88.63,
+        90.09,
+        84.26,
+        88.34,
+        89.89
+      ],
+      "pixel_auroc_mean": 82.88,
+      "pixel_aupro_seed0": 36.35,
+      "n": 70,
+      "n_anom": 49
+    },
+    "02": {
+      "image_auroc_mean": 76.79,
+      "image_auroc_seeds": [
+        80.82,
+        79.35,
+        70.77,
+        78.48,
+        73.13,
+        76.55,
+        74.72,
+        80.0,
+        73.83,
+        80.28
+      ],
+      "pixel_auroc_mean": 71.55,
+      "pixel_aupro_seed0": 31.67,
+      "n": 230,
+      "n_anom": 200
+    },
+    "03": {
+      "image_auroc_mean": 88.82,
+      "image_auroc_seeds": [
+        90.76,
+        88.17,
+        87.97,
+        85.67,
+        88.3,
+        92.76,
+        90.59,
+        88.09,
+        85.15,
+        90.79
+      ],
+      "pixel_auroc_mean": 85.04,
+      "pixel_aupro_seed0": 41.27,
+      "n": 441,
+      "n_anom": 41
+    }
+  },
+  "SigLIP": {
+    "_axis": "contrastive-language",
+    "bottle": {
+      "image_auroc_mean": 93.92,
+      "image_auroc_seeds": [
+        94.05,
+        94.68,
+        95.87,
+        94.05,
+        93.49,
+        95.4,
+        91.98,
+        87.54,
+        95.95,
+        96.19
+      ],
+      "pixel_auroc_mean": 92.82,
+      "pixel_aupro_seed0": 74.68,
+      "n": 83,
+      "n_anom": 63
+    },
+    "cable": {
+      "image_auroc_mean": 74.05,
+      "image_auroc_seeds": [
+        72.54,
+        75.75,
+        75.32,
+        76.07,
+        69.79,
+        75.34,
+        75.11,
+        75.56,
+        73.22,
+        71.81
+      ],
+      "pixel_auroc_mean": 79.47,
+      "pixel_aupro_seed0": 42.75,
+      "n": 150,
+      "n_anom": 92
+    },
+    "capsule": {
+      "image_auroc_mean": 63.98,
+      "image_auroc_seeds": [
+        59.31,
+        61.07,
+        61.11,
+        59.71,
+        65.34,
+        59.31,
+        72.76,
+        61.83,
+        76.98,
+        62.35
+      ],
+      "pixel_auroc_mean": 81.16,
+      "pixel_aupro_seed0": 55.73,
+      "n": 132,
+      "n_anom": 109
+    },
+    "carpet": {
+      "image_auroc_mean": 98.99,
+      "image_auroc_seeds": [
+        97.67,
+        99.84,
+        98.96,
+        96.03,
+        99.48,
+        99.2,
+        99.44,
+        99.84,
+        99.92,
+        99.56
+      ],
+      "pixel_auroc_mean": 96.63,
+      "pixel_aupro_seed0": 86.95,
+      "n": 117,
+      "n_anom": 89
+    },
+    "grid": {
+      "image_auroc_mean": 98.69,
+      "image_auroc_seeds": [
+        99.25,
+        99.5,
+        99.08,
+        99.5,
+        98.33,
+        99.16,
+        95.74,
+        98.16,
+        99.08,
+        99.08
+      ],
+      "pixel_auroc_mean": 94.7,
+      "pixel_aupro_seed0": 72.78,
+      "n": 78,
+      "n_anom": 57
+    },
+    "hazelnut": {
+      "image_auroc_mean": 95.36,
+      "image_auroc_seeds": [
+        99.39,
+        97.36,
+        91.61,
+        92.29,
+        99.25,
+        92.29,
+        98.79,
+        91.68,
+        95.54,
+        95.46
+      ],
+      "pixel_auroc_mean": 94.05,
+      "pixel_aupro_seed0": 75.92,
+      "n": 110,
+      "n_anom": 70
+    },
+    "leather": {
+      "image_auroc_mean": 99.51,
+      "image_auroc_seeds": [
+        99.83,
+        99.69,
+        99.69,
+        99.66,
+        99.73,
+        99.9,
+        99.8,
+        99.69,
+        97.49,
+        99.66
+      ],
+      "pixel_auroc_mean": 95.07,
+      "pixel_aupro_seed0": 81.58,
+      "n": 124,
+      "n_anom": 92
+    },
+    "metal_nut": {
+      "image_auroc_mean": 91.99,
+      "image_auroc_seeds": [
+        91.1,
+        94.97,
+        89.83,
+        96.04,
+        95.01,
+        86.46,
+        89.69,
+        89.69,
+        95.36,
+        91.74
+      ],
+      "pixel_auroc_mean": 82.32,
+      "pixel_aupro_seed0": 59.7,
+      "n": 115,
+      "n_anom": 93
+    },
+    "pill": {
+      "image_auroc_mean": 90.61,
+      "image_auroc_seeds": [
+        88.52,
+        94.14,
+        86.93,
+        89.74,
+        93.51,
+        90.89,
+        90.51,
+        90.64,
+        89.5,
+        91.71
+      ],
+      "pixel_auroc_mean": 87.56,
+      "pixel_aupro_seed0": 86.27,
+      "n": 167,
+      "n_anom": 141
+    },
+    "screw": {
+      "image_auroc_mean": 78.69,
+      "image_auroc_seeds": [
+        76.04,
+        78.48,
+        82.87,
+        81.23,
+        80.98,
+        74.69,
+        80.08,
+        70.61,
+        82.74,
+        79.2
+      ],
+      "pixel_auroc_mean": 91.34,
+      "pixel_aupro_seed0": 66.36,
+      "n": 160,
+      "n_anom": 119
+    },
+    "tile": {
+      "image_auroc_mean": 96.54,
+      "image_auroc_seeds": [
+        97.15,
+        95.42,
+        95.17,
+        96.28,
+        97.69,
+        96.5,
+        98.34,
+        96.0,
+        96.36,
+        96.54
+      ],
+      "pixel_auroc_mean": 85.94,
+      "pixel_aupro_seed0": 53.16,
+      "n": 117,
+      "n_anom": 84
+    },
+    "toothbrush": {
+      "image_auroc_mean": 91.97,
+      "image_auroc_seeds": [
+        95.83,
+        91.94,
+        90.0,
+        86.11,
+        93.06,
+        91.67,
+        86.67,
+        91.67,
+        95.28,
+        97.5
+      ],
+      "pixel_auroc_mean": 89.62,
+      "pixel_aupro_seed0": 70.48,
+      "n": 42,
+      "n_anom": 30
+    },
+    "transistor": {
+      "image_auroc_mean": 72.92,
+      "image_auroc_seeds": [
+        67.71,
+        73.88,
+        76.21,
+        72.33,
+        73.5,
+        73.12,
+        71.46,
+        70.92,
+        75.33,
+        74.75
+      ],
+      "pixel_auroc_mean": 75.01,
+      "pixel_aupro_seed0": 38.81,
+      "n": 100,
+      "n_anom": 40
+    },
+    "wood": {
+      "image_auroc_mean": 96.82,
+      "image_auroc_seeds": [
+        96.58,
+        92.81,
+        97.81,
+        98.6,
+        96.58,
+        94.04,
+        98.86,
+        98.33,
+        97.28,
+        97.28
+      ],
+      "pixel_auroc_mean": 84.32,
+      "pixel_aupro_seed0": 62.19,
+      "n": 79,
+      "n_anom": 60
+    },
+    "zipper": {
+      "image_auroc_mean": 89.51,
+      "image_auroc_seeds": [
+        90.07,
+        85.85,
+        88.31,
+        90.99,
+        92.28,
+        89.31,
+        92.12,
+        88.97,
+        83.14,
+        94.04
+      ],
+      "pixel_auroc_mean": 94.39,
+      "pixel_aupro_seed0": 75.1,
+      "n": 151,
+      "n_anom": 119
+    },
+    "candle": {
+      "image_auroc_mean": 88.25,
+      "image_auroc_seeds": [
+        91.07,
+        85.97,
+        89.13,
+        85.99,
+        89.41,
+        90.13,
+        88.09,
+        87.87,
+        89.32,
+        85.51
+      ],
+      "pixel_auroc_mean": 91.75,
+      "pixel_aupro_seed0": 74.34,
+      "n": 200,
+      "n_anom": 100
+    },
+    "capsules": {
+      "image_auroc_mean": 74.49,
+      "image_auroc_seeds": [
+        71.52,
+        74.55,
+        71.9,
+        70.33,
+        74.07,
+        76.03,
+        75.25,
+        74.95,
+        79.02,
+        77.3
+      ],
+      "pixel_auroc_mean": 69.41,
+      "pixel_aupro_seed0": 35.57,
+      "n": 160,
+      "n_anom": 100
+    },
+    "cashew": {
+      "image_auroc_mean": 77.11,
+      "image_auroc_seeds": [
+        67.32,
+        82.14,
+        78.72,
+        81.62,
+        84.32,
+        76.42,
+        76.88,
+        83.7,
+        70.2,
+        69.82
+      ],
+      "pixel_auroc_mean": 85.46,
+      "pixel_aupro_seed0": 59.32,
+      "n": 150,
+      "n_anom": 100
+    },
+    "chewinggum": {
+      "image_auroc_mean": 91.99,
+      "image_auroc_seeds": [
+        85.9,
+        94.18,
+        89.14,
+        90.34,
+        95.48,
+        93.92,
+        94.9,
+        91.12,
+        93.02,
+        91.86
+      ],
+      "pixel_auroc_mean": 96.11,
+      "pixel_aupro_seed0": 62.43,
+      "n": 150,
+      "n_anom": 100
+    },
+    "fryum": {
+      "image_auroc_mean": 81.4,
+      "image_auroc_seeds": [
+        76.66,
+        78.3,
+        73.46,
+        81.12,
+        86.54,
+        83.22,
+        79.9,
+        85.22,
+        83.72,
+        85.86
+      ],
+      "pixel_auroc_mean": 73.56,
+      "pixel_aupro_seed0": 32.07,
+      "n": 150,
+      "n_anom": 100
+    },
+    "macaroni1": {
+      "image_auroc_mean": 78.03,
+      "image_auroc_seeds": [
+        82.21,
+        78.26,
+        71.07,
+        73.6,
+        78.9,
+        75.51,
+        88.41,
+        75.73,
+        73.89,
+        82.7
+      ],
+      "pixel_auroc_mean": 64.9,
+      "pixel_aupro_seed0": 24.77,
+      "n": 200,
+      "n_anom": 100
+    },
+    "macaroni2": {
+      "image_auroc_mean": 63.16,
+      "image_auroc_seeds": [
+        53.48,
+        67.14,
+        58.13,
+        63.02,
+        69.99,
+        70.86,
+        56.88,
+        65.31,
+        62.27,
+        64.51
+      ],
+      "pixel_auroc_mean": 61.2,
+      "pixel_aupro_seed0": 22.94,
+      "n": 200,
+      "n_anom": 100
+    },
+    "pcb1": {
+      "image_auroc_mean": 72.51,
+      "image_auroc_seeds": [
+        76.94,
+        67.21,
+        79.13,
+        77.85,
+        51.93,
+        73.15,
+        73.31,
+        79.3,
+        69.97,
+        76.28
+      ],
+      "pixel_auroc_mean": 93.25,
+      "pixel_aupro_seed0": 61.7,
+      "n": 200,
+      "n_anom": 100
+    },
+    "pcb2": {
+      "image_auroc_mean": 56.44,
+      "image_auroc_seeds": [
+        55.12,
+        62.79,
+        53.47,
+        56.36,
+        53.52,
+        56.22,
+        53.48,
+        60.53,
+        59.9,
+        52.97
+      ],
+      "pixel_auroc_mean": 73.51,
+      "pixel_aupro_seed0": 27.19,
+      "n": 200,
+      "n_anom": 100
+    },
+    "pcb3": {
+      "image_auroc_mean": 54.23,
+      "image_auroc_seeds": [
+        56.39,
+        57.18,
+        52.21,
+        52.98,
+        58.23,
+        47.76,
+        46.09,
+        58.82,
+        55.06,
+        57.57
+      ],
+      "pixel_auroc_mean": 62.61,
+      "pixel_aupro_seed0": 14.21,
+      "n": 201,
+      "n_anom": 100
+    },
+    "pcb4": {
+      "image_auroc_mean": 75.27,
+      "image_auroc_seeds": [
+        90.88,
+        30.65,
+        71.84,
+        94.54,
+        91.06,
+        71.24,
+        72.09,
+        70.76,
+        88.12,
+        71.54
+      ],
+      "pixel_auroc_mean": 75.58,
+      "pixel_aupro_seed0": 31.88,
+      "n": 201,
+      "n_anom": 100
+    },
+    "pipe_fryum": {
+      "image_auroc_mean": 85.33,
+      "image_auroc_seeds": [
+        75.44,
+        78.08,
+        93.42,
+        88.76,
+        81.1,
+        92.8,
+        83.2,
+        92.64,
+        76.64,
+        91.22
+      ],
+      "pixel_auroc_mean": 88.13,
+      "pixel_aupro_seed0": 65.3,
+      "n": 150,
+      "n_anom": 100
+    },
+    "01": {
+      "image_auroc_mean": 85.94,
+      "image_auroc_seeds": [
+        81.44,
+        88.82,
+        90.38,
+        91.06,
+        83.77,
+        82.22,
+        77.45,
+        90.28,
+        86.1,
+        87.85
+      ],
+      "pixel_auroc_mean": 89.02,
+      "pixel_aupro_seed0": 46.48,
+      "n": 70,
+      "n_anom": 49
+    },
+    "02": {
+      "image_auroc_mean": 74.09,
+      "image_auroc_seeds": [
+        74.48,
+        72.02,
+        73.47,
+        80.68,
+        67.58,
+        71.08,
+        76.28,
+        72.9,
+        74.43,
+        77.98
+      ],
+      "pixel_auroc_mean": 89.64,
+      "pixel_aupro_seed0": 42.45,
+      "n": 230,
+      "n_anom": 200
+    },
+    "03": {
+      "image_auroc_mean": 85.15,
+      "image_auroc_seeds": [
+        88.65,
+        85.16,
+        78.06,
+        89.82,
+        84.41,
+        86.71,
+        84.17,
+        86.32,
+        79.13,
+        89.1
+      ],
+      "pixel_auroc_mean": 89.58,
+      "pixel_aupro_seed0": 47.5,
+      "n": 441,
+      "n_anom": 41
+    }
+  },
+  "DINOv2": {
+    "_axis": "ssl-spatial",
+    "bottle": {
+      "image_auroc_mean": 97.24,
+      "image_auroc_seeds": [
+        98.65,
+        99.76,
+        94.37,
+        98.49,
+        93.65,
+        91.83,
+        99.05,
+        98.49,
+        99.44,
+        98.65
+      ],
+      "pixel_auroc_mean": 98.16,
+      "pixel_aupro_seed0": 90.85,
+      "n": 83,
+      "n_anom": 63
+    },
+    "cable": {
+      "image_auroc_mean": 86.44,
+      "image_auroc_seeds": [
+        80.73,
+        91.57,
+        91.57,
+        81.6,
+        84.37,
+        86.21,
+        92.92,
+        82.27,
+        86.49,
+        86.69
+      ],
+      "pixel_auroc_mean": 89.73,
+      "pixel_aupro_seed0": 74.83,
+      "n": 150,
+      "n_anom": 92
+    },
+    "capsule": {
+      "image_auroc_mean": 72.39,
+      "image_auroc_seeds": [
+        62.07,
+        64.5,
+        64.46,
+        64.74,
+        82.45,
+        65.54,
+        92.14,
+        66.25,
+        95.73,
+        65.98
+      ],
+      "pixel_auroc_mean": 94.63,
+      "pixel_aupro_seed0": 84.16,
+      "n": 132,
+      "n_anom": 109
+    },
+    "carpet": {
+      "image_auroc_mean": 97.77,
+      "image_auroc_seeds": [
+        97.55,
+        96.95,
+        99.08,
+        97.67,
+        97.55,
+        97.51,
+        98.03,
+        97.95,
+        97.35,
+        98.07
+      ],
+      "pixel_auroc_mean": 97.74,
+      "pixel_aupro_seed0": 92.61,
+      "n": 117,
+      "n_anom": 89
+    },
+    "grid": {
+      "image_auroc_mean": 99.35,
+      "image_auroc_seeds": [
+        99.58,
+        99.33,
+        99.75,
+        100.0,
+        99.08,
+        99.25,
+        98.75,
+        98.33,
+        99.67,
+        99.75
+      ],
+      "pixel_auroc_mean": 99.23,
+      "pixel_aupro_seed0": 94.04,
+      "n": 78,
+      "n_anom": 57
+    },
+    "hazelnut": {
+      "image_auroc_mean": 94.74,
+      "image_auroc_seeds": [
+        96.64,
+        94.75,
+        95.0,
+        90.86,
+        98.25,
+        90.86,
+        97.5,
+        91.25,
+        94.89,
+        97.39
+      ],
+      "pixel_auroc_mean": 99.02,
+      "pixel_aupro_seed0": 89.42,
+      "n": 110,
+      "n_anom": 70
+    },
+    "leather": {
+      "image_auroc_mean": 99.61,
+      "image_auroc_seeds": [
+        99.12,
+        99.9,
+        99.97,
+        99.73,
+        99.9,
+        99.76,
+        98.98,
+        100.0,
+        99.63,
+        99.15
+      ],
+      "pixel_auroc_mean": 98.09,
+      "pixel_aupro_seed0": 93.64,
+      "n": 124,
+      "n_anom": 92
+    },
+    "metal_nut": {
+      "image_auroc_mean": 96.19,
+      "image_auroc_seeds": [
+        96.77,
+        99.02,
+        98.68,
+        95.26,
+        98.97,
+        80.06,
+        97.65,
+        99.02,
+        97.07,
+        99.41
+      ],
+      "pixel_auroc_mean": 92.31,
+      "pixel_aupro_seed0": 82.63,
+      "n": 115,
+      "n_anom": 93
+    },
+    "pill": {
+      "image_auroc_mean": 88.99,
+      "image_auroc_seeds": [
+        89.2,
+        80.82,
+        89.2,
+        89.53,
+        87.94,
+        92.85,
+        93.34,
+        90.53,
+        87.07,
+        89.36
+      ],
+      "pixel_auroc_mean": 85.41,
+      "pixel_aupro_seed0": 89.61,
+      "n": 167,
+      "n_anom": 141
+    },
+    "screw": {
+      "image_auroc_mean": 73.55,
+      "image_auroc_seeds": [
+        67.21,
+        73.31,
+        85.47,
+        58.76,
+        73.91,
+        72.88,
+        74.87,
+        70.92,
+        79.01,
+        79.14
+      ],
+      "pixel_auroc_mean": 91.34,
+      "pixel_aupro_seed0": 69.68,
+      "n": 160,
+      "n_anom": 119
+    },
+    "tile": {
+      "image_auroc_mean": 99.49,
+      "image_auroc_seeds": [
+        99.6,
+        99.53,
+        99.93,
+        99.96,
+        99.49,
+        99.39,
+        99.78,
+        98.95,
+        99.17,
+        99.13
+      ],
+      "pixel_auroc_mean": 94.35,
+      "pixel_aupro_seed0": 80.16,
+      "n": 117,
+      "n_anom": 84
+    },
+    "toothbrush": {
+      "image_auroc_mean": 89.17,
+      "image_auroc_seeds": [
+        87.22,
+        83.61,
+        83.06,
+        82.78,
+        97.22,
+        89.17,
+        95.28,
+        89.17,
+        94.72,
+        89.44
+      ],
+      "pixel_auroc_mean": 97.34,
+      "pixel_aupro_seed0": 87.57,
+      "n": 42,
+      "n_anom": 30
+    },
+    "transistor": {
+      "image_auroc_mean": 86.09,
+      "image_auroc_seeds": [
+        84.04,
+        81.17,
+        83.62,
+        82.0,
+        90.88,
+        88.38,
+        81.54,
+        88.83,
+        87.46,
+        93.0
+      ],
+      "pixel_auroc_mean": 85.03,
+      "pixel_aupro_seed0": 58.75,
+      "n": 100,
+      "n_anom": 40
+    },
+    "wood": {
+      "image_auroc_mean": 97.13,
+      "image_auroc_seeds": [
+        98.42,
+        97.72,
+        99.3,
+        99.47,
+        97.63,
+        95.0,
+        99.47,
+        89.3,
+        98.07,
+        96.93
+      ],
+      "pixel_auroc_mean": 91.0,
+      "pixel_aupro_seed0": 86.35,
+      "n": 79,
+      "n_anom": 60
+    },
+    "zipper": {
+      "image_auroc_mean": 98.47,
+      "image_auroc_seeds": [
+        97.82,
+        99.4,
+        93.83,
+        99.19,
+        99.13,
+        99.4,
+        98.9,
+        98.27,
+        99.26,
+        99.55
+      ],
+      "pixel_auroc_mean": 90.61,
+      "pixel_aupro_seed0": 76.94,
+      "n": 151,
+      "n_anom": 119
+    },
+    "candle": {
+      "image_auroc_mean": 85.6,
+      "image_auroc_seeds": [
+        84.8,
+        91.51,
+        74.97,
+        89.67,
+        85.47,
+        88.95,
+        89.19,
+        89.42,
+        72.15,
+        89.88
+      ],
+      "pixel_auroc_mean": 95.9,
+      "pixel_aupro_seed0": 83.1,
+      "n": 200,
+      "n_anom": 100
+    },
+    "capsules": {
+      "image_auroc_mean": 91.84,
+      "image_auroc_seeds": [
+        93.63,
+        92.08,
+        91.78,
+        88.72,
+        89.7,
+        96.28,
+        94.88,
+        87.02,
+        95.33,
+        89.02
+      ],
+      "pixel_auroc_mean": 74.56,
+      "pixel_aupro_seed0": 47.19,
+      "n": 160,
+      "n_anom": 100
+    },
+    "cashew": {
+      "image_auroc_mean": 88.71,
+      "image_auroc_seeds": [
+        87.38,
+        87.28,
+        87.46,
+        84.1,
+        89.54,
+        88.58,
+        92.82,
+        92.16,
+        90.12,
+        87.66
+      ],
+      "pixel_auroc_mean": 97.02,
+      "pixel_aupro_seed0": 90.83,
+      "n": 150,
+      "n_anom": 100
+    },
+    "chewinggum": {
+      "image_auroc_mean": 97.76,
+      "image_auroc_seeds": [
+        98.56,
+        98.6,
+        96.9,
+        94.96,
+        97.12,
+        99.04,
+        98.52,
+        97.52,
+        97.12,
+        99.3
+      ],
+      "pixel_auroc_mean": 98.59,
+      "pixel_aupro_seed0": 82.65,
+      "n": 150,
+      "n_anom": 100
+    },
+    "fryum": {
+      "image_auroc_mean": 88.66,
+      "image_auroc_seeds": [
+        88.2,
+        88.04,
+        90.2,
+        88.72,
+        88.96,
+        90.6,
+        87.16,
+        88.46,
+        86.94,
+        89.3
+      ],
+      "pixel_auroc_mean": 76.32,
+      "pixel_aupro_seed0": 46.52,
+      "n": 150,
+      "n_anom": 100
+    },
+    "macaroni1": {
+      "image_auroc_mean": 88.37,
+      "image_auroc_seeds": [
+        87.52,
+        93.28,
+        90.88,
+        92.09,
+        88.64,
+        87.51,
+        85.82,
+        83.81,
+        88.26,
+        85.84
+      ],
+      "pixel_auroc_mean": 48.36,
+      "pixel_aupro_seed0": 16.61,
+      "n": 200,
+      "n_anom": 100
+    },
+    "macaroni2": {
+      "image_auroc_mean": 69.45,
+      "image_auroc_seeds": [
+        57.79,
+        70.26,
+        67.61,
+        63.43,
+        77.48,
+        72.2,
+        69.16,
+        67.13,
+        74.51,
+        74.91
+      ],
+      "pixel_auroc_mean": 60.51,
+      "pixel_aupro_seed0": 27.69,
+      "n": 200,
+      "n_anom": 100
+    },
+    "pcb1": {
+      "image_auroc_mean": 83.17,
+      "image_auroc_seeds": [
+        79.28,
+        86.08,
+        83.18,
+        83.23,
+        73.08,
+        87.83,
+        82.78,
+        79.89,
+        87.68,
+        88.65
+      ],
+      "pixel_auroc_mean": 93.3,
+      "pixel_aupro_seed0": 63.46,
+      "n": 200,
+      "n_anom": 100
+    },
+    "pcb2": {
+      "image_auroc_mean": 82.96,
+      "image_auroc_seeds": [
+        74.13,
+        85.94,
+        86.09,
+        88.05,
+        80.33,
+        80.74,
+        85.24,
+        88.44,
+        78.32,
+        82.36
+      ],
+      "pixel_auroc_mean": 82.12,
+      "pixel_aupro_seed0": 48.69,
+      "n": 200,
+      "n_anom": 100
+    },
+    "pcb3": {
+      "image_auroc_mean": 85.77,
+      "image_auroc_seeds": [
+        90.33,
+        85.36,
+        87.17,
+        85.52,
+        84.98,
+        82.23,
+        87.46,
+        85.12,
+        85.47,
+        84.06
+      ],
+      "pixel_auroc_mean": 69.39,
+      "pixel_aupro_seed0": 27.42,
+      "n": 201,
+      "n_anom": 100
+    },
+    "pcb4": {
+      "image_auroc_mean": 91.54,
+      "image_auroc_seeds": [
+        94.33,
+        82.18,
+        94.35,
+        92.74,
+        92.93,
+        92.63,
+        89.82,
+        95.5,
+        88.51,
+        92.46
+      ],
+      "pixel_auroc_mean": 80.52,
+      "pixel_aupro_seed0": 49.42,
+      "n": 201,
+      "n_anom": 100
+    },
+    "pipe_fryum": {
+      "image_auroc_mean": 92.81,
+      "image_auroc_seeds": [
+        86.0,
+        98.1,
+        82.94,
+        92.88,
+        93.66,
+        96.76,
+        89.68,
+        96.14,
+        94.2,
+        97.78
+      ],
+      "pixel_auroc_mean": 95.43,
+      "pixel_aupro_seed0": 91.57,
+      "n": 150,
+      "n_anom": 100
+    },
+    "01": {
+      "image_auroc_mean": 94.29,
+      "image_auroc_seeds": [
+        94.75,
+        95.53,
+        95.63,
+        92.81,
+        94.56,
+        94.36,
+        93.29,
+        94.36,
+        93.39,
+        94.17
+      ],
+      "pixel_auroc_mean": 96.9,
+      "pixel_aupro_seed0": 75.04,
+      "n": 70,
+      "n_anom": 49
+    },
+    "02": {
+      "image_auroc_mean": 84.31,
+      "image_auroc_seeds": [
+        84.92,
+        88.83,
+        90.48,
+        90.23,
+        73.22,
+        81.08,
+        79.1,
+        87.68,
+        87.67,
+        79.92
+      ],
+      "pixel_auroc_mean": 93.87,
+      "pixel_aupro_seed0": 51.38,
+      "n": 230,
+      "n_anom": 200
+    },
+    "03": {
+      "image_auroc_mean": 94.91,
+      "image_auroc_seeds": [
+        99.45,
+        98.37,
+        92.13,
+        97.23,
+        96.44,
+        99.63,
+        85.77,
+        98.72,
+        87.17,
+        94.19
+      ],
+      "pixel_auroc_mean": 93.12,
+      "pixel_aupro_seed0": 64.15,
+      "n": 441,
+      "n_anom": 41
+    }
+  },
+  "DINOv2-reg": {
+    "_axis": "ssl-spatial",
+    "bottle": {
+      "image_auroc_mean": 95.03,
+      "image_auroc_seeds": [
+        86.67,
+        98.97,
+        88.25,
+        87.46,
+        98.73,
+        95.48,
+        99.6,
+        97.78,
+        98.33,
+        99.05
+      ],
+      "pixel_auroc_mean": 98.43,
+      "pixel_aupro_seed0": 90.16,
+      "n": 83,
+      "n_anom": 63
+    },
+    "cable": {
+      "image_auroc_mean": 85.12,
+      "image_auroc_seeds": [
+        72.94,
+        89.26,
+        93.03,
+        89.43,
+        78.15,
+        87.18,
+        90.22,
+        76.76,
+        84.52,
+        89.75
+      ],
+      "pixel_auroc_mean": 89.21,
+      "pixel_aupro_seed0": 69.37,
+      "n": 150,
+      "n_anom": 92
+    },
+    "capsule": {
+      "image_auroc_mean": 74.77,
+      "image_auroc_seeds": [
+        61.47,
+        67.81,
+        65.66,
+        69.09,
+        94.42,
+        62.66,
+        94.97,
+        67.97,
+        95.97,
+        67.69
+      ],
+      "pixel_auroc_mean": 94.88,
+      "pixel_aupro_seed0": 88.13,
+      "n": 132,
+      "n_anom": 109
+    },
+    "carpet": {
+      "image_auroc_mean": 99.44,
+      "image_auroc_seeds": [
+        99.72,
+        99.44,
+        99.4,
+        99.48,
+        99.0,
+        99.56,
+        99.16,
+        99.64,
+        99.4,
+        99.6
+      ],
+      "pixel_auroc_mean": 98.39,
+      "pixel_aupro_seed0": 93.62,
+      "n": 117,
+      "n_anom": 89
+    },
+    "grid": {
+      "image_auroc_mean": 99.64,
+      "image_auroc_seeds": [
+        100.0,
+        99.33,
+        99.42,
+        99.5,
+        98.5,
+        99.83,
+        100.0,
+        100.0,
+        99.92,
+        99.92
+      ],
+      "pixel_auroc_mean": 99.18,
+      "pixel_aupro_seed0": 91.66,
+      "n": 78,
+      "n_anom": 57
+    },
+    "hazelnut": {
+      "image_auroc_mean": 86.1,
+      "image_auroc_seeds": [
+        83.32,
+        96.93,
+        84.04,
+        76.61,
+        92.79,
+        76.61,
+        96.5,
+        81.68,
+        93.96,
+        78.57
+      ],
+      "pixel_auroc_mean": 98.85,
+      "pixel_aupro_seed0": 89.66,
+      "n": 110,
+      "n_anom": 70
+    },
+    "leather": {
+      "image_auroc_mean": 99.85,
+      "image_auroc_seeds": [
+        99.93,
+        100.0,
+        100.0,
+        100.0,
+        99.97,
+        98.81,
+        100.0,
+        99.76,
+        100.0,
+        100.0
+      ],
+      "pixel_auroc_mean": 97.99,
+      "pixel_aupro_seed0": 92.3,
+      "n": 124,
+      "n_anom": 92
+    },
+    "metal_nut": {
+      "image_auroc_mean": 92.08,
+      "image_auroc_seeds": [
+        96.43,
+        98.39,
+        89.59,
+        89.93,
+        94.43,
+        77.57,
+        89.1,
+        95.65,
+        94.09,
+        95.65
+      ],
+      "pixel_auroc_mean": 94.17,
+      "pixel_aupro_seed0": 87.29,
+      "n": 115,
+      "n_anom": 93
+    },
+    "pill": {
+      "image_auroc_mean": 89.74,
+      "image_auroc_seeds": [
+        88.11,
+        87.26,
+        84.89,
+        88.68,
+        86.74,
+        92.39,
+        90.37,
+        91.05,
+        94.82,
+        93.13
+      ],
+      "pixel_auroc_mean": 84.54,
+      "pixel_aupro_seed0": 88.51,
+      "n": 167,
+      "n_anom": 141
+    },
+    "screw": {
+      "image_auroc_mean": 72.67,
+      "image_auroc_seeds": [
+        75.75,
+        76.74,
+        76.31,
+        65.96,
+        72.43,
+        68.62,
+        76.27,
+        71.43,
+        66.43,
+        76.74
+      ],
+      "pixel_auroc_mean": 95.92,
+      "pixel_aupro_seed0": 81.96,
+      "n": 160,
+      "n_anom": 119
+    },
+    "tile": {
+      "image_auroc_mean": 99.65,
+      "image_auroc_seeds": [
+        99.49,
+        99.78,
+        99.6,
+        99.82,
+        100.0,
+        99.93,
+        99.64,
+        99.39,
+        99.28,
+        99.6
+      ],
+      "pixel_auroc_mean": 94.5,
+      "pixel_aupro_seed0": 82.9,
+      "n": 117,
+      "n_anom": 84
+    },
+    "toothbrush": {
+      "image_auroc_mean": 84.58,
+      "image_auroc_seeds": [
+        85.28,
+        85.56,
+        80.83,
+        79.17,
+        92.78,
+        82.22,
+        91.67,
+        82.22,
+        89.72,
+        76.39
+      ],
+      "pixel_auroc_mean": 97.01,
+      "pixel_aupro_seed0": 91.19,
+      "n": 42,
+      "n_anom": 30
+    },
+    "transistor": {
+      "image_auroc_mean": 86.38,
+      "image_auroc_seeds": [
+        77.21,
+        81.17,
+        84.75,
+        83.67,
+        89.71,
+        92.29,
+        84.83,
+        90.04,
+        87.25,
+        92.83
+      ],
+      "pixel_auroc_mean": 85.18,
+      "pixel_aupro_seed0": 56.5,
+      "n": 100,
+      "n_anom": 40
+    },
+    "wood": {
+      "image_auroc_mean": 97.12,
+      "image_auroc_seeds": [
+        97.54,
+        97.28,
+        96.4,
+        97.89,
+        95.26,
+        94.65,
+        100.0,
+        98.42,
+        98.51,
+        95.26
+      ],
+      "pixel_auroc_mean": 89.96,
+      "pixel_aupro_seed0": 81.74,
+      "n": 79,
+      "n_anom": 60
+    },
+    "zipper": {
+      "image_auroc_mean": 98.44,
+      "image_auroc_seeds": [
+        98.9,
+        97.79,
+        96.61,
+        99.05,
+        99.37,
+        97.58,
+        99.4,
+        97.51,
+        98.29,
+        99.87
+      ],
+      "pixel_auroc_mean": 91.77,
+      "pixel_aupro_seed0": 77.18,
+      "n": 151,
+      "n_anom": 119
+    },
+    "candle": {
+      "image_auroc_mean": 87.75,
+      "image_auroc_seeds": [
+        91.0,
+        88.57,
+        86.47,
+        86.52,
+        90.78,
+        89.05,
+        91.5,
+        84.05,
+        81.93,
+        87.66
+      ],
+      "pixel_auroc_mean": 96.4,
+      "pixel_aupro_seed0": 76.52,
+      "n": 200,
+      "n_anom": 100
+    },
+    "capsules": {
+      "image_auroc_mean": 87.24,
+      "image_auroc_seeds": [
+        88.68,
+        88.88,
+        87.82,
+        84.18,
+        88.43,
+        86.88,
+        88.6,
+        86.43,
+        85.08,
+        87.42
+      ],
+      "pixel_auroc_mean": 75.3,
+      "pixel_aupro_seed0": 46.27,
+      "n": 160,
+      "n_anom": 100
+    },
+    "cashew": {
+      "image_auroc_mean": 83.59,
+      "image_auroc_seeds": [
+        84.3,
+        84.78,
+        84.12,
+        84.1,
+        87.42,
+        80.02,
+        84.06,
+        79.22,
+        83.42,
+        84.44
+      ],
+      "pixel_auroc_mean": 96.57,
+      "pixel_aupro_seed0": 86.4,
+      "n": 150,
+      "n_anom": 100
+    },
+    "chewinggum": {
+      "image_auroc_mean": 96.31,
+      "image_auroc_seeds": [
+        95.66,
+        96.46,
+        97.64,
+        96.3,
+        96.6,
+        94.98,
+        96.5,
+        95.82,
+        96.94,
+        96.16
+      ],
+      "pixel_auroc_mean": 98.64,
+      "pixel_aupro_seed0": 81.16,
+      "n": 150,
+      "n_anom": 100
+    },
+    "fryum": {
+      "image_auroc_mean": 86.05,
+      "image_auroc_seeds": [
+        85.2,
+        84.68,
+        84.94,
+        83.18,
+        88.32,
+        86.58,
+        83.88,
+        90.56,
+        86.32,
+        86.88
+      ],
+      "pixel_auroc_mean": 82.34,
+      "pixel_aupro_seed0": 51.58,
+      "n": 150,
+      "n_anom": 100
+    },
+    "macaroni1": {
+      "image_auroc_mean": 83.95,
+      "image_auroc_seeds": [
+        83.79,
+        85.15,
+        85.91,
+        88.19,
+        86.96,
+        80.99,
+        82.75,
+        80.35,
+        81.63,
+        83.75
+      ],
+      "pixel_auroc_mean": 54.19,
+      "pixel_aupro_seed0": 16.01,
+      "n": 200,
+      "n_anom": 100
+    },
+    "macaroni2": {
+      "image_auroc_mean": 60.69,
+      "image_auroc_seeds": [
+        47.78,
+        65.06,
+        53.17,
+        57.01,
+        66.26,
+        64.79,
+        62.64,
+        60.39,
+        65.4,
+        64.41
+      ],
+      "pixel_auroc_mean": 60.21,
+      "pixel_aupro_seed0": 30.22,
+      "n": 200,
+      "n_anom": 100
+    },
+    "pcb1": {
+      "image_auroc_mean": 75.57,
+      "image_auroc_seeds": [
+        72.3,
+        79.83,
+        84.24,
+        77.33,
+        50.75,
+        82.41,
+        77.23,
+        69.67,
+        78.77,
+        83.14
+      ],
+      "pixel_auroc_mean": 93.13,
+      "pixel_aupro_seed0": 62.45,
+      "n": 200,
+      "n_anom": 100
+    },
+    "pcb2": {
+      "image_auroc_mean": 75.5,
+      "image_auroc_seeds": [
+        63.87,
+        77.65,
+        78.96,
+        80.07,
+        81.92,
+        80.85,
+        73.55,
+        79.33,
+        69.98,
+        68.83
+      ],
+      "pixel_auroc_mean": 81.73,
+      "pixel_aupro_seed0": 45.12,
+      "n": 200,
+      "n_anom": 100
+    },
+    "pcb3": {
+      "image_auroc_mean": 80.87,
+      "image_auroc_seeds": [
+        82.87,
+        81.16,
+        79.65,
+        80.21,
+        83.61,
+        81.31,
+        80.08,
+        77.18,
+        79.81,
+        82.86
+      ],
+      "pixel_auroc_mean": 69.47,
+      "pixel_aupro_seed0": 26.42,
+      "n": 201,
+      "n_anom": 100
+    },
+    "pcb4": {
+      "image_auroc_mean": 87.61,
+      "image_auroc_seeds": [
+        91.21,
+        80.61,
+        91.42,
+        83.56,
+        86.11,
+        86.75,
+        85.77,
+        90.58,
+        89.45,
+        90.63
+      ],
+      "pixel_auroc_mean": 80.1,
+      "pixel_aupro_seed0": 45.43,
+      "n": 201,
+      "n_anom": 100
+    },
+    "pipe_fryum": {
+      "image_auroc_mean": 93.21,
+      "image_auroc_seeds": [
+        97.24,
+        98.34,
+        91.0,
+        85.86,
+        96.22,
+        95.58,
+        91.1,
+        91.48,
+        87.22,
+        98.06
+      ],
+      "pixel_auroc_mean": 96.25,
+      "pixel_aupro_seed0": 94.71,
+      "n": 150,
+      "n_anom": 100
+    },
+    "01": {
+      "image_auroc_mean": 98.17,
+      "image_auroc_seeds": [
+        97.38,
+        98.15,
+        97.57,
+        98.35,
+        97.38,
+        97.47,
+        99.22,
+        97.76,
+        99.42,
+        99.03
+      ],
+      "pixel_auroc_mean": 98.24,
+      "pixel_aupro_seed0": 79.68,
+      "n": 70,
+      "n_anom": 49
+    },
+    "02": {
+      "image_auroc_mean": 84.85,
+      "image_auroc_seeds": [
+        82.0,
+        87.62,
+        86.07,
+        91.82,
+        77.32,
+        80.12,
+        82.18,
+        89.18,
+        86.2,
+        86.05
+      ],
+      "pixel_auroc_mean": 94.03,
+      "pixel_aupro_seed0": 47.84,
+      "n": 230,
+      "n_anom": 200
+    },
+    "03": {
+      "image_auroc_mean": 97.33,
+      "image_auroc_seeds": [
+        99.74,
+        98.93,
+        98.91,
+        99.55,
+        98.21,
+        99.35,
+        90.34,
+        99.59,
+        92.59,
+        96.15
+      ],
+      "pixel_auroc_mean": 93.33,
+      "pixel_aupro_seed0": 61.25,
+      "n": 441,
+      "n_anom": 41
+    }
+  },
+  "MAE": {
+    "_axis": "ssl-spatial",
+    "bottle": {
+      "image_auroc_mean": 94.72,
+      "image_auroc_seeds": [
+        97.86,
+        96.43,
+        97.14,
+        92.22,
+        90.79,
+        96.83,
+        95.87,
+        95.71,
+        95.08,
+        89.29
+      ],
+      "pixel_auroc_mean": 93.88,
+      "pixel_aupro_seed0": 73.19,
+      "n": 83,
+      "n_anom": 63
+    },
+    "cable": {
+      "image_auroc_mean": 62.46,
+      "image_auroc_seeds": [
+        67.11,
+        61.32,
+        67.02,
+        65.46,
+        67.37,
+        57.1,
+        56.65,
+        58.86,
+        65.87,
+        57.85
+      ],
+      "pixel_auroc_mean": 89.07,
+      "pixel_aupro_seed0": 52.07,
+      "n": 150,
+      "n_anom": 92
+    },
+    "capsule": {
+      "image_auroc_mean": 61.69,
+      "image_auroc_seeds": [
+        63.86,
+        65.3,
+        61.47,
+        58.48,
+        57.76,
+        62.19,
+        62.82,
+        59.07,
+        65.3,
+        60.67
+      ],
+      "pixel_auroc_mean": 96.07,
+      "pixel_aupro_seed0": 77.23,
+      "n": 132,
+      "n_anom": 109
+    },
+    "carpet": {
+      "image_auroc_mean": 95.78,
+      "image_auroc_seeds": [
+        96.79,
+        95.3,
+        96.03,
+        94.46,
+        96.75,
+        92.3,
+        97.43,
+        96.35,
+        96.11,
+        96.27
+      ],
+      "pixel_auroc_mean": 96.57,
+      "pixel_aupro_seed0": 77.66,
+      "n": 117,
+      "n_anom": 89
+    },
+    "grid": {
+      "image_auroc_mean": 64.46,
+      "image_auroc_seeds": [
+        62.99,
+        65.83,
+        66.33,
+        69.01,
+        64.75,
+        61.32,
+        62.74,
+        63.91,
+        63.49,
+        64.24
+      ],
+      "pixel_auroc_mean": 66.17,
+      "pixel_aupro_seed0": 33.29,
+      "n": 78,
+      "n_anom": 57
+    },
+    "hazelnut": {
+      "image_auroc_mean": 86.39,
+      "image_auroc_seeds": [
+        85.14,
+        87.25,
+        88.57,
+        86.93,
+        90.29,
+        86.93,
+        88.54,
+        83.79,
+        86.68,
+        79.75
+      ],
+      "pixel_auroc_mean": 95.75,
+      "pixel_aupro_seed0": 67.24,
+      "n": 110,
+      "n_anom": 70
+    },
+    "leather": {
+      "image_auroc_mean": 99.65,
+      "image_auroc_seeds": [
+        99.73,
+        99.56,
+        99.59,
+        99.76,
+        99.49,
+        99.66,
+        99.59,
+        99.42,
+        100.0,
+        99.69
+      ],
+      "pixel_auroc_mean": 99.29,
+      "pixel_aupro_seed0": 88.38,
+      "n": 124,
+      "n_anom": 92
+    },
+    "metal_nut": {
+      "image_auroc_mean": 65.77,
+      "image_auroc_seeds": [
+        59.68,
+        70.63,
+        73.8,
+        69.94,
+        68.91,
+        62.71,
+        64.57,
+        55.18,
+        60.22,
+        72.09
+      ],
+      "pixel_auroc_mean": 83.68,
+      "pixel_aupro_seed0": 57.82,
+      "n": 115,
+      "n_anom": 93
+    },
+    "pill": {
+      "image_auroc_mean": 74.6,
+      "image_auroc_seeds": [
+        77.22,
+        76.62,
+        75.97,
+        66.99,
+        77.2,
+        76.35,
+        76.1,
+        70.4,
+        77.69,
+        71.47
+      ],
+      "pixel_auroc_mean": 94.73,
+      "pixel_aupro_seed0": 84.19,
+      "n": 167,
+      "n_anom": 141
+    },
+    "screw": {
+      "image_auroc_mean": 50.32,
+      "image_auroc_seeds": [
+        47.3,
+        62.82,
+        44.7,
+        61.04,
+        44.25,
+        47.98,
+        60.81,
+        46.94,
+        43.12,
+        44.25
+      ],
+      "pixel_auroc_mean": 92.46,
+      "pixel_aupro_seed0": 72.87,
+      "n": 160,
+      "n_anom": 119
+    },
+    "tile": {
+      "image_auroc_mean": 98.1,
+      "image_auroc_seeds": [
+        99.64,
+        99.89,
+        99.53,
+        91.27,
+        99.93,
+        99.42,
+        99.82,
+        99.64,
+        99.71,
+        92.14
+      ],
+      "pixel_auroc_mean": 93.37,
+      "pixel_aupro_seed0": 79.54,
+      "n": 117,
+      "n_anom": 84
+    },
+    "toothbrush": {
+      "image_auroc_mean": 62.36,
+      "image_auroc_seeds": [
+        68.61,
+        61.67,
+        67.5,
+        63.89,
+        56.94,
+        64.44,
+        52.78,
+        64.44,
+        58.33,
+        65.0
+      ],
+      "pixel_auroc_mean": 91.67,
+      "pixel_aupro_seed0": 65.04,
+      "n": 42,
+      "n_anom": 30
+    },
+    "transistor": {
+      "image_auroc_mean": 69.27,
+      "image_auroc_seeds": [
+        76.71,
+        67.0,
+        64.83,
+        65.5,
+        82.92,
+        58.04,
+        65.67,
+        75.0,
+        67.25,
+        69.75
+      ],
+      "pixel_auroc_mean": 79.48,
+      "pixel_aupro_seed0": 52.53,
+      "n": 100,
+      "n_anom": 40
+    },
+    "wood": {
+      "image_auroc_mean": 98.63,
+      "image_auroc_seeds": [
+        99.56,
+        99.47,
+        99.47,
+        99.04,
+        98.77,
+        99.12,
+        98.25,
+        96.75,
+        97.37,
+        98.51
+      ],
+      "pixel_auroc_mean": 90.92,
+      "pixel_aupro_seed0": 71.96,
+      "n": 79,
+      "n_anom": 60
+    },
+    "zipper": {
+      "image_auroc_mean": 72.51,
+      "image_auroc_seeds": [
+        69.43,
+        71.56,
+        66.68,
+        57.85,
+        67.75,
+        70.8,
+        68.09,
+        85.01,
+        90.84,
+        77.05
+      ],
+      "pixel_auroc_mean": 87.84,
+      "pixel_aupro_seed0": 61.89,
+      "n": 151,
+      "n_anom": 119
+    },
+    "candle": {
+      "image_auroc_mean": 73.18,
+      "image_auroc_seeds": [
+        80.23,
+        57.05,
+        63.81,
+        76.87,
+        79.43,
+        74.37,
+        73.53,
+        79.69,
+        71.19,
+        75.59
+      ],
+      "pixel_auroc_mean": 68.3,
+      "pixel_aupro_seed0": 19.32,
+      "n": 200,
+      "n_anom": 100
+    },
+    "capsules": {
+      "image_auroc_mean": 52.61,
+      "image_auroc_seeds": [
+        52.75,
+        49.77,
+        56.62,
+        52.75,
+        56.37,
+        44.18,
+        49.38,
+        56.85,
+        53.08,
+        54.32
+      ],
+      "pixel_auroc_mean": 63.14,
+      "pixel_aupro_seed0": 24.22,
+      "n": 160,
+      "n_anom": 100
+    },
+    "cashew": {
+      "image_auroc_mean": 59.55,
+      "image_auroc_seeds": [
+        56.98,
+        56.62,
+        65.0,
+        57.12,
+        66.3,
+        60.56,
+        61.28,
+        50.4,
+        56.38,
+        64.84
+      ],
+      "pixel_auroc_mean": 22.71,
+      "pixel_aupro_seed0": 0.99,
+      "n": 150,
+      "n_anom": 100
+    },
+    "chewinggum": {
+      "image_auroc_mean": 54.92,
+      "image_auroc_seeds": [
+        51.66,
+        54.92,
+        56.44,
+        55.7,
+        51.76,
+        53.68,
+        61.26,
+        53.62,
+        57.9,
+        52.22
+      ],
+      "pixel_auroc_mean": 56.12,
+      "pixel_aupro_seed0": 8.81,
+      "n": 150,
+      "n_anom": 100
+    },
+    "fryum": {
+      "image_auroc_mean": 63.64,
+      "image_auroc_seeds": [
+        68.04,
+        65.0,
+        68.82,
+        68.26,
+        59.86,
+        62.96,
+        65.94,
+        57.18,
+        62.5,
+        57.84
+      ],
+      "pixel_auroc_mean": 88.48,
+      "pixel_aupro_seed0": 49.61,
+      "n": 150,
+      "n_anom": 100
+    },
+    "macaroni1": {
+      "image_auroc_mean": 54.85,
+      "image_auroc_seeds": [
+        52.58,
+        54.76,
+        53.76,
+        54.3,
+        55.92,
+        54.78,
+        53.14,
+        56.77,
+        57.98,
+        54.48
+      ],
+      "pixel_auroc_mean": 62.86,
+      "pixel_aupro_seed0": 15.03,
+      "n": 200,
+      "n_anom": 100
+    },
+    "macaroni2": {
+      "image_auroc_mean": 50.73,
+      "image_auroc_seeds": [
+        53.51,
+        54.3,
+        51.95,
+        53.1,
+        39.58,
+        42.46,
+        52.65,
+        55.45,
+        52.75,
+        51.55
+      ],
+      "pixel_auroc_mean": 62.89,
+      "pixel_aupro_seed0": 16.84,
+      "n": 200,
+      "n_anom": 100
+    },
+    "pcb1": {
+      "image_auroc_mean": 75.52,
+      "image_auroc_seeds": [
+        80.4,
+        76.48,
+        81.82,
+        84.2,
+        36.95,
+        80.37,
+        78.36,
+        80.08,
+        75.83,
+        80.73
+      ],
+      "pixel_auroc_mean": 86.06,
+      "pixel_aupro_seed0": 28.3,
+      "n": 200,
+      "n_anom": 100
+    },
+    "pcb2": {
+      "image_auroc_mean": 60.66,
+      "image_auroc_seeds": [
+        64.59,
+        63.18,
+        57.44,
+        56.09,
+        57.67,
+        63.3,
+        55.76,
+        63.35,
+        58.56,
+        66.62
+      ],
+      "pixel_auroc_mean": 82.45,
+      "pixel_aupro_seed0": 41.03,
+      "n": 200,
+      "n_anom": 100
+    },
+    "pcb3": {
+      "image_auroc_mean": 66.5,
+      "image_auroc_seeds": [
+        65.49,
+        65.91,
+        71.23,
+        69.94,
+        66.11,
+        64.21,
+        64.95,
+        65.1,
+        63.46,
+        68.65
+      ],
+      "pixel_auroc_mean": 86.91,
+      "pixel_aupro_seed0": 47.27,
+      "n": 201,
+      "n_anom": 100
+    },
+    "pcb4": {
+      "image_auroc_mean": 65.02,
+      "image_auroc_seeds": [
+        64.5,
+        74.13,
+        76.51,
+        66.1,
+        75.15,
+        58.16,
+        59.95,
+        59.71,
+        52.41,
+        63.6
+      ],
+      "pixel_auroc_mean": 85.2,
+      "pixel_aupro_seed0": 38.71,
+      "n": 201,
+      "n_anom": 100
+    },
+    "pipe_fryum": {
+      "image_auroc_mean": 60.75,
+      "image_auroc_seeds": [
+        60.42,
+        59.16,
+        65.44,
+        59.2,
+        66.62,
+        57.38,
+        60.22,
+        57.36,
+        56.44,
+        65.26
+      ],
+      "pixel_auroc_mean": 91.61,
+      "pixel_aupro_seed0": 58.31,
+      "n": 150,
+      "n_anom": 100
+    },
+    "01": {
+      "image_auroc_mean": 83.15,
+      "image_auroc_seeds": [
+        91.64,
+        89.5,
+        79.11,
+        91.06,
+        87.46,
+        91.74,
+        81.63,
+        38.0,
+        90.09,
+        91.25
+      ],
+      "pixel_auroc_mean": 83.1,
+      "pixel_aupro_seed0": 27.04,
+      "n": 70,
+      "n_anom": 49
+    },
+    "02": {
+      "image_auroc_mean": 74.48,
+      "image_auroc_seeds": [
+        67.62,
+        68.05,
+        73.13,
+        75.35,
+        72.48,
+        75.52,
+        75.53,
+        76.05,
+        82.42,
+        78.68
+      ],
+      "pixel_auroc_mean": 93.71,
+      "pixel_aupro_seed0": 41.18,
+      "n": 230,
+      "n_anom": 200
+    },
+    "03": {
+      "image_auroc_mean": 46.38,
+      "image_auroc_seeds": [
+        42.07,
+        41.13,
+        42.6,
+        43.9,
+        61.03,
+        46.16,
+        38.82,
+        50.03,
+        46.57,
+        51.46
+      ],
+      "pixel_auroc_mean": 85.84,
+      "pixel_aupro_seed0": 46.66,
+      "n": 441,
+      "n_anom": 41
+    }
+  },
+  "WRN50": {
+    "_axis": "supervised",
+    "bottle": {
+      "image_auroc_mean": 96.72,
+      "image_auroc_seeds": [
+        97.7,
+        98.25,
+        96.67,
+        95.79,
+        96.11,
+        96.51,
+        96.43,
+        96.9,
+        96.03,
+        96.83
+      ],
+      "pixel_auroc_mean": 92.23,
+      "pixel_aupro_seed0": 46.73,
+      "n": 83,
+      "n_anom": 63
+    },
+    "cable": {
+      "image_auroc_mean": 69.44,
+      "image_auroc_seeds": [
+        68.4,
+        62.28,
+        69.0,
+        74.38,
+        73.91,
+        71.91,
+        70.26,
+        56.56,
+        72.77,
+        74.96
+      ],
+      "pixel_auroc_mean": 66.95,
+      "pixel_aupro_seed0": 17.83,
+      "n": 150,
+      "n_anom": 92
+    },
+    "capsule": {
+      "image_auroc_mean": 67.47,
+      "image_auroc_seeds": [
+        68.97,
+        66.53,
+        66.61,
+        68.97,
+        67.25,
+        73.04,
+        67.97,
+        55.68,
+        66.29,
+        73.35
+      ],
+      "pixel_auroc_mean": 72.49,
+      "pixel_aupro_seed0": 17.26,
+      "n": 132,
+      "n_anom": 109
+    },
+    "carpet": {
+      "image_auroc_mean": 97.26,
+      "image_auroc_seeds": [
+        95.75,
+        98.27,
+        97.63,
+        96.55,
+        96.67,
+        98.11,
+        97.19,
+        97.19,
+        97.63,
+        97.59
+      ],
+      "pixel_auroc_mean": 94.01,
+      "pixel_aupro_seed0": 66.71,
+      "n": 117,
+      "n_anom": 89
+    },
+    "grid": {
+      "image_auroc_mean": 50.08,
+      "image_auroc_seeds": [
+        65.5,
+        42.44,
+        42.02,
+        64.49,
+        44.03,
+        50.29,
+        48.62,
+        45.28,
+        54.97,
+        43.11
+      ],
+      "pixel_auroc_mean": 61.04,
+      "pixel_aupro_seed0": 17.52,
+      "n": 78,
+      "n_anom": 57
+    },
+    "hazelnut": {
+      "image_auroc_mean": 76.11,
+      "image_auroc_seeds": [
+        76.68,
+        79.11,
+        67.96,
+        69.54,
+        83.75,
+        69.54,
+        82.0,
+        78.54,
+        74.57,
+        79.39
+      ],
+      "pixel_auroc_mean": 85.23,
+      "pixel_aupro_seed0": 40.48,
+      "n": 110,
+      "n_anom": 70
+    },
+    "leather": {
+      "image_auroc_mean": 99.64,
+      "image_auroc_seeds": [
+        99.69,
+        99.49,
+        99.93,
+        99.83,
+        99.76,
+        99.66,
+        99.49,
+        99.9,
+        98.81,
+        99.8
+      ],
+      "pixel_auroc_mean": 93.6,
+      "pixel_aupro_seed0": 65.43,
+      "n": 124,
+      "n_anom": 92
+    },
+    "metal_nut": {
+      "image_auroc_mean": 63.85,
+      "image_auroc_seeds": [
+        56.06,
+        70.67,
+        69.5,
+        70.53,
+        67.5,
+        61.0,
+        55.82,
+        54.84,
+        68.28,
+        64.32
+      ],
+      "pixel_auroc_mean": 73.81,
+      "pixel_aupro_seed0": 14.45,
+      "n": 115,
+      "n_anom": 93
+    },
+    "pill": {
+      "image_auroc_mean": 66.35,
+      "image_auroc_seeds": [
+        70.79,
+        58.27,
+        68.09,
+        70.62,
+        64.02,
+        68.6,
+        67.43,
+        64.95,
+        67.29,
+        63.42
+      ],
+      "pixel_auroc_mean": 91.42,
+      "pixel_aupro_seed0": 27.55,
+      "n": 167,
+      "n_anom": 141
+    },
+    "screw": {
+      "image_auroc_mean": 61.34,
+      "image_auroc_seeds": [
+        60.36,
+        63.87,
+        62.92,
+        69.05,
+        48.21,
+        56.9,
+        65.14,
+        62.39,
+        65.89,
+        58.66
+      ],
+      "pixel_auroc_mean": 32.06,
+      "pixel_aupro_seed0": 7.36,
+      "n": 160,
+      "n_anom": 119
+    },
+    "tile": {
+      "image_auroc_mean": 97.69,
+      "image_auroc_seeds": [
+        97.62,
+        97.69,
+        97.22,
+        98.27,
+        98.81,
+        98.41,
+        97.76,
+        97.01,
+        96.97,
+        97.15
+      ],
+      "pixel_auroc_mean": 87.65,
+      "pixel_aupro_seed0": 52.2,
+      "n": 117,
+      "n_anom": 84
+    },
+    "toothbrush": {
+      "image_auroc_mean": 83.69,
+      "image_auroc_seeds": [
+        83.89,
+        92.5,
+        89.72,
+        81.39,
+        73.33,
+        86.39,
+        76.11,
+        86.39,
+        76.67,
+        90.56
+      ],
+      "pixel_auroc_mean": 89.87,
+      "pixel_aupro_seed0": 29.67,
+      "n": 42,
+      "n_anom": 30
+    },
+    "transistor": {
+      "image_auroc_mean": 78.01,
+      "image_auroc_seeds": [
+        85.42,
+        66.75,
+        86.71,
+        73.67,
+        85.21,
+        87.0,
+        63.0,
+        76.88,
+        80.04,
+        75.42
+      ],
+      "pixel_auroc_mean": 91.35,
+      "pixel_aupro_seed0": 43.28,
+      "n": 100,
+      "n_anom": 40
+    },
+    "wood": {
+      "image_auroc_mean": 93.82,
+      "image_auroc_seeds": [
+        90.53,
+        92.46,
+        93.16,
+        97.28,
+        97.89,
+        92.54,
+        90.79,
+        96.67,
+        96.58,
+        90.26
+      ],
+      "pixel_auroc_mean": 78.57,
+      "pixel_aupro_seed0": 32.21,
+      "n": 79,
+      "n_anom": 60
+    },
+    "zipper": {
+      "image_auroc_mean": 88.15,
+      "image_auroc_seeds": [
+        76.26,
+        88.08,
+        92.33,
+        88.18,
+        86.76,
+        90.65,
+        89.86,
+        91.05,
+        89.47,
+        88.81
+      ],
+      "pixel_auroc_mean": 80.41,
+      "pixel_aupro_seed0": 45.23,
+      "n": 151,
+      "n_anom": 119
+    },
+    "candle": {
+      "image_auroc_mean": 77.16,
+      "image_auroc_seeds": [
+        82.51,
+        74.71,
+        72.79,
+        64.08,
+        79.68,
+        85.35,
+        75.09,
+        77.02,
+        78.69,
+        81.67
+      ],
+      "pixel_auroc_mean": 79.07,
+      "pixel_aupro_seed0": 46.52,
+      "n": 200,
+      "n_anom": 100
+    },
+    "capsules": {
+      "image_auroc_mean": 48.88,
+      "image_auroc_seeds": [
+        52.4,
+        51.65,
+        55.23,
+        51.73,
+        43.42,
+        49.5,
+        44.47,
+        39.85,
+        53.52,
+        47.03
+      ],
+      "pixel_auroc_mean": 59.57,
+      "pixel_aupro_seed0": 19.24,
+      "n": 160,
+      "n_anom": 100
+    },
+    "cashew": {
+      "image_auroc_mean": 76.09,
+      "image_auroc_seeds": [
+        75.6,
+        67.14,
+        77.36,
+        77.44,
+        83.84,
+        76.76,
+        72.84,
+        68.24,
+        83.68,
+        78.02
+      ],
+      "pixel_auroc_mean": 88.55,
+      "pixel_aupro_seed0": 12.88,
+      "n": 150,
+      "n_anom": 100
+    },
+    "chewinggum": {
+      "image_auroc_mean": 63.65,
+      "image_auroc_seeds": [
+        64.28,
+        58.9,
+        59.9,
+        67.78,
+        67.0,
+        67.4,
+        65.82,
+        62.18,
+        68.28,
+        54.94
+      ],
+      "pixel_auroc_mean": 71.04,
+      "pixel_aupro_seed0": 24.56,
+      "n": 150,
+      "n_anom": 100
+    },
+    "fryum": {
+      "image_auroc_mean": 71.19,
+      "image_auroc_seeds": [
+        88.54,
+        70.52,
+        78.6,
+        61.84,
+        69.68,
+        72.28,
+        67.16,
+        59.26,
+        71.62,
+        72.36
+      ],
+      "pixel_auroc_mean": 51.95,
+      "pixel_aupro_seed0": 4.93,
+      "n": 150,
+      "n_anom": 100
+    },
+    "macaroni1": {
+      "image_auroc_mean": 58.91,
+      "image_auroc_seeds": [
+        58.39,
+        54.27,
+        63.49,
+        61.32,
+        62.21,
+        59.1,
+        59.29,
+        59.57,
+        51.34,
+        60.14
+      ],
+      "pixel_auroc_mean": 57.9,
+      "pixel_aupro_seed0": 24.65,
+      "n": 200,
+      "n_anom": 100
+    },
+    "macaroni2": {
+      "image_auroc_mean": 51.71,
+      "image_auroc_seeds": [
+        48.51,
+        52.56,
+        59.31,
+        58.97,
+        55.17,
+        52.83,
+        49.93,
+        44.29,
+        46.39,
+        49.16
+      ],
+      "pixel_auroc_mean": 47.94,
+      "pixel_aupro_seed0": 25.3,
+      "n": 200,
+      "n_anom": 100
+    },
+    "pcb1": {
+      "image_auroc_mean": 80.48,
+      "image_auroc_seeds": [
+        84.97,
+        87.22,
+        82.41,
+        85.06,
+        32.76,
+        85.52,
+        88.68,
+        88.29,
+        87.64,
+        82.22
+      ],
+      "pixel_auroc_mean": 88.53,
+      "pixel_aupro_seed0": 6.09,
+      "n": 200,
+      "n_anom": 100
+    },
+    "pcb2": {
+      "image_auroc_mean": 60.3,
+      "image_auroc_seeds": [
+        64.11,
+        52.29,
+        46.36,
+        63.65,
+        60.33,
+        61.38,
+        69.25,
+        66.4,
+        57.15,
+        62.05
+      ],
+      "pixel_auroc_mean": 57.99,
+      "pixel_aupro_seed0": 7.88,
+      "n": 200,
+      "n_anom": 100
+    },
+    "pcb3": {
+      "image_auroc_mean": 65.13,
+      "image_auroc_seeds": [
+        56.8,
+        52.83,
+        68.86,
+        78.24,
+        72.45,
+        54.12,
+        68.16,
+        72.56,
+        54.77,
+        72.52
+      ],
+      "pixel_auroc_mean": 55.92,
+      "pixel_aupro_seed0": 1.72,
+      "n": 201,
+      "n_anom": 100
+    },
+    "pcb4": {
+      "image_auroc_mean": 67.15,
+      "image_auroc_seeds": [
+        71.54,
+        54.63,
+        66.79,
+        64.56,
+        70.59,
+        64.66,
+        77.48,
+        68.56,
+        65.88,
+        66.77
+      ],
+      "pixel_auroc_mean": 50.93,
+      "pixel_aupro_seed0": 1.01,
+      "n": 201,
+      "n_anom": 100
+    },
+    "pipe_fryum": {
+      "image_auroc_mean": 58.74,
+      "image_auroc_seeds": [
+        54.24,
+        57.16,
+        66.0,
+        57.88,
+        60.78,
+        65.46,
+        58.16,
+        56.5,
+        57.5,
+        53.74
+      ],
+      "pixel_auroc_mean": 85.95,
+      "pixel_aupro_seed0": 14.43,
+      "n": 150,
+      "n_anom": 100
+    },
+    "01": {
+      "image_auroc_mean": 87.54,
+      "image_auroc_seeds": [
+        92.23,
+        88.24,
+        87.17,
+        86.88,
+        86.3,
+        90.38,
+        82.12,
+        77.75,
+        90.38,
+        93.97
+      ],
+      "pixel_auroc_mean": 83.96,
+      "pixel_aupro_seed0": 28.74,
+      "n": 70,
+      "n_anom": 49
+    },
+    "02": {
+      "image_auroc_mean": 78.88,
+      "image_auroc_seeds": [
+        64.72,
+        69.73,
+        82.83,
+        79.02,
+        84.08,
+        83.45,
+        82.68,
+        81.58,
+        79.87,
+        80.83
+      ],
+      "pixel_auroc_mean": 92.73,
+      "pixel_aupro_seed0": 36.96,
+      "n": 230,
+      "n_anom": 200
+    },
+    "03": {
+      "image_auroc_mean": 88.44,
+      "image_auroc_seeds": [
+        95.55,
+        84.58,
+        88.84,
+        84.88,
+        96.32,
+        91.53,
+        90.18,
+        88.82,
+        82.73,
+        80.91
+      ],
+      "pixel_auroc_mean": 94.93,
+      "pixel_aupro_seed0": 40.05,
+      "n": 441,
+      "n_anom": 41
+    }
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "global": {
+    "n": 30,
+    "mean_d_clip": 1.8756,
+    "mean_d_dino": 2.4133,
+    "ratio_dino_clip": 1.2867,
+    "derived_alpha": 0.5627,
+    "empirical_alpha": 0.65,
+    "pearson_r": 0.5503,
+    "spearman_rho": 0.6132,
+    "mae": 0.1439,
+    "rmse": 0.1817
+  },
+  "per_category": [
+    {
+      "dataset": "MVTec",
+      "category": "bottle",
+      "d_clip": 1.7324,
+      "d_dino": 4.1514,
+      "ratio": 2.3963,
+      "alpha_pred": 0.7056,
+      "alpha_oracle": 0.9
+    },
+    {
+      "dataset": "MVTec",
+      "category": "cable",
+      "d_clip": 0.5197,
+      "d_dino": 1.8735,
+      "ratio": 3.6052,
+      "alpha_pred": 0.7829,
+      "alpha_oracle": 0.55
+    },
+    {
+      "dataset": "MVTec",
+      "category": "capsule",
+      "d_clip": 1.6181,
+      "d_dino": 1.6711,
+      "ratio": 1.0327,
+      "alpha_pred": 0.508,
+      "alpha_oracle": 0.4
+    },
+    {
+      "dataset": "MVTec",
+      "category": "carpet",
+      "d_clip": 3.8261,
+      "d_dino": 4.2435,
+      "ratio": 1.1091,
+      "alpha_pred": 0.5259,
+      "alpha_oracle": 0.05
+    },
+    {
+      "dataset": "MVTec",
+      "category": "grid",
+      "d_clip": 2.9729,
+      "d_dino": 3.4688,
+      "ratio": 1.1668,
+      "alpha_pred": 0.5385,
+      "alpha_oracle": 0.35
+    },
+    {
+      "dataset": "MVTec",
+      "category": "hazelnut",
+      "d_clip": 2.0315,
+      "d_dino": 3.2157,
+      "ratio": 1.5829,
+      "alpha_pred": 0.6128,
+      "alpha_oracle": 0.35
+    },
+    {
+      "dataset": "MVTec",
+      "category": "leather",
+      "d_clip": 4.5426,
+      "d_dino": 3.6321,
+      "ratio": 0.7996,
+      "alpha_pred": 0.4443,
+      "alpha_oracle": 0.5
+    },
+    {
+      "dataset": "MVTec",
+      "category": "metal_nut",
+      "d_clip": 1.81,
+      "d_dino": 4.3947,
+      "ratio": 2.428,
+      "alpha_pred": 0.7083,
+      "alpha_oracle": 0.9
+    },
+    {
+      "dataset": "MVTec",
+      "category": "pill",
+      "d_clip": 1.1177,
+      "d_dino": 2.1016,
+      "ratio": 1.8804,
+      "alpha_pred": 0.6528,
+      "alpha_oracle": 0.7
+    },
+    {
+      "dataset": "MVTec",
+      "category": "screw",
+      "d_clip": 1.2197,
+      "d_dino": 1.839,
+      "ratio": 1.5077,
+      "alpha_pred": 0.6012,
+      "alpha_oracle": 0.75
+    },
+    {
+      "dataset": "MVTec",
+      "category": "tile",
+      "d_clip": 5.2144,
+      "d_dino": 4.1645,
+      "ratio": 0.7986,
+      "alpha_pred": 0.444,
+      "alpha_oracle": 0.0
+    },
+    {
+      "dataset": "MVTec",
+      "category": "toothbrush",
+      "d_clip": 1.1011,
+      "d_dino": 1.9844,
+      "ratio": 1.8022,
+      "alpha_pred": 0.6431,
+      "alpha_oracle": 0.65
+    },
+    {
+      "dataset": "MVTec",
+      "category": "transistor",
+      "d_clip": 2.1354,
+      "d_dino": 1.4706,
+      "ratio": 0.6887,
+      "alpha_pred": 0.4078,
+      "alpha_oracle": 0.55
+    },
+    {
+      "dataset": "MVTec",
+      "category": "wood",
+      "d_clip": 1.7479,
+      "d_dino": 2.3021,
+      "ratio": 1.317,
+      "alpha_pred": 0.5684,
+      "alpha_oracle": 0.7
+    },
+    {
+      "dataset": "MVTec",
+      "category": "zipper",
+      "d_clip": 2.6394,
+      "d_dino": 3.2259,
+      "ratio": 1.2222,
+      "alpha_pred": 0.55,
+      "alpha_oracle": 0.65
+    },
+    {
+      "dataset": "VisA",
+      "category": "candle",
+      "d_clip": 1.2507,
+      "d_dino": 2.1,
+      "ratio": 1.6791,
+      "alpha_pred": 0.6267,
+      "alpha_oracle": 0.6
+    },
+    {
+      "dataset": "VisA",
+      "category": "capsules",
+      "d_clip": 1.2825,
+      "d_dino": 1.9463,
+      "ratio": 1.5176,
+      "alpha_pred": 0.6028,
+      "alpha_oracle": 0.85
+    },
+    {
+      "dataset": "VisA",
+      "category": "cashew",
+      "d_clip": 0.9706,
+      "d_dino": 1.0243,
+      "ratio": 1.0553,
+      "alpha_pred": 0.5134,
+      "alpha_oracle": 0.55
+    },
+    {
+      "dataset": "VisA",
+      "category": "chewinggum",
+      "d_clip": 2.9543,
+      "d_dino": 3.4553,
+      "ratio": 1.1696,
+      "alpha_pred": 0.5391,
+      "alpha_oracle": 0.75
+    },
+    {
+      "dataset": "VisA",
+      "category": "fryum",
+      "d_clip": 1.887,
+      "d_dino": 1.9608,
+      "ratio": 1.0391,
+      "alpha_pred": 0.5096,
+      "alpha_oracle": 0.65
+    },
+    {
+      "dataset": "VisA",
+      "category": "macaroni1",
+      "d_clip": 1.4412,
+      "d_dino": 1.4715,
+      "ratio": 1.021,
+      "alpha_pred": 0.5052,
+      "alpha_oracle": 0.5
+    },
+    {
+      "dataset": "VisA",
+      "category": "macaroni2",
+      "d_clip": 0.6717,
+      "d_dino": 1.0233,
+      "ratio": 1.5235,
+      "alpha_pred": 0.6037,
+      "alpha_oracle": 0.65
+    },
+    {
+      "dataset": "VisA",
+      "category": "pcb1",
+      "d_clip": 1.4155,
+      "d_dino": 1.6284,
+      "ratio": 1.1504,
+      "alpha_pred": 0.535,
+      "alpha_oracle": 0.65
+    },
+    {
+      "dataset": "VisA",
+      "category": "pcb2",
+      "d_clip": 0.4828,
+      "d_dino": 1.9235,
+      "ratio": 3.9838,
+      "alpha_pred": 0.7993,
+      "alpha_oracle": 0.85
+    },
+    {
+      "dataset": "VisA",
+      "category": "pcb3",
+      "d_clip": 0.364,
+      "d_dino": 1.5846,
+      "ratio": 4.3537,
+      "alpha_pred": 0.8132,
+      "alpha_oracle": 0.9
+    },
+    {
+      "dataset": "VisA",
+      "category": "pcb4",
+      "d_clip": 2.2034,
+      "d_dino": 2.015,
+      "ratio": 0.9145,
+      "alpha_pred": 0.4777,
+      "alpha_oracle": 0.65
+    },
+    {
+      "dataset": "VisA",
+      "category": "pipe_fryum",
+      "d_clip": 1.6618,
+      "d_dino": 1.8639,
+      "ratio": 1.1216,
+      "alpha_pred": 0.5287,
+      "alpha_oracle": 0.45
+    },
+    {
+      "dataset": "BTAD",
+      "category": "01",
+      "d_clip": 1.6339,
+      "d_dino": 2.6163,
+      "ratio": 1.6013,
+      "alpha_pred": 0.6156,
+      "alpha_oracle": 0.7
+    },
+    {
+      "dataset": "BTAD",
+      "category": "02",
+      "d_clip": 1.5542,
+      "d_dino": 1.4251,
+      "ratio": 0.917,
+      "alpha_pred": 0.4783,
+      "alpha_oracle": 0.55
+    },
+    {
+      "dataset": "BTAD",
+      "category": "03",
+      "d_clip": 2.2641,
+      "d_dino": 2.6215,
+      "ratio": 1.1579,
+      "alpha_pred": 0.5366,
+      "alpha_oracle": 0.75
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "experiment_19_cross_dataset_consistency": {
+    "part_a": {
+      "MVTec AD": {
+        "N": 15,
+        "mean_gain": 1.398666666666667,
+        "best_single_r": -0.8358774650247542,
+        "best_single_p": 0.0001038175409704503,
+        "alpha_ext_r": -0.5530555824623368,
+        "alpha_ext_p": 0.032482101320808726
+      },
+      "VisA": {
+        "N": 12,
+        "mean_gain": 2.864166666666668,
+        "best_single_r": -0.49650349650349657,
+        "best_single_p": 0.10060263183225483,
+        "alpha_ext_r": -0.8272535154919762,
+        "alpha_ext_p": 0.000899461569281488
+      },
+      "BTAD": {
+        "N": 3,
+        "mean_gain": 2.066666666666672,
+        "best_single_r": null,
+        "best_single_p": null,
+        "alpha_ext_r": null,
+        "alpha_ext_p": null
+      }
+    },
+    "part_b": {
+      "MVTec AD": {
+        "oracle_mean": 97.58
+      },
+      "VisA": {
+        "oracle_mean": 93.07
+      },
+      "BTAD": {
+        "oracle_mean": 95.44
+      }
+    },
+    "part_c": {
+      "MVTec AD": [
+        "Fixed (a=0.65)",
+        "AdaFuse-PF",
+        "DINO-heavy (a=0.7)",
+        "Equal (a=0.5)",
+        "DINOv2 only",
+        "Max fusion",
+        "CLIP only"
+      ],
+      "VisA": [
+        "AdaFuse-PF",
+        "DINO-heavy (a=0.7)",
+        "Fixed (a=0.65)",
+        "Equal (a=0.5)",
+        "DINOv2 only",
+        "Max fusion",
+        "CLIP only"
+      ],
+      "BTAD": [
+        "DINO-heavy (a=0.7)",
+        "Fixed (a=0.65)",
+        "AdaFuse-PF",
+        "Equal (a=0.5)",
+        "DINOv2 only",
+        "Max fusion",
+        "CLIP only"
+      ]
+    },
+    "part_d": {},
+    "part_e": {
+      "mean_alphas": {
+        "mvtec": 0.5333333333333333,
+        "visa": 0.6708333333333334,
+        "btad": 0.6666666666666666
+      }
+    }
+  }
+}

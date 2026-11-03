@@ -1,0 +1,39 @@
+{
+  "anomalydino": {
+    "mean_ms": 97.28,
+    "std_ms": 12.85,
+    "throughput_img_s": 10.3,
+    "membank_setup_ms": 622.22,
+    "n_samples": 4628
+  },
+  "fusion_overhead": {
+    "score_fusion_per_image_us": 0.01,
+    "pixel_fusion_per_image_ms": 0.913,
+    "adafuse_signal_per_category_ms": 0.974
+  },
+  "anomalyclip": {
+    "mean_ms": 73.52,
+    "std_ms": 0.46,
+    "throughput_img_s": 13.6,
+    "n_samples": 147,
+    "per_category": {
+      "bottle": {
+        "mean_ms": 73.47,
+        "text_encoding_ms": 88.48
+      },
+      "cable": {
+        "mean_ms": 73.61,
+        "text_encoding_ms": 88.48
+      },
+      "capsule": {
+        "mean_ms": 73.49,
+        "text_encoding_ms": 88.48
+      }
+    }
+  },
+  "total": {
+    "sequential_ms": 170.8,
+    "parallel_ms": 97.28,
+    "fusion_overhead_ms": 0.913
+  }
+}

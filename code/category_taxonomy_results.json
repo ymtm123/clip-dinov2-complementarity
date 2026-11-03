@@ -1,0 +1,288 @@
+{
+  "taxonomy": {
+    "bottle": {
+      "dataset": "MVTec",
+      "type": "object",
+      "structure": "coarse",
+      "defect_scale": "large",
+      "semantic": "shape"
+    },
+    "cable": {
+      "dataset": "MVTec",
+      "type": "object",
+      "structure": "fine",
+      "defect_scale": "small",
+      "semantic": "shape"
+    },
+    "capsule": {
+      "dataset": "MVTec",
+      "type": "object",
+      "structure": "fine",
+      "defect_scale": "small",
+      "semantic": "mixed"
+    },
+    "carpet": {
+      "dataset": "MVTec",
+      "type": "texture",
+      "structure": "fine",
+      "defect_scale": "small",
+      "semantic": "color"
+    },
+    "grid": {
+      "dataset": "MVTec",
+      "type": "texture",
+      "structure": "fine",
+      "defect_scale": "small",
+      "semantic": "shape"
+    },
+    "hazelnut": {
+      "dataset": "MVTec",
+      "type": "object",
+      "structure": "fine",
+      "defect_scale": "small",
+      "semantic": "shape"
+    },
+    "leather": {
+      "dataset": "MVTec",
+      "type": "texture",
+      "structure": "coarse",
+      "defect_scale": "large",
+      "semantic": "color"
+    },
+    "metal_nut": {
+      "dataset": "MVTec",
+      "type": "object",
+      "structure": "coarse",
+      "defect_scale": "large",
+      "semantic": "shape"
+    },
+    "pill": {
+      "dataset": "MVTec",
+      "type": "object",
+      "structure": "fine",
+      "defect_scale": "small",
+      "semantic": "mixed"
+    },
+    "screw": {
+      "dataset": "MVTec",
+      "type": "object",
+      "structure": "fine",
+      "defect_scale": "small",
+      "semantic": "shape"
+    },
+    "tile": {
+      "dataset": "MVTec",
+      "type": "texture",
+      "structure": "coarse",
+      "defect_scale": "large",
+      "semantic": "color"
+    },
+    "toothbrush": {
+      "dataset": "MVTec",
+      "type": "object",
+      "structure": "fine",
+      "defect_scale": "small",
+      "semantic": "shape"
+    },
+    "transistor": {
+      "dataset": "MVTec",
+      "type": "object",
+      "structure": "fine",
+      "defect_scale": "small",
+      "semantic": "mixed"
+    },
+    "wood": {
+      "dataset": "MVTec",
+      "type": "texture",
+      "structure": "coarse",
+      "defect_scale": "large",
+      "semantic": "color"
+    },
+    "zipper": {
+      "dataset": "MVTec",
+      "type": "object",
+      "structure": "fine",
+      "defect_scale": "small",
+      "semantic": "shape"
+    },
+    "candle": {
+      "dataset": "VisA",
+      "type": "object",
+      "structure": "coarse",
+      "defect_scale": "large",
+      "semantic": "mixed"
+    },
+    "capsules": {
+      "dataset": "VisA",
+      "type": "object",
+      "structure": "fine",
+      "defect_scale": "small",
+      "semantic": "color"
+    },
+    "cashew": {
+      "dataset": "VisA",
+      "type": "object",
+      "structure": "fine",
+      "defect_scale": "small",
+      "semantic": "shape"
+    },
+    "chewinggum": {
+      "dataset": "VisA",
+      "type": "object",
+      "structure": "fine",
+      "defect_scale": "small",
+      "semantic": "shape"
+    },
+    "fryum": {
+      "dataset": "VisA",
+      "type": "object",
+      "structure": "coarse",
+      "defect_scale": "large",
+      "semantic": "shape"
+    },
+    "macaroni1": {
+      "dataset": "VisA",
+      "type": "object",
+      "structure": "fine",
+      "defect_scale": "small",
+      "semantic": "shape"
+    },
+    "macaroni2": {
+      "dataset": "VisA",
+      "type": "object",
+      "structure": "fine",
+      "defect_scale": "small",
+      "semantic": "shape"
+    },
+    "pcb1": {
+      "dataset": "VisA",
+      "type": "object",
+      "structure": "fine",
+      "defect_scale": "small",
+      "semantic": "mixed"
+    },
+    "pcb2": {
+      "dataset": "VisA",
+      "type": "object",
+      "structure": "fine",
+      "defect_scale": "small",
+      "semantic": "mixed"
+    },
+    "pcb3": {
+      "dataset": "VisA",
+      "type": "object",
+      "structure": "fine",
+      "defect_scale": "small",
+      "semantic": "mixed"
+    },
+    "pcb4": {
+      "dataset": "VisA",
+      "type": "object",
+      "structure": "fine",
+      "defect_scale": "small",
+      "semantic": "mixed"
+    },
+    "pipe_fryum": {
+      "dataset": "VisA",
+      "type": "object",
+      "structure": "coarse",
+      "defect_scale": "large",
+      "semantic": "shape"
+    },
+    "01": {
+      "dataset": "BTAD",
+      "type": "object",
+      "structure": "coarse",
+      "defect_scale": "large",
+      "semantic": "shape"
+    },
+    "02": {
+      "dataset": "BTAD",
+      "type": "texture",
+      "structure": "fine",
+      "defect_scale": "small",
+      "semantic": "color"
+    },
+    "03": {
+      "dataset": "BTAD",
+      "type": "object",
+      "structure": "fine",
+      "defect_scale": "small",
+      "semantic": "mixed"
+    }
+  },
+  "oracle_alphas": {
+    "mvtec_image": {
+      "bottle": 0.9,
+      "cable": 0.55,
+      "capsule": 0.4,
+      "carpet": 0.05,
+      "grid": 0.35,
+      "hazelnut": 0.35,
+      "leather": 0.5,
+      "metal_nut": 0.9,
+      "pill": 0.7,
+      "screw": 0.75,
+      "tile": 0.0,
+      "toothbrush": 0.65,
+      "transistor": 0.55,
+      "wood": 0.7,
+      "zipper": 0.65
+    },
+    "visa_image": {
+      "candle": 0.6,
+      "capsules": 0.85,
+      "cashew": 0.55,
+      "chewinggum": 0.75,
+      "fryum": 0.65,
+      "macaroni1": 0.5,
+      "macaroni2": 0.65,
+      "pcb1": 0.65,
+      "pcb2": 0.85,
+      "pcb3": 0.9,
+      "pcb4": 0.65,
+      "pipe_fryum": 0.45
+    },
+    "btad_image": {
+      "01": 0.7,
+      "02": 0.55,
+      "03": 0.75
+    },
+    "mvtec_pixel": {
+      "bottle": 1.0,
+      "cable": 0.4,
+      "capsule": 0.8,
+      "carpet": 0.45,
+      "grid": 1.0,
+      "hazelnut": 0.8,
+      "leather": 0.75,
+      "metal_nut": 1.0,
+      "pill": 0.75,
+      "screw": 0.4,
+      "tile": 0.25,
+      "toothbrush": 0.8,
+      "transistor": 0.35,
+      "wood": 0.0,
+      "zipper": 0.4
+    },
+    "visa_pixel": {
+      "candle": 0.2,
+      "capsules": 0.35,
+      "cashew": 0.6,
+      "chewinggum": 1.0,
+      "fryum": 0.3,
+      "macaroni1": 0.65,
+      "macaroni2": 0.75,
+      "pcb1": 0.8,
+      "pcb2": 0.95,
+      "pcb3": 1.0,
+      "pcb4": 0.6,
+      "pipe_fryum": 0.65
+    },
+    "btad_pixel": {
+      "01": 0.8,
+      "02": 0.25,
+      "03": 0.75
+    }
+  }
+}

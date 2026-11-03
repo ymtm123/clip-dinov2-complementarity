@@ -1,0 +1,164 @@
+{
+  "Fixed-0.65": {
+    "mean_auroc": 95.226,
+    "pearson_r": 0,
+    "mae_alpha": 0.145,
+    "regret": 0.376
+  },
+  "AnomalyRate-10%": {
+    "mean_auroc": 94.957,
+    "pearson_r": -0.066,
+    "mae_alpha": 0.174,
+    "regret": 0.646
+  },
+  "AnomalyRate-15%": {
+    "mean_auroc": 94.951,
+    "pearson_r": -0.071,
+    "mae_alpha": 0.177,
+    "regret": 0.651
+  },
+  "AnomalyRate-20%": {
+    "mean_auroc": 94.939,
+    "pearson_r": -0.058,
+    "mae_alpha": 0.179,
+    "regret": 0.663
+  },
+  "AnomalyRate-25%": {
+    "mean_auroc": 94.922,
+    "pearson_r": -0.048,
+    "mae_alpha": 0.182,
+    "regret": 0.679
+  },
+  "AnomalyRate-30%": {
+    "mean_auroc": 94.901,
+    "pearson_r": -0.042,
+    "mae_alpha": 0.186,
+    "regret": 0.702
+  },
+  "Concordance-20%": {
+    "mean_auroc": 94.819,
+    "pearson_r": 0.003,
+    "mae_alpha": 0.197,
+    "regret": 0.783
+  },
+  "Concordance-30%": {
+    "mean_auroc": 94.749,
+    "pearson_r": -0.151,
+    "mae_alpha": 0.218,
+    "regret": 0.854
+  },
+  "CrossPseudo-25%": {
+    "mean_auroc": 94.738,
+    "pearson_r": -0.315,
+    "mae_alpha": 0.201,
+    "regret": 0.864
+  },
+  "RankCross-25%": {
+    "mean_auroc": 94.738,
+    "pearson_r": -0.315,
+    "mae_alpha": 0.201,
+    "regret": 0.864
+  },
+  "MutualAUROC-direct": {
+    "mean_auroc": 94.736,
+    "pearson_r": 0.016,
+    "mae_alpha": 0.191,
+    "regret": 0.866
+  },
+  "CrossReversed-10%": {
+    "mean_auroc": 94.733,
+    "pearson_r": 0.019,
+    "mae_alpha": 0.187,
+    "regret": 0.869
+  },
+  "CrossReversed-15%": {
+    "mean_auroc": 94.729,
+    "pearson_r": 0.038,
+    "mae_alpha": 0.188,
+    "regret": 0.873
+  },
+  "CrossReversed-30%": {
+    "mean_auroc": 94.724,
+    "pearson_r": 0.2,
+    "mae_alpha": 0.195,
+    "regret": 0.878
+  },
+  "CrossReversed-20%": {
+    "mean_auroc": 94.721,
+    "pearson_r": -0.115,
+    "mae_alpha": 0.192,
+    "regret": 0.88
+  },
+  "CrossPseudo-20%": {
+    "mean_auroc": 94.718,
+    "pearson_r": -0.328,
+    "mae_alpha": 0.199,
+    "regret": 0.884
+  },
+  "CrossPseudo-30%": {
+    "mean_auroc": 94.718,
+    "pearson_r": 0.048,
+    "mae_alpha": 0.195,
+    "regret": 0.884
+  },
+  "RankCross-20%": {
+    "mean_auroc": 94.718,
+    "pearson_r": -0.328,
+    "mae_alpha": 0.199,
+    "regret": 0.884
+  },
+  "CrossReversed-25%": {
+    "mean_auroc": 94.71,
+    "pearson_r": -0.1,
+    "mae_alpha": 0.195,
+    "regret": 0.892
+  },
+  "MutualAUROC-inv": {
+    "mean_auroc": 94.696,
+    "pearson_r": -0.185,
+    "mae_alpha": 0.194,
+    "regret": 0.907
+  },
+  "Fixed-0.50": {
+    "mean_auroc": 94.679,
+    "pearson_r": 0,
+    "mae_alpha": 0.197,
+    "regret": 0.923
+  },
+  "Concordance-40%": {
+    "mean_auroc": 94.679,
+    "pearson_r": -0.181,
+    "mae_alpha": 0.226,
+    "regret": 0.923
+  },
+  "CrossPseudo-15%": {
+    "mean_auroc": 94.671,
+    "pearson_r": -0.116,
+    "mae_alpha": 0.2,
+    "regret": 0.93
+  },
+  "RankCross-15%": {
+    "mean_auroc": 94.671,
+    "pearson_r": -0.116,
+    "mae_alpha": 0.2,
+    "regret": 0.93
+  },
+  "CrossPseudo-10%": {
+    "mean_auroc": 94.572,
+    "pearson_r": -0.079,
+    "mae_alpha": 0.197,
+    "regret": 1.03
+  },
+  "RankCross-10%": {
+    "mean_auroc": 94.572,
+    "pearson_r": -0.079,
+    "mae_alpha": 0.197,
+    "regret": 1.03
+  },
+  "RawGMM": {
+    "mean_auroc": 94.447,
+    "pearson_r": -0.059,
+    "mae_alpha": 0.212,
+    "regret": 1.154
+  }
+}

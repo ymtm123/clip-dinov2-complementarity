@@ -1,0 +1,106 @@
+{
+  "experiment": "learning curve for global-alpha estimation",
+  "n_categories": 30,
+  "n_draws_per_K": 300,
+  "full_data_alpha": 0.65,
+  "full_data_regret_pp": 0.377,
+  "wrong_model_penalty_pp": 6.34,
+  "curve": [
+    {
+      "K": 1,
+      "alpha_mean": 0.591,
+      "alpha_std": 0.211,
+      "heldout_regret_mean_pp": 1.326,
+      "heldout_regret_std_pp": 1.973,
+      "p_alpha_in_055_075": 0.597
+    },
+    {
+      "K": 2,
+      "alpha_mean": 0.629,
+      "alpha_std": 0.132,
+      "heldout_regret_mean_pp": 0.771,
+      "heldout_regret_std_pp": 0.791,
+      "p_alpha_in_055_075": 0.65
+    },
+    {
+      "K": 3,
+      "alpha_mean": 0.652,
+      "alpha_std": 0.094,
+      "heldout_regret_mean_pp": 0.588,
+      "heldout_regret_std_pp": 0.312,
+      "p_alpha_in_055_075": 0.8
+    },
+    {
+      "K": 4,
+      "alpha_mean": 0.653,
+      "alpha_std": 0.077,
+      "heldout_regret_mean_pp": 0.533,
+      "heldout_regret_std_pp": 0.23,
+      "p_alpha_in_055_075": 0.893
+    },
+    {
+      "K": 5,
+      "alpha_mean": 0.666,
+      "alpha_std": 0.072,
+      "heldout_regret_mean_pp": 0.52,
+      "heldout_regret_std_pp": 0.198,
+      "p_alpha_in_055_075": 0.9
+    },
+    {
+      "K": 6,
+      "alpha_mean": 0.656,
+      "alpha_std": 0.057,
+      "heldout_regret_mean_pp": 0.478,
+      "heldout_regret_std_pp": 0.121,
+      "p_alpha_in_055_075": 0.957
+    },
+    {
+      "K": 8,
+      "alpha_mean": 0.656,
+      "alpha_std": 0.049,
+      "heldout_regret_mean_pp": 0.459,
+      "heldout_regret_std_pp": 0.104,
+      "p_alpha_in_055_075": 0.993
+    },
+    {
+      "K": 10,
+      "alpha_mean": 0.665,
+      "alpha_std": 0.046,
+      "heldout_regret_mean_pp": 0.46,
+      "heldout_regret_std_pp": 0.117,
+      "p_alpha_in_055_075": 0.987
+    },
+    {
+      "K": 12,
+      "alpha_mean": 0.661,
+      "alpha_std": 0.038,
+      "heldout_regret_mean_pp": 0.448,
+      "heldout_regret_std_pp": 0.108,
+      "p_alpha_in_055_075": 1.0
+    },
+    {
+      "K": 15,
+      "alpha_mean": 0.66,
+      "alpha_std": 0.031,
+      "heldout_regret_mean_pp": 0.426,
+      "heldout_regret_std_pp": 0.112,
+      "p_alpha_in_055_075": 1.0
+    },
+    {
+      "K": 20,
+      "alpha_mean": 0.663,
+      "alpha_std": 0.023,
+      "heldout_regret_mean_pp": 0.404,
+      "heldout_regret_std_pp": 0.153,
+      "p_alpha_in_055_075": 1.0
+    },
+    {
+      "K": 25,
+      "alpha_mean": 0.659,
+      "alpha_std": 0.014,
+      "heldout_regret_mean_pp": 0.427,
+      "heldout_regret_std_pp": 0.22,
+      "p_alpha_in_055_075": 1.0
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "dataset": "MVTec AD",
+  "dataset_key": "mvtec",
+  "category": "transistor",
+  "image_auroc": 80.65,
+  "pixel_auroc": 87.82,
+  "train_seconds": 382.4,
+  "latency_ms_per_image": 5.153,
+  "throughput_img_s": 194.1,
+  "n_predictions": 100,
+  "n_latency_timed": 90,
+  "max_epochs": 15
+}

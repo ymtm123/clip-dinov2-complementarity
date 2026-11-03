@@ -1,0 +1,13 @@
+{
+  "dataset": "MVTec AD",
+  "dataset_key": "mvtec",
+  "category": "capsule",
+  "image_auroc": 61.99,
+  "pixel_auroc": 85.0,
+  "train_seconds": 412.1,
+  "latency_ms_per_image": 4.037,
+  "throughput_img_s": 247.7,
+  "n_predictions": 132,
+  "n_latency_timed": 100,
+  "max_epochs": 15
+}

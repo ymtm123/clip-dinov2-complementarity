@@ -1,0 +1,13 @@
+{
+  "dataset": "MVTec AD",
+  "dataset_key": "mvtec",
+  "category": "screw",
+  "image_auroc": 84.16,
+  "pixel_auroc": 97.22,
+  "train_seconds": 342.4,
+  "latency_ms_per_image": 5.279,
+  "throughput_img_s": 189.4,
+  "n_predictions": 160,
+  "n_latency_timed": 100,
+  "max_epochs": 15
+}

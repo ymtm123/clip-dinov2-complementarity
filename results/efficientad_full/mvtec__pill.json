@@ -1,0 +1,13 @@
+{
+  "dataset": "MVTec AD",
+  "dataset_key": "mvtec",
+  "category": "pill",
+  "image_auroc": 93.59,
+  "pixel_auroc": 96.68,
+  "train_seconds": 357.6,
+  "latency_ms_per_image": 4.595,
+  "throughput_img_s": 217.7,
+  "n_predictions": 167,
+  "n_latency_timed": 100,
+  "max_epochs": 15
+}
